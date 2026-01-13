@@ -1,0 +1,58 @@
+#!/bin/bash
+
+while true
+do
+    echo "==================== MENU ===================="
+    echo "a. List all files in the present working directory"
+    echo "b. Display today's date and time"
+    echo "c. Display whether a file is a 'simple' file or a 'directory'"
+    echo "d. Create a backup for a file using 'tar' command"
+    echo "e. Compress the tar file"
+    echo "f. Start an ftp session"
+    echo "g. Start your LED control program"
+    echo "x. Exit"
+    echo "=============================================="
+    echo -n "Enter your choice: "
+    read choice
+
+    case $choice in
+        a)
+            ls -al
+            ;;
+        b)
+            date
+            ;;
+        c)
+            echo -n "Enter filename: "
+            read filename
+            if [ -f "$filename" ]; then
+                echo "$filename is a simple file."
+            elif [ -d "$filename" ]; then
+                echo "$filename is a directory."
+            else
+                echo "$filename does not exist."
+            fi
+            ;;
+        d            echo -n "Enter filename to backup: "
+            read filename
+            tar -cvf "${filename}.tar" "$filename"
+            ;;
+        e)
+            echo -n "Enter tar filename to compress: "
+            read tarfile
+            gzip "$tarfile"
+            ;;
+        f)
+            echo "Starting ftp session..."
+            ftp
+            ;;
+        g)
+            echo "Starting LED control program..."
+            ./led_control.sh   # �����ĳ����Լ���LED���Ƴ���·��
+            ;;
+        x)
+            echo "Exiting..."
+            exit 0
+            ;;
+        *)
+            echo "Inval
