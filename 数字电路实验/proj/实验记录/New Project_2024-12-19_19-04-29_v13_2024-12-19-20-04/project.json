@@ -1,0 +1,154 @@
+{
+  "schematics": {
+    "08eab47776724c769c136b07000d5abd": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "fa29042ddd4d4cf88a3e7a82f109472e"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "bcb1d44851ff4806b4f5b2ac1181d67e": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "c22595711ddb442e941698c807f30e47": {
+      "source": "f2baecf085944dad81faf9a0fd6bfcea|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Sheet-Symbol_A4",
+      "version": "1689648571",
+      "type": 20
+    },
+    "46490415a3454774946fc619c9d20b8f": {
+      "source": "4fc0ac6ef2454fdd85cc71830251e699|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "PZ254-1-06-Z-2.5-G1",
+      "version": "1697033307",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "cb7c2f26fcdc4188ae28b10e1690fbb7": {
+      "title": "HDR-TH_6P-P2.54-V-M",
+      "source": "cc7e2740f1fd40f79b73f8f70d0756a1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662946135",
+      "type": 4,
+      "desc": ";-;插件,P=2.54mm;直插,P=2.54mm;2.54-2*6P;TH-6P;2.54x2x6;插件;HDR-TH;TH-6P,P=2.54mm;HDR-TH_6P-P2.54;SMTC-TSW-106-07-X-S",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    }
+  },
+  "devices": {
+    "5b8bf48047154c16b70c92e5692fe00b": {
+      "title": "Sheet-Symbol_A4",
+      "attributes": {
+        "Symbol": "c22595711ddb442e941698c807f30e47",
+        "@Page Name": "",
+        "@Create Date": "",
+        "@Page Count": "",
+        "@Page No": "",
+        "@Project Name": "",
+        "@Schematic Name": "",
+        "@Update Date": "",
+        "Company": "嘉立创EDA",
+        "Device": "",
+        "Drawed": "",
+        "Page Size": "A4",
+        "Part Number": "",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "4b872d674c0b4b0e8ede0a73cf1a0316|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664282381",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "7a6930e8426e47f594599ed2ab0f5559": {
+      "title": "PZ254-1-06-Z-2.5-G1",
+      "attributes": {
+        "LCSC Part Name": "1x6P 间距:2.54mm 方针 直插",
+        "Supplier Part": "C18197913",
+        "Manufacturer": "HCTL(华灿天禄)",
+        "Manufacturer Part": "PZ254-1-06-Z-2.5-G1",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230921/1753130D8F97492C8335A75164C0C73A.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "46490415a3454774946fc619c9d20b8f",
+        "Designator": "U?",
+        "Footprint": "cb7c2f26fcdc4188ae28b10e1690fbb7",
+        "3D Model": "66a147c6933d4029b68665bbcd1e2924",
+        "3D Model Title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+        "3D Model Transform": "590.1563,98.425,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x6P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "方针",
+        "Mounting Type": "直插",
+        "Number of Rows": "单排",
+        "Number of Pins": "6P",
+        "Current Rating (Max)": "3A",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "黄铜",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Soldering Temperature(Max)": "260℃@10S",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "插针结构:1x6P;间距:2.54mm;行距:-;圆针/方针:方针;安装类型:直插;排数:单排;总PIN位数:6P;额定电流:3A;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;工作温度范围:-40℃~+105℃;焊接温度(最大值):260℃@10S;颜色:黑色;"
+      },
+      "description": "插针结构:1x6P;间距:2.54mm;行距:-;圆针/方针:方针;安装类型:直插;排数:单排;总PIN位数:6P;额定电流:3A;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;工作温度范围:-40℃~+105℃;焊接温度(最大值):260℃@10S;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20231014/5290D6FBF55878D06DC5CFDAE4CE8643.jpg"
+      ],
+      "source": "c00cd24263474986ae4cadc73b11a215|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1697034002",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "08eab47776724c769c136b07000d5abd",
+      "pcb": "bcb1d44851ff4806b4f5b2ac1181d67e"
+    }
+  },
+  "config": {
+    "title": "New Project_2024-12-19_19-04-29",
+    "cbbProject": 0,
+    "defaultSheet": "5b8bf48047154c16b70c92e5692fe00b",
+    "editorVersion": "2.1.30.c6721c40.b3cfa9"
+  }
+}
