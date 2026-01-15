@@ -1,0 +1,548 @@
+{
+    "id": 1572684448480,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 1572693150736,
+            "title": "PowerMeter",
+            "pos_x": -245.07812500000003,
+            "pos_y": -757.7500000000001,
+            "inputs": [
+                {
+                    "id": 1572693148336,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572693148288,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 906,
+            "data": "{\"OutPut_Unit\": {\"name\": \"OutPut_Unit\", \"value\": [[\"W\", \"mW\", \"dBW\", \"dBm\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 1], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572693149056,
+            "title": "PowerMeter",
+            "pos_x": -203.03125000000003,
+            "pos_y": -495.3906249999999,
+            "inputs": [
+                {
+                    "id": 1572693180032,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572693179984,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 906,
+            "data": "{\"OutPut_Unit\": {\"name\": \"OutPut_Unit\", \"value\": [[\"W\", \"mW\", \"dBW\", \"dBm\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 2], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572693218064,
+            "title": "CW_Laser",
+            "pos_x": -609.1093750000001,
+            "pos_y": -766.1718750000001,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 1572693218448,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 501,
+            "data": "{\"CenterFrequency\": {\"name\": \"CenterFrequency\", \"value\": \"CenterFrequencyDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Seed\": {\"name\": \"Seed\", \"value\": \"3\", \"type\": \"int\", \"unit\": \"-\"}, \"AveragePower\": {\"name\": \"AveragePower\", \"value\": \"0.001\", \"type\": \"float\", \"unit\": \"W\"}, \"Opt_LineWidth\": {\"name\": \"Opt_LineWidth\", \"value\": \"100000.0\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Opt_InitialPhase\": {\"name\": \"Opt_InitialPhase\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"rad\"}, \"Azimuth\": {\"name\": \"Azimuth\", \"value\": \"45\", \"type\": \"float\", \"unit\": \"deg\"}, \"Elliptiality\": {\"name\": \"Elliptiality\", \"value\": \"26.565\", \"type\": \"float\", \"unit\": \"deg\"}}"
+        },
+        {
+            "id": 1572693178736,
+            "title": "Numerical_Analyzer_1D",
+            "pos_x": 481.078125,
+            "pos_y": -794.2812500000001,
+            "inputs": [
+                {
+                    "id": 1572693176576,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 908,
+            "data": "{}"
+        },
+        {
+            "id": 1572693176768,
+            "title": "Numerical_Analyzer_1D",
+            "pos_x": 480.0937500000001,
+            "pos_y": -514.75,
+            "inputs": [
+                {
+                    "id": 1572693178256,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 908,
+            "data": "{}"
+        },
+        {
+            "id": 1572692938512,
+            "title": "CW_Laser",
+            "pos_x": 873.4687499999997,
+            "pos_y": -400.65624999999983,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 1572692937984,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 501,
+            "data": "{\"CenterFrequency\": {\"name\": \"CenterFrequency\", \"value\": \"CenterFrequencyDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Seed\": {\"name\": \"Seed\", \"value\": \"3\", \"type\": \"int\", \"unit\": \"-\"}, \"AveragePower\": {\"name\": \"AveragePower\", \"value\": \"0.001\", \"type\": \"float\", \"unit\": \"W\"}, \"Opt_LineWidth\": {\"name\": \"Opt_LineWidth\", \"value\": \"100000.0\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Opt_InitialPhase\": {\"name\": \"Opt_InitialPhase\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"rad\"}, \"Azimuth\": {\"name\": \"Azimuth\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"deg\"}, \"Elliptiality\": {\"name\": \"Elliptiality\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"deg\"}}"
+        },
+        {
+            "id": 1572952234784,
+            "title": "SignalAnalyzer",
+            "pos_x": 1348.5312499999998,
+            "pos_y": -405.1718749999999,
+            "inputs": [
+                {
+                    "id": 1573036822736,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 2], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572942880976,
+            "title": "CW_Laser",
+            "pos_x": -970.3124999999997,
+            "pos_y": 340.6249999999999,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 1572954446720,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 501,
+            "data": "{\"CenterFrequency\": {\"name\": \"CenterFrequency\", \"value\": \"CenterFrequencyDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Seed\": {\"name\": \"Seed\", \"value\": \"3\", \"type\": \"int\", \"unit\": \"-\"}, \"AveragePower\": {\"name\": \"AveragePower\", \"value\": \"0.001\", \"type\": \"float\", \"unit\": \"W\"}, \"Opt_LineWidth\": {\"name\": \"Opt_LineWidth\", \"value\": \"100000.0\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Opt_InitialPhase\": {\"name\": \"Opt_InitialPhase\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"rad\"}, \"Azimuth\": {\"name\": \"Azimuth\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"deg\"}, \"Elliptiality\": {\"name\": \"Elliptiality\", \"value\": \"0\", \"type\": \"float\", \"unit\": \"deg\"}}"
+        },
+        {
+            "id": 1573011768128,
+            "title": "PowerMeter",
+            "pos_x": 460.5468750000001,
+            "pos_y": 383.9843749999999,
+            "inputs": [
+                {
+                    "id": 1572954383456,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572942854272,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 906,
+            "data": "{\"OutPut_Unit\": {\"name\": \"OutPut_Unit\", \"value\": [[\"W\", \"mW\", \"dBW\", \"dBm\"], 3], \"type\": \"str\", \"unit\": \"-\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 0], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572954189200,
+            "title": "Fiber_DP",
+            "pos_x": -509.3749999999998,
+            "pos_y": 403.515625,
+            "inputs": [
+                {
+                    "id": 1572953803120,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572953802016,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 806,
+            "data": "{\"ReferenceFrequency\": {\"name\": \"ReferenceFrequency\", \"value\": \"CenterFrequencyDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Length\": {\"name\": \"Length\", \"value\": \"80.0\", \"type\": \"float\", \"unit\": \"km\"}, \"AttenuationDescription\": {\"name\": \"AttenuationDescription\", \"value\": [[\"AttenuationParameter\", \"AttenuationFile\"], 0], \"type\": \"str\", \"unit\": \"\"}, \"Attenuation\": {\"name\": \"Attenuation\", \"value\": \"0.5\", \"type\": \"float\", \"unit\": \"dB/km\"}, \"AttFilename\": {\"name\": \"AttFilename\", \"value\": \"\", \"type\": \"str\", \"unit\": \"\"}, \"Dispersion\": {\"name\": \"Dispersion\", \"value\": \"16.0\", \"type\": \"float\", \"unit\": \"ps/(nm*km)\"}, \"DispersionSlope\": {\"name\": \"DispersionSlope\", \"value\": \"0.08\", \"type\": \"float\", \"unit\": \"ps/(nm^2*km)\"}, \"NonLinearIndex\": {\"name\": \"NonLinearIndex\", \"value\": \"2.6e-20\", \"type\": \"float\", \"unit\": \"m^2/W\"}, \"CoreArea\": {\"name\": \"CoreArea\", \"value\": \"80.0\", \"type\": \"float\", \"unit\": \"\\u03bcm^2\"}, \"SSFM_StepSelectionMethod\": {\"name\": \"StepSelectionMethod\", \"value\": [[\"NonlinearPhaseChange\", \"ConstantStep\"], 0], \"type\": \"str\", \"unit\": \"\"}, \"SSFM_SymmetricSplitStep\": {\"name\": \"SymmetricSplitStep\", \"value\": [[\"Yes\", \"No\"], 0], \"type\": \"str\", \"unit\": \"\"}, \"SSFM_MaxStepWidth\": {\"name\": \"MaxStepWidth\", \"value\": \"0.5\", \"type\": \"float\", \"unit\": \"km\"}, \"SSFM_MaxPhaseChange\": {\"name\": \"MaxPhaseChange\", \"value\": \"0.05\", \"type\": \"float\", \"unit\": \"deg\"}}"
+        },
+        {
+            "id": 1572954407072,
+            "title": "Numerical_Analyzer_1D",
+            "pos_x": 768.3593750000002,
+            "pos_y": 252.7343749999999,
+            "inputs": [
+                {
+                    "id": 1572953801872,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 908,
+            "data": "{}"
+        },
+        {
+            "id": 1572942927040,
+            "title": "PowerMeter",
+            "pos_x": -742.1874999999999,
+            "pos_y": 918.7499999999997,
+            "inputs": [
+                {
+                    "id": 1572942926176,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572942928816,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 906,
+            "data": "{\"OutPut_Unit\": {\"name\": \"OutPut_Unit\", \"value\": [[\"W\", \"mW\", \"dBW\", \"dBm\"], 3], \"type\": \"str\", \"unit\": \"-\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 0], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572954209872,
+            "title": "Numerical_Analyzer_1D",
+            "pos_x": -129.68750000000006,
+            "pos_y": 1005.8593750000002,
+            "inputs": [
+                {
+                    "id": 1572954209920,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 908,
+            "data": "{}"
+        },
+        {
+            "id": 1573024161904,
+            "title": "SignalAnalyzer",
+            "pos_x": -558.5937499999998,
+            "pos_y": 54.68749999999997,
+            "inputs": [
+                {
+                    "id": 1572942952912,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 2], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572942823376,
+            "title": "SignalAnalyzer",
+            "pos_x": -1.9531249999999574,
+            "pos_y": 69.140625,
+            "inputs": [
+                {
+                    "id": 1573024128880,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 2], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572954382448,
+            "title": "EDFA",
+            "pos_x": 2.5,
+            "pos_y": 397.5,
+            "inputs": [
+                {
+                    "id": 1572954384752,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572954384032,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 701,
+            "data": "{\"Gain\": {\"name\": \"Gain\", \"value\": \"10\", \"type\": \"float\", \"unit\": \"dB\"}, \"NoiseFigure\": {\"name\": \"NoiseFigure\", \"value\": \"10\", \"type\": \"float\", \"unit\": \"dB\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 0], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572954383504,
+            "title": "PowerMeter",
+            "pos_x": 2.3437499999999574,
+            "pos_y": 719.1406249999999,
+            "inputs": [
+                {
+                    "id": 1572954385088,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#FFA500\", \"name\": \"Optical Signal\", \"rule\": [\"generalSignal\", \"opticalSignal\"], \"type\": \"opticalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1572954385664,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 906,
+            "data": "{\"OutPut_Unit\": {\"name\": \"OutPut_Unit\", \"value\": [[\"W\", \"mW\", \"dBW\", \"dBm\"], 3], \"type\": \"str\", \"unit\": \"-\"}, \"PolarizFilter\": {\"name\": \"PolarizFilter\", \"value\": [[\"None\", \"X\", \"Y\"], 0], \"type\": \"str\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 1572954208192,
+            "title": "Numerical_Analyzer_1D",
+            "pos_x": 445.31249999999994,
+            "pos_y": 764.0624999999999,
+            "inputs": [
+                {
+                    "id": 1573088354368,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 908,
+            "data": "{}"
+        },
+        {
+            "id": 1572954385328,
+            "title": "SignalAnalyzer",
+            "pos_x": 387.4999999999999,
+            "pos_y": 65.625,
+            "inputs": [
+                {
+                    "id": 1572954385856,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 2], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        }
+    ],
+    "edges": [
+        {
+            "id": 1572693179600,
+            "edge_type": 2,
+            "start": 1572693218448,
+            "end": 1572693148336
+        },
+        {
+            "id": 1572692935776,
+            "edge_type": 2,
+            "start": 1572693218448,
+            "end": 1572693180032
+        },
+        {
+            "id": 1572692936784,
+            "edge_type": 2,
+            "start": 1572693179984,
+            "end": 1572693178256
+        },
+        {
+            "id": 1572692938368,
+            "edge_type": 2,
+            "start": 1572693148288,
+            "end": 1572693176576
+        },
+        {
+            "id": 1573036946000,
+            "edge_type": 2,
+            "start": 1572692937984,
+            "end": 1573036822736
+        },
+        {
+            "id": 1572954207808,
+            "edge_type": 2,
+            "start": 1572954446720,
+            "end": 1572942926176
+        },
+        {
+            "id": 1572942926800,
+            "edge_type": 2,
+            "start": 1572954446720,
+            "end": 1572953803120
+        },
+        {
+            "id": 1572954206656,
+            "edge_type": 2,
+            "start": 1572942928816,
+            "end": 1572954209920
+        },
+        {
+            "id": 1572942928144,
+            "edge_type": 2,
+            "start": 1572942854272,
+            "end": 1572953801872
+        },
+        {
+            "id": 1572953514240,
+            "edge_type": 2,
+            "start": 1572954446720,
+            "end": 1572942952912
+        },
+        {
+            "id": 1573083664784,
+            "edge_type": 2,
+            "start": 1572953802016,
+            "end": 1573024128880
+        },
+        {
+            "id": 1572954382736,
+            "edge_type": 2,
+            "start": 1572953802016,
+            "end": 1572954384752
+        },
+        {
+            "id": 1572954383744,
+            "edge_type": 2,
+            "start": 1572954384032,
+            "end": 1572954383456
+        },
+        {
+            "id": 1572954207760,
+            "edge_type": 2,
+            "start": 1572953802016,
+            "end": 1572954385088
+        },
+        {
+            "id": 1572954207952,
+            "edge_type": 2,
+            "start": 1572954385664,
+            "end": 1573088354368
+        },
+        {
+            "id": 1572954253728,
+            "edge_type": 2,
+            "start": 1572954384032,
+            "end": 1572954385856
+        }
+    ],
+    "global_params": {
+        "TimeWindow": {
+            "name": "TimeWindow",
+            "value": 1.1702857142857143e-06,
+            "type": "float",
+            "unit": "s"
+        },
+        "BaudRateDefault": {
+            "name": "BaudRateDefault",
+            "value": 28000000000.0,
+            "type": "float",
+            "unit": "baud"
+        },
+        "SampleRateDefault": {
+            "name": "SampleRateDefault",
+            "value": 224000000000.0,
+            "type": "float",
+            "unit": "Hz"
+        },
+        "CenterFrequencyDefault": {
+            "name": "CenterFrequencyDefault",
+            "value": 193100000000000.0,
+            "type": "float",
+            "unit": "Hz"
+        }
+    }
+}

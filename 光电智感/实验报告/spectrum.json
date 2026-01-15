@@ -1,0 +1,305 @@
+{
+    "id": 2650977048320,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 2651030282784,
+            "title": "CoderDriver_OOK",
+            "pos_x": -179.4375,
+            "pos_y": -302.56250000000006,
+            "inputs": [
+                {
+                    "id": 2651030359968,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2651030356800,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1111,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"ModulationType\": {\"name\": \"ModulationType\", \"value\": [[\"RZ\", \"NRZ\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"DutyCycle\": {\"name\": \"DutyCycle\", \"value\": \"0.33\", \"type\": \"float\", \"unit\": \"-\"}, \"TransitionType\": {\"name\": \"TransitionType\", \"value\": [[\"raised_cosine\", \"linear\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"RiseTime\": {\"name\": \"RiseTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"FallTime\": {\"name\": \"FallTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}}"
+        },
+        {
+            "id": 2651030301952,
+            "title": "CoderDriver_OOK",
+            "pos_x": -167.4375,
+            "pos_y": -74.00000000000001,
+            "inputs": [
+                {
+                    "id": 2651030385808,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2651030385568,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1111,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"ModulationType\": {\"name\": \"ModulationType\", \"value\": [[\"RZ\", \"NRZ\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"DutyCycle\": {\"name\": \"DutyCycle\", \"value\": \"0.5\", \"type\": \"float\", \"unit\": \"-\"}, \"TransitionType\": {\"name\": \"TransitionType\", \"value\": [[\"raised_cosine\", \"linear\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"RiseTime\": {\"name\": \"RiseTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"FallTime\": {\"name\": \"FallTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}}"
+        },
+        {
+            "id": 2651030386288,
+            "title": "CoderDriver_OOK",
+            "pos_x": -158.0,
+            "pos_y": 168.0,
+            "inputs": [
+                {
+                    "id": 2651030302096,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2651030337424,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1111,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"ModulationType\": {\"name\": \"ModulationType\", \"value\": [[\"RZ\", \"NRZ\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"DutyCycle\": {\"name\": \"DutyCycle\", \"value\": \"0.67\", \"type\": \"float\", \"unit\": \"-\"}, \"TransitionType\": {\"name\": \"TransitionType\", \"value\": [[\"raised_cosine\", \"linear\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"RiseTime\": {\"name\": \"RiseTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"FallTime\": {\"name\": \"FallTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}}"
+        },
+        {
+            "id": 2651030337376,
+            "title": "PRBS",
+            "pos_x": -582.3124999999999,
+            "pos_y": -92.95312500000001,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2651029604336,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1101,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault * 1\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"RandomSeed\": {\"name\": \"RandomSeed\", \"value\": \"2419\", \"type\": \"int\", \"unit\": \"-\"}, \"Order\": {\"name\": \"Order\", \"value\": \"15\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 2651030336224,
+            "title": "SignalAnalyzer",
+            "pos_x": 169.04687500000003,
+            "pos_y": -307.5625000000001,
+            "inputs": [
+                {
+                    "id": 2651107992384,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 2651107992720,
+            "title": "SignalAnalyzer",
+            "pos_x": 173.0,
+            "pos_y": -78.0,
+            "inputs": [
+                {
+                    "id": 2651108954656,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 2651108955856,
+            "title": "SignalAnalyzer",
+            "pos_x": 172.75,
+            "pos_y": 170.0,
+            "inputs": [
+                {
+                    "id": 2651109982704,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 2650848168976,
+            "title": "PRBS",
+            "pos_x": -558.5937499999995,
+            "pos_y": 499.99999999999955,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2651143666032,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1101,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault * 1\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"RandomSeed\": {\"name\": \"RandomSeed\", \"value\": \"2419\", \"type\": \"int\", \"unit\": \"-\"}, \"Order\": {\"name\": \"Order\", \"value\": \"15\", \"type\": \"int\", \"unit\": \"-\"}}"
+        },
+        {
+            "id": 2651143665312,
+            "title": "CoderDriver_OOK",
+            "pos_x": -132.42187499999983,
+            "pos_y": 484.3749999999994,
+            "inputs": [
+                {
+                    "id": 2651143552688,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2651143552448,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#0000ff\", \"name\": \"Electrical Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\"], \"type\": \"electricalSignal\"}}"
+                }
+            ],
+            "content": {},
+            "op_code": 1111,
+            "data": "{\"BitRate\": {\"name\": \"BitRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"ModulationType\": {\"name\": \"ModulationType\", \"value\": [[\"RZ\", \"NRZ\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"DutyCycle\": {\"name\": \"DutyCycle\", \"value\": \"1\", \"type\": \"float\", \"unit\": \"-\"}, \"TransitionType\": {\"name\": \"TransitionType\", \"value\": [[\"raised_cosine\", \"linear\"], 0], \"type\": \"str\", \"unit\": \"-\"}, \"RiseTime\": {\"name\": \"RiseTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}, \"FallTime\": {\"name\": \"FallTime\", \"value\": \"0.5/BaudRateDefault\", \"type\": \"float\", \"unit\": \"bit/s\"}}"
+        },
+        {
+            "id": 2650977136160,
+            "title": "SignalAnalyzer",
+            "pos_x": 224.60937499999972,
+            "pos_y": 482.42187499999943,
+            "inputs": [
+                {
+                    "id": 2651108560416,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": "{\"type\": \"obj\", \"data\": {\"color\": \"#00ff00\", \"name\": \"General Signal\", \"rule\": [\"generalSignal\", \"electricalSignal\", \"opticalSignal\", \"floatSignal\", \"intSignal\"], \"type\": \"generalSignal\"}}"
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 909,
+            "data": "{\"Type\": {\"name\": \"Type\", \"value\": [[\"Wave\", \"RFSA\", \"OSA\", \"Constellation\", \"EyeDiagram\"], 1], \"type\": \"str\", \"unit\": \"-\"}, \"BaudRate\": {\"name\": \"BaudRate\", \"value\": \"BaudRateDefault\", \"type\": \"float\", \"unit\": \"baud\"}, \"SampleRate\": {\"name\": \"SampleRate\", \"value\": \"SampleRateDefault\", \"type\": \"float\", \"unit\": \"Hz\"}, \"Num_Per_Trace\": {\"name\": \"Num_Per_Trace\", \"value\": \"2\", \"type\": \"int\", \"unit\": \"-\"}}"
+        }
+    ],
+    "edges": [
+        {
+            "id": 2651110248208,
+            "edge_type": 2,
+            "start": 2651029604336,
+            "end": 2651030385808
+        },
+        {
+            "id": 2651110247056,
+            "edge_type": 2,
+            "start": 2651029604336,
+            "end": 2651030359968
+        },
+        {
+            "id": 2651110244896,
+            "edge_type": 2,
+            "start": 2651029604336,
+            "end": 2651030302096
+        },
+        {
+            "id": 2651110244464,
+            "edge_type": 2,
+            "start": 2651030356800,
+            "end": 2651107992384
+        },
+        {
+            "id": 2651110244656,
+            "edge_type": 2,
+            "start": 2651030385568,
+            "end": 2651108954656
+        },
+        {
+            "id": 2651108955712,
+            "edge_type": 2,
+            "start": 2651030337424,
+            "end": 2651109982704
+        },
+        {
+            "id": 2651143406592,
+            "edge_type": 2,
+            "start": 2651143666032,
+            "end": 2651143552688
+        },
+        {
+            "id": 2651109006592,
+            "edge_type": 2,
+            "start": 2651143552448,
+            "end": 2651108560416
+        }
+    ],
+    "global_params": {
+        "TimeWindow": {
+            "name": "TimeWindow",
+            "value": "128*256/32e9",
+            "type": "float",
+            "unit": "s"
+        },
+        "BaudRateDefault": {
+            "name": "BaudRateDefault",
+            "value": "32e9",
+            "type": "float",
+            "unit": "baud"
+        },
+        "SampleRateDefault": {
+            "name": "SampleRateDefault",
+            "value": "32e9*16",
+            "type": "float",
+            "unit": "Hz"
+        },
+        "CenterFrequencyDefault": {
+            "name": "CenterFrequencyDefault",
+            "value": "193100000000000.0",
+            "type": "float",
+            "unit": "Hz"
+        }
+    }
+}
