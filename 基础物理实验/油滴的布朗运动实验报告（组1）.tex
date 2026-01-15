@@ -1,0 +1,357 @@
+% 导言区
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=3.2cm,bottom=2.8cm}
+\usepackage{amsmath,paralist,enumerate,booktabs,multirow,graphicx,float,subfig,setspace,listings,lastpage,hyperref}
+\usepackage{enumitem} % 添加 enumitem 包
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{油滴的布朗运动}
+\lhead{实验报告}
+\cfoot{Page \thepage/\pageref{LastPage}}
+\rfoot{\today}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\theenumi}{\arabic{enumi}.} % 设置 enumerate 环境的编号格式为 1.
+\setlist[enumerate,1]{label=\arabic*.} % 使用 enumitem 包设置编号格式
+
+\setlength{\parindent}{2em}
+
+\begin{document}
+
+\section*{油滴的布朗运动实验报告}
+
+\subsection*{实验名称}
+油滴的布朗运动
+
+\subsection*{实验目的}
+\begin{enumerate}
+    \item 验证布朗运动的基本特征： 
+	\begin{equation}
+    		\langle x(t)\rangle =0 ,
+		\langle x^2(t)\rangle =2Dt
+	\end{equation}
+    \item 测量悬浮油滴颗粒的扩散系数 D
+    \item 掌握利用CCD显微密立根油滴仪进行实验数据采集和分析的方法
+\end{enumerate}
+
+\subsection*{实验仪器}
+密立根油滴实验装置、油滴喷雾器、温度计
+油滴实验装置是油滴盒，油滴照明装置，调平系统，测量显微镜，供电电源以及电子停表，喷雾器等组成的，其实验装置如图1所示。
+其中油滴盒，是由两块经过精磨的金属平板中间垫以胶木圆环构成的平行板电容器。在上板中心处有落油孔，使微小油滴可以进入电容器中间的电场空间，胶木圆环上有进光孔，观察孔。进入电场空间内的油滴由照明装置照明，油滴盒可通过调平螺旋调整水平，用水准仪检查。油滴盒防风罩前装有测量显微镜，并连接 CCD 。
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{1}
+    \caption{油滴实验装置图}
+   \label{fig:example}
+\end{figure}
+
+其中，1-油雾室，2-油雾孔开关，3-防风罩，4-上电极板，5-胶木圆环，6-下电极板，7-底板，8-上盖板，9-喷雾口，10-油雾孔，11-上电极板压簧，12-上电极板电源插孔，13-油滴盒基座
+
+\subsection*{实验原理}
+
+\begin{enumerate}
+    \item 布朗运动的含义
+布朗运动是指悬浮在液体或气体中的微粒所做的永不停息的无规则运动。因由英国植物学家罗伯特·布朗所发现而得名。作布朗运动的微粒直径一般为 $10^{-5} \sim 10^{-3}$ 厘米，这些小的微粒处于液体或气体中时，由于分子的热运动，微粒受到来自各个方向分子的碰撞，当受到不平衡的冲撞时而运动，由于这种不平衡的冲撞，微粒的运动不断地改变方向而使微粒出现不规则的运动。布朗运动的剧烈程度随着流体的温度升高而增加。
+    \item 布朗运动规律
+将粒子的布朗运动分为多次极短时间内的运动，$R_N$ 是
+经过N次运动后离开原点的位移矢量，则离原点的方均距离正比于步数N。即
+\begin{equation}
+		\langle R_N^2\rangle =NL^2
+	\end{equation}
+
+L是每次运动的长度。由于碰撞次数正比于时间，所以方均距离也正比于时间,即
+\begin{equation}
+		\langle R_N^2\rangle =ct
+	\end{equation}
+
+每继续运动一次，距离的平方平均增加L。因为
+\begin{equation}
+		R_N=R_{N-1}+L
+	\end{equation}
+则得到
+\begin{equation}
+		\langle R_N^2\rangle =R_{N-1}^2+2R_{N-1}L+L^2
+	\end{equation}
+对许多走法作平均后，有
+\begin{equation}
+		\langle R_N^2\rangle =\langle R_{N-1}^2\rangle +L^2
+	\end{equation}
+由于 $\langle R_{N-1}L\rangle=0$ ,利用归纳法，即可得到
+\begin{equation}
+		\langle R_N^2\rangle =NL^2
+	\end{equation}
+
+	\item 爱因斯坦对布朗运动的研究
+爱因斯坦的成果大体上可分两方面。
+
+一是，根据分子热运动原理推导：在t时间里，微粒在某一方向上位移的统计平均值，即方均根值, $\langle R^2 \rangle=2Dt$ ，D是微粒的扩散系数。这一公式是看来毫无规则的布朗运动服从分子热运动规律的必然结果。
+
+二是，对于球形微粒，推导出了可以求算阿式中的 $\eta$ 是介质粘度，是微粒半径，R是气体常数, $N_A$为阿伏加德罗常数。按此公式，只要实际测得准确的扩散系数D或布朗运动均方位移就可得到原子和分子的绝对质量。爱因斯坦曾用前人测定的糖在水中的扩散系数，估算的 $N_A$ 值为 $3.3 \times 10^{23}$ ，一年后（1906），又修改为 $6.56 \times 10^{23}$ 。
+
+扩散系数公式如下，
+\begin{equation}
+		D=\frac{k_B T}{6 \pi \eta r}
+	\end{equation}
+
+	\item 静态法验证布朗运动规律
+通过静态法可以为验证上述两条布朗运动规律方程，并测量油滴的扩散系数$\eta$ 和半径r。
+
+实验研究对象是带电的油滴，基本思想是使油滴处于受力平衡状态。
+当油滴受力平衡时，可视为在竖直方向上静止不动，因此我们可以追踪粒子在水平方向上的一维布朗运动,通过实验数据验证上式。
+油滴通过喷雾器喷射进入两块相距为d的平行极板之间。油在喷射撕裂成油滴时，一般都是带电的。如果调节两极板之间的电压U,可使油滴悬浮在空中，如图2所示。设油滴的质量为m，所带的电量为q，两极板间的电压为U，则油滴在平行极板之间所受重力mg，静电力$qE=\frac{qU}{d}$。
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{2}
+    \caption{带电油滴受力图}
+   \label{fig:example}
+\end{figure}
+因m很小，难直接测量。油滴可视为球状，设密度为$\rho$，油滴的质量m可表示为
+\begin{equation}
+		m=\rho \frac{4}{3}\pi r^3
+	\end{equation}
+而油滴的半径r可通过其在重力场中的终极速度求出。
+平行极板不加电压时，油滴受重力作用而加速下降，由于空气阻力的作用,
+下降一段距离达到某一速度 后，阻力$f_r$与重力mg平衡，如图3所示（空气浮力忽略不计），油滴将匀速下降。$v_g$称为终极速度。
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{3}
+    \caption{油滴受力平衡图(E=0)}
+   \label{fig:example}
+\end{figure}
+
+根据斯托克斯定律，
+\begin{equation}
+		f_r=6 \pi r \eta v
+	\end{equation}
+其中$\eta$是空气的粘滞系数，r是油滴的半径。
+重力mg与阻力$f_r$平衡时,
+\begin{equation}
+	f_r=mg
+	\end{equation} 
+由式(9)(10)(11)得到油滴的半径，
+\begin{equation}
+    r = \sqrt{\frac{9 \eta v_g}{2 \rho g}}
+\end{equation}
+
+当两极板间的电压 \( U \) 为零时，油滴匀速下降的距离为 \( l \)，时间为 \( t_g \)，则油滴的匀速下降速度 \( v_g \) 为：
+\begin{equation}
+    v_g = \frac{l}{t_g}
+\end{equation}
+
+% 公式 (6)
+结合以上公式，油滴的半径 r 可表示为：
+\begin{equation}
+    r = \sqrt{\frac{9 \eta l}{2 \rho g t_g}}
+\end{equation}
+
+% 公式 (7)
+斯托克斯定律是以连续介质为前提的，对于半径小到$10^{-6}$m的微小油滴，已不能将空气看作连续介质，空气的粘滞系数应作如下修正：
+空气的粘滞系数修正公式：\begin{equation}
+    \eta' =  \frac{\eta}{1 + \frac{b}{p r}}
+\end{equation}
+其中 $b$ 是修正常数，$p$ 为大气压强。
+
+已知参数：
+
+\begin{align*}
+h &= 0.008237\, \text{V} \, \text{m}, \\
+\rho &= 981 \, \text{kg/m}^3, \\
+g &= 9.79 \, \text{m/s}^2, \\
+\eta &= 1.83 \times 10^{-5} \, \text{kg/(m} \cdot \text{s)}, \\
+p &= 1.013 \times 10^5 \, \text{Pa}, \\
+d &= 5.00 \, \text{mm}, \\
+l &= 1.6 \, \text{mm}.
+\end{align*}
+
+待测参数为平衡电压 $U$ 及下落时间 $t_g$。
+
+\end{enumerate}
+
+\subsection*{实验内容}
+\begin{enumerate}
+    \item 用温度计记录开始实验的温度。
+    \item 仪器调整
+	调节仪器面板上的三只平衡旋钮，将平行电极板调到水平。打开仪器和显示器开关，按
+“确认”键，选“平衡法”，进入测量界面。
+
+    \item 测量前的练习
+
+(1)熟悉操作按键。按键1：计时开始/结束。按键2：0V/工作，电压在0V和工作状态之间切换。按键3：平衡/提升，工作电压可在平衡电压和提升电压之间切换，提升电压比平衡电压高约200V。
+
+(2)练习控制油滴平衡。用喷雾器向油滴盒内喷油，仔细调节“电压调节”旋钮，使油滴置于分划板上某条横线附近，以便准确判断出这颗油滴是否平衡了。注意：不要连续喷多次，以防堵塞极板上的小孔。
+    \item 正式测量
+测量时，选取目视直径在1mm左右的油滴，平衡电压为200-300V,匀速下落1.6mm的
+时间为20s左右。此时，油滴电量q和不确定度均较小。
+
+要求测4个不同的油滴。
+将按键2置于工作，按键3置于平衡，将电压调至250V左右。向油雾口喷油，调节显微镜旋钮，寻找移动缓慢的油滴，细调“电压调节”，使油滴处于静止状态。记录此时的平衡电压U。将按键3切换为“提升”，使油滴上升至顶部网格线，然后将按键3切换为“平衡”使油滴静止。
+
+然后按下按键2，使电压为“0V”,油滴匀速下降。当下降到0格线时，迅速按下计时按钮，开始计时，待油滴下落至1.6mm格线，停止计时。记下油滴匀速下降的时间 $t_g$ 。
+测量完一次后，使油滴上升至顶部格线。
+
+对同一颗油滴应测3次 $t_g$ ,测完后对 $t_g$ 取平均值。
+
+	\item 计算油滴半径
+根据公式(13)(14)(15)
+计算出油滴的半径
+
+	\item 拍摄视频
+	调整CCD显微密立根油滴仪，确保能清晰观察到悬浮在流体中的微粒。
+
+	用摄像设备记录微粒的运动，拍摄视频。
+
+	共记录四种不同半径的油滴，每种油滴测量10组数据，选取其中较符合布朗运动规律、受到外界无关影响较小的5组，记录并进行分析处理
+	\item 视频分析
+	用追踪软件（Tracker）导入视频，追踪微粒的运动轨迹。
+	每组数据120s，每秒3帧，分别记录4个油滴的位移随时间变化数据。
+	
+	\item 数据处理
+计算每组数据不同时间间隔的位移均值$\langle x(t)\rangle$
+
+计算每组数据不同时间间隔的位移平方均值$\langle x^2(t)\rangle$
+
+用Origin软件线性拟合绘制每组数据位移均值$\langle x(t)\rangle$与时间t的关系图
+
+用Origin软件线性拟合绘制每组数据位移平方均值$\langle x^2(t)\rangle$与时间t的关系图
+
+计算每组数据的不确定度，并进行比较
+
+如果每组数据的结果的理论值与实际值相差过大，分析其原因
+
+计算并验证扩散系数D
+\end{enumerate}
+
+\subsection*{数据记录}
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{cccccc}
+    \toprule
+    油滴编号 & $U$ (V) & $t_{g1}$ (s) & $t_{g2}$ (s) & $t_{g3}$ (s) & 平均 $t_{g}$ (s) \\
+    \midrule
+    1 &160 &19.17 &19.39 &19.34 &19.30 \\
+    2 &79 &31.00 &31.26 &31.60 &31.29 \\
+    3 &176 &28.60 &28.51 &28.55 &28.55 \\
+    4 &129 &27.65 &27.33 &27.34 &27.44 \\
+    \bottomrule
+  \end{tabular}
+  \caption{不同油滴的数据表}
+  \label{tab:data}
+\end{table}
+
+\subsection*{数据处理}
+\begin{enumerate}
+\item A类不确定度
+	\begin{table}[htbp]
+  \centering
+  \begin{tabular}{cccccc}
+    \toprule
+    油滴编号 & $\sigma$  & $u_{A}$ \\
+    \midrule
+    1 &0.47767 &0.04342  \\
+    2 &2.54662 &0.23151  \\
+    3 &0.67109 &0.06101  \\
+    4 &0.71283 &0.06480  \\
+    5 &0.73561 &0.06687  \\
+    \bottomrule
+  \end{tabular}
+  \caption{油滴1的数据表}
+  \label{tab:data}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{cccccc}
+    \toprule
+    油滴编号 & $\sigma$  & $u_{A}$ \\
+    \midrule
+    1 &3.51356 &0.31941  \\
+    2 &0.68164 &0.06197 \\
+    3 &0.71200 &0.06473  \\
+    4 &1.45737 &0.13249  \\
+    5 &0.64195 &0.05836  \\
+    \bottomrule
+  \end{tabular}
+  \caption{油滴2的数据表}
+  \label{tab:data}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{cccccc}
+    \toprule
+    油滴编号 & $\sigma$  & $u_{A}$ \\
+    \midrule
+    1 &0.31855 &0.02896  \\
+    2 &0.71672 &0.06516 \\
+    3 &0.91223 &0.08293  \\
+    4 &0.67842 &0.06167  \\
+    5 &0.75177 &0.06834  \\
+    \bottomrule
+  \end{tabular}
+  \caption{油滴3的数据表}
+  \label{tab:data}
+\end{table}
+
+\end{enumerate}
+
+
+\subsection*{误差分析}
+\begin{enumerate}
+	\item 仪器误差
+CCD显微密立根油滴仪：分辨率限制导致位置测量不精确。
+显微镜的分辨率决定了微粒位置的测量精度，分辨率不足可能导致位移数据的偏差。
+
+改进方法是使用更高分辨率的显微镜。
+	\item 数据分析误差
+追踪软件的识别精度有限。追踪软件可能无法准确追踪微粒的运动轨迹，特别是在微粒速度较快或图像质量较差的情况下。
+
+改进方法是使用高精度的追踪算法，并手动校正自动追踪结果。
+	\item 温度环境误差
+实验中温度波动可能导致扩散系数测量不准确。
+
+改进方法是在恒温环境下进行实验，使用恒温设备保持实验温度稳定。
+	\item 微粒半径测量
+微粒半径的测量误差直接影响扩散系数的计算。微粒半径测量不准确会导致扩散系数计算结果偏差。
+
+改进方法是对微粒半径进行多次测量，取平均值，减小测量误差。
+
+	\item 系统误差
+理论模型假设简化了实际情况，例如忽略了流体中的其他力（如重力、浮力等）对微粒运动的影响。这些简化假设可能导致实验结果与实际情况存在系统性偏差。
+
+改进方法是考虑更多实际因素，完善理论模型。
+	
+	\item 数据处理误差
+数据处理过程中存在拟合误差。在拟合时，数据点的分布和拟合曲线的选择会影响拟合结果。如果数据点不够均匀或者存在异常值，拟合结果可能不准确。
+
+改进方法是排除异常值，确保数据点均匀分布，并选择合适的拟合方法。
+
+	\item 人为误差
+人为操作误差：在实验操作过程中，人为操作误差会影响实验结果，例如显微镜对焦不准、相机拍摄朝向与刻度线不完全垂直、录像时间间隔不一致等。
+
+改进方法是严格按照实验步骤进行操作，减少人为误差。
+\end{enumerate}
+\subsection*{实验结论}
+通过利用密立根油滴实验装置，对油滴在空气中的布朗运动规律进行研究。
+
+实验验证了布朗运动的基本特征，在误差范围内
+\begin{equation}
+    		\langle x(t)\rangle =0 ,
+		\langle x^2(t)\rangle =2Dt
+	\end{equation}
+测量数据均满足上式
+
+实验测得的扩散系数D= ,与理论值较为接近，证明了实验方法的有效性
+\subsection*{拓展}
+进行拓展研究
+
+\subsection*{参考文献}
+\begin{enumerate}
+    \item Halliday et al, Principles of Physics (9th Edition), Chapter 21, Pages 570-571.
+    \item Halliday et al, Principles of Physics (9th Edition), Chapter 22, Page 592.
+    \item 吴泳华，霍剑青，浦其荣, 大学物理实验（第一册 第二版），第8章，实验8.1.1.
+    \item R. A. Millikan, 1911, “On the Elementary Electrical Charge and the Avogadro Constant.” Phys. Rev. 32, 349.
+    \item 费恩曼物理学讲义（第1卷）, Chapter 41, Pages 430-432.
+\end{enumerate}
+
+\end{document}
