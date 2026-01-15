@@ -1,0 +1,298 @@
+close all;
+clc;
+addpath('data')
+ScreenSize = get(0,'ScreenSize');
+
+array_start_time = [0:0.5:9.5];                             %每隔0.5s截取一段数据
+array_sample_shift = [0:1:5];                               %时移范围[0 5]
+array_Doppler_frequency = [-40:2:40];                       %频移范围[-40 40]
+
+f_c = 2.123e9;                                              %载波频率2.123GHz
+f_s = 25e6;                                                 %采样率25MHz
+lambda = 3e8/f_c;                                           %波长
+array_range = (array_sample_shift/f_s)*3e8;                 %时差*光速=距离范围
+f_ddc = -3e6;
+bandwidth = 9e6;
+   
+A_TRD_dwt = zeros(length(array_start_time),length(array_sample_shift),length(array_Doppler_frequency));
+A_TRD_fft = zeros(length(array_start_time),length(array_sample_shift),length(array_Doppler_frequency));
+
+for idx_start_time = 1:length(array_start_time) 
+    % idx_start_time = 1;
+    % idx_start_time
+    fprintf('[stat] Index of start time: %d / %d.\n',idx_start_time,length(array_start_time))
+    %% Read Data File                                 %读取第一段5s数据
+    fprintf('[stat]   Read data file.\n')
+    load(sprintf('data/data_%d.mat',idx_start_time))
+
+    %% Digital downconvert                            %数字下变频
+    fprintf('[stat]   Downconvert.\n')
+    seq_ref_ddc = seq_ref.*exp(-1i*2*pi*f_ddc*[0:duration*f_s-1]/f_s);
+    seq_sur_ddc = seq_sur.*exp(-1i*2*pi*f_ddc*[0:duration*f_s-1]/f_s);
+    
+    %% LPF                                            %低通滤波器
+    fprintf('[stat]   LPF.\n')
+    [b,a] = butter(20,bandwidth/(f_s/2));
+    seq_ref_lpf = filter(b,a,seq_ref_ddc);
+    seq_sur_lpf = filter(b,a,seq_sur_ddc);
+
+    %% Plot waveform and spectrum                     %画出时域波形和频谱
+    duration_plot = 0.01;
+    num_t_axis_plot = duration_plot*f_s;
+    num_f_axis_plot = num_t_axis_plot;
+    t_axis_plot = 0:1/f_s:duration_plot-1/f_s;
+    f_axis_plot = -f_s/2:f_s/(num_f_axis_plot-1):f_s/2;
+
+    fig1 = figure(1);
+    set(fig1,'Position',[1,41,0.4*ScreenSize(3),0.8*ScreenSize(4)]);
+
+    subplot(6,2,1)
+        plot(t_axis_plot*1e3,real(seq_ref(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-0.5e-3,0.5e-3])
+        title('Reference signal (raw)')
+    subplot(6,2,2)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_ref(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (raw)')
+    subplot(6,2,3)
+        plot(t_axis_plot*1e3,real(seq_ref_ddc(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-0.5e-3,0.5e-3])
+        title('Reference signal (after DDC)')
+    subplot(6,2,4)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_ref_ddc(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (after DDC)')
+    subplot(6,2,5)
+        plot(t_axis_plot*1e3,real(seq_ref_lpf(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-0.5e-3,0.5e-3])
+        title('Reference signal (after LPF)')
+    subplot(6,2,6)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_ref_lpf(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (after LPF)')
+    subplot(6,2,7)
+        plot(t_axis_plot*1e3,real(seq_sur(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-2e-3,2e-3])
+        title('Surveillance signal (raw)')
+    subplot(6,2,8)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_sur(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (raw)')
+    subplot(6,2,9)
+        plot(t_axis_plot*1e3,real(seq_sur_ddc(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-2e-3,2e-3])
+        title('Surveillance signal (after DDC)')
+    subplot(6,2,10)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_sur_ddc(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (after DDC)')
+    subplot(6,2,11)
+        plot(t_axis_plot*1e3,real(seq_sur_lpf(1,1:num_t_axis_plot)))
+        xlabel('Time (ms)')
+        ylabel('Amplitude')
+        axis([0,duration_plot*1e3,-2e-3,2e-3])
+        title('Surveillance signal (after LPF)')
+    subplot(6,2,12)
+        plot(f_axis_plot/1e6,20*log10(abs(fftshift(fft(seq_sur_lpf(1,1:num_t_axis_plot))))))
+        xlabel('Frequency (MHz)')
+        ylabel('Amplitude (dB)')
+        axis([-f_s/2/1e6,f_s/2/1e6,-100,0])
+        title('Spectrum (after LPF)')
+
+
+   % Ambiguity function     
+   tic
+    fprintf('[stat]   Ambiguity processing.\n')
+    % num_loop = length(array_sample_shift)*length(array_Doppler_frequency);
+    % t_axis = 0:1/f_s:(duration*f_s-1)/f_s;
+    % temp = zeros(1,num_loop);
+    % f_axis_plot = linspace(-f_s/2, f_s/2, length(seq_ref_lpf)); % FFT频率轴
+    
+    for idx_sample_shift = 1:length(array_sample_shift)
+        % idx_f_d = 1:length(array_Doppler_frequency)
+        % idx_sample_shift = ceil(idx_RD/length(array_Doppler_frequency));
+        % idx_f_d = mod(idx_RD-1,length(array_Doppler_frequency))+1;
+        sample_shift = array_sample_shift(idx_sample_shift);            %从数组[0:5]中取值
+        % f_d = array_Doppler_frequency(idx_f_d);                         %从数组[-40:2:40]中取值     
+        
+        fft_result = fftshift(fft(seq_sur_lpf(1,1+sample_shift:end).*conj(seq_ref_lpf(1,1:end-sample_shift))));
+        f_axis_plot = linspace(-f_s/2, f_s/2, length(fft_result)); % 根据 FFT 长度动态生成频率轴
+        A_TRD_fft(idx_start_time, idx_sample_shift,:) = interp1(f_axis_plot, fft_result, array_Doppler_frequency, 'linear', 0);
+        
+        % A_TRD(idx_start_time, idx_sample_shift, idx_f_d) = abs(temp(1, idx_RD));
+    end
+    toc
+   % Ambiguity function 
+   tic
+    fprintf('[stat]   Ambiguity processing.\n')
+    num_loop = length(array_sample_shift)*length(array_Doppler_frequency);
+    t_axis = 0:1/f_s:(duration*f_s-1)/f_s;
+    temp = zeros(1,num_loop);
+
+    for idx_RD = 1:num_loop
+        idx_sample_shift = ceil(idx_RD/length(array_Doppler_frequency));
+        idx_f_d = mod(idx_RD-1,length(array_Doppler_frequency))+1;
+        sample_shift = array_sample_shift(idx_sample_shift);            %从数组[0:5]中取值
+        f_d = array_Doppler_frequency(idx_f_d);                         %从数组[-40:2:40]中取值                  
+
+        temp(1,idx_RD) = sum(seq_sur_lpf(1,1+sample_shift:end) ...
+                        .*conj(seq_ref_lpf(1,1:end-sample_shift)) ...
+                        .*exp(-1i*2*pi*f_d*t_axis(1+sample_shift:end)));
+        
+        A_TRD_dwt(idx_start_time, idx_sample_shift, idx_f_d) = abs(temp(1, idx_RD));
+    end
+    toc
+end
+    
+idx_max_range = zeros(1,length(array_start_time))-1;
+idx_max_Doppler_frequency = zeros(1,length(array_start_time));
+thres_A_TRD = -10;
+for idx_start_time = 1:length(array_start_time)
+    fig = figure(idx_start_time+1);
+    ScreenSize = get(0,'ScreenSize');
+    set(fig,'Position',[0.75*ScreenSize(3)+50,0.5*ScreenSize(4)+50,0.25*ScreenSize(3)-100,0.5*ScreenSize(4)-150]);
+    [meshgrid_Doppler,meshgrid_range] = meshgrid(array_Doppler_frequency,[array_range,2*array_range(end)-array_range(end-1)]);
+    plot_A_RD_fft = abs(squeeze(A_TRD_fft(idx_start_time,:,:)));
+    plot_A_RD_fft = plot_A_RD_fft/max(max(plot_A_RD_fft));
+    plot_A_RD_fft = 20*log10(plot_A_RD_fft);
+    plot_A_RD_fft(plot_A_RD_fft<thres_A_TRD) = thres_A_TRD;
+    plot_A_RD_fft = [plot_A_RD_fft;thres_A_TRD*ones(1,size(plot_A_RD_fft,2))];
+    surf(meshgrid_Doppler,meshgrid_range,plot_A_RD_fft)
+    view(0,90)
+    colorbar
+    xlim([array_Doppler_frequency(1),array_Doppler_frequency(end)])
+    ylim([array_range(1),2*array_range(end)-array_range(end-1)])
+    xticks([array_Doppler_frequency(1):20:array_Doppler_frequency(end)])
+    yticks([array_range,2*array_range(end)-array_range(end-1)])
+    xlabel('Doppler frequency (Hz)')
+    ylabel('Range (m)')
+    [idx_max_range(idx_start_time),idx_max_Doppler_frequency(idx_start_time)] = find(plot_A_RD_fft==max(max(plot_A_RD_fft)));
+    temp = sprintf('Range-Doppler Spectrum [%4.1fs: %3.0fm %3.0fHz]', ...
+        array_start_time(idx_start_time), ...
+        array_range(idx_max_range(idx_start_time)), ...
+        array_Doppler_frequency(idx_max_Doppler_frequency(idx_start_time)));
+    title(temp)
+
+end
+
+% Plot TD Spectrum
+fig101 = figure(101);
+ScreenSize = get(0,'ScreenSize');
+set(fig101,'Position',[0.5*ScreenSize(3)+50,50,0.25*ScreenSize(3)-100,0.5*ScreenSize(4)-150]);
+[meshgrid_Doppler,meshgrid_start_time] = ...
+    meshgrid(array_Doppler_frequency,[array_start_time,array_start_time(end)+duration]);
+plot_A_TD_fft = zeros(length(array_start_time),length(array_Doppler_frequency));
+for idx_start_time = 1:length(array_start_time)
+    plot_A_TD_fft(idx_start_time,:) = abs(squeeze(A_TRD_fft(idx_start_time,idx_max_range(idx_start_time),:)));
+end
+plot_A_TD_fft = plot_A_TD_fft./max(plot_A_TD_fft,[],2);
+plot_A_TD_fft = 20*log10(plot_A_TD_fft);
+plot_A_TD_fft(plot_A_TD_fft<thres_A_TRD) = thres_A_TRD;
+plot_A_TD_fft = [plot_A_TD_fft;thres_A_TRD*ones(1,size(plot_A_TD_fft,2))];
+surf(meshgrid_Doppler,meshgrid_start_time,plot_A_TD_fft)
+view(0,90)
+colorbar
+xlim([array_Doppler_frequency(1),array_Doppler_frequency(end)])
+ylim([array_start_time(1),array_start_time(end)])
+xticks([array_Doppler_frequency(1):20:array_Doppler_frequency(end)])
+yticks([array_start_time(1):0.5:array_start_time(end)+duration])
+xlabel('Doppler frequency (Hz)')
+ylabel('Time (s)')
+title('Time-Doppler Spectrum')
+idx_max_range = zeros(1,length(array_start_time))-1;
+idx_max_Doppler_frequency = zeros(1,length(array_start_time));
+thres_A_TRD = -10;
+for idx_start_time = 1:length(array_start_time)
+    fig = figure(idx_start_time);
+    ScreenSize = get(0,'ScreenSize');
+    set(fig,'Position',[0.75*ScreenSize(3)+50,0.5*ScreenSize(4)+50,0.25*ScreenSize(3)-100,0.5*ScreenSize(4)-150]);
+    [meshgrid_Doppler,meshgrid_range] = meshgrid(array_Doppler_frequency,[array_range,2*array_range(end)-array_range(end-1)]);
+    plot_A_RD_dwt = abs(squeeze(A_TRD_dwt(idx_start_time,:,:)));
+    plot_A_RD_dwt = plot_A_RD_dwt/max(max(plot_A_RD_dwt));
+    plot_A_RD_dwt = 20*log10(plot_A_RD_dwt);
+    plot_A_RD_dwt(plot_A_RD_dwt<thres_A_TRD) = thres_A_TRD;
+    plot_A_RD_dwt = [plot_A_RD_dwt;thres_A_TRD*ones(1,size(plot_A_RD_dwt,2))];
+    surf(meshgrid_Doppler,meshgrid_range,plot_A_RD_dwt)
+    view(0,90)
+    colorbar
+    xlim([array_Doppler_frequency(1),array_Doppler_frequency(end)])
+    ylim([array_range(1),2*array_range(end)-array_range(end-1)])
+    xticks([array_Doppler_frequency(1):20:array_Doppler_frequency(end)])
+    yticks([array_range,2*array_range(end)-array_range(end-1)])
+    xlabel('Doppler frequency (Hz)')
+    ylabel('Range (m)')
+    [idx_max_range(idx_start_time),idx_max_Doppler_frequency(idx_start_time)] = find(plot_A_RD_dwt==max(max(plot_A_RD_dwt)));
+    temp = sprintf('Range-Doppler Spectrum [%4.1fs: %3.0fm %3.0fHz]', ...
+        array_start_time(idx_start_time), ...
+        array_range(idx_max_range(idx_start_time)), ...
+        array_Doppler_frequency(idx_max_Doppler_frequency(idx_start_time)));
+    title(temp)
+
+end
+
+% Plot TD Spectrum
+fig102 = figure(102);
+ScreenSize = get(0,'ScreenSize');
+set(fig102,'Position',[0.5*ScreenSize(3)+50,50,0.25*ScreenSize(3)-100,0.5*ScreenSize(4)-150]);
+[meshgrid_Doppler,meshgrid_start_time] = ...
+    meshgrid(array_Doppler_frequency,[array_start_time,array_start_time(end)+duration]);
+plot_A_TD_dwt = zeros(length(array_start_time),length(array_Doppler_frequency));
+for idx_start_time = 1:length(array_start_time)
+    plot_A_TD_dwt(idx_start_time,:) = abs(squeeze(A_TRD_dwt(idx_start_time,idx_max_range(idx_start_time),:)));
+end
+plot_A_TD_dwt = plot_A_TD_dwt./max(plot_A_TD_dwt,[],2);
+plot_A_TD_dwt = 20*log10(plot_A_TD_dwt);
+plot_A_TD_dwt(plot_A_TD_dwt<thres_A_TRD) = thres_A_TRD;
+plot_A_TD_dwt = [plot_A_TD_dwt;thres_A_TRD*ones(1,size(plot_A_TD_dwt,2))];
+surf(meshgrid_Doppler,meshgrid_start_time,plot_A_TD_dwt)
+view(0,90)
+colorbar
+xlim([array_Doppler_frequency(1),array_Doppler_frequency(end)])
+ylim([array_start_time(1),array_start_time(end)])
+xticks([array_Doppler_frequency(1):20:array_Doppler_frequency(end)])
+yticks([array_start_time(1):0.5:array_start_time(end)+duration])
+xlabel('Doppler frequency (Hz)')
+ylabel('Time (s)')
+title('Time-Doppler Spectrum')
+
+
+% Plot TD Spectrum
+fig103 = figure(103);
+ScreenSize = get(0,'ScreenSize');
+set(fig103,'Position',[0.5*ScreenSize(3)+50,50,0.25*ScreenSize(3)-100,0.5*ScreenSize(4)-150]);
+[meshgrid_Doppler,meshgrid_start_time] = ...
+    meshgrid(array_Doppler_frequency,[array_start_time,array_start_time(end)+duration]);
+plot_A_TD = zeros(length(array_start_time),length(array_Doppler_frequency));
+
+plot_A_TD = plot_A_TD_fft-plot_A_TD_dwt;
+
+surf(meshgrid_Doppler,meshgrid_start_time,plot_A_TD)
+view(0,90)
+colorbar
+xlim([array_Doppler_frequency(1),array_Doppler_frequency(end)])
+ylim([array_start_time(1),array_start_time(end)])
+xticks([array_Doppler_frequency(1):20:array_Doppler_frequency(end)])
+yticks([array_start_time(1):0.5:array_start_time(end)+duration])
+xlabel('Doppler frequency (Hz)')
+ylabel('Time (s)')
+title('Time-Doppler Spectrum')

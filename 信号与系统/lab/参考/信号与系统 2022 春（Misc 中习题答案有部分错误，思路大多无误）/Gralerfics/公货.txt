@@ -1,0 +1,13 @@
+【南科大数学系 Matlab】https://math.sustech.edu.cn/public.html
+
+【交互式入门网站】https://www.jezzamon.com/fourier/zh-cn.html
+【两大积分变换速通】https://zhuanlan.zhihu.com/p/462963746
+
+【可视化拉普拉斯】https://www.zhihu.com/zvideo/1510048019752247296
+【拉氏变换与傅氏变换的关系】https://blog.csdn.net/qq_45749787/article/details/122723357
+
+【某专栏】https://blog.csdn.net/weixin_44586473/category_9884119.html
+【另一个专栏】https://blog.csdn.net/weixin_44378835/category_10555403.html
+
+【卷积性质】https://zhuanlan.zhihu.com/p/150737244
+【矩形函数卷积】https://zhuanlan.zhihu.com/p/159000955
