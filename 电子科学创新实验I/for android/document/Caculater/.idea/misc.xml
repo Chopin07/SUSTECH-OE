@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Caculater/app/src/main/res/drawable/button_bg.xml" value="0.13645833333333332" />
+        <entry key="..\:/Caculater/app/src/main/res/drawable/gray.xml" value="0.13645833333333332" />
+        <entry key="..\:/Caculater/app/src/main/res/drawable/selector.xml" value="0.13645833333333332" />
+        <entry key="..\:/Caculater/app/src/main/res/drawable/white.xml" value="0.13645833333333332" />
+        <entry key="..\:/Caculater/app/src/main/res/layout/activity_main.xml" value="0.11781029263370334" />
+        <entry key="..\:/SUSTech/2025 Spring/android + stm32 version1/for android/document/Caculater/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android-studio/Caculater/app/src/main/res/layout/activity_main.xml" value="0.11781029263370334" />
+        <entry key="..\:/android-studio/document/Caculater/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/button_bg.xml" value="0.25842696629213485" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/gray.xml" value="0.35" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/gray_rectangle.xml" value="0.35" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14652777777777778" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/selector.xml" value="0.35" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/white.xml" value="0.35" />
+        <entry key="..\:/document/Caculater/app/src/main/res/drawable/white_rectangle.xml" value="0.35" />
+        <entry key="..\:/document/Caculater/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
