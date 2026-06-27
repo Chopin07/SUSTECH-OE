@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p .tmp_mlx_extract)",
+      "Bash(unzip -o \"lab3_hw.mlx\" -d .tmp_mlx_extract)",
+      "Bash(/d/Matlab/bin/matlab -batch \"addpath\\('.'\\); generate_lab3_report_figures\\(\\);\")",
+      "Bash(/d/texlive/2026/bin/windows/pdflatex -interaction=nonstopmode report.tex)",
+      "Bash(grep -v '^$')",
+      "Bash(/d/Matlab/bin/matlab -batch \"doc = matlab.desktop.editor.openDocument\\('lab3_code.m'\\); doc.saveAs\\('lab3_code.mlx'\\); doc.close\\(\\); fprintf\\('MLX created.\\\\n'\\);\")",
+      "Bash(/d/Matlab/bin/matlab -batch \"matlab.internal.liveeditor.openAndSave\\(fullfile\\(pwd,'lab3_code.m'\\), fullfile\\(pwd,'lab3_code.mlx'\\)\\); fprintf\\('Done.\\\\n'\\);\")",
+      "Bash(/d/texlive/2026/bin/windows/xelatex -interaction=nonstopmode report.tex)"
+    ]
+  }
+}

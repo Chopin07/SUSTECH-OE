@@ -1,0 +1,608 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+11: The Steady Magnetic Field
+• Motivating the Magnetic Field Concept: Forces Between
+  Currents
+
+
+
+
+  Magnetic forces arise whenever we have charges in motion 运动的电荷!
+  The source of the steady magnetic field may be a permanent magnet 永磁体, an
+  electric field changing linearly with time随时间线性变化的电场, or a direct
+  current直流电流. We will largely ignore the permanent magnet and save the
+  time-varying electric field for a later discussion. Our present study will concern
+  the magnetic field produced by a differential dc element in free space.
+  Q: What is the source of electrostatic field?                                        1
+11: The Steady Magnetic Field
+• Motivating the Magnetic Field Concept: Forces Between
+  Currents
+
+
+
+
+  The magnetic field intensity, H, circulates around its source, I1, in a direction
+  most easily determined by the right-hand rule: Right thumb in the direction of
+  the current, fingers curl in the direction of H.
+
+
+                                                                                      2
+11: The Steady Magnetic Field
+• Biot-Savart Law
+The Biot-Savart Law specifies the magnetic field
+intensity, H, arising from a “point source” current
+element of differential length dL.
+                                                              A. M. Ampère   J. B. Biot     F. Savart
+                                                               (1775-1836) (1774-1862)    (1791-1841)
+
+
+
+
+                                                  The units of H are [A/m]
+
+                                              Note the similarity to Coulomb’s Law, in which
+                                              a point charge of magnitude dQ1 at Point 1 would
+Note in particular the inverse-square         generate electric field at Point 2 given by:
+distance dependence, and the fact that
+the cross product will yield a field vector
+that points into the page. This is a formal
+statement of the right-hand rule.                                                                  3
+11: The Steady Magnetic Field
+• Magnetic Field Arising From a Circulating Current
+ At point P, the magnetic field associated with
+ the differential current element IdL is
+
+
+
+
+                                     To determine the total field arising from the
+                                     closed circuit path, we sum the contributions
+                                     from the current elements that make up the entire
+                                     loop, or
+
+
+
+
+  The contribution to the field at P from any portion of the current will be just the
+  above integral evaluated over just that portion.
+
+                                                                                         4
+11: The Steady Magnetic Field
+• Two- and Three-Dimensional Currents
+ On a surface that carries uniform surface current
+ density K [A/m], the current within width b is
+
+
+ ..and so the differential current quantity that
+ appears in the Biot-Savart law becomes:
+
+
+
+ The magnetic field arising from a current
+ sheet is thus found from the two-dimensional
+ form of the Biot-Savart law:
+
+ In a similar way, a volume current will be made up
+ of three-dimensional current elements, and so the Biot-
+ Savart law for this case becomes:
+                                                           5
+11: The Steady Magnetic Field
+• Example of the Biot-Savart Law
+In this example, we evaluate the magnetic field intensity on the y axis (equivalently
+in the xy plane) arising from a filament current of infinite length on the z axis.
+
+Using the drawing, we identify:
+
+
+
+
+and so..
+
+
+so that:
+
+
+
+
+                                                                                        6
+11: The Steady Magnetic Field
+• Example of the Biot-Savart Law (Cont’d)
+
+We now have:
+
+
+Integrate this over the entire wire:
+
+
+
+
+ ..after carrying out the cross product
+
+                                            7
+11: The Steady Magnetic Field
+• Example of the Biot-Savart Law (Cont’d)
+
+
+we have:
+
+
+
+
+                                         Current is into the page.
+                                        Magnetic field streamlines
+    finally:                     are concentric circles, whose magnitudes
+                              decrease as the inverse distance from the z axis
+
+
+                                                                          8
+11: The Steady Magnetic Field
+• Comparison: Electric field of a line charge Vs Magnetic
+  field of a line current
+
+
+
+
+                                                        9
+11: The Steady Magnetic Field
+• Magnetic Field Arising from a Finite Current Segment
+ In this case, the field is to be found in the xy plane at Point 2. The Biot-Savart
+ integral is taken over the wire length:
+
+
+
+
+ ..after a few additional steps we find:
+
+
+
+                                                                                      10
+11: The Steady Magnetic Field
+• Another Example: Magnetic Field from a Current Loop
+Consider a circular current loop of radius a in the x-y plane, which
+carries steady current I. We wish to find the magnetic field strength
+anywhere on the z axis.
+We will use the Biot-Savart Law:
+
+
+
+
+ where:
+
+
+
+
+                                                                        11
+11: The Steady Magnetic Field
+• Another Example: Magnetic Field from a Current Loop
+Substituting the previous expressions, the Biot-Savart Law becomes:
+
+
+
+
+carry out the cross products to find:
+
+
+
+
+ but we must include the angle dependence in
+ the radial unit vector:
+
+
+
+ with this substitution, the radial component will integrate to zero, meaning that all
+ radial components will cancel on the z axis.
+                                                                                         12
+11: The Steady Magnetic Field
+• Another Example: Magnetic Field from a Current Loop
+ Now, only the z component remains, and the integral
+ evaluates easily:
+
+
+
+
+ Note the form of the numerator: the product of
+ the current and the loop area. We define this as
+ the magnetic moment 磁矩:
+
+
+
+
+ Note: Please compare the magnetic moment with the electric dipole moment which
+ both are vectors.
+                                                                                  13
+11: The Steady Magnetic Field
+• Ampere’s Circuital Law 安培环路定律
+ Ampere’s Circuital Law states that the line integral of H about any closed
+ path is exactly equal to the direct current enclosed by that path.
+
+
+
+
+  In the figure at right, the integral of H about closed paths a and b gives the total
+  current I, while the integral over path c gives only that portion of the current
+  that lies within c.
+
+                                                                                         14
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to a Long Wire
+                        Symmetry suggests that H will be circular,
+                        constant-valued at constant radius, and centered on
+                        the current (z) axis.
+
+                        Choosing path a, and integrating H around the circle
+         ρ              of radius ρ gives the enclosed current, I:
+
+
+
+
+             so that:                  as before.
+
+                                                                        15
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+
+                      In the coax line, we have two concentric
+                      solid conductors that carry equal and opposite
+                      currents, I.
+
+                      The line is assumed to be infinitely long, and the
+                      circular symmetry suggests that H will be entirely
+                      φ - directed, and will vary only with radius ρ.
+
+                      Our objective is to find the magnetic field
+                      for all values of ρ .
+
+
+
+
+                                                                           16
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+                       Field Between Conductors
+  The inner conductor can be thought of as made up of
+  a bundle of filament currents, each of which
+  produces the field of a long wire.
+  Symmetry suggests that H will be circular,
+  constant-valued at constant radius, and centered
+  on the current (z) axis.
+  Choosing the closed circle in blue with radius
+  as ρ, and integrating H around this circle gives
+  the enclosed current, I:
+
+
+
+                            a<ρ<b
+
+
+                                                        17
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+                     Field Within the Inner Conductor
+  Inside the inner conductor, and at radius ρ, we again have:
+
+
+
+
+  But now, the current enclosed is
+
+
+
+
+  so that                     or finally:
+
+                                                                18
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+                       Field Outside Both Conductors
+ Outside the transmission line, where ρ> c,
+ no current is enclosed by the integration path,
+ and so
+
+                            0
+
+ As the current is uniformly distributed, and since we
+ have circular symmetry, the field would have to
+ be constant over the circular integration path, and so it
+ must be true that:
+
+
+
+
+                                                             19
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+                       Field Inside the Outer Conductor
+  Inside the outer conductor, the enclosed current consists
+  of that within the inner conductor plus that portion of the
+  outer conductor current existing at radii less than ρ
+
+  Ampere’s Circuital Law becomes
+
+
+
+
+  ..and so finally:
+
+
+
+
+                                                                20
+11: The Steady Magnetic Field
+• Ampere’s Law Applied to Coaxial Transmission Line
+       Magnetic Field Strength as a Function of Radius
+             in the Coaxial Transmission Line
+
+
+
+
+                                                         21
+11: The Steady Magnetic Field
+• Magnetic Field Arising from a Current Sheet
+ For a uniform plane current in the y direction, we expect an x-directed H field from
+ symmetry.
+ Applying Ampere’s circuital law to the path              we find:
+
+                                      or
+ In other words, the magnetic field is discontinuous across the current sheet by the
+ magnitude of the surface current density.
+
+
+
+
+                                                                                        22
+11: The Steady Magnetic Field
+• Magnetic Field Arising from a Current Sheet
+ If instead, the upper path is elevated to the line between and    , the same current is
+ enclosed and we would have
+                                 from which we conclude that
+
+ so the field is constant in each region (above and below the current plane)
+
+                                          By symmetry, the field above the sheet must be
+                                          the same in magnitude as the field below the
+                                          sheet. Therefore, we may state that
+
+
+
+
+                                                    and
+
+                                                                                           23
+11: The Steady Magnetic Field
+• Magnetic Field Arising from a Current Sheet
+ The actual field configuration is shown below, in which magnetic field above the
+ current sheet is equal in magnitude, but in the direction opposite to the field below
+ the sheet.
+                                 The field in either region is found by the cross product:
+
+
+
+
+                                          where aN is the unit vector that is normal to the
+                                          current sheet, and that points into the region in
+                                          which the magnetic field is to be evaluated.
+
+
+
+                                                                                         24
+11: The Steady Magnetic Field
+• Magnetic Field Arising from Two Current Sheets
+ Here are two parallel currents, equal and opposite, as you would find in a parallel-plate
+ transmission line. If the sheets are much wider than their spacing, then the magnetic field
+ will be contained in the region between plates, and will be nearly zero outside.
+
+                                    Hx2 (z > d/2 )    These fields cancel for current sheets
+                                    Hx1 (z > d/2 )    of infinite width.
+
+                                   K1 = -Ky ay               These fields are equal and add
+                                                             to give
+                                   Hx1 (-d/2 < z < d/2 )
+                                   Hx2 (-d/2 < z < d/2 )     H = K x aN (-d/2 < z < d/2 )
+                                   K2 = -Ky ay                where K is either K1 or K2
+
+                                    Hx1 (z < -d/2 )   These fields cancel for current sheets
+                                    Hx2 (z < -d/2 )   of infinite width.
+
+
+                                                                                           25
+11: The Steady Magnetic Field
+• Magnetic Field Arising from Current Loop Field
+ Using the Biot-Savart Law, we previously found the magnetic
+ field on the z axis from a circular current loop:
+
+
+
+
+ We will now use this result as a building block
+ to construct the magnetic field on the axis of
+ a solenoid 螺线管 -- formed by a stack of
+ identical current loops, centered on the z axis.
+
+
+
+
+                                                               26
+11: The Steady Magnetic Field
+• On-Axis Field Within a Solenoid
+We consider the single current loop field as a differential contribution to
+the total field from a stack of N closely-spaced loops, each of which
+carries current I. The length of the stack (solenoid) is d, so therefore the               z
+density of turns匝数will be N/d.                                                 d/2
+Now the current in the turns within a differential length, dz, will be
+
+
+
+We consider this as our differential “loop current”
+                                                             -d/2
+ so that the previous result for H from a single loop:
+
+
+
+  now becomes:
+
+                                            in which z is measured from the center of the coil,
+                                            where we wish to evaluate the field.
+                                                                                          27
+11: The Steady Magnetic Field
+• On-Axis Field Within a Solenoid
+The total field on the z axis at z = 0 will be the sum of the field
+contributions from all turns in the coil -- or the integral
+                                                                            z
+of dH over the length of the solenoid.                                d/2
+
+
+
+
+                                                            -d/2
+
+
+
+
+                                                                            28
+11: The Steady Magnetic Field
+• On-Axis Field Within a Solenoid
+ We now have the on-axis field at the solenoid midpoint (z = 0):
+                                                                                         z
+                                                                               d/2
+
+
+
+
+ Note that for long solenoids, for which            , the
+ result simplifies to:
+                                                            -d/2
+
+
+
+
+  This result is valid at all on-axis positions deep within long coils -- at distances
+  from each end of several radii.
+
+                                                                                         29
+11: The Steady Magnetic Field
+• On-Axis Field Within a Solenoid: Continuous Surface
+  Current
+
+
+           d/2
+
+
+                           Therefore:
+
+
+
+
+-d/2
+
+
+
+
+                                                        30
+11: The Steady Magnetic Field
+• Solenoid Field -- Off-Axis
+ To find the field within a solenoid, but off the z axis, we apply Ampere’s Circuital
+ Law in the following way:
+ The illustration below shows the solenoid cross-section, from a lengthwise cut
+ through the z axis. Current in the windings flows in and out of the screen in the
+ circular current path. Each turn carries current I. The magnetic field along the z axis
+ is NI/d as we found earlier.
+
+
+
+
+                                                                                           32
+11: The Steady Magnetic Field
+• Solenoid Field -- Off-Axis
+ Applying Ampere’s Law to the rectangular path shown below leads to the following:
+
+
+
+
+                                                                                     33
+11: The Steady Magnetic Field
+• Solenoid Field -- Off-Axis
+The radial integrals will now cancel, because they are oppositely-directed, and because in
+the long coil, is not expected to differ between the two radial path segments.
+
+
+
+
+                                                                                         34
+11: The Steady Magnetic Field
+• Solenoid Field -- Off-Axis
+  What is left now are the two z integrations, the first of which we can evaluate as
+  shown. Since this first integral result is equal to the enclosed current, it must follow
+  that the second integral -- and the outside magnetic field -- are zero.
+
+
+
+
+                                                                                             35
+11: The Steady Magnetic Field
+• Solenoid Field -- Off-Axis
+  The situation does not change if the lower z-directed path is raised above the z axis.
+  The vertical paths still cancel, and the outside field is still zero. The field along the
+  path A to B is therefore NI/d as before.
+
+
+
+
+  Conclusion: The magnetic field within a long solenoid is approximately constant
+  throughout the coil cross-section, and is Hz = NI/d.                                        36
+11: The Steady Magnetic Field
+• Toroid Magnetic Field
+   A toroid is a doughnut-shaped set of windings around a core material. The cross-
+ section could be circular (as shown here, with radius a) or any other shape.
+   Below, a slice of the toroid is shown, with current emerging from the screen
+ around the inner periphery (in the positive z direction). The windings are modeled
+ as N individual current loops, each of which carries current I.
+
+
+
+
+                                                                                      37
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Toroid
+ Ampere’s Circuital Law can be applied to a toroid by taking a closed loop integral
+ around the circular contour C at radius ρ. Magnetic field H is presumed to be
+ circular, and a function of radius only at locations within the toroid that are not too
+ close to the individual windings. Under this condition, we would assume:
+
+ This approximation improves as the density of turns gets higher
+ (using more turns with finer wire).
+  Ampere’s Law now takes the form:
+
+
+
+   so that….
+
+
+
+
+ Performing the same integrals over contours drawn in the
+ regions                or                will lead to zero magnetic
+ field there, because no current is enclosed in either case.                               38
+11: The Steady Magnetic Field
+• Surface Current Model of a Toroid
+   Consider a sheet current molded into a doughnut shape, as shown. The current
+   density at radius       crosses the xy plane in the z direction and is given in
+   magnitude by Ka
+
+  Ampere’s Law applied to a circular contour C inside the
+  toroid (as in the previous example) will take the form:
+
+
+
+
+   leading to…
+
+
+
+   inside the toroid…. and the field is zero outside as before.
+
+
+                                                                                     39
+

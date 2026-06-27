@@ -1,0 +1,557 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+4: Concept of ‘Flux’ 通量
+• The word ‘ flux ’ comes from Latin: fluxus means
+  “flow”, and fluere is “to flow” . 一个表征“流动”的量
+• Flux is defined as the rate of flow of a property through
+  certain area. “通量”用来表示单位时间内流过特定
+  面的某个量的多少
+
+
+
+
+                                                         1
+5: Electric Flux Density电通密度
+• Streamlines, Electric flux lines 电力线、电通量线
+Let us be content to show only the direction of E
+by drawing continuous lines, which are
+everywhere tangent to E, from the charge.
+These lines are usually called streamlines,
+although other terms such as flux lines通量线
+and direction lines方向线 are also used.
+
+Q6. Is it really that the magnitude of field
+can not be indicated with streamlines?
+
+Q1. How can we define ‘flux’ when there is nothing projected
+outward from the point charge?
+
+ Note: There should be ‘something’ to indicate the ‘influence’ of this point
+ charge on the space surrounding it. That is why we define ‘electric flux density’
+                                                                                     2
+5: Electric Flux Density电通密度
+• Faraday Experiment
+   He started with a pair of metal spheres of
+   different sizes; the larger one consisted of two
+   hemispheres that could be assembled around the
+   smaller sphere.
+   The inner charge, Q, induces an equal and              Michael Faraday, (1791 – 1867 )
+   opposite charge, -Q, on the inside surface of
+   the outer sphere, by attracting free                   +Q
+   electrons in the outer material toward
+   the positive charge.
+   This means that before the outer sphere
+   is grounded, charge +Q resides on the
+   outside surface of the outer conductor.
+
+Note: Herein, ‘induce’ is the ‘influence’ of this point
+charge on the outer metal sphere.
+                                                                                       3
+5: Electric Flux Density电通密度
+• Faraday Experiment
+  Attaching the ground connects the
+  outer surface to an unlimited supply
+  of free electrons, which then neutralize中和
+  the positive charge layer. The net charge
+  on the outer sphere is then the charge on
+  the inner layer, or -Q.                          Michael Faraday, (1791 – 1867 )
+
+                                                   Q=0
+  Faraday found that the total charge
+  on the outer sphere was equal in
+  magnitude to the original charge
+  placed on the inner sphere and that
+  this was true regardless of the
+  dielectric material separating the    Ground
+  two spheres and the radius of the     attached
+  outer metal sphere.
+                                                                                4
+5: Electric Flux Density电通密度
+• Faraday Experiment- Electric Flux
+ Faraday concluded that there occurred
+ a charge “displacement” from the inner
+ sphere to the outer sphere.
+ Displacement involves a flow or flux,  existing
+ within the dielectric, and whose magnitude           Michael Faraday, (1791 – 1867 )
+ is equivalent to the amount of “displaced” charge.
+                                                      Q=0
+ Specifically:
+
+
+
+
+                                          Ground
+                                          attached
+
+
+                                                                                   5
+ 5: Electric Flux Density电通密度
+• Faraday Experiment-Electric Flux Density
+  Displacement involves a flow or flux,  existing
+  within the dielectric, and whose magnitude
+  is equivalent to the amount of “displaced” charge.
+  Specifically:
+                                                        Michael Faraday, (1791 – 1867 )
+
+                                                       Q=0
+
+The density of flux at the inner sphere
+surface is equivalent to the density of
+charge there (in Coul/m2)
+
+                                          Ground
+                                          attached
+
+
+                                                                                   6
+5: Electric Flux Density电通密度
+• Vector Field Description of Flux Density
+ A vector field is established which
+ points in the direction of the “flow”
+ or displacement. In this case, the
+ direction is the outward radial direction
+ in spherical coordinates. At each surface,          Michael Faraday, (1791 – 1867 )
+ we would have:
+                                                    Q=0
+
+
+
+
+                                         Ground
+                                         attached
+
+
+                                                                                7
+5: Electric Flux Density电通密度
+• Vector Field Description of Flux Density
+
+At a general radius r between            Q=0       D(r)
+spheres, we would have:
+
+
+
+                                               r
+
+
+Expressed in units of Coulombs/m2, and
+defined over the range (a ≤ r ≤ b)
+
+
+
+
+                                                          8
+5: Electric Flux Density电通密度
+• Point Charge Fields – Relationship between E and D
+  If we now let the inner sphere radius reduce to a point, while maintaining the same
+  charge, and let the outer sphere radius approach infinity, we have a point charge. The
+  electric flux density is unchanged, but is defined over all space:
+
+
+                                             C/m2    (0 < r <∞ )
+
+
+  We compare this to the electric field intensity in free space:
+
+
+                                                V/m (0 < r <∞ )
+
+
+
+    ..and we see that:
+
+
+                                                                                           9
+5: Electric Flux Density电通密度
+• Volume Charge Fields – Relationship between E and D
+   We learned in Chapter 2 that:
+
+
+
+
+   It now follows that:
+
+
+
+
+    ..and we also see that:
+
+
+
+                                                        10
+6: Gauss’ Law高斯定律
+• Gauss’ Law
+      The electric flux passing through any closed surface is equal
+               to the total charge enclosed by that surface
+       穿过任意闭合面的电通量等于该曲面所包含的总电荷
+
+
+
+
+                                                 Carl Friedrich Gauss (1777 -1855)
+
+
+
+                                                                                11
+6: Gauss’ Law高斯定律
+• Gauss’ Law- Its mathematical statement
+           The electric flux passing through any closed surface is equal
+                    to the total charge enclosed by that surface
+            穿过任意闭合面的电通量等于该曲面所包含的总电荷
+
+
+
+We define the differential
+surface area (a vector) as
+
+
+where n is the unit outward
+normal vector to the surface,
+and where dS is the area of the
+differential spot on the surface
+
+
+
+                                                                           12
+6: Gauss’ Law高斯定律
+• Gauss’ Law- Its mathematical statement
+
+
+
+  in which the charge can exist in the form of point charges:
+
+  or a continuous charge distribution:
+
+  Line charge:
+
+  Surface charge:
+
+
+
+  Volume charge:
+
+  For a volume charge, we would have:
+                                                                13
+  6: Gauss’ Law高斯定律
+ • Using Gauss’ Law to solve for D evaluated at a surface
+
+                                 where
+
+
+The solution is easy if we can choose a surface, S, over
+which to integrate (Gaussian surface) that satisfies the
+following two conditions:
+
+
+
+
+The integral now simplifies:
+
+
+So that:
+
+                                                            14
+ 6: Gauss’ Law高斯定律
+• Example: Point Charge Field
+Begin with the radial flux density:
+
+and consider a spherical surface of radius a that surrounds the charge, on which:
+
+
+
+
+On the surface, the differential area is:
+
+
+
+and this, combined with the outward unit normal vector is:
+
+
+
+
+                                                                                    15
+ 6: Gauss’ Law高斯定律
+• Example: Point Charge Field
+Now, the integrand becomes:
+
+
+
+
+and the integral is set up as:
+
+
+                  =
+
+
+
+  =
+
+
+
+
+                                 16
+6: Gauss’ Law高斯定律
+• Example: Line Charge Field
+Consider a line charge of uniform charge density L on the z axis that extends over the
+range −  z   
+We need to choose an appropriate Gaussian surface, being mindful of these considerations:
+
+
+
+
+We know from symmetry that the field will be radially-directed
+(normal to the z axis) in cylindrical coordinates:
+
+
+
+and that the field will vary with radius only:
+
+
+
+So we choose a cylindrical surface of radius , and of
+length L.
+                                                                                          17
+ 6: Gauss’ Law高斯定律
+• Example: Line Charge Field
+
+
+
+
+Giving:                    So that finally:
+
+Note: Please compare the two methods of solving line charge field intensity E, one
+by using Gauss’s law and the other by using Coulomb's law.                           18
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Electric Flux Within a Differential Volume Element
+
+
+
+
+  Taking the front surface, for example, we have:
+
+
+
+
+                                                       19
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Electric Flux Within a Differential Volume Element
+ Taking the front surface, for example, we have:
+
+
+
+
+ We now have:
+ and in a similar manner:
+
+
+
+                               minus sign because Dx0 is inward flux through the back surface.
+ Therefore:
+
+                                                                                                 20
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Electric Flux Within a Differential Volume Element
+ Now, by a similar process, we find that:
+
+
+
+
+      and
+
+
+ All results are assembled to yield:
+
+
+                                                    = Q (by Gauss’ Law)
+                                            v
+
+  where Q is the charge enclosed within volume v
+                                                                          21
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Divergence 散度
+                                                     = Q (by Gauss’ Law)
+
+                                           v
+   where Q is the charge enclosed within volume v
+
+
+
+
+ 当闭合曲面所包围的体积趋近于0时，通量密度A的散度则表示从单位体积
+ 的表面穿出的通量。
+ Mathematically, this is:
+
+
+
+
+                                                                           22
+ 7: Divergence, Maxwell’s First Equation
+ 散度、麦克斯韦第一方程
+• Maxwell’s first equation 麦克斯韦第一方程
+                                                   = Q (by Gauss’ Law)
+
+                                           v
+
+
+
+
+                                                                          James Clerk Maxwell
+                                                                             (1831－1879)
+       and when the vector field is the electric flux density:
+
+
+                                                                       = div D
+
+                                                                 Maxwell’s first equation
+
+Note: Essentially, Maxwell’s first equation is the differential form of Gauss’s Law.
+      本质上，麦克斯韦第一方程是高斯定律的一种微分表达形式。
+                                                                                            23
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Divergence Expressions in the Three Coordinate
+  Systems 散度如何计算？在三种不同坐标系中的表达
+
+
+
+
+Note: 1) 只有通量密度才能定义散度，而通量密度一定是矢量；
+      2) 矢量的散度是标量。                             24
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• The Del Operator 矢量Del算子
+  The del operator is a vector differential operator, and is defined as:
+
+
+
+
+  Note that:
+
+
+
+
+                =                            = div D
+
+
+
+
+                                                                           25
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Divergence Theorem 散度定理
+ We now have Maxwell’s first equation (or the point form of Gauss’ Law) which states:
+
+
+
+
+ and Gauss’s Law in large-scale form reads:
+
+
+
+
+  leading to the Divergence Theorem:
+
+
+
+
+                                                                                        26
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Divergence Theorem 散度定理
+ The integral of the normal component of any vector field over a closed surface is
+ equal to the integral of the divergence of this vector field throughout the volume
+ enclosed by the closed surface.
+ 任意矢量场的法向分量在闭合面上的面积分等于它的散度在闭合面所包围的
+ 体积内的体积分。
+
+
+
+
+  Note: Divergence Theorem is applicable to any vector field.
+        散度定理适用于任意矢量场。
+
+
+                                                                                      27
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Example:
+
+                                     z
+                                         3
+
+
+
+
+                                     0       2
+                                                      y
+                                 1
+
+
+                                 x
+
+
+
+
+                                                 28
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Example:
+
+                                     z
+                                         3
+
+
+
+
+                                     0       2
+                                                      y
+                                 1
+
+
+                                 x
+
+
+
+
+                                                 29
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+• Example:
+
+                                     z
+                                         3
+
+
+
+
+                                     0       2
+                                                      y
+                                 1
+
+
+                                 x
+
+
+
+
+                                                 30
+7: Divergence, Maxwell’s First Equation
+散度、麦克斯韦第一方程
+
+
+
+
+                                          31
+HW-3
+
+
+
+
+       32
+

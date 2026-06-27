@@ -1,0 +1,49 @@
+复习范围和考试范围并不相同
+
+FPGA(field programmable gate array)
+VHDL
+
+entity, architecture的格式
+串行和并行语句
+data type和data objects
+signal: holds the current and future value
+信号的赋值（“执行”和“拿到值”之间的时间差），分析波形
+variable 定义的范围，“执行”和“拿到值”之间没有时间差
+bit, bit_vector, integer, type, std_logic, std_logic_vector...
+数据转换函数
+命名规则
+
+ConcurrentSA, conditional signal assignment, selected signal assignment
+Page79
+conditional signal assignment: 顺序判断，e.g. 优先编码器，隐含优先级信息
+selected signal assignment: when others
+case: 注意里面是sequential statements而不是concurrent statements
+
+component: declaration+instantiation, 注意实例化时前面必须有label(A1, ins1, ...)
+configuration: 当entity有多个architecture
+loop
+
+触发器和锁存器
+时序电路template
+counter
+conceptual diagram（会画）
+three-digital decimal counter
+
+FSMDatapath
+moore和mealy的区别
+Algorithem state machine（会画&看出错误）
+ASM chart <---> conceptual diagram <---> VHDL code
+
+width parameters and feature parameters
+generic
+课件里提到的元件都要理解它们的功能（译码器，编码器...)
+attribute
+generate statement（for，conditional）
+
+pipeline
+关键目的：吞吐量↑
+
+package & libraries
+function structure
+
+填空，判断（找错误），写代码

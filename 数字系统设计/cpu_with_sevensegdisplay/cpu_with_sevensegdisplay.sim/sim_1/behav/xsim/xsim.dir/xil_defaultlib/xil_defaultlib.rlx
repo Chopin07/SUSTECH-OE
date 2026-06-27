@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/DSD/cpu/cpu.srcs/sim_1/imports/sources/cpu_tb.vhd,1748701771,vhdl,,,,cpu_tb,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/alu.vhd,1748184496,vhdl,,,,alu,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/controlunit.vhd,1747038809,vhdl,,,,controlunit,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/cpu.vhd,1748701471,vhdl,D:/DSD/cpu/cpu.srcs/sim_1/imports/sources/cpu_tb.vhd,,,cpu,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/decoder.vhd,1747038915,vhdl,,,,decoder,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/pcunit.vhd,1747038922,vhdl,,,,pcunit,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/ram.vhd,1748701910,vhdl,,,,ram,,,,,,,,
+D:/DSD/cpu/cpu.srcs/sources_1/imports/sources/registerfile.vhd,1748205853,vhdl,,,,registerfile,,,,,,,,
+D:/DSD/digital_clock/digital_clock.srcs/sources_1/imports/Desktop/SevenSegDisplay.vhd,1748202685,vhdl,,,,sevensegdisplay,,,,,,,,

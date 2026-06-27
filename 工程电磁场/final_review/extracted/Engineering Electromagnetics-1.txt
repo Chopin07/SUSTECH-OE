@@ -1,0 +1,378 @@
+Engineering Electromagnetics
+         ⼯程电磁场
+
+
+       Youwei Jia 嘉有为
+Background
+• 这是⼀⻔专业（微电⼦、通信、光电⼦）必修
+  课 (Compulsory course), So you are suggested to
+  work very hard on it.
+• Total Credits: 3 (Theory: 2, Experiment: 1)
+• Theory Courses: Tue 04:20-06:10 pm
+• Experiment Courses: Tue (Start from 5th week),
+  07:00pm-8:50 pm
+• Assessment of your Performance:
+  Assignment: 15 % + Usual Performance 5 %
+  Experiment Reports: 15 %
+  Midterm Exam: 25% Final Exam: 40 %
+                                                   1
+Background
+• Part I: Vector Analysis⽮量分析; Static Electric
+  Field静电场; Steady Magnetic field稳恒磁场;
+  Time-varying fields时变场 and Maxwell’s
+  Equations⻨克斯⻙⽅程组
+  Instructor: Dr Youwei Jia
+  Period: 2nd~ 15th week
+Future Course: 天线与电波传播
+
+
+
+
+                                                 2
+ Background
+• References:
+   William H. Hayt and John A. Buck, 《Engineering Electromagnetics》
+  Mc Graw Hill, 清华⼤学出版社
+   William H. Hayt and John A. Buck, 赵彦珍等译, 《⼯程电磁场》
+  ⻄安交通⼤学出版社
+    倪光正,《⼯程电磁场原理》, ⾼等教育出版社
+
+
+
+
+                                                                      3
+ Background
+• Some messages for you (Suggestions & expectations):
+    This course involves a lot of mathematics and physics,
+If you try to memorize them mechanically, it will be tough
+and boring. If you try to understand the natural essence ⾃
+然本质 behind the notations符号and equations公式, it will
+become more interesting.
+    My job is try my best to help you understand the most
+fundamental concepts概念, ideas想法, principles原理,
+laws规则 and theories理论. Based on that, you are
+expected to learn how to learn.
+  Keep thinking, keep practice. 勤思考，多练习
+                                                         4
+1: Vector Analysis ⽮量分析
+• Scalar & Vector (Quantity) 标量&⽮量
+  Scalar refers to a quantity whose value (值) could be represented
+  by a real number (positive or negative).
+  Examples: Temperature 温度; Length ⻓度; Weight 重量
+  A vector quantity has both a magnitude (量、⼤⼩、模) and a
+  direction (⽅向) in space (空间) .
+  Examples: Force ⼒; Speed 速度
+
+
+  Note:
+  1. Always give a second thought on the terms in red.
+  2. Most physical quantities (scalar or vector) have their own units (单位)；
+  3. Space has dimensions (维度，2-D, 3-D, …n-D);
+                                                                              5
+1: Vector Analysis ⽮量分析
+• Field: Scalar Field & Vector Field 场、标量场、⽮量场
+  Region, Space 区域、空间
+  Examples: a bowl of soup, energy cube, earth, universe….
+
+
+
+
+  When we associate some physical quantities (scalar or vector)
+  with every point in some region/space, it involves a field (scalar
+  or vector).
+  Note:
+  1. Mathematically, a field (scalar or vector) could be defined as some
+     function that connects an arbitrary origin to a general point in space.
+                                                                               6
+1: Vector Analysis ⽮量分析
+• Field: Scalar Field & Vector Field 场、标量场、⽮量场
+ Examples:
+ • The temperature throughout the bowl of
+    soup 温度场 (Scalar field)
+    Temperature—— Scalar quantity
+    The bowl of soup—— Region/Space
+
+•   The magnetic field of the earth 地
+    磁场(Vector field)
+    Magnetic field intensity (磁场强
+    度)—— Vector quantity
+    The earth—— Region/Space
+
+                                             7
+1: Vector Analysis ⽮量分析
+• The Rectangular Coordinate System 直⻆坐标系
+               ——A way we define spaces, vectors
+
+
+
+
+Right-handed coordinate system   Origin原点: Point O
+                                 Axis轴: x-axis, y-axis, z-axis
+                                                                 8
+1: Vector Analysis ⽮量分析
+• The Rectangular Coordinate System 直⻆坐标系
+
+
+
+
+  Point locations are defined by giving their coordinates(坐标).
+  Examples: P(1,2,3), Q(2,-2,1)
+                                                                 9
+1: Vector Analysis ⽮量分析
+• The Rectangular Coordinate System 直⻆坐标系
+
+
+                          P(x, y, z)
+                          P’(x+dx, y+dy, z+dz)
+
+                          Differential Volume Element
+                          体微元
+                          dv=dxdydz
+                          Differential Area Element
+                          ⾯微元
+                          dS=dxdy, dxdz, dydz，
+
+                                                    10
+1: Vector Analysis ⽮量分析
+• Vector Addition / Subtraction ⽮量加法/减法
+
+
+
+
+   The addition of vectors follows the parallelogram law /
+   triangle law 平⾏四边形法则/三⻆形法则
+   The rule for subtraction of vectors can be easily defined
+   from that for addition: A-B=A+(-B)
+   Associative Law 结合律:
+
+   Distributive Law分配率:
+                                                               11
+1: Vector Analysis ⽮量分析
+• Vector Components & Unit Vectors⽮量分量&单位⽮量
+
+
+
+                     P (3, 5, 4)
+
+
+       O (0, 0, 0)
+
+
+                                   Unit Vectors
+
+
+  r=3ax+5ay+4az
+
+                                                  12
+1: Vector Analysis ⽮量分析
+• Vector Components & Unit Vectors⽮量分量&单位⽮量
+
+
+
+
+                                         13
+ 1: Vector Analysis ⽮量分析
+• Summary-Vector expressions in rectangular coordinates
+
+ General Vector, B:
+
+
+ Magnitude of B:
+
+
+
+
+ Unit Vector in the
+ Direction of B:
+
+                                                      14
+1: Vector Analysis ⽮量分析
+• The Dot Product of Vectors⽮量点乘
+    Given two vectors A and B, the dot product is defined as the
+  product of the magnitude of A, the magnitude of B, and the
+  cosine of the smaller angle between them,
+
+
+
+  Commutative Law交换律:
+
+
+
+   Note: The dot product of two vectors is a scalar.
+
+
+                                                                   15
+1: Vector Analysis ⽮量分析
+• The Dot Product of Vectors⽮量点乘
+ Example: How to calculate the work (功) applied on the wood box?
+
+
+
+
+                                                             16
+1: Vector Analysis ⽮量分析
+• The Dot Product of Vectors⽮量点乘
+       Vector Projections (⽮量投影) Using the Dot Product
+
+
+
+
+ B • a gives the scalar component of   (B • a) a gives the vector component
+ B in the horizontal direction         of B in the horizontal direction
+
+
+
+
+                                                                              17
+ 1: Vector Analysis ⽮量分析
+• The Dot Product of Vectors⽮量点乘
+                   Operational Use of the Dot Product
+
+           Given
+
+
+Here we use:
+
+
+
+
+Finally we find
+
+
+
+
+                                                        18
+1: Vector Analysis ⽮量分析
+• The Cross Product of Vectors⽮量叉乘
+    The cross product A×B is a vector; the magnitude of A×B is
+  equal to the product of the magnitudes of A, B, and the sine of
+  the smaller angle between A and B; the direction of A×B is
+  perpendicular to the plane containing A and B and the right-
+  handed law.
+
+
+
+
+                                                                    19
+1: Vector Analysis ⽮量分析
+• The Cross Product of Vectors⽮量叉乘
+              Operational Use of the Cross Product
+
+      Given
+
+
+
+
+                                                     20
+   1: Vector Analysis ⽮量分析
+ • The Cross Product of Vectors⽮量叉乘
+                      Operational Use of the Cross Product
+
+              Given
+
+
+
+Therefore:
+
+
+
+
+                        Or…
+
+
+             A determinant in a more easily remembered form!   21
+1: Vector Analysis ⽮量分析
+• Circular Cylindrical Coordinates圆柱坐标系
+
+
+                             Point P has coordinates
+                             specified by P(z)
+
+
+
+
+                                                       22
+1: Vector Analysis ⽮量分析
+• Circular Cylindrical Coordinates圆柱坐标系
+   Orthogonal Unit Vectors in Cylindrical
+   Coordinates
+
+
+
+
+                                            23
+1: Vector Analysis ⽮量分析
+• Circular Cylindrical Coordinates圆柱坐标系
+   Differential Volume in Cylindrical
+   Coordinates
+
+
+
+
+                            dV =  d d dz
+                                              24
+1: Vector Analysis ⽮量分析
+• Circular Cylindrical Coordinates圆柱坐标系
+   Coordinate Transformations between Cylindrical Coordinates
+   and Rectangular Coordinates 坐标变换:
+          P(z)
+
+
+
+
+        P(x, y, z)
+
+
+
+
+                                                                25
+1: Vector Analysis ⽮量分析
+• Spherical Coordinates 球坐标系
+                               Point P has coordinates
+                               Specified by P(r)
+
+
+
+
+                                                    26
+1: Vector Analysis ⽮量分析
+• Spherical Coordinates 球坐标系
+  Orthogonal Unit Vectors in Spherical Coordinates
+
+
+
+
+                                                     27
+1: Vector Analysis ⽮量分析
+• Spherical Coordinates 球坐标系
+  Differential Volume in Spherical Coordinates
+
+
+
+
+   dV = r2sin drd d
+
+
+
+
+                                                 28
+1: Vector Analysis ⽮量分析
+
+
+
+
+                          28
+1: Vector Analysis ⽮量分析
+• Coordinate Transformation
+
+
+
+
+                              25
+HW1
+
+
+
+
+      29
+

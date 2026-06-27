@@ -1,0 +1,12 @@
+
+{ 
+    crc :  9080940792940843958  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 08767b95e10341b086bb57d3de63d44d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot seq_detect_behav xil_defaultlib.seq_detect" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/seq_detect_behav/xsimk.exe\"   \"xsim.dir/seq_detect_behav/obj/xsim_0.win64.obj\" \"xsim.dir/seq_detect_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

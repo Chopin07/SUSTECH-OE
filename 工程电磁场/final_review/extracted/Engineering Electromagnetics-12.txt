@@ -1,0 +1,618 @@
+Engineering Electromagnetics
+         ⼯程电磁场
+
+
+       Youwei Jia 嘉有为
+11: The Steady Magnetic Field
+• Force on a Moving Charge
+   The forces exerted on a point charge by electric and magnetic fields are:
+
+          charge can be stationary                   charge is moving
+          or moving                                  at velocity v
+
+                  Q+                 Fe             Fm X
+                                                              v
+
+                                                         Q+
+
+                    E                                         B
+                Fe = QE                               Fm = Q (v x B)
+            in the direction of E                      into the screen
+
+
+                                                                               1
+11: The Steady Magnetic Field
+• Lorentz Force Law
+   Generally, with both electric and magnetic fields present, we have both forces:
+
+                    B
+
+                                          The electric field will, in this
+                                          case, accelerate the charge in
+                                          the direction of E, making it
+                                   E      cross the B field lines in the
+                Q+                 v      perpendicular sense; this gives a
+                                          magnetic force component that
+                                          is out of the screen
+
+   The total force on the moving charge is then the sum of the two, or
+
+
+
+   This is the Lorentz Force Law (sometimes called the “fifth Maxwell equation”)
+                                                                                     2
+11: The Steady Magnetic Field
+• Hall Effect
+   When a B field is applied in a direction perpendicular to a current, positive and
+   negative carriers will be displaced slightly, as shown, as a result of the magnetic
+   forces on the moving charges.
+
+   This produces a measurable voltage, known as the Hall Voltage.
+
+
+
+
+                                                                                         3
+11: The Steady Magnetic Field
+• Force on a Differential Current Element
+                      dv
+
+                                        Consider a small segment (length dL)
+                                        of current in the form of a volume
+             dL       J            B    current density J, suspended in a magnetic
+                                        field, B. The current element has volume dv.
+
+
+
+ We know that current density is volume charge density moving at velocity v:
+
+
+  ..and we can write the differential force on a differential charge, dQ:
+                                         where
+
+   Therefore:                            ..so that finally:
+
+                                                                                       4
+11: The Steady Magnetic Field
+• Other Expressions for Differential Force
+  For volume current, surface current, or filament current, we have the appropriate
+  expressions for differential current:
+
+
+
+ The corresponding expressions for differential force within magnetic field B are:
+
+
+                                  volume current density (three dimensions)
+
+                                  surface current density (two dimensions)
+
+
+                                  filament current of length dL (one dimension)
+
+
+                                                                                      5
+11: The Steady Magnetic Field
+• Evaluating the Total Force
+   In three or two dimensions,
+   the net force is found by
+   integrating over the volume
+   or surface that the current occupies
+
+   For a filament current, the total force will be the integral of the differential force,
+   generally taken over the closed path that comprises the current:
+
+
+
+
+   For a straight filament of length L, having uniform current, and within a uniform
+   field, this becomes:
+
+                                   which in turn reduces to
+                                                                                             6
+11: The Steady Magnetic Field
+• Example: Force on a Square Current Loop
+  The magnetic field arising from the straight wire,
+  evaluated in the plane of the loop, is:
+
+
+
+  The B field is then:
+
+
+
+
+ The total force on the loop is then found by evaluating:
+
+
+
+
+   over all four loop segments
+                                                            7
+11: The Steady Magnetic Field
+• Example: Force on a Square Current Loop
+ The integral becomes:
+
+
+
+
+                             A   B
+                                             D
+                                     A           C
+             C           D
+                                         B
+
+
+
+
+                                                     8
+11: The Steady Magnetic Field
+• Force Between Differential Current Elements
+ We use the Biot-Savart Law to find the differential magnetic field at Point 2 that
+ arises from the differential current element at Point 1:
+
+
+
+                                                                                  dH2
+
+
+                                                                         aR12
+ The flux density associated with this field
+ will generate a force on an additional current
+ element at Point 2
+
+
+
+
+                                                                                        9
+11: The Steady Magnetic Field
+• Force Between Differential Current Elements
+A second differential current element is now placed
+at Point 2. It will experience a force given by:
+
+
+
+ Then with:                                           aR12
+
+
+
+  where:
+
+ we finally obtain:
+
+
+
+
+                                                             10
+11: The Steady Magnetic Field
+ • Example
+ Given:
+
+
+
+      Then
+                            aR12
+
+Substitute these into:
+
+
+
+
+Obtain:
+
+
+
+
+                                   11
+11: The Steady Magnetic Field
+• Force Between Current Filaments of Finite or Infinite
+  Lengths
+  The force is found by integrating the differential filament result:
+
+
+
+
+  in which the integral is taken over the lengths of both filaments. To be complete, both
+  integrals would be taken over the closed loops that the currents must form, thus the
+  general expression:
+                                                             These integrals can
+                                                             be modified to incorporate
+                                                             specific limits, in order to
+                                                             find the force from a
+                                                             specified segment of a
+                                                             wire that acts on a specific
+                                                             segment of another wire
+
+                                                                                            12
+11: The Steady Magnetic Field
+• Example: Force Between Parallel Wires (the easy way)
+ Consider the two wires shown here, carrying equal and opposite currents, I, and
+ spaced by distance d12 along the y axis. The wires are oriented in the z direction
+ and both are infinitely long.
+                                                         z
+ The force is to be found on a length of wire 2,
+ of equal extent above and below the y axis.            I
+ We can solve this one fairly quickly by observing
+ that the B field from wire 1 at the location of wire 2
+ will be:                                                                   x B
+                                                                               12
+
+                                                                      d12             y
+
+
+   and
+                                                                            I
+                                                          wire 1       wire 2
+
+                                                                                          13
+11: The Steady Magnetic Field
+• Example: Force Between Parallel Wires (the easy way)
+ We have:                             and
+
+ Then the force acting on the differential element   z
+ shown is:
+                                                     I
+
+
+                                                                        x B
+                                                                           12
+
+
+ The total force on the length is therefore:                      d12           y
+
+
+
+
+  ….which is a repulsive force                                          I
+                                                         wire 1    wire 2
+                                                                                    14
+11: The Steady Magnetic Field
+• Torque 转矩: Basic Definition
+
+                    Given a force F at point P, the torque
+                    about the origin is a vector that is perpendicular
+                    to the plane containing F and position vector
+                    R. The torque vector is the cross product:
+
+
+
+
+                                                                         15
+11: The Steady Magnetic Field
+• Torque: General Equation
+ Now, consider two equal and opposite
+ forces, applied at points P1 and P2 as shown.
+
+ As the net force is zero, there is no translation of the object.
+ The net torque on the system will be:
+
+
+
+ But since F2 = -F1 :
+
+
+
+
+ This means that the torque is independent of the choice of origin, provided the total
+ force acting is zero. This applies to any number of forces. And the origin can be
+ located anywhere that is convenient.
+
+                                                                                         16
+11: The Steady Magnetic Field
+• Torque on a Differential Current Loop
+ The filament loop shown here lies in the xy plane with
+ its center at the origin. Magnetic flux density B
+ exists everywhere, and in a general direction. As the
+ loop is of differential size, the magnitude of B is
+ assumed uniform over the loop area, and has value B0.
+ Current I circulates around the loop.
+
+ The differential force acting on side 1 is:
+
+
+
+
+                                                          17
+11: The Steady Magnetic Field
+• Torque on a Differential Current Loop
+ We have the differential force acting on side 1:
+
+
+
+
+ For side 1, the lever arm extends from
+ the origin to the midpoint of the side, and
+ is given by:
+
+                                                      R1
+  The differential torque acting on side 1 is then:
+
+
+
+
+                                                           18
+11: The Steady Magnetic Field
+• Torque on a Differential Current Loop
+We next consider the opposite side (3), and
+using similar reasoning, find the differential
+torque acting on side 3:
+
+
+                                                         R3
+
+
+
+
+The total differential torque acting on sides 1 and 3
+is then:
+
+
+Then, using the same reasoning, the total differential
+torque acting on sides 2 and 4 is:
+
+
+                                                              19
+11: The Steady Magnetic Field
+• Torque on a Differential Current Loop
+ Now, with:
+ and
+ The total torque on all four sides is:
+
+
+ The terms in parenthesis can be written as a cross
+ product:
+
+
+ Finally resulting in:
+                               dS points out of the screen in this example
+
+ where the differential loop area vector is defined using the right hand convention:
+                            Fingers in direction of current, thumb in direction of S
+                                                                                       20
+11: The Steady Magnetic Field
+• Differential Magnetic Moment
+  Having found the torque on a differential current loop:
+                                                            Magnetic Dipole
+                                                              磁偶极⼦
+
+
+  Define the differential magnetic dipole
+  moment as the product of the current and
+  the differential area vector:
+
+
+
+  from which:
+
+
+
+
+                                                                       21
+11: The Steady Magnetic Field
+• Torque on a Large-Scale Current Loop
+ If we remove the restriction on differential size, and assume uniform magnetic flux
+ density over the entire loop area, the differential result
+
+
+
+
+ becomes:
+
+
+
+
+  These results are independent of the shape of the loop -- the area and orientation
+  are all that matter.
+
+
+
+
+                                                                                       22
+11: The Steady Magnetic Field
+• Example
+
+
+
+
+                                23
+11: The Steady Magnetic Field
+• Magnetic Materials
+Materials are characterized according to their configurations of -- and interactions
+between -- atomic magnetic moments. On the atomic or molecular scale, magnetic
+moments are associated with electron orbital configurations, electron spin⾃旋, and
+(to a lesser extent) nuclear spin.
+                                                                morb
+The diagram shows contributions to
+the total magnetic moment of an
+atom that arise from the electron
+orbit (morb) and electron spin (mspin),
+in which the latter vector may add
+to or subtract from the
+orbital moment.
+
+The magnetic flux density, B0, is
+externally applied.                                              mspin (positive or negative)
+
+
+                                                                                        24
+11: The Steady Magnetic Field
+ • Magnetic Materials: Diamagnetisim 抗/反磁性
+                                                                              morb
+In this case, the summation of all orbital and spin magnetic
+moments associated with all electrons in a single atom is
+precisely zero, with the atom in its unperturbed state.
+Application of a magnetic field leads
+to an outward radial force Fm on the orbiting
+electron shown here, resulting in a decrease
+                                                       A rough sketch of what is going on in an atom
+in its orbital velocity in order to maintain a                  (greatly oversimplified!)
+balance of Coulomb and magnetic forces.
+The velocity reduction will result
+                                                                               mspin
+in a lessening of the orbital magnetic                                         (acting to partially
+moment, thus producing a very small net                    Fm                  cancel the orbital
+magnetic moment in the direction of the                                        contribution)
+spin moment; i.e., in the opposite direction          Examples of diamagnetic materials:
+to the applied field.                                 metallic bismuth铋, copper, gold,
+So a net decrease in the magnetic                     silicon, germanium锗, graphite⽯墨,
+flux density will occur.                              sulfur硫.
+                                                                                         25
+11: The Steady Magnetic Field
+• Magnetic Materials: Paramagnetism 顺磁性
+In this case, the summation of all orbital and spin magnetic moments associated with
+individual atoms is not zero, but is very small. Because of random orientations of adjacent
+atoms, however, the average magnetic moment in the material is zero.
+                                                                        morb
+Application of a magnetic field on the non-zero
+moments introduces a torque on the ensemble
+which results in the partial alignment of the
+moments of adjacent atoms. This strengthens the
+overall magnetic flux density.
+However, the diamagnetic effect, in addition to
+the tendency toward random orientations due to                           mspin
+                                                                         (adding to the orbital
+molecular activity (increasing with temperature)
+                                                                         contribution, or not
+reduces the net increase in B.                                           completely cancelling it if
+                                                                         negative)
+So a net increase in the B field will be seen, but
+this increase is very small.                             Fm
+
+Examples of paramagnetic materials: potassium钾, tungsten钨, rare earth
+elements稀⼟                                                                                    26
+11: The Steady Magnetic Field
+• Magnetic Materials: Ferromagnetism 铁磁性
+
+  In ferromagnetic materials, fairly
+  strong atomic or molecular magnetic
+  moments exist. Moments of adjacent
+  molecules interact to cause partial
+  alignment of moments within small regions
+  known as domains磁畴. Magnetic moment
+  orientations from domain to domain are
+  random, thus resulting in a zero overall
+  magnetic moment for the material.
+
+
+
+
+                                              27
+11: The Steady Magnetic Field
+• Magnetic Materials: Ferromagnetism 铁磁性
+                                                               B0
+ Application of a steady magnetic field produces greater
+ torque on magnetic moments that are closer to alignment
+ with B0. Average alignment throughout the material thus
+ increases, but does so through the enlargement of the
+ nearly-aligned domains, at the expense of those that are
+ not aligned with B0.
+ A significant increase in the overall magnetic flux density
+ occurs.
+
+ Ferromagnetic elements: iron, nickel镍, cobalt钴 (room
+ temperature), gadolinium轧, dysprosium镝 (low temperature).
+
+ Another manifestation is found in superparamagnetic超顺磁
+ 性materials, consisting of ferromagnetic particles suspended
+ in a non-ferromagnetic matrix (magnetic recording tape is
+ the most common example)
+                                                               28
+11: The Steady Magnetic Field
+• Magnetic Materials: Antiferromagnetism 反铁磁性
+ In certain materials, and at low temperatures, adjacent magnetic moments are oriented
+ in opposite directions, this being the lowest energy state for the ensemble.
+ The application of an external field produces no change in the net flux density .
+
+
+
+
+                       m
+
+
+  Example of antiferromagnetic materials: manganese oxide氧化锰, nickel oxide,
+  ferrous sulfide硫化亚铁, cobalt chloride氯化亚钴
+
+
+
+                                                                                         29
+11: The Steady Magnetic Field
+• Magnetic Materials: Ferrimagnetism 亚铁磁性
+In certain materials, the lowest energy configuration involves adjacent magnetic
+moments that are oriented with opposing orientations, but with different magnitudes
+as shown. The application of an external field produces a significant change in the
+net flux density, but not as strong as in ferromagnetic materials. The most important
+materials in this class are the ferrites铁氧体, distinguished by having low
+conductivity很低的电阻率.
+
+
+
+
+                            m
+
+   Example of ferrimagnetic materials: iron oxide magnetite氧化铁磁体
+     Fe3O4 , nickel-zinc Ferrite镍锌铁氧体, nickel ferrite镍铁氧体.
+
+
+                                                                                        30
+11: The Steady Magnetic Field
+• Magnetic Material Summary
+
+
+
+
+                                31
+11: The Steady Magnetic Field
+• Magnetization 磁化，磁化强度
+                                                                  m
+ Consider a bound current, Ib, surrounding a differential
+ area, dS. The magnetic moment is                                     Magnetic Dipole
+                                                                        磁偶极⼦
+
+                                                             dS
+
+ Then, if several such moments exist within
+                                                                        Ib
+ a volume       , then the total magnetic moment
+ within that volume will be the vector sum of the
+ contributors, or:
+
+
+
+
+where n is the dipole volume density (dipoles per unit volume)
+                                                                                 32
+11: The Steady Magnetic Field
+• Magnetization磁化强度
+ The magnetization 磁化强度is the dipole moment per unit volume, in the limit
+ as the volume shrinks to a point:
+
+
+
+
+  Units are dipole moment per unit volume, or Amps/m
+
+  If all dipoles are identical, each having moment m,
+  and if they all have the same orientation, then the
+  magnetization simplifies to:
+                                                                            M
+
+
+                                                                                33
+11: The Steady Magnetic Field
+• Relation Between B and H
+
+
+
+  Define:
+  where      is magnetic susceptibility 磁化率
+
+  So now..
+
+  where the relative permeability 相对磁导率 is:
+
+
+
+  …so that the permeability is now:
+                                      and consequently:
+                                                          34
+

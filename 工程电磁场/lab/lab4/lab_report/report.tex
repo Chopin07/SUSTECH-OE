@@ -1,0 +1,181 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage[newfloat]{minted}
+\usepackage{hyperref}
+
+\setmainfont{Times New Roman}
+\setmonofont{Consolas}
+\setCJKmainfont{SimSun}
+\setCJKmonofont[AutoFakeSlant=0.2]{SimSun}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\setminted{
+    breaklines=true,
+    breakanywhere=true,
+    fontsize=\small,
+    frame=lines,
+    linenos=true,
+    numbersep=8pt,
+    bgcolor=white,
+    style=friendly,
+    encoding=utf8
+}
+
+\title{\textbf{Engineering Electromagnetics -- Experiment 4}\\Magnetic Focusing Simulation}
+\author{He Yanning \\ Student ID: 12311512}
+\date{\today}
+
+\begin{document}
+\maketitle
+\onehalfspacing
+
+\section{Experiment Task Description}
+This experiment studies the magnetic focusing phenomenon of charged particles in a uniform magnetic field. Sixteen particles start from the origin with the same mass $m=0.02~\text{kg}$ and charge $q=0.016~\text{C}$. The electric field is zero,
+\[
+\mathbf{E}=(0,0,0),
+\]
+and the magnetic flux density is
+\[
+\mathbf{B}=(0,0,8)\ \text{T}.
+\]
+The particles share the same initial velocity component along the $z$-axis,
+\[
+v_z(0)=10~\text{m/s},
+\]
+while the transverse components are
+\[
+v_x(0)=0.1\sin\left(\frac{k\pi}{8}\right),\qquad
+v_y(0)=0.1\cos\left(\frac{k\pi}{8}\right),
+\]
+where $k=0,1,2,\dots,15$.
+
+The purpose of this experiment is to use MATLAB to simulate the particle trajectories and observe the magnetic focusing effect.
+
+\section{Physical Principle}
+The motion of a charged particle in an electromagnetic field is governed by the Lorentz force:
+\[
+\mathbf{F}=q\mathbf{E}+q(\mathbf{v}\times\mathbf{B}).
+\]
+According to Newton's second law,
+\[
+\mathbf{a}=\frac{\mathbf{F}}{m}.
+\]
+The velocity and position are updated by time discretization:
+\[
+\mathbf{v}(t+\Delta t)=\mathbf{v}(t)+\mathbf{a}(t)\Delta t,
+\]
+\[
+\mathbf{r}(t+\Delta t)=\mathbf{r}(t)+\mathbf{v}(t)\Delta t.
+\]
+
+In this experiment, $\mathbf{E}=0$ and $\mathbf{B}$ points in the positive $z$-direction, so each particle moves in a helical path. Since all particles have the same velocity component along the magnetic field, they have nearly the same pitch and can focus again after one cyclotron period. The theoretical angular frequency is
+\[
+\omega=\frac{qB}{m}=\frac{0.016\times 8}{0.02}=6.4~\text{rad/s},
+\]
+so the focusing period is approximately
+\[
+T=\frac{2\pi}{\omega}\approx 0.982~\text{s}.
+\]
+Therefore, the first focusing position should appear near
+\[
+z_f=v_zT\approx 10\times 0.982=9.82~\text{m}.
+\]
+
+\section{Simulation Method}
+In the simulation, the explicit Euler method was used with a time step of $\Delta t=0.001~\text{s}$. To observe the motion at different scales, the total simulation time was set to $t=1$, $3$, $8$, $20$, and $100~\text{s}$. For each case, three views were plotted:
+
+\begin{itemize}
+    \item a 3D trajectory plot,
+    \item a top view in the $x$-$y$ plane,
+    \item a front view in the $x$-$z$ plane.
+\end{itemize}
+
+The program calculates the Lorentz force first, then updates the velocity and position step by step, and finally plots the trajectories of all 16 particles. In this way, the focusing phenomenon can be observed clearly.
+
+\section{Experiment Results and Analysis}
+
+\subsection{Result at t = 1 s}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/magnetic_focusing_t1.png}
+    \caption{Particle trajectories when the simulation time is $1~\text{s}$.\\He Yanning, 12311512}
+\end{figure}
+At $t=1~\text{s}$, the particles have completed about one cyclotron period. The front view shows that the particle beam is already close to a focusing point near $z\approx 10~\text{m}$, which agrees with the theoretical result. The top view is nearly circular, showing stable helical motion in the transverse plane.
+
+\subsection{Result at t = 3 s}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/magnetic_focusing_t3.png}
+    \caption{Particle trajectories when the simulation time is $3~\text{s}$.\\He Yanning, 12311512}
+\end{figure}
+At $t=3~\text{s}$, the repeated helical structure becomes clear. Compared with the result at $t=1~\text{s}$, more than one focusing point can now be observed in the front view. This shows that the focusing process repeats periodically along the $z$-axis.
+
+\subsection{Result at t = 8 s}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/magnetic_focusing_t8.png}
+    \caption{Particle trajectories when the simulation time is $8~\text{s}$.\\He Yanning, 12311512}
+\end{figure}
+At $t=8~\text{s}$, the periodic focusing behavior becomes more obvious. The front view shows several repeated intersections, while the top view still keeps good rotational symmetry. This indicates that the particles continue to rotate regularly in the transverse plane while moving forward along the magnetic field direction.
+
+\subsection{Result at t = 20 s}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/magnetic_focusing_t20.png}
+    \caption{Particle trajectories when the simulation time is $20~\text{s}$.\\He Yanning, 12311512}
+\end{figure}
+When the simulation time is extended to $20~\text{s}$, the particle beam shows a regular sequence of focusing points. The spacing between neighboring focusing points is nearly constant, which agrees with the conclusion that the focusing period is determined by the cyclotron motion.
+
+\subsection{Result at t = 100 s}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/magnetic_focusing_t100.png}
+    \caption{Particle trajectories when the simulation time is $100~\text{s}$.\\He Yanning, 12311512}
+\end{figure}
+At $t=100~\text{s}$, the beam forms a long helical bundle along the magnetic-field direction. Even at this large time scale, the repeated focusing points are still visible. This shows that particles with the same axial velocity can keep synchronous focusing for a long time in a uniform magnetic field.
+
+\subsection{Summary of Observations}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{}ll@{}}
+        \toprule
+        Item & Observation \\
+        \midrule
+        Motion type & Helical motion around the $z$-axis \\
+        Focusing mechanism & Same $v_z$ and same cyclotron period \\
+        First focusing position & Near $z \approx 9.82~\text{m}$ \\
+        Transverse pattern & Approximately circular and symmetric \\
+        Long-term behavior & Periodic reconvergence along the field direction \\
+        \bottomrule
+    \end{tabular}
+    \caption{Main observations from the simulation.}
+\end{table}
+
+\section{MATLAB Source Code}
+The MATLAB source code used in this experiment is listed below. Detailed Chinese comments are included to explain the physical parameters, the numerical calculation process, and the plotting procedure.
+
+\inputminted{matlab}{lab4_code.m}
+
+\section{Experiment Experience}
+At the beginning, I only understood magnetic focusing from the formula. After plotting the trajectories, I could see much more clearly how the particles spiral forward and gather again after one period. This made the physical meaning of the result easier to understand.
+
+During the simulation, I also found that the choice of time step and total simulation time is very important. If the time step is too large, the trajectory is not accurate enough. If the observation time is too short, only the local motion can be seen; if it is longer, the repeated focusing process becomes much easier to observe.
+
+Through this experiment, I gained a better understanding of the Lorentz force, helical motion in a uniform magnetic field, and the reason why magnetic focusing occurs. I also became more familiar with using MATLAB to solve electromagnetic problems with numerical methods.
+
+\end{document}

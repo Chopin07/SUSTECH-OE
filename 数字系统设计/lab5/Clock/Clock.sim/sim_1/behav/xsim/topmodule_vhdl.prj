@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../数字系统设计/ButtonDebounce.vhd" \
+"../../../../../数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/segment_display.vhd" \
+"../../../../../数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/timer.vhd" \
+"../../../../../数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/topmodule.vhd" \
+
+# Do not sort compile order
+nosort

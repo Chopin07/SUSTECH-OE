@@ -1,0 +1,1279 @@
+
+================================================================================
+Lecture Note_EE310_Ch1_L0
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Preface
+General
+Introduction Tel: 0755-88018552
+
+--- page 2 ---
+Laser Spectroscopy
+2
+Steady State Spectroscopy (Absorption, Reflection, Photoluminescence, Photoluminescence Excitation, etc)Nonlinear Optics(Z-Scan, Multi-Photon Spectroscopy)Time-Resolved Spectroscopy(Time-Resolved Photoluminescence)Ultra-Fast Pump-Probe Transient Absorption Spectroscopy
+OpticalPropertyOpticalMicrocavityPhotonicDeviceInvestigation of Carrier Dynamic;Excitonic Property; Energy TransferFabry-Pérot Cavity; Random Cavity;Whispering Gallery ModesLight Emitting Diode; TemperatureSensor; Refractive Index Sensor
+OpticalPropertyOpticalMicrocavityPhotonicDeviceResearch Summarize
+
+--- page 3 ---
+Laser Spectroscopy
+3
+TimeTemperatureSpectrum
+Space
+
+--- page 4 ---
+Course References
+4
+
+--- page 5 ---
+Principles and Technologies of Lasers
+5
+Course InformationCourse ID: EE310Name: Principles and Technologies of LasersCredit: 3Content: Section 1: Basic principleChapter 1Section 2: Optical cavity oscillationChapter 2Section 3: Laser oscillation & amplificationChapter 3, 4, 5Section 4: Control & improvement techniqueChapter 6Section 5: Typical lasers and light amplifierChapter 7, 81. Attendance 10%2. Homework 20% 3. Mid-term exams 30%4. Final exam 40%Final Evaluation
+
+--- page 6 ---
+6
+Optoelectronics
+Photonics
+Photon as a Carrier for
+Information and Energy
+Photon
+Technolog
+y
+The Coherent of Light
+ Generation: Lasers
+ Modulation
+ Detection & Application
+Electronics
+Electron as a Carrier for
+Information and Energy
+Electronic
+Technology
+Electronic Components
+ Functional Circuit Design and
+Manufacturing
+ Including Information
+Technology and Power Electronics
+
+--- page 7 ---
+Why the interest of Lasers
+ Lasers have unique properties
+ Created many new devices
+ Improved existing devices
+7
+Examples of Laser application
+ Bar-code readers, sensors
+ Compact discs, computer printers
+ Laser show, holography – 3D
+ Position & motion control
+ Non-destructive spectroscopy measurements
+ Military system, medical procedures
+ Fiberoptic communication
+
+--- page 8 ---
+Lasers range in size from
+microscopic diode lasers (top) with
+numerous applications, to football
+field sized neodymium glass lasers
+(bottom) used for inertial
+confinement fusion, nuclear weapons
+research and other high energy
+8
+density physics experiments.
+Warning symbol
+for lasers
+
+--- page 9 ---
+Military Application
+9
+laser designator Laser Sight Anti-Satellite Laser
+Military laser
+Safety
+
+--- page 10 ---
+Medical Application
+10
+Low-level laser therapy Laser eye surgery
+
+--- page 11 ---
+Industrial and commercial
+11
+3D laser scan
+Laser light display
+Laser pointer
+Laser line level
+
+--- page 12 ---
+Compact Disc Audio
+12
+Analog sound data is digitized by
+sampling at 44.1 kHz and coding
+as binary numbers in the pits on
+the compact disc. As the focused
+laser beam sweeps over the pits, it
+reproduces the binary numbers in
+the detection circuitry. The same
+function as the ‘pits’ can be
+accomplished by magneto optical
+recording. The digital signal is
+then reconverted to analog form
+by a D/A converter.
+
+--- page 13 ---
+Other Laser Applications
+13
+Micro-machining
+Laser derusting
+Mosquito eradicationLaser weapon
+Laser induced fusion
+
+--- page 14 ---
+Development of Technology
+Fundamental
+14
+Research
+Technology
+Application
+Product
+Development Industry
+
+--- page 15 ---
+Historical Evolution of Laser
+
+15
+Since its invention half a century ago, the laser
+has made possible a staggering number of
+applications in a wide range of fields: industry,
+science, medicine, the military and more.
+ This section discusses the historical evolution
+of laser, and the key players who influenced
+the development of this important technology.
+
+--- page 16 ---
+1905 Photon
+ Some theorists were on the right track, especially Plank
+16
+, who
+proposed that nature acted by using "quanta" of energy. But it
+was the young, unknown Albert Einstein who explained
+everything and started the field of quantum mechanics with his
+paper on the photoelectric effect (1905).
+Einstein showed that
+light does not consist
+of continuous waves,
+nor of small, hard
+particles. Instead, it
+exists as bundles of
+wave energy called
+photons.
+Plank Albert Einstein
+
+--- page 17 ---
+1917 Stimulated Emission
+
+17
+Einstein proposed the process that
+makes lasers possible, called
+stimulated emission . He theorized
+that, besides absorbing and emitting
+light spontaneously, electrons could
+be stimulated to emit light of a
+particular wavelength
+ But it would take nearly 40 years
+before scientists would be able to
+amplify those emissions, proving
+Einstein correct and putting lasers on
+the path to becoming the powerful
+and ubiquitous tools they are today.
+"A splendid light has
+dawned on me..."
+- Albert Einstein
+
+--- page 18 ---
+Microwave Cavity and Accelerator
+Invented and patented the
+18
+microwave cavity (1936) The linear accelerator (1947)
+
+--- page 19 ---
+1954 First Microwave Laser
+
+19
+The first population inversion was achieved in the ammonia
+molecule, which consists of a nitrogen at the apex of a pyramid of
+three hydrogen atoms. The two lowest levels of ammonia are the
+result of inversion splitting of the vibrational levels caused by a
+potential curve with a double minima. Population inversion in
+ammonia is established by physical separation of molecules in the
+upper quantum state from those in the lower quantum state.
+Beam of ammonia passes
+through an electrostatic
+focuser to separate out
+molecules in the upper
+quantum state. ( Townes,
+1954)
+
+--- page 20 ---
+1954 First Microwave Laser
+ Working with Herbert J. Zeiger and graduate student
+20
+James P. Gordon,
+Townes demonstrates the first maser at Columbia University.
+ The ammonia Microwave Amplification by Stimulated Emission of
+Radiation (maser), the first device based on Einstein’s predictions.
+ The maser radiates at a wavelength of a little more than 1 cm and
+generates approximately 10 nW of power.
+Herbert J. ZeigerCharles Hard Townes Townes & James P . Gordon
+
+--- page 21 ---
+ 1955: At P.N. Lebedev Physical Institute in Moscow, Nikolai G. Basov
+21
+and
+Alexan-der M. Prokhorov attempt to design and build oscillators. They
+propose a method for the production of a negative absorption that was called
+the pumping method.
+ 1956: Nicolaas Bloembergen of Harvard University develops the microwave
+solid-state maser.
+ Sep. 14, 1957: Townes sketches an early optical maser in his lab notebook.
+ 1958: Townes, a consultant for Bell Labs, and
+his brother-in-law, Bell Labs researcher Arthur
+L. Schawlow , in a joint paper published in
+Physical Review Letters , show that masers
+could be made to operate in the optical and
+infrared regions and propose how it could be
+accomplished. At Lebedev Institute, Basovand
+Prokhorov also are exploring the possibilities
+of applying maser principles in the optical
+region.
+Arthur L. Schawlow
+
+--- page 22 ---
+Patent Dispute of the First Conceive of Laser
+
+22
+Columbia University graduate
+student Gordon Gould jots his ideas
+for building a laser in his notebook
+and has it notarized at a candy store
+in the Bronx. It is considered the first
+use of the acronym laser. Gould
+leaves the university a few months
+later to join private research
+company TRG (Technical Research
+Group), dated Nov. 13, 1957.
+ April 1959 : Gould and TRG apply
+for laser-related patents stemming
+from Gould’s ideas.
+
+--- page 23 ---
+Patent Dispute of the First Conceive of Laser
+23
+ March 22, 1960 : Townes and Schawlow, under
+Bell Labs, are granted US patent number
+2,929,922 for the optical maser, now called a
+laser. With their application denied, Gould and
+TRG launch what would become a 30-year
+patent dispute related to laser invention.
+
+--- page 24 ---
+24
+
+--- page 25 ---
+1960 First Optical Laser
+
+25
+Fabry-Pérot Cavity
+ Two perfectly parallel mirrors were the key to stimulating
+both solid and gaseous molecules to produce an inverted
+population. Without the Fabry-Pérot device, you’re just
+exciting particles randomly and to no avail.
+Charles Fabry Alfred Pérot
+19th century
+
+--- page 26 ---
+1960 First Optical Laser
+26
+Theodore H. Maiman , a physicist at Hughes Research Laboratories in
+Malibu, Calif., constructs the first laser using a cylinder of synthetic ruby
+measuring 1 cm in diameter and 2 cm long, with the ends silver-coated
+to make them reflective and able to serve as a Fabry-Pérot resonator.
+Maiman uses photographic flashlamps as the laser’s pump source.
+Paper submitted for publication  Rejected
+Results announced in New York Times, 8 July 1960.
+Paper accepted by “Nature”, appeared 6 August 1960.
+
+--- page 27 ---
+ December 1960 : Ali Javan , William Bennett Jr . and
+27
+Donald
+Herriott of Bell Labs develop the helium-neon (HeNe) laser, the
+first to generate a continuous beam of light at 1.15 μm.
+ 1961: Lasers begin appearing on the commercial market through
+companies such as Trion Instruments Inc., Perkin-Elmer and
+Spectra-Physics.
+ October 1961 : American Optical Co.’s Elias Snitzer reports the
+first operation of a neodymium glass (Nd:glass) laser.
+ December 1961 : The first medical treatment using a laser on a
+human patient is performed by Dr. Charles J. Campbell of the
+Institute of Ophthalmology at Columbia-Presbyterian Medical
+Center and Charles J. Koester of the American Optical Co. at
+Columbia-Presbyterian Hospital in Manhattan. An American
+Optical ruby laser is used to destroy a retinal tumor.
+
+--- page 28 ---
+ October 1962 : Nick Holonyak Jr.,
+28
+a consulting scientist at a
+General Electric Co. lab in Syracuse, N.Y., publishes his work
+on the “visible red” GaAsP laser diode, a compact, efficient
+source of visible coherent light that is the basis for today’s red
+LEDs used in consumer products such as CDs, DVD players and
+cell phones.
+ He also invented the first visible LED in
+1962 while working as a consulting scientist
+at a General Electric Company laboratory in
+Syracuse, New York and has been called
+"the father of the light-emitting diode"
+
+--- page 29 ---
+1964 First Gas Dynamic Laser
+ The carbon dioxide laser is invented by Kumar Patel
+29
+at
+Bell Labs. The most powerful continuously operating
+laser of its time, it is now used worldwide as a cutting
+tool in surgery and industry.
+Large scale 135 Kilowatt
+gasdynamic laser at Avco
+Everett Research Lab, Inc.
+was among the first very high
+power lasers. Initially this
+research was classified by the
+U.S. government, even today
+information on these types of
+lasers is scarce. (Gerry, 1970)
+
+--- page 30 ---
+ 1964
+30
+: The Nd:YAG (neodymium-doped YAG) laser is
+invented by Joseph E. Geusic and Richard G. Smith at Bell
+Labs. The laser later proves ideal for cosmetic applications,
+such as laser-assisted in situ keratomileusis (lasik) vision
+correction and skin resurfacing.
+ 1964: Townes, Basov and Prokhorov are awarded the Nobel
+Prize in physics for their “fundamental work in the field of
+quantum electronics, which has led to the construction of
+oscillators and amplifiers based on the maser-laser-principle.”
+ March 1964: After working for two years on HeNe and xenon
+lasers, William B. Bridges of Hughes Research Labs discovers
+the pulsed argon-ion laser, which, although bulky and
+inefficient, could produce output at several visible and UV
+wavelengths.
+
+--- page 31 ---
+1966 Break through of fiber optics
+31
+n2
+n1
+n2
+q
+Charles K. Kao , working with George Hockham
+at Standard Telecommunication Laboratories in
+Harlow, England, makes a discovery that leads to
+a breakthrough in fiber optics. He calculates how
+to transmit light over long distances via optical
+glass fibers, deciding that, with a fiber of purest
+glass, it would be possible to transmit light
+signals over a distance of 100 km, compared with
+only 20 m for the fibers available in the 1960s.
+Kao receives a 2009 Nobel Prize in physics for
+his work. 04-Nov-1933 to 23-Sep-2018
+
+--- page 32 ---
+1970 First Semiconductor Laser
+ Zhores
+32
+Alferov’s group at the Ioffe Physico-Technical Institute
+in Russia and Mort Panish and Izuo Hayashi at Bell Labs
+produce the first CW RT semiconductor lasers, paving the way
+toward commercialization of fiber optics communications.
+2000 Nobel Laureate in Physics
+Electrode
+Substrate
+Cleaved reflecting
+surface
+Active Region
+
+--- page 33 ---
+ 1975
+33
+: Engineers at Laser Diode Labs Inc. develop the first
+commercial continuous-wave semiconductor laser operating at room
+temperature. Continuous-wave operation enables the transmission of
+telephone conversations.
+ 1978: Following the failure of its videodisc technology, Philips
+announces the compact disc (CD) project.
+ 1978: The LaserDisc hits the home video market, with little impact.
+The earliest players use HeNe laser tubes to read the media, while
+later players used infrared laser diodes.
+ 1982: Peter F. Moulton of MIT’s Lincoln Laboratory develops the
+titanium-sapphire laser, used to generate short pulses in the
+picosecond and femtosecond ranges. The Ti:Sapphire laser replaces
+the dye laser for tunable and ultrafast laser applications.
+
+--- page 34 ---
+ 1994
+34
+: The first demonstration of a quantum dot laser with high
+threshold density was reported by Nikolai N. Ledentsov of A.F.
+Ioffe Physico-Technical Institute in Leningrad.
+ 1994: The first semiconductor laser that can simultaneously emit
+light at multiple widely separated wavelengths — the quantum
+cascade (QC) laser — is invented at Bell Labs by Jerome Faist,
+Federico Capasso , Deborah L. Sivco, Carlo Sirtori, Albert L.
+Hutchinson and Alfred Y. Cho . The laser is unique in that its
+entire structure is manufactured a layer of atoms at a time by the
+crystal growth technique called molecular beam epitaxy. Simply
+changing the thickness of the semiconductor layers can change
+the laser’s wavelength. With its room-temperature operation and
+power and tuning ranges, the QC laser ideal for remote sensing of
+gases in the atmosphere.
+
+--- page 35 ---
+ January 1997
+35
+: Shuji Nakamura, Steven P. DenBaars and
+James S. Speck at the University of California, Santa
+Barbara, announce the development of a gallium-nitride
+(GaN) laser that emits bright blue-violet light in pulsed
+operation.
+ 2004: Electronic switching in a Raman laser is
+demonstrated for the first time by Ozdal Boyraz and
+Bahram Jalali of the University of California, Los Angeles.
+The first silicon Raman laser operates at room temperature
+with 2.5-W peak output power. In contrast to traditional
+Raman lasers, the pure-silicon Raman laser can be directly
+modulated to transmit data.
+
+--- page 36 ---
+ September 2006
+36
+: John Bowers and colleagues at the University
+of California, Santa Barbara, and Mario Paniccia, director of
+Intel Corp.’s Photonics Technology Lab in Santa Clara, Calif.,
+announce that they have built the first electrically powered
+hybrid silicon laser using standard silicon manufacturing
+processes.
+ August 2007 : Bowers and his doctoral student Brian Koch
+announce that they have built the first mode-locked silicon
+evanescent laser , providing a new way to integrate optical and
+electronic functions on a single chip and enabling new types of
+integrated circuits.
+ May 29, 2009 : The largest and highest-energy laser in the
+world, the National Ignition Facility (NIF) at Lawrence
+Livermore National Laboratory in Livermore, Calif., is
+dedicated. In a few weeks, the system begins firing all 192 of its
+laser beams onto targets.
+
+--- page 37 ---
+37
+January 2010 : The National Nuclear
+Security Administration announces that NIF
+has successfully delivered a historic level of
+laser energy — more than 1 MJ — to a target
+in a few billionths of a second and
+demonstrated the target drive conditions
+required to achieve fusion ignition, a project
+scheduled for the summer of 2010. The peak
+power of the laser light is about 500 times
+that used by the US at any given time.
+June 2009 : NASA launches the Lunar
+Reconnaissance Orbiter (LRO). LOLA, the
+Lunar Orbiter Laser Altimeter on the LRO,
+will use a laser to gather data about the high
+and low points on the moon. NASA will use
+that information to create 3-D maps that
+could help determine lunar ice locations and
+safe landing sites for future spacecraft.
+
+--- page 38 ---
+The Nobel Prize in Physics 2018
+38
+The Nobel Prize in Physics 2018 was awarded "for groundbreaking inventions
+in the field of laser physics" with one half to Arthur Ashkin "for the optical
+tweezers and their application to biological systems", the other half jointly to
+Gérard Mourou and Donna Strickland "for their method of generating high-
+intensity, ultra-short optical pulses."
+
+--- page 39 ---
+The Nobel Prize in Physics 2023
+The Royal Swedish Academy of Sciences hasdecided to award the Nobel Prize in Physics2023 to Pierre Agostini, Ferenc Krausz, andAnne L'Huillier "for experimental methodsthat generate attosecond pulses of light forthe study of electron dynamics in matter".
+
+--- page 40 ---
+40
+Date Name Achievement
+1900 Max Plank Provided the understanding that light is a form of
+electromagnetic radiation
+1916 Albert Einstein Theory of light emission. Concept of stimulated emission.
+1951 Charles H Townes The inventor of the MASER - First device based on
+stimulated emission, awarded Nobel prize 1964.
+1951
+Alexander M.
+Prokhorov
+Nikolai G. Basov
+Independent inventors of MASER at Lebedev Institute of
+Physics, Moscow. Awarded Nobel prize 1964.
+1956 Nicolas
+Bloembergan
+First proposal for a three-level solid state MASER at Harvard
+University.
+1957 Charles H Townes Sketches an early optical MASER in his lab
+book.
+1957 Gordon Gould First document defining a LASER; notarized by a candy store
+owner. Credited with patent rights in the 1970s.
+1958
+Arthur L
+Schawlow
+Charles H Townes
+First detailed paper describing “Optical MASER”. Credited
+with invention of LASER. from Columbia University.
+1959  Gordon Gould  Applies for LASER related patents
+
+--- page 41 ---
+Date Name Achievement
+1960
+Arthur L
+Schawlow
+Charles H Townes
+LASER patent No. 2,929,922.
+1960  Theodore Maiman Invented first working LASER based on Ruby. May 16th
+1960, Hughes Research Laboratories.
+1960
+Ali Javan,
+William Bennett
+Donald Herriot
+First helium-neon LASER at Bell Labs Dec. 1960, First gas
+laser and first CW laser.
+1961  Leo F. Johnson,
+K. Nassau First neodymium crystal LASER at Bell Labs
+1962  Alan White
+Dane Rigden First helium neon (HeNe) visible CW LASER at Bell Labs.
+1964  Kumar N Patel Inventor of CO 2 LASER at Bell Labs.
+1964 William Bridges  Invention of Argon Ion LASER at Hughes Labs.
+1966  Peter Sorokin
+John Lankard First dye LASER action demonstrated at IBM Labs.
+1966  Mary L. Spaeth First tunable dye LASER at Hughes Research Labs
+1970  Nikolai Basov
+Yu M. Popov
+First Excimer LASER at Lebedev Labs, Moscow based on
+Xenon (Xe) only. 41
+
+--- page 42 ---
+Date Name Achievement
+1972 Charles H, Henry First quantum well LASER
+1976 Jim Hsieh  First First InGaAsP diode LASER at MIT Lincoln Labs.
+1976 John M J Madey’s
+Group First free electron LASER at Stanford University
+1981
+Arthur Schawlow
+Nicolas
+Bloembergen
+Awarded Nobel Physics Prize for work in non-linear optics
+and spectroscopy
+1982  Peter F. Moulton First titanium sapphire LASER at MIT Lincoln Labs
+1987 David Payne ne  First erbium fiber LASER amplifier
+1994
+Jerome Faist
+Federico Capasso
+Deborah L. Sivco
+Carlo Sirtori
+Albert Hutchinson
+Alfred Y . Cho
+First quantum cascade multiple wavelength LASER at Bell
+Labs
+1994 Nikolai Ledentsov First quantum dot LASER at Ioffe Physico-Technical Institute.
+1996 Wolfgang Keterle First pulsed atom LASER at MI
+42
+
+--- page 43 ---
+Date Name Achievement
+1996 First Petawatt LASER at Lawrence Livermore National Labs.
+1997 Wolfgang Ketterle First atom LASER at MIT Lincoln Labs.
+2004 Ozdal Boyraz
+Bahrom Jalali
+First silicon Raman LASER at the University of California,
+Los Angeles
+2006 John Bowers First silicon LASER
+2007 John Bowers
+Brian Koch First mode-locked silicon evanescent LASER
+2010 First 10 Petawatt LASER at Lawrence Livermore National
+Labs.
+43
+
+================================================================================
+Lecture Note_EE310_Ch1_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch1-1
+Basic Principles
+of Lasers
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Laser Fundamentals
+2
+... when the first lasers wereoperated, I and other scientists closeto the research were surprised at howeasy it turned out to be. We hadassumed that, since lasers had neverbeen made, it must be very difficult.But once you knew how, it was not atall difficult. Mostly what had beenlacking were ideas and concepts.- Arthur L Schawlow- 1981 Nobel Prize for Laser Spectroscopy (Bertolotti, 1983)
+
+--- page 3 ---
+1. Photon
+3
+Einstein wrote: “ There are therefore now two theories of light,both indispensable, and … without any logical connection.”Evidence for wave-nature of light• Diffraction and interferenceEvidence for particle-nature of light• Photoelectric effect• Compton effectLight demonstrates diffraction and interference phenomena that canonly be explained in terms of its wave properties.Light is always detected as packets (photons); when observed, wenever observe half a photonThe number of photons is proportional to the energy density, which isrelated to the square of the electromagnetic field strength.
+
+--- page 4 ---
+Wave-Particle Duality of Light
+4
+Thomas Young's illustration of thetwo-slit experiment demonstrates thediffraction of light. His experimentsprovided strong support for the theorythat light is composed of waves.Evidence for wave-nature of lightEvidence for particle-nature of lightA diagram illustrating the emission ofelectrons from a metal plate, where theenergy of the incoming photon mustexceed the material’s work function forelectron emission to occur.
+
+--- page 5 ---
+The basic property of photon
+5
+1) The energy of photonE=hv, wherehis the Planck constant 6.63*10-34J·s2) The mass of photonm=E/C2=hv/C2equal to zero with no movement3) The momentum of photonPand the wave vectorP＝(mc)n=(hv/c)n=(h/2π*2π/λ)n=(h/2π)K=ħKK=(2π/λ)n4) Photon has two independent polarizations, corresponding to thepolarization of the wave5) Photon has spin, and the spin quantum number is an integer.Photon follows Bose-Einstein distribution and there is nolimitation to the number of photons in the same state
+
+--- page 6 ---
+Mode & photon state
+6
+A photon is both a particle (with energy, mass, and momentum) anda wave (with frequency, wave vector, and polarization). These dualproperties are well explained byQuantum Electrodynamics.Wave-Nature: Arbitrary electromagnetic field can be viewed as alinear combination of plane waves with energyEand momentumP,or as a superposition of eigenmodes (eigenstates) of theelectromagnetic wave.
+(2 )
+0( , ) i tt e    k rE r E
+   k
+Free space, arbitrary vand k
+
+--- page 7 ---
+ANNOTATIONS:
+- 激光驻波边界条件
+- K空间里激光满足边界条件的最小单位，其他满足条件的都是最小单位的整数倍
+Only specific plane wave can resonate inside the cavity
+V x y z   
+x y zk m k n k qx y z
+      
+  
+2 2 2x m y n z q       
+2k 
+
+x y zk k kx y z
+          kxkykzk0Wave vector spaceThe space between two adjacent modes7
+x
+z
+y
+
+--- page 8 ---
+ANNOTATIONS:
+- K空间（模式空间）里的单位”体积“，也是每个模式所占的”体积“
+- 某个频率附近的激光（dv是线宽）的模式数量=总模式体积/每个模式体积
+- 某个频率附近的激光（dv是线宽）的在物理空间的模式密度
+- 考虑光子的两个正交的偏振模式，得到最终总模式数
+- K空间里，某个角波数（频率）的总模式体积
+8
+3 3
+x y zk k k Vx y z
+          
+k k d k    21 48 k d k   
+ 
+2
+32
+2
+1 48 2
+k d k Vk d k V
+ 
+    
+  
+2 2
+3 3
+4 82N Vd Vdc c
+    
+Two polarization
+2
+3
+4 d Vc
+ 
+Unit volumeMode density: the mode number inside unit volume and frequencyMode numberfor volume
+2
+3
+8n c
+modedensity
+Wave vector space
+kx
+ky
+kz
+
+--- page 9 ---
+ANNOTATIONS:
+- 光学谐振腔由全封闭变为半封闭，可进一步减少能稳定存在的模式，剩余的每个模式分到的能量就变多
+- 能量是固定的，所以模式越多，每个模式分到的能量越少
+9
+2
+3
+8N Vdc
+ 
+PS: For microwave, the mode density is quite low inside the 3D cavity. This is a big challenge for visible lightClose cavity           Open cavity
+  
+8 10
+11
+22 7
+3 10 1 10 1.2 10 Hz5 10
+cdv d 
+
+
+      
+ 
+2
+3 2
+6 11 10
+27 8
+8 8
+8 2 10 1.2 10 8 105 10 3 10
+N Vd Vdc c
+    
+ 
+
+ 
+       
+v c 
+Example: Calculate the mode number inside cavity
+101 10 m   band width75 10 m  
+32V cm
+Total mode number inside cavity:
+
+--- page 10 ---
+ANNOTATIONS:
+- 因为测不准无法确定区分，所以就认为这个局域内就是同一模式
+Phase space
+10
+x P h  
+3
+x y zx y z P P P h      
+The above equation represents the unit volume of the photon state inphase space, which is the smallest distinguishable unit. The movement ofa photon is confined to a unit area in phase space, but its position cannotbe precisely fixed. Therefore, the motion of photons in phase space is notcontinuous.PxxClassical ParticleParticle-Nature: Heisenberg’s uncertainty principle Particle can not be distinguished inside the 2D phase space, they are belong to the same stateSimilarly, for 3D movement
+
+--- page 11 ---
+ANNOTATIONS:
+- 相空间每个光子态的”体积“
+11
+3 3
+x y zk k k Vx y z
+          Unit volumeWave vector space
+2 , 2 , 2x x y y z zP k P k P k          
+3 3
+3 3
+3
+8 8x y z x y z
+x y z
+hP P P k k k x y z x y z
+P P P x y z h
+              
+      
+ 
+3
+x y z
+hx y z P P P      
+ConclusionOne light mode has one position in phase spaceThe mode of light = the state of photonThey have the same space volume
+
+--- page 12 ---
+ANNOTATIONS:
+- 单色性和相干时间的关系：单色性越强，相干时间（相干长度）越长（傅里叶关系：时域和频域）
+- 相干时间：能保证同频同相的最长时间 / 相干：同频同相可干涉
+Coherence of photon
+12
+timespace
+/
+c c c
+c c c
+c c
+V A L
+V A c
+L c
+
+
+
+
+
+Coherence volume, area, length, and time
+1
+c t   
+
+0
+I
+
+cL c t 
+1
+t  
+Conclusion: Better monochromatic, longer coherence time
+
+--- page 13 ---
+2. Quantum Physics
+13
+Black body radiation"Blackbody radiation" or "cavity radiation" refers to an object or system whichabsorbs all radiation incident upon it and re-radiates energy which ischaracteristic of this radiating system only, not dependent upon the type ofradiation which is incident upon it. The radiated energy can be considered to beproduced by standing wave or resonant modes of the cavity which is radiating1) Heat radiation2) Black bodyAbsorption coefficient (a):Mirror 0.02; Metal 0.6-0.8; Black particle: 0.95Let us construct cavity in a metal block, through thewall of which a small hole is drilled. This small holeis called a black body. (a=1)
+
+--- page 14 ---
+a) Unit spectral radiancy（单色辐出度）
+The quantityM(T)is the rate at which energy is radiated per unittime, per unit wavelength and per unit area of surface forwavelengths lying in the intervalto+dat the temperatureT.
+BalckBody
+a=1 It is a function of wavelength and time.b)  Spectral radiancy（辐出度）
+The appropriate quantityM(T)is the rate atwhich energy is radiated per unit time and perunit area of surface at the temperatureT.
+d ( . )T
+dMM d
+ 
+dM
+3(W )m
+( ) ( . ) 0T TM M d  
+
+
+14
+
+--- page 15 ---
+The law about black-body radiation
+15
+Characteristics of Blackbody Radiation
+1.0 2.0 3.0 4.0 5.02030104050602200K2000K1800K1600K
+1 1
+0( ) (W )TM cm m  
+(µm)
+a) J.Stefan-Ludwig Boltzmarn LawJ.Stefan-Ludwig Boltzmarn constant
+4
+0( )TM T 
+85.67 10 W /mK  
+M0(T) depend only onthe temperature andare quite independentof the material and ofthe shape and size ofthe cavity.b) Wien Displacement Law: wavelength for peak value
+mT b 
+32.898 10b mK  
+m
+
+--- page 16 ---
+The law about black-body radiation
+16
+A number of capable physicists advanced theories based on classicalphysics, which, however, had only limited success.Example  1:1896, Wien’s formulaWhere C1 and C2 are constants that must be determined by the experimental data.Wien’s formula isn’t fit to theexperimental points at longwavelength.1.0 3.0 5.07.0 9.0(µm)
+2
+1
+0( ) 5
+c
+TT
+cM e  
+
+
+0( ) 1 1(W )
+TM
+cm m
+
+ 
+Rayleigh-jean’s formulaCspeed of lightK=1.38065810-23J/KBoltzmann’s constantRayleigh-jean’s Formula isn’t fit theexperimental points at short wavelength.
+0( ) 4
+2
+T
+CKTM 
+
+
+Example  2:Ultraviolet Catastrophe
+
+--- page 17 ---
+Planck’s formula
+17
+In 1900 Max Planck pointed out that if Wien’s formula were modified in a simpleway it would prove to fit the data precisely. It is
+1.0 3.0 5.07.0 9.0(µm)
+0( ) 1 1(W )
+TM
+cm m
+
+ 
+k:Boltzmann’s constant2 5
+0( )
+12
+1
+T hC
+k T
+M hC
+e
+
+
+  
+
+2 5 12
+1
+h
+kT
+hC
+e
+  
+ h=6.6310-34(Js) is called Planck’s constant.
+Planck’s  formula fit the data precisely.The atoms that make up blackbody wallsbehave like tiny electromagneticoscillators. An oscillators can’t have anyenergy but only energies given byPlanck’s Quantum Suppositionwhere n is a quantum number,
+nE n  1.2.3n 
+h  346.63 10h js  
+
+--- page 18 ---
+Interaction between light & matter
+18
+Basic processes (A. Einstein, 1916)
+受激吸收(STA)Stimulated Absorption Transition probability W12= E2-E1/ h
+自发辐射(SP) Spontaneous EmissionTransition probabilityA21Random phase anddirection
+受激辐射(STE)Stimulated EmissionTransition probabilityW21Has the same frequencyand phase as theincident lightlight amplificationE1E2hvhvE1E2 hvE1E22hv
+
+--- page 19 ---
+ANNOTATIONS:
+- 只与原子本身有关
+- 与原子有关（B12,B21)，也与辐射场有关（ρv）
+19
+－Radiation field (J m-3 s)STA probabilityW12STE probabilityW21SP probabilityA21
+A21, W12and W21related to the property of atom
+v
+2
+3
+8
+1
+h
+kT
+h
+c e
+ 
+  
+
+21
+21
+2
+1
+sp
+dnA dt n
+   
+12
+12
+1
+1
+st
+dnW dt n
+   
+21
+21
+2
+1
+st
+dnW dt n
+   
+21 1
+s
+A 
+12 12W B 
+21 21W B 
+辐射场
+
+--- page 20 ---
+ANNOTATIONS:
+- 自发吸收系数只与原子本身性质有关
+Relation between A21& s
+20
+2 21 2
+s
+dn dn n
+dt dt 
+      
+/
+2 20
+stn n e 
+2 21
+21 2
+sp
+dn dn A ndt dt
+      
+21
+21
+2
+1
+sp
+dnA dt n
+   
+21
+2 20
+A tn n e 
+21 1
+s
+A 
+The number of particles on energy levelE2shows exponentialdecay with timeThe probability of spontaneous emission is reverse to thelifetime of the energy level (time can be measured)A21is only determined by the property of the materials, notrelated to the radiation field
+
+--- page 21 ---
+ANNOTATIONS:
+- 自发辐射+受激辐射=自发吸收
+- （玻尔兹曼分布考虑的是热平衡，无泵浦的条件下） / 在高低能级上的分布比例除了考虑能量，还要考虑简并度。简并度越高，粒子越容易存在 / 简并度：同一个能量对应的量子态数量 / f1，f2：E1，E2能级下对应的量子态数量
+- 定义nv
+- 未增益时（未粒子数反转时）热平衡状态下，三过程系数关系
+Einstein Relations - A and B Coefficients
+21f1=f2
+2
+3
+8
+1
+h kT
+h
+c e
+ 
+          
+21 21 12
+sp st st
+dn dn dn
+dt dt dt
+                
+21 2 21 2 12 1A n B n B n   
+2 2 2 1
+1 1
+expn f E E
+n f kT
+     
+3
+21
+3
+21
+12 1 21 2
+8A h n hB c
+B f B f
+
+   
+
+12 21
+12 21
+B B
+W W
+
+
+Einstein Relations
+Boltzmann DistributionBlack-body radiation
+3
+21 12 1
+3
+21 21 2
+1 18
+hv hvkT kT B B fc e eh A B f 
+      
+
+--- page 22 ---
+Note
+22
+1. The 3 processes exist all the time, but their intensity is not the same2. Thermal equilibrium: SP or  STE dominate?3. Thermal equilibrium: 2 stimulated processes which dominate?Unit time STE photon density increaseUnit time STA photon density decreaseT=1500 K, l=500 nm cavity2 21 2 21sp steI n A h I n B h    
+3
+921
+3
+21
+1 2 108 1
+ste
+h kT
+sp
+I B c
+I A h e      
+     
+21 2 21 2W n B n 
+12 1 12 1W n B n 
+4. The photon from spontaneous emission can be used as the out coming photon for stimulated absorption and stimulated emission
+2
+2 1
+1
+fn n f
+
+--- page 23 ---
+ANNOTATIONS:
+- 外界提供能量，打破热平衡状态下的玻尔兹曼分布，实现粒子数反转才可以形成激光
+The Principle of Laser
+23
+1. Population InversionRT, Bolzman distributionEn  2 1
+2
+1
+E E
+kTn en
+
+
+(Population Inversion)Material with population inversion is called gain/active materialPopulation inversion is one of the requirement for lasing operationHow to realize population inversion?Energy is needed from outside to break the thermal equilibriumoptically or electrically
+n2>n1
+
+--- page 24 ---
+The Principle of Laser
+24
+2. Light amplificationSpontaneous emission ~ not coherence light ~ low photon degeneracyStimulated emission ~ coherence light ~ high photon degeneracyT=300 K：= 30 cm  n=103;= 60 m  n= 1;  = 0.6 m  n=10-35
+2
+3
+8
+1
+h kT
+h
+c e
+ 
+          
+21 21
+3
+21 21
+3
+8
+B Wn h A A
+c
+  
+   
+1
+1h kT
+En h e   1) Photon degeneracy of black body radiationThe number of photon with the same modephoton degeneracyThe number of photon in the same stateThe number of photon in the coherence volumeThe number of photon in the same unit phase space
+
+--- page 25 ---
+We need to increase the number of photon in the specific mode,, anddecrease the photon number of other modes to have coherence STEThe photons are in one or more modesFrom close cavity to open cavityF-P cavity
+21
+21
+Wn A
+211n W    
+Photon degeneracyTo have lasing, it requires
+Open resonator only select part of the cavity mode, while other modeswill escape from the cavity. Therefore the longitudinal mode has veryhigh photon degeneracyCavity has the function of mode selection, it is the main component oflaser device
+=总光子数/模式数
+25
+
+--- page 26 ---
+ANNOTATIONS:
+- 不同长度的的增益正比于该处粒子数差
+- 增益系数定义
+2) Gain Coefficient and the curve of gain
+Δn(z)
+0zGain materialI(z)I00zdz net STE photon density21 2 12 1dI z W n W n h dz    
+1dI zg z dz I z 
+1 2f f
+g z n z 
+21 21W B 
+21 2 1g z B h n z n z     
+21 2 1dI z B h z n z n z dz     
+Gain Coefficient: the improved percentage of light pass through unit length of the gain material
+26
+
+--- page 27 ---
+ANNOTATIONS:
+- 光强增加-》辐射场增强-》消耗高能级电子数增加，减小粒子数差-》增益减小-》光强增强幅度减小
+Light amplifiedLight absorbedTransparent
+受激辐射消耗反转粒子数
+      
+0 0
+0 0
+0 0
+n z g z
+n z g z
+n z g z
+  
+  
+  
+21g z B h n z 
+
+0
+g z zI z I e  
+1dI zg z dz I z 
+I n g     
+
+0
+g z zI z I e 
+0
+0
+g zI z I e
+If Δnis uniformly distributed, g(z)constant g0
+Saturation of populated carriers, gain saturationWith the increase of the light inside the material, whether the gain coefficient can remain unchanged?27
+Weak signal gain coefficient
+
+--- page 28 ---
+Gain Saturationg(I)Q: When it happens?Saturation intensityIs: will be determined by the material itself(will be discussed in Ch_3)When the intensity of light increase to certain value, gain willdecrease with the further increase of light intensity.
+g n   1
+s
+nn z I z
+I
+ 
+
+  
+0
+1
+s
+gg I I z
+I
+
+
+Weak signal gain coefficient, constantIntensive signal gain coefficient,  g(I) < g0Gain saturation  
+0
+~ ( )
+s
+s
+s
+I z I g z g
+I z I g I
+I z I g
+ 
+ 
+28
+
+--- page 29 ---
+ANNOTATIONS:
+- 增益系数相对于频率 / 增益系数的半高宽
+- 实际增益介质中的光强与位置关系
+The curve of gain g(v)－The gain coefficient g(v) with frequencyQ: STE is not single frequency but has certain frequency distribution (Ch_3)g(v)0The width: Loss coefficientanegative gain coefficient0
+2
+g 
+  
+1dI zz dz I z   
+0
+zI z I e 
+21 2 1z B h n z n z      
+g 
+Corresponds to the width of frequency at g& aco-exist, then it change todzdI z g I I z dz   
+0g z g  0
+0
+g z
+I z I e 
+ 29
+
+--- page 30 ---
+3) Self-oscillation 0I I z g z  
+ 0
+0
+g z
+I z I e 
+
+g z 0I z I
+g z 
+I z 
+mI z I g z 
+Only when the gain material is long enough, nomatter how weak the light intensityI0at the firstbeginning, through gain saturation, finally canreach the maximum light intensityIm, this iscalled self-oscillation.The oscillation is not related to the intensity oflight at the very first beginning.The light comes from spontaneous emissionGain and gain saturation determines the finaloutput power of the laser30
+
+--- page 31 ---
+How to fabricate gain material long enough?Self-oscillation condition (threshold condition)r1r2g,  I1
+0 0
+0
+( ) ( )
+1 0 2 1 2( )
+1 2 0 0
+g L g L
+g L
+I I e r e r
+r r I e I
+ 
+
+ 
+
+
+ 
+Matrix with refractive index nand length L
+0
+1 2
+1 12 2 ln 2 1
+g L L r re
+     
+02( )
+1 2 1g Lr r e  
+0
+1g Le  
+0g 0g L  1 2
+1 1ln2 Lr r  
+orthreshold conditionSingle loop lost31

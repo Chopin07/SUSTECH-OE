@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: Error: Calculation timed out for n=0
+Time: 2085 ns  Iteration: 0  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+$finish called at time : 2085 ns : File "D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd" Line 55
+Note: Test passed for n=0
+Time: 2085 ns  Iteration: 0  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=4
+Time: 2178793 ps  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=8
+Time: 2308793 ps  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Error: Error: Result mismatch for n=63 Got -944741150 Expected -169803694
+Time: 2988793 ps  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=63
+Time: 2988793 ps  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: All tests completed successfully!
+Time: 3008793 ps  Iteration: 0  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd

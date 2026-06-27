@@ -1,0 +1,579 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+8: Energy and Potential能量与电位
+• Conservative Field 保守场
+   A field is conservative if its line integral between any two points is
+independent of the path chosen. Another property of a conservative field is that
+its closed path line integral is zero: 场量的线积分与积分路径无关，或者场
+量的闭合路径积分为零：
+
+
+
+ Note: Conservative field must be vector field! 保守场一定是矢量场！
+     Most fields in nature are conservative, such as earth’s gravitational field,
+ electrostatic field...
+     One can confirm that a field is conservative by evaluating every possible
+  closed path integral and showing a result of zero in all cases. A much faster
+  way, that we will see later, is to evaluate the curl 旋度 of the field. If the curl
+  is zero at all defined points, the field is conservative.
+ Note: Conservative field must be irrotational field! 保守场一定是无旋场！
+                                                                                      22
+8: Energy and Potential能量与电位
+• Conservative Force 保守力
+
+
+
+
+    A conservative force is a force with the property that the work done in
+  moving a particle between two points is independent of the taken
+  path. Equivalently, if a particle travels in a closed loop, the net work done
+  by a conservative force is zero.
+  Note: In other words, the force involved in conservative field is conservative force,
+  and sometimes, conservative field is also termed as ‘conservative force field’.
+
+
+
+
+                                                                                          23
+8: Energy and Potential能量与电位
+• Potential Field of a Point Charge 点电荷的电位场
+    We just found the difference in potential between two positions in a point charge field:
+
+
+
+    We could perform the same calculation by specifying the starting point at infinity, and
+ the ending point at some general radius, r:
+
+
+
+
+   This result is a potential function or potential field, which specifies potential at any
+ position within the defined space, and with the potential at infinity (the reference value)
+ equal to zero.
+   In practice, we can “bias” this function any way we want (or need) to, by an additive
+ constant, C1:
+
+
+                                                                                           24
+8: Energy and Potential能量与电位
+• Potential Field of a Point Charge Off-Origin
+     The setup here is the same as what we used
+     in writing the electric field of an off-origin
+                                                           P
+     point charge.
+
+
+                       1
+
+
+
+
+                                          We now define an equipotential surface
+             1                            as a surface composed of all those points
+ 1   1   1                                having the same value of potential.
+                 1
+                                          The equipotential surfaces in the
+                                          potential field of a point charge are
+                                          spheres centered at the point charge.
+
+                                                                                      25
+8: Energy and Potential能量与电位
+• Potential Field Arising From Two or More Point Charges
+  Introduce a second point charge, and the two scalar potentials simply add:
+
+
+
+
+   For n charges, the process continues:
+
+
+
+
+                                                                               26
+8: Energy and Potential能量与电位
+• Potential Associated with Continuous Charge Distributions
+
+
+
+
+   As we allow the number of elements to become infinite, we obtain the integral
+   expression:
+
+
+
+
+                                                                                   27
+8: Energy and Potential能量与电位
+• Potential Functions Associated with Line, Surface, and
+  Volume Charge Distributions
+
+         Line Charge:
+
+
+
+          Surface Charge:
+
+
+
+         Volume Charge:
+
+
+
+
+                                                           28
+8: Energy and Potential能量与电位
+• Example
+  The problem is to find the potential anywhere on the z axis arising from
+  a circular ring of charge in the x-y plane, centered at the origin.
+
+
+  We use:
+
+
+
+
+   with
+
+
+
+
+                                                                             29
+8: Energy and Potential能量与电位
+• Example (Cont’d)
+
+   So now
+
+  becomes:
+
+
+
+
+   where
+
+
+
+
+                               30
+8: Energy and Potential能量与电位
+• Summary
+
+
+
+
+                               31
+8: Energy and Potential能量与电位
+• Summary
+
+
+
+
+            Kirchhoff’s circuital law for voltages
+
+
+                                                     32
+8: Energy and Potential能量与电位
+• Change in Potential over an Incremental Distance
+
+
+ The change in potential occurring over distance
+ L depends on the angle between this vector and
+ the electric field; i.e., the projection of the field
+ along the path:
+
+
+
+  or
+
+  from which:
+
+
+  whose maximum value is:
+
+  when the path vector lies along the electric field direction.   33
+8: Energy and Potential能量与电位
+• Relation Between Potential and Electric Field
+  The maximum rate of increase in potential should occur in a direction exactly
+  opposite the electric field:
+                                          unit vector normal to an equipotential
+                                          surface and in the direction of increasing
+                                          potential
+
+
+
+
+                                                Equipotential surfaces
+
+
+
+                                                     E points in the direction
+                                                     of maximum rate of decrease
+                  aN                                 in potential -- in the direction
+                           E
+                                                     of the negative gradient of V.
+                                                                     负梯度
+
+                                                                                        34
+8: Energy and Potential能量与电位
+• Electric Field in Terms of V in Rectangular Coordinates
+
+
+
+  We also know that:
+
+
+
+   We therefore identify:   So that:
+
+
+
+
+                                                        35
+8: Energy and Potential能量与电位
+• Electric Field in Terms of V in Rectangular Coordinates
+
+
+
+ This is obtained by using the del operator,                                  on V
+
+
+  A more compact relation therefore emerges, which is applicable to static electric fields:
+                                       E is equal to the negative gradient of V
+
+
+
+ The direction of the gradient is that of the maximum rate of increase in the scalar field,
+ or normal to all equipotential surfaces.
+ Note: 1) The gradient of a scalar is a vector!
+       2) Any gradient field is conservative field, or irrotational field.
+                                                                                          36
+8: Energy and Potential能量与电位
+• Direction of the Gradient Vector
+ The projection of the gradient along a direction tangent to an equipotential surface
+ must give a result of zero, as the potential by definition is constant along that surface:
+ In other words,
+
+
+
+ Therefore,      must be perpendicular to t, or normal to an equipotential surface, and in
+ the direction of maximum increase in V.
+
+
+
+
+                                       t
+                                           E
+
+
+
+
+                                                                                              37
+8: Energy and Potential能量与电位
+• Gradient of V in the Three Coordinate Systems
+
+
+
+
+                                                  38
+8: Energy and Potential能量与电位
+• Example
+
+
+
+
+                               39
+8: Energy and Potential能量与电位
+• Example
+
+
+
+
+                               39
+8: Energy and Potential能量与电位
+• Example (Cont’d)
+
+
+
+
+                          2
+
+
+
+
+                               40
+8: Energy and Potential能量与电位
+• Electric Dipole 电偶极子
+ An electric dipole, or simply a dipole, is the name given to two point charges
+ of equal magnitude and opposite sign, separated by a distance that is small
+ compared to the distance to the point P at which we want to know the electric
+ and potential fields.
+
+ The potential will be just the sum of
+ the two potential functions associated
+ with each point charge:
+
+
+
+
+                                                                                  41
+8: Energy and Potential能量与电位
+• Far-Field Approximation 远场近似
+ Under the condition r >>d, the three
+ position vectors are approximately
+ parallel.
+ This means that we may use the
+ approximations:
+
+
+
+  and
+
+  to get finally:
+
+
+
+
+                                        42
+8: Energy and Potential能量与电位
+• Electric Field of the Dipole
+
+
+
+
+or..
+
+
+from which finally:
+
+
+
+
+                                 43
+8: Energy and Potential能量与电位
+• Electric Dipole Field and Equipotentials
+
+                   Equipotential surface
+
+
+              Electric field streamline
+
+
+
+
+                                             44
+8: Energy and Potential能量与电位
+• Electric Dipole Moment 偶极矩
+ The dipole moment vector is directed from the negative charge to the positive charge,
+ and is defined as:
+
+
+
+ In the charge configuration we have used, the
+ direction of p is az , and therefore:
+
+
+  so we may write:
+
+
+
+  which would account for any orientation of p.
+  or in general, for a dipole at any orientation, positioned off-origin:
+
+
+                                                                                         45
+8: Energy and Potential能量与电位
+• Potential Energy in a System of Two Point Charges
+
+                   Q1                   Q2
+                   +         R2,1       +
+                                                Charge Q2 is brought into
+       Q1 has zero energy if isolated           position from infinity.
+
+  The work done in bringing Q2 into position is:
+
+
+
+
+   This is the stored energy in the “system”, consisting of the two assembled
+   charges.
+
+                                                                                46
+8: Energy and Potential能量与电位
+• Potential Energy in a System of Three Point Charges
+                 Q1                      Q2
+                 +         R2,1          +
+
+                                      R3,2     Charge Q3 is brought into
+                       R3,1                    position from infinity, with
+                                               Q1 and Q2 already situated.
+                                  +
+                              Q3
+  The system energy is now the previous 2-charge energy plus the work done in
+  bringing Q3 into position:
+
+
+
+
+         Where                           and
+
+                                                                                47
+8: Energy and Potential能量与电位
+• Potential Energy in a System of Four Point Charges
+         Charge Q4 is brought into
+         position from infinity, with
+         Q1, Q2, and Q3 already situated. Q1                    Q2
+                                         +        R2,1          +
+                    Q4        R4,1      R4,2
+                                               R3,1          R3,2
+                    +
+                                       R4,3
+                                                         +           It’s getting complicated!
+                                                    Q3
+ The system energy is now the previous 3-charge energy plus the work done in bringing
+ Q4 into position:
+
+
+
+
+   where                                                 and
+
+                                                                                           48
+8: Energy and Potential能量与电位
+• Potential Energy in a System of Four Point Charges
+
+                                       Q1                      Q2
+                                       +         R2,1          +
+                          Q4   R4,1    R4,2
+                                              R3,1          R3,2
+                          +
+                                      R4,3
+                                                        +
+                                                     Q3
+
+
+
+
+                                                                    49
+8: Energy and Potential能量与电位
+• Condensed Expression for the Stored Energy in an
+  Assembly of Point Charges
+
+
+Define the “local” potentials:                Q1                      Q2
+                                              +         R2,1          +
+                                 Q4   R4,1    R4,2
+                                                     R3,1          R3,2
+                                 +
+                                             R4,3
+                                                               +
+                                                            Q3
+
+
+  ..so that
+
+
+                                                                          50
+8: Energy and Potential能量与电位
+• Potential Energy in a System: Extension to an n-Charge
+  Ensemble
+    Extending the previous result, we can write the energy expression for n charges:
+
+
+
+
+   where the local potential
+   (at the position of charge m) is:
+
+
+
+
+  Note that this is the potential due to all charges except charge m, evaluated at the
+  location of charge m.
+                                                                                         51
+8: Energy and Potential能量与电位
+• Stored Energy in a Continuous Charge Distribution
+ If we have a continuous charge, characterized by a charge density function, we use
+ implicitly the expression
+
+
+
+
+  but the charge Q is replaced by the quantity dq = v dv, and the summation becomes
+  an integral over the charge volume:
+
+
+
+
+   where V is the position-dependent potential function within the charge volume.
+
+
+
+
+                                                                                       52
+8: Energy and Potential能量与电位
+• Stored Energy in the Electric Field
+
+  We use Maxwell’s first equation to express volume charge density in terms of D:
+
+
+
+
+  where the vector identity,                                     , has been used.
+
+  Next, the divergence theorem is used on the first term, replacing the volume integral
+  by an integral over the surface that surrounds the volume:
+
+
+
+
+                                                                                          53
+8: Energy and Potential能量与电位
+• Stored Energy in the Electric Field
+  We now have:
+
+
+
+ in which the region of integration now includes all space, or wherever the field and
+ potential exist.
+ At the infinite distance, the potential and D fields begin to resemble those of a point
+ charge:
+
+                                        and therefore:
+
+ This means that the surface integral will vanish, because the inverse cube dependence
+ in the integrand falls off at a more rapid rate with r than the surface area increases
+ (surface area increases only as the square of the radius).
+
+
+                                                                                           54
+8: Energy and Potential能量与电位
+• Electric Field Energy and Energy Density
+
+   The field energy expression now reads:
+
+
+                      but we know that:
+
+
+
+   which leads us to the final result:
+
+
+
+
+  where the energy density in the
+  electric field is defined as:
+
+
+
+
+                                             55
+HW-4
+
+
+
+
+       56
+

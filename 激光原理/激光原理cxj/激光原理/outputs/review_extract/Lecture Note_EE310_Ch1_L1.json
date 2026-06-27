@@ -1,0 +1,430 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh1-1\nBasic Principles\nof Lasers\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Laser Fundamentals\n2\n... when the first lasers wereoperated, I and other scientists closeto the research were surprised at howeasy it turned out to be. We hadassumed that, since lasers had neverbeen made, it must be very difficult.But once you knew how, it was not atall difficult. Mostly what had beenlacking were ideas and concepts.- Arthur L Schawlow- 1981 Nobel Prize for Laser Spectroscopy (Bertolotti, 1983)",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "1. Photon\n3\nEinstein wrote: “ There are therefore now two theories of light,both indispensable, and … without any logical connection.”Evidence for wave-nature of light• Diffraction and interferenceEvidence for particle-nature of light• Photoelectric effect• Compton effectLight demonstrates diffraction and interference phenomena that canonly be explained in terms of its wave properties.Light is always detected as packets (photons); when observed, wenever observe half a photonThe number of photons is proportional to the energy density, which isrelated to the square of the electromagnetic field strength.",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "Wave-Particle Duality of Light\n4\nThomas Young's illustration of thetwo-slit experiment demonstrates thediffraction of light. His experimentsprovided strong support for the theorythat light is composed of waves.Evidence for wave-nature of lightEvidence for particle-nature of lightA diagram illustrating the emission ofelectrons from a metal plate, where theenergy of the incoming photon mustexceed the material’s work function forelectron emission to occur.",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "The basic property of photon\n5\n1) The energy of photonE=hv, wherehis the Planck constant 6.63*10-34J·s2) The mass of photonm=E/C2=hv/C2equal to zero with no movement3) The momentum of photonPand the wave vectorP＝(mc)n=(hv/c)n=(h/2π*2π/λ)n=(h/2π)K=ħKK=(2π/λ)n4) Photon has two independent polarizations, corresponding to thepolarization of the wave5) Photon has spin, and the spin quantum number is an integer.Photon follows Bose-Einstein distribution and there is nolimitation to the number of photons in the same state",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "Mode & photon state\n6\nA photon is both a particle (with energy, mass, and momentum) anda wave (with frequency, wave vector, and polarization). These dualproperties are well explained byQuantum Electrodynamics.Wave-Nature: Arbitrary electromagnetic field can be viewed as alinear combination of plane waves with energyEand momentumP,or as a superposition of eigenmodes (eigenstates) of theelectromagnetic wave.\n(2 )\n0( , ) i tt e    k rE r E\n   k\nFree space, arbitrary vand k",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "Only specific plane wave can resonate inside the cavity\nV x y z   \nx y zk m k n k qx y z\n      \n  \n2 2 2x m y n z q       \n2k \n\nx y zk k kx y z\n          kxkykzk0Wave vector spaceThe space between two adjacent modes7\nx\nz\ny",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "激光驻波边界条件",
+        "rect": [
+          248.628,
+          378.233,
+          596.922,
+          465.068
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "K空间里激光满足边界条件的最小单位，其他满足条件的都是最小单位的整数倍",
+        "rect": [
+          125.013,
+          68.466,
+          525.927,
+          172.835
+        ]
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "text": "8\n3 3\nx y zk k k Vx y z\n          \nk k d k    21 48 k d k   \n \n2\n32\n2\n1 48 2\nk d k Vk d k V\n \n    \n  \n2 2\n3 3\n4 82N Vd Vdc c\n    \nTwo polarization\n2\n3\n4 d Vc\n \nUnit volumeMode density: the mode number inside unit volume and frequencyMode numberfor volume\n2\n3\n8n c\nmodedensity\nWave vector space\nkx\nky\nkz",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "K空间（模式空间）里的单位”体积“，也是每个模式所占的”体积“",
+        "rect": [
+          65.711,
+          404.116,
+          572.701,
+          487.611
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "某个频率附近的激光（dv是线宽）的模式数量=总模式体积/每个模式体积",
+        "rect": [
+          65.711,
+          208.738,
+          795.709,
+          308.932
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "某个频率附近的激光（dv是线宽）的在物理空间的模式密度",
+        "rect": [
+          559.337,
+          61.7864,
+          781.51,
+          173.67
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "考虑光子的两个正交的偏振模式，得到最终总模式数",
+        "rect": [
+          242.782,
+          43.4175,
+          551.82,
+          178.679
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "K空间里，某个角波数（频率）的总模式体积",
+        "rect": [
+          71.5577,
+          314.777,
+          721.373,
+          396.602
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "9\n2\n3\n8N Vdc\n \nPS: For microwave, the mode density is quite low inside the 3D cavity. This is a big challenge for visible lightClose cavity           Open cavity\n  \n8 10\n11\n22 7\n3 10 1 10 1.2 10 Hz5 10\ncdv d \n\n\n      \n \n2\n3 2\n6 11 10\n27 8\n8 8\n8 2 10 1.2 10 8 105 10 3 10\nN Vd Vdc c\n    \n \n\n \n       \nv c \nExample: Calculate the mode number inside cavity\n101 10 m   band width75 10 m  \n32V cm\nTotal mode number inside cavity:",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "光学谐振腔由全封闭变为半封闭，可进一步减少能稳定存在的模式，剩余的每个模式分到的能量就变多",
+        "rect": [
+          444.074,
+          42.5825,
+          755.618,
+          83.4951
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "能量是固定的，所以模式越多，每个模式分到的能量越少",
+        "rect": [
+          79.9101,
+          85.9999,
+          736.407,
+          143.612
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "Phase space\n10\nx P h  \n3\nx y zx y z P P P h      \nThe above equation represents the unit volume of the photon state inphase space, which is the smallest distinguishable unit. The movement ofa photon is confined to a unit area in phase space, but its position cannotbe precisely fixed. Therefore, the motion of photons in phase space is notcontinuous.PxxClassical ParticleParticle-Nature: Heisenberg’s uncertainty principle Particle can not be distinguished inside the 2D phase space, they are belong to the same stateSimilarly, for 3D movement",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "因为测不准无法确定区分，所以就认为这个局域内就是同一模式",
+        "rect": [
+          61.5348,
+          373.223,
+          629.497,
+          481.767
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "11\n3 3\nx y zk k k Vx y z\n          Unit volumeWave vector space\n2 , 2 , 2x x y y z zP k P k P k          \n3 3\n3 3\n3\n8 8x y z x y z\nx y z\nhP P P k k k x y z x y z\nP P P x y z h\n              \n      \n \n3\nx y z\nhx y z P P P      \nConclusionOne light mode has one position in phase spaceThe mode of light = the state of photonThey have the same space volume",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "相空间每个光子态的”体积“",
+        "rect": [
+          199.349,
+          227.942,
+          455.767,
+          279.709
+        ]
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "text": "Coherence of photon\n12\ntimespace\n/\nc c c\nc c c\nc c\nV A L\nV A c\nL c\n\n\n\n\n\nCoherence volume, area, length, and time\n1\nc t   \n\n0\nI\n\ncL c t \n1\nt  \nConclusion: Better monochromatic, longer coherence time",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "单色性和相干时间的关系：单色性越强，相干时间（相干长度）越长（傅里叶关系：时域和频域）",
+        "rect": [
+          365.562,
+          170.33,
+          508.387,
+          288.893
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "相干时间：能保证同频同相的最长时间\n相干：同频同相可干涉",
+        "rect": [
+          69.8872,
+          420.815,
+          147.564,
+          460.893
+        ]
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "text": "2. Quantum Physics\n13\nBlack body radiation\"Blackbody radiation\" or \"cavity radiation\" refers to an object or system whichabsorbs all radiation incident upon it and re-radiates energy which ischaracteristic of this radiating system only, not dependent upon the type ofradiation which is incident upon it. The radiated energy can be considered to beproduced by standing wave or resonant modes of the cavity which is radiating1) Heat radiation2) Black bodyAbsorption coefficient (a):Mirror 0.02; Metal 0.6-0.8; Black particle: 0.95Let us construct cavity in a metal block, through thewall of which a small hole is drilled. This small holeis called a black body. (a=1)",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "a) Unit spectral radiancy（单色辐出度）\nThe quantityM(T)is the rate at which energy is radiated per unittime, per unit wavelength and per unit area of surface forwavelengths lying in the intervalto+dat the temperatureT.\nBalckBody\na=1 It is a function of wavelength and time.b)  Spectral radiancy（辐出度）\nThe appropriate quantityM(T)is the rate atwhich energy is radiated per unit time and perunit area of surface at the temperatureT.\nd ( . )T\ndMM d\n \ndM\n3(W )m\n( ) ( . ) 0T TM M d  \n\n\n14",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "The law about black-body radiation\n15\nCharacteristics of Blackbody Radiation\n1.0 2.0 3.0 4.0 5.02030104050602200K2000K1800K1600K\n1 1\n0( ) (W )TM cm m  \n(µm)\na) J.Stefan-Ludwig Boltzmarn LawJ.Stefan-Ludwig Boltzmarn constant\n4\n0( )TM T \n85.67 10 W /mK  \nM0(T) depend only onthe temperature andare quite independentof the material and ofthe shape and size ofthe cavity.b) Wien Displacement Law: wavelength for peak value\nmT b \n32.898 10b mK  \nm",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "The law about black-body radiation\n16\nA number of capable physicists advanced theories based on classicalphysics, which, however, had only limited success.Example  1:1896, Wien’s formulaWhere C1 and C2 are constants that must be determined by the experimental data.Wien’s formula isn’t fit to theexperimental points at longwavelength.1.0 3.0 5.07.0 9.0(µm)\n2\n1\n0( ) 5\nc\nTT\ncM e  \n\n\n0( ) 1 1(W )\nTM\ncm m\n\n \nRayleigh-jean’s formulaCspeed of lightK=1.38065810-23J/KBoltzmann’s constantRayleigh-jean’s Formula isn’t fit theexperimental points at short wavelength.\n0( ) 4\n2\nT\nCKTM \n\n\nExample  2:Ultraviolet Catastrophe",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "Planck’s formula\n17\nIn 1900 Max Planck pointed out that if Wien’s formula were modified in a simpleway it would prove to fit the data precisely. It is\n1.0 3.0 5.07.0 9.0(µm)\n0( ) 1 1(W )\nTM\ncm m\n\n \nk:Boltzmann’s constant2 5\n0( )\n12\n1\nT hC\nk T\nM hC\ne\n\n\n  \n\n2 5 12\n1\nh\nkT\nhC\ne\n  \n h=6.6310-34(Js) is called Planck’s constant.\nPlanck’s  formula fit the data precisely.The atoms that make up blackbody wallsbehave like tiny electromagneticoscillators. An oscillators can’t have anyenergy but only energies given byPlanck’s Quantum Suppositionwhere n is a quantum number,\nnE n  1.2.3n \nh  346.63 10h js  ",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "Interaction between light & matter\n18\nBasic processes (A. Einstein, 1916)\n受激吸收(STA)Stimulated Absorption Transition probability W12= E2-E1/ h\n自发辐射(SP) Spontaneous EmissionTransition probabilityA21Random phase anddirection\n受激辐射(STE)Stimulated EmissionTransition probabilityW21Has the same frequencyand phase as theincident lightlight amplificationE1E2hvhvE1E2 hvE1E22hv",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "19\n－Radiation field (J m-3 s)STA probabilityW12STE probabilityW21SP probabilityA21\nA21, W12and W21related to the property of atom\nv\n2\n3\n8\n1\nh\nkT\nh\nc e\n \n  \n\n21\n21\n2\n1\nsp\ndnA dt n\n   \n12\n12\n1\n1\nst\ndnW dt n\n   \n21\n21\n2\n1\nst\ndnW dt n\n   \n21 1\ns\nA \n12 12W B \n21 21W B \n辐射场",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "只与原子本身有关",
+        "rect": [
+          43.1599,
+          316.446,
+          759.794,
+          414.136
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "与原子有关（B12,B21)，也与辐射场有关（ρv）",
+        "rect": [
+          47.336,
+          112.718,
+          767.311,
+          308.097
+        ]
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "text": "Relation between A21& s\n20\n2 21 2\ns\ndn dn n\ndt dt \n      \n/\n2 20\nstn n e \n2 21\n21 2\nsp\ndn dn A ndt dt\n      \n21\n21\n2\n1\nsp\ndnA dt n\n   \n21\n2 20\nA tn n e \n21 1\ns\nA \nThe number of particles on energy levelE2shows exponentialdecay with timeThe probability of spontaneous emission is reverse to thelifetime of the energy level (time can be measured)A21is only determined by the property of the materials, notrelated to the radiation field",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "自发吸收系数只与原子本身性质有关",
+        "rect": [
+          92.4386,
+          50.932,
+          763.97,
+          111.883
+        ]
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "text": "Einstein Relations - A and B Coefficients\n21f1=f2\n2\n3\n8\n1\nh kT\nh\nc e\n \n          \n21 21 12\nsp st st\ndn dn dn\ndt dt dt\n                \n21 2 21 2 12 1A n B n B n   \n2 2 2 1\n1 1\nexpn f E E\nn f kT\n     \n3\n21\n3\n21\n12 1 21 2\n8A h n hB c\nB f B f\n\n   \n\n12 21\n12 21\nB B\nW W\n\n\nEinstein Relations\nBoltzmann DistributionBlack-body radiation\n3\n21 12 1\n3\n21 21 2\n1 18\nhv hvkT kT B B fc e eh A B f \n      ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "自发辐射+受激辐射=自发吸收",
+        "rect": [
+          143.388,
+          286.389,
+          403.983,
+          326.466
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "（玻尔兹曼分布考虑的是热平衡，无泵浦的条件下）\n在高低能级上的分布比例除了考虑能量，还要考虑简并度。简并度越高，粒子越容易存在\n简并度：同一个能量对应的量子态数量\nf1，f2：E1，E2能级下对应的量子态数量",
+        "rect": [
+          449.086,
+          287.223,
+          723.879,
+          397.437
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "定义nv",
+        "rect": [
+          452.427,
+          112.719,
+          473.307,
+          143.612
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "未增益时（未粒子数反转时）热平衡状态下，三过程系数关系",
+        "rect": [
+          79.9103,
+          60.9518,
+          273.686,
+          134.427
+        ]
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "text": "Note\n22\n1. The 3 processes exist all the time, but their intensity is not the same2. Thermal equilibrium: SP or  STE dominate?3. Thermal equilibrium: 2 stimulated processes which dominate?Unit time STE photon density increaseUnit time STA photon density decreaseT=1500 K, l=500 nm cavity2 21 2 21sp steI n A h I n B h    \n3\n921\n3\n21\n1 2 108 1\nste\nh kT\nsp\nI B c\nI A h e      \n     \n21 2 21 2W n B n \n12 1 12 1W n B n \n4. The photon from spontaneous emission can be used as the out coming photon for stimulated absorption and stimulated emission\n2\n2 1\n1\nfn n f",
+    "annotations": []
+  },
+  {
+    "page": 23,
+    "text": "The Principle of Laser\n23\n1. Population InversionRT, Bolzman distributionEn  2 1\n2\n1\nE E\nkTn en\n\n\n(Population Inversion)Material with population inversion is called gain/active materialPopulation inversion is one of the requirement for lasing operationHow to realize population inversion?Energy is needed from outside to break the thermal equilibriumoptically or electrically\nn2>n1",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "外界提供能量，打破热平衡状态下的玻尔兹曼分布，实现粒子数反转才可以形成激光",
+        "rect": [
+          154.247,
+          47.5933,
+          714.691,
+          106.875
+        ]
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "text": "The Principle of Laser\n24\n2. Light amplificationSpontaneous emission ~ not coherence light ~ low photon degeneracyStimulated emission ~ coherence light ~ high photon degeneracyT=300 K：= 30 cm  n=103;= 60 m  n= 1;  = 0.6 m  n=10-35\n2\n3\n8\n1\nh kT\nh\nc e\n \n          \n21 21\n3\n21 21\n3\n8\nB Wn h A A\nc\n  \n   \n1\n1h kT\nEn h e   1) Photon degeneracy of black body radiationThe number of photon with the same modephoton degeneracyThe number of photon in the same stateThe number of photon in the coherence volumeThe number of photon in the same unit phase space",
+    "annotations": []
+  },
+  {
+    "page": 25,
+    "text": "We need to increase the number of photon in the specific mode,, anddecrease the photon number of other modes to have coherence STEThe photons are in one or more modesFrom close cavity to open cavityF-P cavity\n21\n21\nWn A\n211n W    \nPhoton degeneracyTo have lasing, it requires\nOpen resonator only select part of the cavity mode, while other modeswill escape from the cavity. Therefore the longitudinal mode has veryhigh photon degeneracyCavity has the function of mode selection, it is the main component oflaser device\n=总光子数/模式数\n25",
+    "annotations": []
+  },
+  {
+    "page": 26,
+    "text": "2) Gain Coefficient and the curve of gain\nΔn(z)\n0zGain materialI(z)I00zdz net STE photon density21 2 12 1dI z W n W n h dz    \n1dI zg z dz I z \n1 2f f\ng z n z \n21 21W B \n21 2 1g z B h n z n z     \n21 2 1dI z B h z n z n z dz     \nGain Coefficient: the improved percentage of light pass through unit length of the gain material\n26",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "不同长度的的增益正比于该处粒子数差",
+        "rect": [
+          421.523,
+          33.4002,
+          653.719,
+          143.614
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "增益系数定义",
+        "rect": [
+          100.791,
+          439.186,
+          785.687,
+          495.128
+        ]
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "text": "Light amplifiedLight absorbedTransparent\n受激辐射消耗反转粒子数\n      \n0 0\n0 0\n0 0\nn z g z\nn z g z\nn z g z\n  \n  \n  \n21g z B h n z \n\n0\ng z zI z I e  \n1dI zg z dz I z \nI n g     \n\n0\ng z zI z I e \n0\n0\ng zI z I e\nIf Δnis uniformly distributed, g(z)constant g0\nSaturation of populated carriers, gain saturationWith the increase of the light inside the material, whether the gain coefficient can remain unchanged?27\nWeak signal gain coefficient",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "光强增加-》辐射场增强-》消耗高能级电子数增加，减小粒子数差-》增益减小-》光强增强幅度减小",
+        "rect": [
+          149.235,
+          75.983,
+          740.584,
+          177.847
+        ]
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "text": "Gain Saturationg(I)Q: When it happens?Saturation intensityIs: will be determined by the material itself(will be discussed in Ch_3)When the intensity of light increase to certain value, gain willdecrease with the further increase of light intensity.\ng n   1\ns\nnn z I z\nI\n \n\n  \n0\n1\ns\ngg I I z\nI\n\n\nWeak signal gain coefficient, constantIntensive signal gain coefficient,  g(I) < g0Gain saturation  \n0\n~ ( )\ns\ns\ns\nI z I g z g\nI z I g I\nI z I g\n \n \n28",
+    "annotations": []
+  },
+  {
+    "page": 29,
+    "text": "The curve of gain g(v)－The gain coefficient g(v) with frequencyQ: STE is not single frequency but has certain frequency distribution (Ch_3)g(v)0The width: Loss coefficientanegative gain coefficient0\n2\ng \n  \n1dI zz dz I z   \n0\nzI z I e \n21 2 1z B h n z n z      \ng \nCorresponds to the width of frequency at g& aco-exist, then it change todzdI z g I I z dz   \n0g z g  0\n0\ng z\nI z I e \n 29",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "增益系数相对于频率\n增益系数的半高宽",
+        "rect": [
+          46.5005,
+          300.582,
+          767.311,
+          559.417
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "实际增益介质中的光强与位置关系",
+        "rect": [
+          64.0405,
+          11.6893,
+          590.241,
+          161.146
+        ]
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "text": "3) Self-oscillation 0I I z g z  \n 0\n0\ng z\nI z I e \n\ng z 0I z I\ng z \nI z \nmI z I g z \nOnly when the gain material is long enough, nomatter how weak the light intensityI0at the firstbeginning, through gain saturation, finally canreach the maximum light intensityIm, this iscalled self-oscillation.The oscillation is not related to the intensity oflight at the very first beginning.The light comes from spontaneous emissionGain and gain saturation determines the finaloutput power of the laser30",
+    "annotations": []
+  },
+  {
+    "page": 31,
+    "text": "How to fabricate gain material long enough?Self-oscillation condition (threshold condition)r1r2g,  I1\n0 0\n0\n( ) ( )\n1 0 2 1 2( )\n1 2 0 0\ng L g L\ng L\nI I e r e r\nr r I e I\n \n\n \n\n\n \nMatrix with refractive index nand length L\n0\n1 2\n1 12 2 ln 2 1\ng L L r re\n     \n02( )\n1 2 1g Lr r e  \n0\n1g Le  \n0g 0g L  1 2\n1 1ln2 Lr r  \northreshold conditionSingle loop lost31",
+    "annotations": []
+  }
+]

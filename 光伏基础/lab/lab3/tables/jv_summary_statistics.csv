@@ -1,0 +1,4 @@
+﻿Device,Voc (V) mean,Voc (V) std,Jsc (mA cm^-2) mean,Jsc (mA cm^-2) std,FF (%) mean,FF (%) std,PCE (%) mean,PCE (%) std
+D18 only,0.17,,0.054992,,25.892499,,0.002421,
+D18:Y6 without additive,0.89,,25.094725,,68.24494,,15.242033,
+D18:Y6 with additive,0.89,,26.47425,,70.741862,,16.668256,

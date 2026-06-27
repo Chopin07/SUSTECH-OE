@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SUSTech/full_adder/full_adder.sim/sim_1/impl/timing/xsim/testbench_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder1
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/SUSTech/full_adder/full_adder.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

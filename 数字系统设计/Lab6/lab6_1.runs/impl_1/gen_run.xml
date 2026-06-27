@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1777308546">
+  <File Type="BITSTR-BMM" Name="StepperMotorTop_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="StepperMotorTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="StepperMotorTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="StepperMotorTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="StepperMotorTop.tcl"/>
+  <File Type="OPT-TIMING" Name="StepperMotorTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="StepperMotorTop_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="StepperMotorTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="StepperMotorTop_reports.tcl"/>
+  <File Type="OPT-DRC" Name="StepperMotorTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="StepperMotorTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="StepperMotorTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="StepperMotorTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="StepperMotorTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="StepperMotorTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="StepperMotorTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="StepperMotorTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="StepperMotorTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="StepperMotorTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="StepperMotorTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="StepperMotorTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="StepperMotorTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="StepperMotorTop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="StepperMotorTop_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="StepperMotorTop.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="StepperMotorTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="StepperMotorTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="StepperMotorTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="StepperMotorTop.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="StepperMotorTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="StepperMotorTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="StepperMotorTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="StepperMotorTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="StepperMotorTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="StepperMotorTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="StepperMotorTop_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="StepperMotorTop.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="StepperMotorTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="StepperMotorTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="StepperMotorTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="StepperMotorTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="StepperMotorTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="StepperMotorTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="StepperMotorTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="StepperMotorTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="StepperMotorTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="StepperMotorTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="StepperMotorTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="StepperMotorTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="StepperMotorTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="StepperMotorTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="StepperMotorTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="StepperMotorTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="StepperMotorTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="StepperMotorTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="StepperMotorTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="StepperMotorTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="StepperMotorTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="StepperMotorTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="StepperMotorTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="StepperMotorTop.rbt"/>
+  <File Type="BITSTR-NKY" Name="StepperMotorTop.nky"/>
+  <File Type="PDI-FILE" Name="StepperMotorTop.pdi"/>
+  <File Type="RCFI_FILE" Name="StepperMotorTop.rcfi"/>
+  <File Type="CFI_FILE" Name="StepperMotorTop.cfi"/>
+  <File Type="RNPI_FILE" Name="StepperMotorTop.rnpi"/>
+  <File Type="NPI_FILE" Name="StepperMotorTop.npi"/>
+  <File Type="RBD_FILE" Name="StepperMotorTop.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="StepperMotorTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="StepperMotorTop.sysdef"/>
+  <File Type="BG-BGN" Name="StepperMotorTop.bgn"/>
+  <File Type="BG-DRC" Name="StepperMotorTop.drc"/>
+  <File Type="RDI-RDI" Name="StepperMotorTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/ButtonDebounce.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/SegDisplay.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/SpeedCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/StepTimer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/StepperDriver.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/StepperMotorTop.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="StepperMotorTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../assignment1_vhdl_design_sources/constraints/StepperMotorTop_Nexys4DDR.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

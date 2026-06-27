@@ -1,0 +1,173 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh4-1\nOscillation\nCharacteristics of Lasers\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Q-Switching Mode-LockingAmplificationDirect ModulationGain Switch DFB Laser\nBrief Introduction of Chapter 4-6\n2RateEquationGain SaturationLaser Operating CharacteristicsOscillationThresholdOscillationModeOutputPowerOutputLinewidthRelaxationOscillationASE\nMode SelectionFrequencyStabilizationCavity TheoryGaussian Beam\nNoncavityLaser",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "Chapter 4: Oscillation CharacteristicsIntroductionContinuous wave (CW) lasersPulse lasers4.1 Oscillation ThresholdThreshold condition for population inversion ΔntThreshold condition for gain coefficient gtThreshold condition for pumping power PptThreshold condition for pumping energy Ept3",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "Introduction: classification by pumpingCW laser: StableDuring pumping, stable carrier at each energy level and a consistent photondensity inside the cavity have been achieved., that isRate equation Algebraic equation（代数方程）\nPulsed laser: NonstableWith a short pumping time, there will be significant variation of carriers at eachenergy level and photon density inside the cavity. Further classification is madebased on the pumping timet0and lifetime of upper energy levelτ2Short-pulse laser (t0<τ2): pumping stops before reaching stable state.Nonstable; numerical solution; weak signal perturbation or otherapproximation methods.Long-pulse laser (t0>>τ2): long pumping, approach stable state.Can be treated as CW laser.Theoretically, no strict boundaries between pulsed and CW lasers4\n0;0  dtdNdtdn l",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\n2 21 1 12\nl l\nRl\ndN Nn W n Wdt   \n  \n3\n1 13 3 32 31\n2\n1 12 2 21 2 21 21 3 32\n1 2 3\ndn n W n S Adt\ndn n W n W n A S n Sdt\nn n n n\n  \n    \n  \nW13A31S31S32A21S21W21W12E1E2E3Rate equation for three-level system (ruby laser)Consider the cavity modelW13(t)W130t0tRectangular pulse excitation Optical pumping of the three-level system \n13 13 0\n13 0\n0\n0\nW t W t t\nW t t t\n  \n \n31 32 31 32S S A S ",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "1 2 3n n n n  \n    \n3\n1 13 3 32 31\n2 2\n2 1 21 0 2 21 21 3 32\n1\n, l\ndn n W n S Adt\ndn f n n N n S A n Sdt f    \n  \n        \n6\nQuantum efficiency of nonradiative recombinationQuantum efficiency of fluorescencePump  Weak STE near threshold\n 2\n1 13 1 2 21 2 2 13 1 2 21 2\ndn n W n A n n W n Adt        \n32 13S W\n3 0n  1 13 3 32 31n W n S A \n1 32 32 31S S A  \n2 21 21 21A A S  \n   \n1 13 3 32 31 1 13 3 32 1\n2 21 21 2 21 21 2 21 2\nn W n S A n W n S\nn S A n S A n A\n\n\n   \n   \n1 2n n n ",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "7\nSolutionWhen 0 < t≤ t0, W13(t)=W13Discussions1. Two processes0<t<t0 During pumpingn2t>t0 Pumping stoppedn2   2. For t>t0  (n2 reaches its maximum at t=t0)n2(t)W13(t)W130t0t\n     2\n2 13 1 2 21 2\ndn t n n t W t n t Adt      \n  21 2 1 131 13\n2\n21 2 1 13\n1 A W tW nn t e A W\n \n \n     \n 2\n13 3 32 2 21 210 0 dnW n S n A S dt      \n    21 0\n2\n2 2 0\nA t t\nn t n t e  \n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "2能级上数量变化率",
+        "rect": [
+          147.982,
+          466.738,
+          674.182,
+          573.611
+        ]
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "text": "     2\n2 13 1 2 1 13 1 expdn t n n t W n t n W tdt              \n8\n3. t0<2(short-pulse pumping) very short time, ignore SP4. t0>>τ2(long-pulse pumping)  long enough timen2 continuously increases and reaches stable; n1reaches stable as well.During pumping, n2(t) continuously increase: nonstableW13(t)W130t0t 1 13\n2\n21 2 1 13\nW nn t A W\n\n      21\n1 2\n21 1 2 13\nA nn t n n t A W    \n2 21 211 A S  ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "泵浦时间短，未发生自发辐射",
+        "rect": [
+          70.3048,
+          487.611,
+          676.688,
+          546.058
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "较长时间泵浦",
+        "rect": [
+          61.9525,
+          323.126,
+          746.848,
+          387.417
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "  \nt\nt\n21 0 21 0, ,\ngn l\n\n       \n0\n1 2 t\n1' ln2g r r g l  \n4.1 Oscillation Threshold\n9\nI. Population inversionnt (threshold condition)Requirements of self-oscillation: 1) Δn>0;    2) g>aDeduction of Δnt: 1) Intensity change（光强变化）;2) Rate equation(1) Intensity changeΔnt(L=l)   L: cavity length; l: length of the gain medium\nCavity fully filled with gain materialWeak signal gain coefficient g0is a constant\n0 0 0( ') ( ') 2( ')\n1 0 2 1 1 2 0 0\ng l g l g lI I e r e r r r I e I      \nl 02 '\n1 2 1\ng l\nr r e \n\n02( )\n1 0 0\ng lI I e I   tg l \nl  conditions\nl\nr1r2\n1 2T d s s i         \n'\nL",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要：粒子数反转的粒子数差的阈值，只有大于这个阈值才能形成稳定激光",
+        "rect": [
+          432.798,
+          106.039,
+          751.859,
+          192.874
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "10\n(2) Rate equation Δnt(L=l)Weak signal:  Δn= Δntat 0ldN\ndt \n 2\n2 1 21 0\n1\n,l l\nl\nRl\ndN N fn n Ndt f     \n     \n t 21 0\n10 ,l\nRl\ndN cndt        \nRl\nL l\nc c\n  \n   t 21 0 t ,n g l\n    \n  \nt\nt\n21 0 21 0, ,\ngn l\n\n       ",
+    "annotations": []
+  },
+  {
+    "page": 11,
+    "text": " 2\n2 1 21 0\n1\n,l\nl l\ndN f l cn n cN Ndt f L L\n         \n  2\n2 1 21 0\n1\n,l l l l\nl\nRl\nd N Al N A L l N Al N A L lf cn n N Aldt f     \n           \n11\n(2) Rate equation Δnt(L>l) LVRAssume cross-section Ais constant inside the cavityCorrection 2\n2 1 21 0\n1\n,l l\nl\nRl\ndN N fn n Ndt f     \n     \na RV Al V A L l  \nldNL A\ndt\n    \nl l\ncN N c  Rl\nL L l L lc  \n     l\nL AN\n\n0n 0ldN dt \n \n0\nt\n21 0 ,n n l\n\n     \nηVal",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "12\n \n0\nt\n21 0 ,n n l\n\n     \nDifferent modeshave different 21and therefore different ΔntThreshold for population inversion at central frequency0Minimum Δntat central frequency Threshold gain coefficientgtis determined only by single-loop loss;A constantleads to a constantgt.\n  \n2\n21\n21 0 0 2\n0\n, , 8\nA g      \n  0 t 0\n21 0 0 21,n l l\n        \n t 0 t\n21\nn n l\n     21 0 ,g n     0\nt t 21g g n l\n   ",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "13\nII. Gain coefficientgt (threshold condition)DiscussionsDifferent modesdifferentσ21(,0)different Δnt, so Δnt()Different longitudinal modes have the samegtDifferent transverse modes have differentdiffraction lossesdifferentgtthethreshold gain coefficient of high ordertransverse mode is higher than thefundamental mode\n0\nt t 21g g n l\n    \nhomogeneous broadeninginhomogeneous broadening\n2\n21\nt 2 2\n21 0 4 H\nAn l\n\n      \n2\n21\nt 3 2 2\n21 0\nln 2\n4 D\nAn l\n\n      \n01 00\nt tg g",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "高阶横模的衍射损耗更大，因此增益阈值也要更大",
+        "rect": [
+          281.62,
+          35.9029,
+          368.485,
+          82.6602
+        ]
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "text": "14\nIII. Pumping powerPpt (threshold condition) for CW or long-pulse lasers (Ppt, t0>>τ2)\n10 1 2 0 0S n n n   \n1) Four-Level System (assume homogenous pumping)at central frequencyWhen                (treated as stable state)W03A30S32S21A21W21E3E2E1E0W12S10For unit time and unit volumeTransited carriers E2E1is n2/τ2or n2/τsη2, to maintain n2=n2tNeed carriers supply from E3E2as n2/τ2or n2/τsη2So via pumping (absorption) from E0E3is n2/τ2η1or n2/τsη1η2\n2t t\n21\nn n l\n\n  \n2 2tn n",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "15\n2) Three-Level System (assume homogenous pumping)Similar analysisOnly difference: the bottom level of the laser is ground state\np t p t p\npt\n1 2 21s F s F s\nh n V h n V h VP l\n   \n       \n    Photon energy of the pumpingTotal quantum efficiency\nph\n1 2F  \nW13A31S31S32A21S21W21W12E1E2E3 2 1n n n  \n1 2n n n \n 2\n1\n2n n n  \n3 0n \nignore degenerate of energy levelsbecauseAssume threshold of population inversion atenergy levelE2isn2t\nt\n2t 2\nn nn   2t 2\nnn \ntn n \np\npt 2 F s\nh nVP \n ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "V为增益戒指体积，nF为转换效率，σ21为受激截面",
+        "rect": [
+          96.1972,
+          461.728,
+          435.304,
+          548.563
+        ]
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "text": "16\nIV . Pumping EnergyEpt(threshold condition) for short-pulse lasers (Ept, t0<<τ2)For short-pulse pumpingIgnoreA21andS21, only consider pumping induced stimulated processIn order to keepn=1, need to absorb photon from pumping is 1/η1In order to keepn2=n2t, need to absorb photon from pumping isn2t/η1To have lasing, the absorbed photon number from pumping per unitvolume should be bigger thann2t/η1Energy Level of Lasers Long-pulsed or CW Short-pulsedThree-Level SystemFour-Level System\np\npt\n1 22 s\nh nVP \n  \np t\npt\n1 2 s\nh n VP \n  \n p t\npt\n1\nh n VE \n\n\np\npt\n12\nh nVE \n",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17\nFort0~τ2(for case between long and short pulse),A21andS21, can NOT beignored, NO analytical solution for pumping energyEpt. Ift0is given, wecan numerically solve the problem.Discussion1) Threshold of four-level system is lower than three-level systemFour-level systemn1≈0only need to pump Δntto achieveg>ato have lasingThree-level systemn1is ground stateat least need to pumpn/2 andn/2>>Δntto have lasing2) To increase the pumping efficiencyη1Erbium-doped fiber amplifier (EDFA) use laser diode for pumping",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\n3)PptandEptare related to the properties of gain material21, , ,F s F    \np\npt\n21F s\nh VP l\n \n  \n21 pt pt, , ,F s P E     \nhomogeneous broadeninginhomogeneous broadening\n2\n21\n21 2 2\n04 H\nA    \n2\n21\n21 3 2 2\n0\nln 2\n4 D\nA    \n21 pt pt ,F P E    \nMaterials with narrow fluorescent linewidth is preferred for gain material.Type of lasers Ruby Nd:Glass Nd:YAG He-NeΔF(Hz)3.3×10117×10121.95×10111.5×109τs(s)3×10-37×10-42.3×10-47×10-9Δnt(cm-3)8.7×10171.4×10181.8×1016109n2t(cm-3)9.5×10181.4×10181.8×1016ηF0.7 0.4 1Ept/V(J/cm3) 5 0.954.9×10-3Ppt/V(W/cm3) 1600 1400 21",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要考点：功率阈值和什么相关\n（线宽和截面成反比）",
+        "rect": [
+          79.4925,
+          327.301,
+          351.78,
+          511.825
+        ]
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "text": "19\n4) For four-level systemt pt pt ,n P E    \nMust make sure the quality of the optical component inside thecavity in order to decrease the optical loss.5) Meaning ofPptandEptThe derivedPptandEpt: Effective pumping power and energyThe laser'sPptandEpt: Electrical power and energy of inputpumping light sourceforsolid-state lasersGain MaterialsElectricalSourceCapacitorPulsed Xenon LampCharging Discharging EmissionPartialAbsorptiontn\nSolid-state lasers: optical pumpingSemiconductor lasers: injection current (Ith)Gas lasers: discharge current",
+    "annotations": []
+  }
+]

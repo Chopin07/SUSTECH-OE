@@ -1,0 +1,414 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+9: Conductors & Dielectrics
+• Method of Images 镜像法
+  Think about the effect of metal
+  conductors on the electric field built
+  by the point charge in free space. Why
+  are the streamlines distorted? How can
+  we evaluate such kind of distortion?
+  Can we analytically solve the distorted
+  field?
+
+  Unfortunately, in most cases, we are not able to derive analytical solution. However,
+  sometimes we can!
+
+
+
+
+                                                                                          23
+9: Conductors & Dielectrics
+• Method of Images 镜像法
+
+
+
+ The Theorem of Uniqueness 唯一性定理 states that if we are given a configuration of
+ charges and boundary conditions, there will exist only one potential and electric field
+ solution.
+
+
+
+
+ So the boundary conditions and charges are identical in the upper half spaces of
+ both configurations (not in the lower half).
+                                                                                           24
+9: Conductors & Dielectrics
+• Method of Images 镜像法
+
+
+
+
+ In effect, the positive point charge images across the conducting plane, allowing
+ the conductor to be replaced by the image. The field and potential distribution in
+ the upper half space is now found much more easily!
+
+
+
+
+                                                                                      25
+9: Conductors & Dielectrics
+• Example
+ In this case, we are to find the surface charge density on the conducting plane at
+ the point (2,5,0). A 30-nC line charge lies parallel to the y axis at z = 3.
+
+  The first step is to replace the conducting plane by a line charge of -30 nC at z = -3.
+
+
+
+
+                                                                                            26
+9: Conductors & Dielectrics
+• Example (Cont’d)
+ In this case, we are to find the surface charge density on the conducting plane at
+ the point (2,5,0). A 30-nC line charge lies parallel to the y axis at z = 3.
+ Referring to the figure, we find:
+
+
+
+  Then
+
+
+
+
+ We now add the two fields to get:
+
+
+
+
+                                                                                      27
+9: Conductors & Dielectrics
+• Example (Cont’d)
+ In this case, we are to find the surface charge density on the conducting plane at
+ the point (2,5,0). A 30-nC line charge lies parallel to the y axis at z = 3.
+
+  We now have the electric field at point P:
+
+  Now
+
+  To find the charge density, use
+
+
+                                                                          n
+  where n = az
+
+  Therefore                                                                   D
+
+
+
+                                                                                      28
+9: Conductors & Dielectrics
+• Dielectric Materials 电介质材料
+ Free space (vacuum): There is nothing out there!
+
+ Metal conductor: Copper, iron, aluminum…..,
+  1) Charge can exist only on the surface;
+  2) Electric field cannot exist in the interior;
+  3) Conductor is an equipotential;
+  4) Conductor-to-Free space boundary conditions.
+
+ Dielectric Materials (isolators): Air, Fiber, Glass, Paper, Quartz, Porcelain陶
+ 瓷, Polyethylene聚乙烯
+
+ Q: What is the (electromagnetic) nature of dielectric materials? And Why?
+
+
+
+
+                                                                                  29
+9: Conductors & Dielectrics
+• Dielectric Materials -Electric Dipole and Dipole Moment
+  In dielectric, charges are held in position (bound 束缚), and ideally there are no
+  free charges that can move and form a current. Atoms and molecules may be
+  polar 极化(having separated positive and negative charges) by the application of
+  an electric field.
+  Consider such a polarized atom or molecule, which possesses a dipole moment, p,
+  defined as the charge magnitude present, Q, times the positive and negative charge
+  separation, d. Dipole moment is a vector that points from the negative to the positive
+  charge.
+
+                              Q
+                       d                       p = Qd ax
+
+
+ Summary-Some new terms:
+ Free charges, bound charges(束缚电荷), polar molecule(极性分子), non-polar
+ molecule(无极性分子), polarize(极化)……
+                                                                                           30
+9: Conductors & Dielectrics
+• Dielectric Materials -Model of a Dielectric
+ A dielectric can be modeled as an ensemble of bound charges in free space,
+ associated with the atoms and molecules that make up the material. Some of these
+ may have intrinsic dipole moments, others not. In some materials (such as liquids),
+ dipole moments are in random directions.
+
+
+
+
+                                                                                       31
+9: Conductors & Dielectrics
+• Dielectric Materials -Polarization Field
+
+                                             The number of dipoles is
+                                             expressed as a density, n
+                                             dipoles per unit volume.
+                                         The Polarization Field of the
+                                         medium is defined as:
+
+
+
+                         v
+
+
+
+                                      Dipole moment per unit volume
+                                      Unit: [C/m2]
+
+
+                                                                  32
+9: Conductors & Dielectrics
+ • Polarization Field (with Electric Field Applied)
+Introducing an electric field may increase the charge separation in each dipole, and
+possibly re-orient dipoles so that there is some aggregate alignment, as shown here. The
+effect is small, and is greatly exaggerated here!
+
+E
+                                                            The effect is to increase P.
+
+
+
+
+                                                          if all dipoles are identical
+
+                                                              = np
+                                                       Note: There should be something
+                                                       to indicate the polarization degree
+                                                       of specific dielectric material.
+                                                                                             33
+9: Conductors & Dielectrics
+• Migration of Bound Charge
+Consider an electric field applied at an angle  to a surface normal as shown. The
+resulting separation of bound charges (or re-orientation) leads to positive bound
+charge crossing upward through surface of area S, while negative bound charge
+crosses downward through the surface.
+Dipole centers (red dots) that lie within the range (1/2) d cos above or below
+the surface will transfer charge across the surface.
+
+
+
+                                         E
+
+
+
+
+                                                                                     34
+9: Conductors & Dielectrics
+• Migration of Bound Charge
+
+   The total bound charge that crosses the surface is given by:
+
+
+                                    S
+                              volume
+
+
+                                                  E           P
+
+
+
+
+                                                                  35
+9: Conductors & Dielectrics
+• Polarization Flux Through a Closed Surface
+  The accumulation of positive bound charge within a closed
+  surface means that the polarization vector must be pointing
+  inward. Therefore:
+
+
+
+
+  Gauss’s Law in free space:
+
+
+
+
+                                                                36
+9: Conductors & Dielectrics
+• Polarization Flux Through a Closed Surface
+
+ Now consider the charge within the closed surface
+ consisting of bound charges, Qb , and free charges, Q.
+ The total charge will be the sum of all bound and free
+ charges. We write Gauss’ Law in terms of the total
+ charge, QT as:
+
+
+
+
+     where               free charge
+
+             QT = Qb + Q
+                 bound charge
+                                                          37
+9: Conductors & Dielectrics
+• Polarization Flux Through a Closed Surface
+  We now have:
+
+                               and
+
+
+  where QT = Qb + Q
+
+
+  combining these, we write:
+
+
+
+
+  we thus identify:                  which we use in the familiar form
+                                     of Gauss’ Law:
+
+
+
+                                                                         38
+9: Conductors & Dielectrics
+• Charge Densities
+ Taking the previous results and using the divergence theorem, we find the point form
+ expressions:
+
+
+
+ Bound Charge:
+
+
+
+ Total Charge:
+
+
+
+ Free Charge:
+
+
+
+
+                                                                                        39
+9: Conductors & Dielectrics
+• Electric Susceptibility电极化率 and the relative
+  permittivity相对介电常数
+ A stronger electric field results in a larger polarization in the medium. In a linear
+ medium, the relation between P and E is linear, and is given by:
+
+
+
+  where e is the electric susceptibility (电极化率)of the medium.
+
+  We may now write:
+  where the relative permittivity （相对介电常数）is defined as:
+
+
+
+  Leading to the overall permittivity of the medium:
+
+                                      where
+                                                                                         40
+9: Conductors & Dielectrics
+• Isotropic各向同性 vs. Anisotropic各向异性 Media
+ In an isotropic medium, the dielectric constant is invariant with direction of the applied
+ electric field.
+
+ This is not the case in an anisotropic medium (usually a crystal) in which the dielectric
+ constant will vary as the electric field is rotated in certain directions. In this case, the
+ electric flux density vector components must be evaluated separately through the
+ dielectric tensor. The relation can be expressed in the form:
+
+
+
+
+      Note: 1) D and E (and P) are no longer parallel;
+            2) There may be hysteresis 滞后 between D and E.
+
+                                                                                                41
+9: Conductors & Dielectrics
+• Summary
+
+
+
+
+                              42
+9: Conductors & Dielectrics
+• Boundary Condition for Tangential Electric Field
+                             We use the fact that E is conservative:
+                       n
+
+                             Therefore:
+
+
+
+   Region 1
+     1                      Leading to:
+
+     Region 2                More formally:
+          2
+
+
+
+
+                                                                       44
+9: Conductors & Dielectrics
+• Boundary Condition for Normal Electric Flux Density
+We apply Gauss’ Law to the cylindrical volume shown here, in which cylinder height
+is allowed to approach zero, and there is charge density s on the surface:
+                                                                         n
+                                                                             Region 1
+                                                                   s                1
+
+                                                                             Region 2
+                                                                                    2
+ The electric flux enters and exits only through the bottom and top surfaces, respectively.
+
+
+
+   From which:                                        More formally:
+
+
+
+   and if the charge density is zero:
+                                                                                          45
+9: Conductors & Dielectrics
+• Example
+ We wish to find the relation between the angles 1 and 2, assuming no charge
+ density on the surface.
+
+
+
+
+                                                                                 46
+9: Conductors & Dielectrics
+• Example
+  We wish to find the relation between the angles 1 and 2, assuming no charge
+  density on the surface.
+ The normal components of D will be continuous across
+ the boundary, so that:
+
+
+
+
+ Then, with tangential E continuous across the
+ boundary, it follows that:
+
+
+                                        Now, taking the ratio of the two underlined
+                                        equations, we finally obtain:
+
+   or…
+
+                                                                                      46
+HW-5
+
+
+
+
+       47
+

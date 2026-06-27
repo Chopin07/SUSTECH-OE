@@ -1,0 +1,2963 @@
+
+================================================================================
+Lecture Note_EE310_Ch4_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch4-1
+Oscillation
+Characteristics of Lasers
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Q-Switching Mode-LockingAmplificationDirect ModulationGain Switch DFB Laser
+Brief Introduction of Chapter 4-6
+2RateEquationGain SaturationLaser Operating CharacteristicsOscillationThresholdOscillationModeOutputPowerOutputLinewidthRelaxationOscillationASE
+Mode SelectionFrequencyStabilizationCavity TheoryGaussian Beam
+NoncavityLaser
+
+--- page 3 ---
+Chapter 4: Oscillation CharacteristicsIntroductionContinuous wave (CW) lasersPulse lasers4.1 Oscillation ThresholdThreshold condition for population inversion ΔntThreshold condition for gain coefficient gtThreshold condition for pumping power PptThreshold condition for pumping energy Ept3
+
+--- page 4 ---
+Introduction: classification by pumpingCW laser: StableDuring pumping, stable carrier at each energy level and a consistent photondensity inside the cavity have been achieved., that isRate equation Algebraic equation（代数方程）
+Pulsed laser: NonstableWith a short pumping time, there will be significant variation of carriers at eachenergy level and photon density inside the cavity. Further classification is madebased on the pumping timet0and lifetime of upper energy levelτ2Short-pulse laser (t0<τ2): pumping stops before reaching stable state.Nonstable; numerical solution; weak signal perturbation or otherapproximation methods.Long-pulse laser (t0>>τ2): long pumping, approach stable state.Can be treated as CW laser.Theoretically, no strict boundaries between pulsed and CW lasers4
+0;0  dtdNdtdn l
+
+--- page 5 ---
+5
+2 21 1 12
+l l
+Rl
+dN Nn W n Wdt   
+  
+3
+1 13 3 32 31
+2
+1 12 2 21 2 21 21 3 32
+1 2 3
+dn n W n S Adt
+dn n W n W n A S n Sdt
+n n n n
+  
+    
+  
+W13A31S31S32A21S21W21W12E1E2E3Rate equation for three-level system (ruby laser)Consider the cavity modelW13(t)W130t0tRectangular pulse excitation Optical pumping of the three-level system 
+13 13 0
+13 0
+0
+0
+W t W t t
+W t t t
+  
+ 
+31 32 31 32S S A S 
+
+--- page 6 ---
+1 2 3n n n n  
+    
+3
+1 13 3 32 31
+2 2
+2 1 21 0 2 21 21 3 32
+1
+, l
+dn n W n S Adt
+dn f n n N n S A n Sdt f    
+  
+        
+6
+Quantum efficiency of nonradiative recombinationQuantum efficiency of fluorescencePump  Weak STE near threshold
+ 2
+1 13 1 2 21 2 2 13 1 2 21 2
+dn n W n A n n W n Adt        
+32 13S W
+3 0n  1 13 3 32 31n W n S A 
+1 32 32 31S S A  
+2 21 21 21A A S  
+   
+1 13 3 32 31 1 13 3 32 1
+2 21 21 2 21 21 2 21 2
+n W n S A n W n S
+n S A n S A n A
+
+
+   
+   
+1 2n n n 
+
+--- page 7 ---
+ANNOTATIONS:
+- 2能级上数量变化率
+7
+SolutionWhen 0 < t≤ t0, W13(t)=W13Discussions1. Two processes0<t<t0 During pumpingn2t>t0 Pumping stoppedn2   2. For t>t0  (n2 reaches its maximum at t=t0)n2(t)W13(t)W130t0t
+     2
+2 13 1 2 21 2
+dn t n n t W t n t Adt      
+  21 2 1 131 13
+2
+21 2 1 13
+1 A W tW nn t e A W
+ 
+ 
+     
+ 2
+13 3 32 2 21 210 0 dnW n S n A S dt      
+    21 0
+2
+2 2 0
+A t t
+n t n t e  
+
+
+--- page 8 ---
+ANNOTATIONS:
+- 泵浦时间短，未发生自发辐射
+- 较长时间泵浦
+     2
+2 13 1 2 1 13 1 expdn t n n t W n t n W tdt              
+8
+3. t0<2(short-pulse pumping) very short time, ignore SP4. t0>>τ2(long-pulse pumping)  long enough timen2 continuously increases and reaches stable; n1reaches stable as well.During pumping, n2(t) continuously increase: nonstableW13(t)W130t0t 1 13
+2
+21 2 1 13
+W nn t A W
+
+      21
+1 2
+21 1 2 13
+A nn t n n t A W    
+2 21 211 A S  
+
+--- page 9 ---
+ANNOTATIONS:
+- 重要：粒子数反转的粒子数差的阈值，只有大于这个阈值才能形成稳定激光
+  
+t
+t
+21 0 21 0, ,
+gn l
+
+       
+0
+1 2 t
+1' ln2g r r g l  
+4.1 Oscillation Threshold
+9
+I. Population inversionnt (threshold condition)Requirements of self-oscillation: 1) Δn>0;    2) g>aDeduction of Δnt: 1) Intensity change（光强变化）;2) Rate equation(1) Intensity changeΔnt(L=l)   L: cavity length; l: length of the gain medium
+Cavity fully filled with gain materialWeak signal gain coefficient g0is a constant
+0 0 0( ') ( ') 2( ')
+1 0 2 1 1 2 0 0
+g l g l g lI I e r e r r r I e I      
+l 02 '
+1 2 1
+g l
+r r e 
+
+02( )
+1 0 0
+g lI I e I   tg l 
+l  conditions
+l
+r1r2
+1 2T d s s i         
+'
+L
+
+--- page 10 ---
+10
+(2) Rate equation Δnt(L=l)Weak signal:  Δn= Δntat 0ldN
+dt 
+ 2
+2 1 21 0
+1
+,l l
+l
+Rl
+dN N fn n Ndt f     
+     
+ t 21 0
+10 ,l
+Rl
+dN cndt        
+Rl
+L l
+c c
+  
+   t 21 0 t ,n g l
+    
+  
+t
+t
+21 0 21 0, ,
+gn l
+
+       
+
+--- page 11 ---
+ 2
+2 1 21 0
+1
+,l
+l l
+dN f l cn n cN Ndt f L L
+         
+  2
+2 1 21 0
+1
+,l l l l
+l
+Rl
+d N Al N A L l N Al N A L lf cn n N Aldt f     
+           
+11
+(2) Rate equation Δnt(L>l) LVRAssume cross-section Ais constant inside the cavityCorrection 2
+2 1 21 0
+1
+,l l
+l
+Rl
+dN N fn n Ndt f     
+     
+a RV Al V A L l  
+ldNL A
+dt
+    
+l l
+cN N c  Rl
+L L l L lc  
+     l
+L AN
+
+0n 0ldN dt 
+ 
+0
+t
+21 0 ,n n l
+
+     
+ηVal
+
+--- page 12 ---
+12
+ 
+0
+t
+21 0 ,n n l
+
+     
+Different modeshave different 21and therefore different ΔntThreshold for population inversion at central frequency0Minimum Δntat central frequency Threshold gain coefficientgtis determined only by single-loop loss;A constantleads to a constantgt.
+  
+2
+21
+21 0 0 2
+0
+, , 8
+A g      
+  0 t 0
+21 0 0 21,n l l
+        
+ t 0 t
+21
+n n l
+     21 0 ,g n     0
+t t 21g g n l
+   
+
+--- page 13 ---
+ANNOTATIONS:
+- 高阶横模的衍射损耗更大，因此增益阈值也要更大
+13
+II. Gain coefficientgt (threshold condition)DiscussionsDifferent modesdifferentσ21(,0)different Δnt, so Δnt()Different longitudinal modes have the samegtDifferent transverse modes have differentdiffraction lossesdifferentgtthethreshold gain coefficient of high ordertransverse mode is higher than thefundamental mode
+0
+t t 21g g n l
+    
+homogeneous broadeninginhomogeneous broadening
+2
+21
+t 2 2
+21 0 4 H
+An l
+
+      
+2
+21
+t 3 2 2
+21 0
+ln 2
+4 D
+An l
+
+      
+01 00
+t tg g
+
+--- page 14 ---
+14
+III. Pumping powerPpt (threshold condition) for CW or long-pulse lasers (Ppt, t0>>τ2)
+10 1 2 0 0S n n n   
+1) Four-Level System (assume homogenous pumping)at central frequencyWhen                (treated as stable state)W03A30S32S21A21W21E3E2E1E0W12S10For unit time and unit volumeTransited carriers E2E1is n2/τ2or n2/τsη2, to maintain n2=n2tNeed carriers supply from E3E2as n2/τ2or n2/τsη2So via pumping (absorption) from E0E3is n2/τ2η1or n2/τsη1η2
+2t t
+21
+n n l
+
+  
+2 2tn n
+
+--- page 15 ---
+ANNOTATIONS:
+- V为增益戒指体积，nF为转换效率，σ21为受激截面
+15
+2) Three-Level System (assume homogenous pumping)Similar analysisOnly difference: the bottom level of the laser is ground state
+p t p t p
+pt
+1 2 21s F s F s
+h n V h n V h VP l
+   
+       
+    Photon energy of the pumpingTotal quantum efficiency
+ph
+1 2F  
+W13A31S31S32A21S21W21W12E1E2E3 2 1n n n  
+1 2n n n 
+ 2
+1
+2n n n  
+3 0n 
+ignore degenerate of energy levelsbecauseAssume threshold of population inversion atenergy levelE2isn2t
+t
+2t 2
+n nn   2t 2
+nn 
+tn n 
+p
+pt 2 F s
+h nVP 
+ 
+
+--- page 16 ---
+16
+IV . Pumping EnergyEpt(threshold condition) for short-pulse lasers (Ept, t0<<τ2)For short-pulse pumpingIgnoreA21andS21, only consider pumping induced stimulated processIn order to keepn=1, need to absorb photon from pumping is 1/η1In order to keepn2=n2t, need to absorb photon from pumping isn2t/η1To have lasing, the absorbed photon number from pumping per unitvolume should be bigger thann2t/η1Energy Level of Lasers Long-pulsed or CW Short-pulsedThree-Level SystemFour-Level System
+p
+pt
+1 22 s
+h nVP 
+  
+p t
+pt
+1 2 s
+h n VP 
+  
+ p t
+pt
+1
+h n VE 
+
+
+p
+pt
+12
+h nVE 
+
+
+--- page 17 ---
+17
+Fort0~τ2(for case between long and short pulse),A21andS21, can NOT beignored, NO analytical solution for pumping energyEpt. Ift0is given, wecan numerically solve the problem.Discussion1) Threshold of four-level system is lower than three-level systemFour-level systemn1≈0only need to pump Δntto achieveg>ato have lasingThree-level systemn1is ground stateat least need to pumpn/2 andn/2>>Δntto have lasing2) To increase the pumping efficiencyη1Erbium-doped fiber amplifier (EDFA) use laser diode for pumping
+
+--- page 18 ---
+ANNOTATIONS:
+- 重要考点：功率阈值和什么相关 / （线宽和截面成反比）
+18
+3)PptandEptare related to the properties of gain material21, , ,F s F    
+p
+pt
+21F s
+h VP l
+ 
+  
+21 pt pt, , ,F s P E     
+homogeneous broadeninginhomogeneous broadening
+2
+21
+21 2 2
+04 H
+A    
+2
+21
+21 3 2 2
+0
+ln 2
+4 D
+A    
+21 pt pt ,F P E    
+Materials with narrow fluorescent linewidth is preferred for gain material.Type of lasers Ruby Nd:Glass Nd:YAG He-NeΔF(Hz)3.3×10117×10121.95×10111.5×109τs(s)3×10-37×10-42.3×10-47×10-9Δnt(cm-3)8.7×10171.4×10181.8×1016109n2t(cm-3)9.5×10181.4×10181.8×1016ηF0.7 0.4 1Ept/V(J/cm3) 5 0.954.9×10-3Ppt/V(W/cm3) 1600 1400 21
+
+--- page 19 ---
+19
+4) For four-level systemt pt pt ,n P E    
+Must make sure the quality of the optical component inside thecavity in order to decrease the optical loss.5) Meaning ofPptandEptThe derivedPptandEpt: Effective pumping power and energyThe laser'sPptandEpt: Electrical power and energy of inputpumping light sourceforsolid-state lasersGain MaterialsElectricalSourceCapacitorPulsed Xenon LampCharging Discharging EmissionPartialAbsorptiontn
+Solid-state lasers: optical pumpingSemiconductor lasers: injection current (Ith)Gas lasers: discharge current
+
+================================================================================
+Lecture Note_EE310_Ch4_L2
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch4-2
+Oscillation
+Characteristics of Lasers
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 4: Oscillation Characteristics4.2 Oscillation Mode (Output Mode)Mode competition in lasers with homogenous broadeningMulti-longitudinal mode oscillation of lasers with inhomogeneous broadening4.3 Output Optical Power and EnergyOutput power for CW or long-pulse laser Output power of short-pulse lasers（t0<<τs) 2
+
+--- page 3 ---
+4.2 Oscillation mode (output mode)Discuss the output modes of lasers from the mechanism of gain saturationMode competition in lasers with homogenous broadeningSelf-selection mode due to homogenous saturation of gain
+3steady-state gainConclusion: the output of a homogeneous broaden steady-state laser shouldbe a single longitudinal mode. Its working frequency locates at centralfrequency of the gain curve. Other longitudinal modes will be suppressed.......
+thg
+1 32
+0g  Gain Curvev1v2v3g (v)g (v1)I1g (v2)I2g (v3)I3Red > gth↑ > gth↑ > gth↑Blue > gth↑ > gth↑ = gth-Green = gth- > gth↑ < gth0Brown < gth0 = gth- < gth0
+
+--- page 4 ---
+ANNOTATIONS:
+- 这张图是重要考点：画出均匀展宽下各模式对增益的竞争
+4... ...
+thg
+1 32
+0g 
+
+
+--- page 5 ---
+ANNOTATIONS:
+- 烧孔效应：局域性消耗增益，导致增益介质局域性增益下降的现象（烧孔效应是指在非均匀加宽激光介质中，由于粒子饱和吸收或受激辐射导致增益曲线局部下降的现象） / 原因：纵模：驻波的波腹处，消耗增益，增益下降 /            横模：光强集中处消耗增益，增益下降
+Multimode oscillation induced by spatial hole-burning1) Spatial hole burning effectAssume homogeneous transverse distribution, only considerz-directiondistributionStanding wave gain distributiong(z) spatial hole-burning
+5
+2) Physical mechanismDifferent longitudinal modes can use theactivated atoms in different positions inside thecavity3) Formation conditionsStanding wave cavity: spacing betweenburning holes is at the scale of wavelengthSlow spatial transfer speed of activated atoms
+
+--- page 6 ---
+Gas: random thermal motion, fast spatial transfer speed, difficultto form spatial hole-burning.Solid: example, Cr ions bound to the lattice structure,/4 spatialtransfer needs 10-4sSemiconductor: 10-7s
+6
+4) Formation mechanism of transversehole-burningNonuniform distribution of population oftransverse modes, transverse hole-burningsize is large (mm scale), spatial transfercannot eliminate the nonuniformity.With enough pumping, differenttransverse modes can utilize the activatedatoms in different positions and hence formmulti-transverse modes oscillation.
+X
+T E M0 0
+I0 0
+n
+X
+T E M10
+n
+I1 0
+How about for pulse excitation?Mode competition time is in the range of μs
+
+--- page 7 ---
+Multi-longitudinal mode oscillation of lasers withinhomogeneous broadening
+7
+External pump g0longitudinal modes that meet thresholdconditions mode numbersFor incident light (,I), gain saturationwill only happen in the frequency rangeof+d. Laser oscillation can stillhappen for other frequencies.For the case of Doppler broadening,symmetrical hole burning at both sidesof central frequency0. Ifq=0, modesq+1andq-1will compete, and result inrandom fluctuation of their output powerIf frequency spacing betweenqandq+1is less than the spacing of burning holewidth, their burning hoes will overlapand result in mode competition
+
+--- page 8 ---
+Mode competition in inhomogeneous broadened lasers withstanding waveLongitudinal mode frequencies1and2symmetrically distribute onboth sides of the central frequency0, and deplete the invertedpopulationThe spatial burning holes will overlap for adjacent longitudinal modes ifthe spacing is small enough
+8
+0
+ig
+1
+
+0 12 
+zn v
+
+--- page 9 ---
+1
+2 outP I TA P ITA P I   
+4.3 Output Optical Power and Energy
+9
+Discuss the average intensity at steady-state, estimate the output powerOutput power for CW or long-pulsed laserSingle-mode laser (Assume mode lwith frequency of q)     
+0
+t
+0
+t
+t
+, ,
+,
+0, 0
+q q q q
+q q
+l l
+q q q
+q
+l
+l
+n n N n N n
+g g I g I I g I
+g I g I
+dN d n Ndt dt
+   
+ 
+  
+ 
+        
+    
+ 
+ 
+saturationg()>gtenhancedsaturation fixedintensityno change
+1
+2q q ql lN h I I I N h         
+1
+2 lP I TA N h AT  
+Area of the laser beam’s cross-section
+
+--- page 10 ---
+ANNOTATIONS:
+- gm是腔内增益介质对中心频率的小信号增益
+- 往返的总损耗2sigma=透射散出+介质损耗
+10
+Lasers with homogeneous broaden (=0)Assumeparticipate saturation simultaneously How to calculateIinside cavity
+1, , 2T I I I I I I    
+       
+,I I 
+ 
+  t, 1 2
+m
+H
+s
+gg I g I I l
+
+   
+1 12
+m
+s
+g lI I 
+     
+1 12
+m
+s
+g lP I TA 
+     
+α－single-loop net loss factor without considering reflectionA－effective sectional area of the laser beam  Gas lasers:1 2 1T T      
+21 12
+m
+s
+g lP I TA T
+      
+
+--- page 11 ---
+ANNOTATIONS:
+- S为增益介质横截面积
+p pt 0
+0 0 1 pt
+2 pt p pt
+1 1 1 1 12 2
+m
+s
+P Pg l n l AP I TA h TA P P S P
+    
+                       
+11
+Discussion 1: Output power ~ pumping power (PpP)  Solid-state lasers (optical pumping)
+0
+p0
+21 p
+p t
+t t 21 pt
+m
+F s
+F s
+h n Vg n P
+h n Vg n P
+  
+  
+  
+  
+p
+t pt
+m m Pg g l
+g P  
+pt 1 pt 1t
+2 p p
+P Pn
+h V h Sl
+ 
+  
+  
+2
+2 1 2 F
+s
+    
+0 2T 0
+t 21
+21 2
+,s
+hI n l
+     
+When Pp>Ppt, P increases linearly withPpThe output power of the optically pumped laseris converted from the pump power beyondPptIis determined by the gain beyondgt
+ppptP
+P
+1 12
+m
+s
+g lP I TA 
+     
+
+--- page 12 ---
+Gas lasers: exist optimum discharge current (P229)
+12
+上能级下能级
+j
+n
+jm
+Up leveldown levelPjEmpirical formula of the optimal discharge current for He-Ne laser
+21.4 10m
+lg d
+ 
+Semiconductor lasers (P278) ηi –Carrier recombination probabilityηD –LD (laser diode) efficiency    
+ln 1
+ln 1
+ln 1
+ln 1
+th
+i out
+out th
+D i
+in
+rJ JP P Pe L r
+rP J J
+P J eV L r
+  
+  
+  
+  
+
+
+inP JV
+PIIth
+
+--- page 13 ---
+ANNOTATIONS:
+- gm和增益截止长度l越大，T越大，输出功率越大
+21 12
+m
+s
+g lP I TA a T
+     
+13
+Discussion 2: Output power ~ transmittance (optimum T)   Can be Experimentally measured and calculated
+t
+out
+m
+PT T g I 
+   
+When T<<1, 2δT+a , a is the single-loop net loss factorTm: 1) Experimentally fixed Pp, change Tand measurePout2) Calculate dP/dT=0 
+2
+1
+2s m s
+dP aAI g l AIdT a T  
+0dP dT
+ 
+2 2 ma T g la  2m mT g la a  
+21 22m s mP AI g l a 
+21 1 1 12 2
+m m
+s s
+g l g lP I TA I TA T 
+             
+
+--- page 14 ---
+14
+Discussion 3: Output power ~ length of gain material (lP)Discussion 4: Output power ~ property of gain materialW03, n, 21, 2 Pfour-level system 
+0 21 2
+03 2 21
+1 12
+m
+s
+s
+m
+g lP I TA
+I h
+g nW
+
+  
+ 
+     
+
+
+0 03
+21 2
+1 1
+2
+lP TAh nW   
+     
+to have Δn0>0three-level system 
+13 20
+13 0
+21 2 13 2
+13 2
+21 2
+13 2 21 21
+0 13
+21 2 21 2
+11
+2 1
+1/ 1
+1
+1 1 1 1
+4 2
+s
+m
+n WhI W n W
+n Wg W A S
+nl lP ATh W n
+
+  
+  
+      
+       
+   
+                  
+13 2 1W 
+W13, n, 21, 2 PNote for this physical model 1) assume T<<1; 2) -I I 
+ 
+1 12
+m
+s
+g lP I TA 
+     
+
+--- page 15 ---
+15
+Lasers with inhomogeneous broaden (single-mode)When q0,I+and I-will have their own burning-holes
+
+I
+I
+cvz10cvz10
+   
+20 0
+, 1
+1
+q
+i q i q
+i q s
+s
+g g lg I I I lI
+I
+ 
+
+   
+
+
+                 
+ 
+22
+0
+2exp 4ln 2 1qm
+s
+D
+g lI I
+ 
+ 
+
+                     
+ 
+20
+1i q
+s
+g lP AI T AI T
+
+
+
+           
+21 12
+m
+s
+g lP AI T AI T 
+           
+0 0 0 2I I I I   
+     similarly we haveWhen q=0
+
+--- page 16 ---
+ANNOTATIONS:
+- 多普勒展宽导致的v3的两个烧孔面积大于v0的烧孔，消耗的增益更多，输出功率更大
+16
+Lamb Dip: Relation between single mode output power and frequencyParea of the burning-hole (characterize the inverted populationswhich contribute to the lasing)a) Burning-hole overlap conditionb) Width of the Lamb dip (δ)Hole widthc) Width of the Lamb dip (δ) ~ ΔL
+0- 1 2
+q
+q
+s
+I
+I
+   
+1
+q
+H
+s
+I
+I
+   
+PressureCollision broadening ΔLLamb dip width δ, shallow depth
+
+--- page 17 ---
+17
+Multi-mode lasersInhomogeneous broadening: Δqlarge enough, NO overlapping of burning holes, calculate the outputpower for each longitudinal mode, their sum will be the total output power.Homogeneous broadening: (solid-state lasers)Poutmust be calculated using the multi-mode rate equation with simplifiedassumption (same loss for each mode, rectangular linear function)
+p0
+0 1 pt
+p pt
+1PAP PS P
+  
+      
+Area of the laser beam’s cross-sectionArea of the gain material’s cross-section
+
+--- page 18 ---
+18
+Output power of short-pulse lasers（t0<<τs)Four-level system:output energy→ stimulated photon number → n2 → absorbed pumping energyE0E3E3E2E2E1                                      EinAbsorb pumping energyActivated photon numberStimulated photon numberIntra-cavity laser energy
+p 1
+0 2t
+p
+E Ah n Vh S
+ 
+     
+p 1
+2t
+p
+E n Vh
+
+
+     
+p 1
+t
+p
+E n Vh
+
+  pE
+1 Pumping efficiency
+VolumeV
+ 
+
+p t
+pt
+1
+h n VE 
+
+
+Output energy (E)
+p0
+1 pt
+p pt
+1EA T ES T a E
+ 
+      
+0
+T
+T a  p0
+0 1 pt
+p pt
+1EAE ES E
+  
+      
+
+================================================================================
+Lecture Note_EE310_Ch4_L3
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch4-3
+Oscillation
+Characteristics of Lasers
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 4:
+Oscillation Characteristics
+
+4.4 Relaxation Oscillation in Pulse Lasers
+
+Qualitative
+interpretation of
+relaxation oscillation
+
+Theoretical treatment of relaxation oscillation
+
+Practical significance of
+relaxation
+oscillation
+
+4.5 Line
+-
+Width Limit of Single Mode Lasers
+
+Passive cavity
+line
+-
+width limit
+
+Active cavity
+line
+-
+width limit
+
+4.6
+Frequency Pulling of Laser
+2
+
+--- page 3 ---
+ANNOTATIONS:
+- 振荡本质是pump和stimulated emission两过程对Δn的影响不同步，又互相影响
+4.4 Relaxation Oscillation in Pulse Lasers
+
+Qualitative
+interpretation
+of
+the
+formation
+of
+relaxation
+oscillations
+(transient
+behaviors
+of
+Δ
+n
+and
+N
+l
+)
+3
+The increase
+r
+ate of
+Δ
+n
+due to
+p
+umping
+The
+decrease rate of
+Δ
+n
+due to stimulated emission
+>
+
+
+
+
+1 1 2
+,
+t l
+n n n t t N n t t t
+           
+
+t
+1
+-
+t
+2
+
+--- page 4 ---
+
+
+
+
+
+
+2 2
+3
+l
+l
+l
+t
+N
+dN
+d n
+t t t t
+dt dt
+n
+N
+t t
+n
+
+
+    
+ 
+ 
+
+4
+
+t
+2
+-
+t
+3
+Stimulated radiation causes
+N
+l
+to
+rise sharply
+
+Δ
+n
+
+maximum
+
+t
+3
+-
+t
+4
+Stimulated radiation causes
+Δ
+n <
+Δ
+n
+t
+N
+l
+
+sharply
+,
+Δ
+n
+
+
+t
+4
+-
+t
+5
+Rate of
+Δ
+n
+reduction by stimulated radiation
+=
+Rate of
+Δ
+n
+increase by pump
+I
+f pump hasn’t stopped yet,
+weakening of stimulated radiation leads to
+
+t
+>
+t
+5
+S
+tart
+the
+evolution
+of
+2
+nd
+pulse
+.
+This
+process
+occurs
+repeatedly
+during
+the
+pumping
+process
+.
+As
+a
+result,
+the
+laser
+shows
+a
+series
+of
+spikes
+.
+l t
+N n n n
+     
+
+--- page 5 ---
+5
+
+The
+relaxation
+oscillation
+process
+occurs
+during
+the
+establishment
+of
+a
+laser
+.
+During
+pumping,
+both
+the
+inverted
+population
+and
+photon
+density
+undergo
+rapid
+changes
+due
+to
+STE
+.
+As
+a
+result,
+the
+output
+exhibits
+the
+characteristics
+of
+relaxation
+oscillations,
+forming
+multiple
+spikes
+.
+
+The
+stronger
+the
+pump,
+the
+higher
+the
+damping
+oscillation
+frequency
+,
+leading
+to
+a
+faster
+decay
+.
+
+Theoretical
+treatment
+of
+the
+relaxation
+oscillation
+process
+(solve
+the
+rate
+equation
+at
+non
+-
+steady
+-
+state)
+1
+)
+Exact
+solution
+:
+numerical
+method
+
+2
+)
+Approximate
+solution
+:
+1
+st
+order
+perturbation
+of
+steady
+-
+state
+Qualitative
+interpretation
+is
+OK
+.
+The
+quantitative
+comparison
+does
+not
+align
+well
+with
+the
+experimental
+results
+.
+This
+discrepancy
+arises
+because
+Δ
+n
+and
+N
+are
+not
+merely
+small
+fluctuations
+around
+the
+equilibrium
+state
+;
+instead,
+they
+may
+exhibit
+large
+fluctuations
+or
+intermittent
+oscillations
+.
+.
+
+--- page 6 ---
+6
+Example
+:
+Four
+-
+level system
+, s
+ingle
+-
+mode
+
+=
+
+0
+,
+n
+2
+≈
+Δ
+n
+In
+the
+1
+st
+order
+perturbation
+approximation,
+assume
+that
+the
+transient
+photon
+number
+s
+and
+the
+inverted
+populations
+fluctuate
+slightly
+near
+their
+corresponding
+equilibrium
+values
+.
+Assume
+1 2
+1
+F
+L l
+  
+   
+32
+21
+1 2
+32 30 21 21
+S
+A
+S A A S
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+21 21 03
+R
+dN t N t
+n t N t
+dt
+d n t
+n t N t n t A n n t W
+dt
+ 
+
+ 
+  
+
+      
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 0
+0 0
+0
+0
+and steady-state solution
+and small value
+N t N N t N t N
+n t n n t n t n
+N n
+N t n t
+ 
+  
+ 
+       
+
+ 
+
+
+--- page 7 ---
+ANNOTATIONS:
+- 一阶微扰
+- 重要：考试可能涉及
+
+
+21 0 21 03
+1
+R
+d n
+N A W n N
+dt
+ 
+
+
+
+ 
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+21 0
+0
+21 0 0 21 0
+t
+R
+t t
+R R
+N N t
+dN
+n n t N N t
+dt
+N t
+N
+n N n N t n t N n t N t N n
+ 
+
+   
+ 
+
+
+ 
+
+ 
+     
+   
+ 
+   
+ 
+
+    
+           
+ 
+ 
+7
+(1)
+Steady
+-
+state (
+dX
+/
+dt
+=0):
+N
+0
+and (
+Δ
+n
+)
+0
+(2)
+Approximate solution with 1
+st
+order perturbation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+21 21 03
+R
+dN t N t
+n t N t
+dt
+d n t
+n t N t n t A n n t W
+dt
+ 
+
+ 
+  
+
+      
+ 
+ 
+
+
+21 21
+1
+t
+R
+n t n
+l
+
+   
+    
+
+
+0
+t
+n n
+  
+
+
+
+
+0 03 21 03 21
+21
+1
+t t R t t
+t
+N W n n A n W n n A n
+n
+
+ 
+         
+   
+   
+
+
+--- page 8 ---
+ANNOTATIONS:
+- 阻尼振动
+- 泵浦增强，衰减的更快，振荡频率也会更高
+
+
+
+
+
+
+
+
+0 sin
+0 sin
+2
+t
+R
+t
+R
+n t n e t
+N t N e t
+
+
+
+
+
+ 
+   
+ 
+ 
+  
+ 
+ 
+t
+=0
+Δ
+n
+
+Δ
+n
+t
+8
+
+t
+>0
+Δ
+n'
+(
+t
+),
+Δ
+N'
+(
+t
+)
+show
+damped oscillation
+with the
+same damping period
+Attenuation coefficient
+
+W
+03
+
+φ
+
+,
+Ω
+R
+
+
+Multi
+-
+mode
+:
+For
+each
+mode,
+amplitude
+,
+φ
+and
+Ω
+R
+are
+different
+.
+Therefore,
+random
+superposition
+and
+random
+fluctuation
+of
+intensity
+exist
+.
+2
+2
+2
+2
+0
+0
+d n d n
+n
+dt dt
+d N dN
+N
+dt dt
+ 
+ 
+ 
+ 
+
+   
+ 
+
+  
+
+
+03 21 21 0
+2 2
+1
+2 2
+1
+4
+2
+R
+W A N
+
+  
+   
+   
+    
+
+
+21 03
+03
+21
+03
+1
+2
+1
+R
+R
+R
+t
+W n
+W
+A
+W
+  
+
+
+ 
+  
+ 
+ 
+ 
+
+
+03
+21 03
+,1
+t R
+t
+t
+n n W
+A n W n
+
+  
+ 
+Damped oscillation frequency
+
+--- page 9 ---
+9
+steady state
+
+
+
+
+
+
+
+
+
+
+0
+0
+1   , 0   ,
+t
+t n t N t N t N n t n n
+
+   
+        
+
+Practical
+significance
+of
+relaxation
+oscillation
+(pros
+and
+cons)
+
+The
+relaxation
+oscillation
+reflects
+the
+instability
+of
+the
+laser
+oscillation
+process
+.
+It
+is
+universal
+.
+The
+relaxation
+oscillation
+is
+the
+effect
+of
+laser
+oscillation
+on
+the
+transition
+from
+a
+non
+-
+steady
+-
+state
+to
+a
+steady
+-
+state
+.
+
+Relaxation
+oscillation
+in
+CW
+lasers
+will
+lead
+to
+i
+nstability
+of
+laser
+output,
+which
+is
+called
+n
+oise
+.
+
+warm
+-
+up
+time
+
+suddenly
+change
+the
+pump
+and
+loss
+will
+lead
+to
+oscillation
+instability
+
+
+
+
+
+
+
+
+0 sin
+0 sin
+2
+t
+R
+t
+R
+n t n e t
+N t N e t
+
+
+
+
+
+ 
+   
+ 
+ 
+  
+ 
+ 
+
+--- page 10 ---
+ANNOTATIONS:
+- L'=nL
+- 线宽计算公式
+4.5 Line
+-
+width Limit of Single Mode Lasers
+
+Passive cavity line
+-
+width: line
+-
+width of the eigen cavity mode
+~
+photon lifetime
+10
+Passive cavity
+(
+g
+=0: e
+qual number of photons absorbed and emitted
+)
+Intensity variation of light propagating in a passive cavity
+Example
+: He
+-
+Ne laser,
+L
+=30 cm,
+r
+1
+=1,
+r
+2
+=0.98,
+a
+≈0,
+η
+=1.
+
+
+0
+R
+t
+R
+L
+I t I e
+c
+
+
+
+
+
+ 
+7 6 1
+10 , 1.6 10
+R c
+s s
+ 
+ 
+   
+1
+2 2
+c
+R
+c
+L
+
+
+ 
+   
+
+monochromatic ~ temporal coherence
+
+--- page 11 ---
+ANNOTATIONS:
+- 重点：可能考选择题
+- 在针对相干光的时候，如果考虑上自发辐射的非相干光也算损失，那么总损失δ>g*l
+
+Active cavity linewidth (
+g
+>0)
+11
+Stimulated
+Emission
+Spontaneous
+Emission
++
+=
+Loss
+Coherent
+Noncoherent
+Starting from the photon lifetime
+?
+0
+
+
+s
+
+
+Spontaneous emission always exits in the process of oscillation, laser
+linewidth can NOT be
+0
+linewidth of the active cavity
+is smaller than passive one
+
+
+,
+2
+s
+s s s c
+c
+g I l
+L
+
+
+     
+
+        
+
+
+
+R s
+L c
+ 
+ 
+
+0
+0
+sp ste
+s
+P P P
+gl
+ 
+ 
+ 
+
+Existence
+of
+spontaneous
+emission
+
+loss
+is
+not
+zero
+in
+active
+cavity
+
+Noncoherent
+spontaneous
+emission
+
+random
+phase
+
+a
+finite
+and
+slightly
+attenuated
+wave
+train
+of
+coherent
+radiation
+
+The
+line
+-
+width
+of
+the
+active
+cavity
+is
+determined
+by
+the
+net
+loss
+
+--- page 12 ---
+
+Estimation of
+Δ
+
+s
+12
+2
+s
+s
+c
+L
+
+
+
+ 
+
+(Four
+-
+level system, single mode,
+L
+=
+l
+）
+stable
+oscillation
+2. Get
+a
+l
+, N
+l
+SP probability distributed to the
+mode
+l
+1. Get
+δ
+s
+
+
+21 0 2
+,
+l l
+l l
+R
+dN N
+n N a n
+dt
+   
+
+   
+
+
+,
+g I
+
+
+
+
+
+
+21 0 21 0
+, ,
+l
+A g
+a
+n SL SL
+
+     
+ 
+
+
+
+
+
+2 2 2
+2
+, 0
+,
+l
+l l t t
+s l t
+l
+N
+g I N a n n n n n
+L
+L
+g I l a n
+N
+
+
+
+ 
+  
+
+      
+  
+net loss
+
+0
+compensated by SP
+
+
+
+
+21 0
+2
+,
+out sp ste ste
+t l
+t l l
+P P P P
+n N SLh
+n a N SL h
+    
+
+  
+ 
+ 
+2
+l
+out
+N
+P Sh T
+ 
+
+2
+2
+2
+out
+l l
+t
+P
+T
+N a
+T Sh SL n
+
+ 
+  
+
+
+--- page 13 ---
+ANNOTATIONS:
+- 极限宽度
+
+The line
+-
+width of the real lasers
+13
+3. Theoretical line
+-
+width limit of a single mode laser
+Example: He
+-
+Ne,
+λ
+=632.8 nm,
+L
+=30 cm,
+T
+=0.02,
+P
+out
+=1 mW
+Δ
+
+c
+=1.6
+×
+10
+6
+Hz,
+Δ
+
+s
+= 6
+×
+10
+-
+3
+Hz,
+n
+2
+t
+/
+Δ
+n
+t
+=1
+insert
+N
+l
+,a
+l
+into
+δ
+s
+insert
+δ
+s
+
+
+
+
+2 2
+0
+2 2
+2 2
+c c
+t t
+s
+t out t out
+h h
+n n
+n P n P
+     
+
+ 
+  
+ 
+
+Many orders
+of magnitude
+far beyond theoretical line
+-
+width limit
+Reason
+:
+Frequency drift caused by temperature and other factors
+
+He
+-
+Ne laser (
+glass shell
+) 0.01
+o
+C → 1 MHz
+
+Solid
+-
+state laser
+
+
+→
+
+0
+shift
+
+--- page 14 ---
+14
+Summary
+
+Physical
+mechanism
+of
+line
+-
+width
+(single
+mode
+laser)
+:
+SP,
+noise
+
+Δ
+
+s
+<<
+Δ
+
+c
+
+P
+out
+
+
+Δ
+
+s
+
+i
+ntra
+-
+cavity
+coherent
+photon
+number
+
+,
+STE
+accounts
+for
+a
+larger
+proportion
+of
+P
+out
+
+
+
+s
+
+(
+Δ
+
+c
+)
+2
+
+
+
+
+
+
+c
+
+
+
+
+s
+
+
+L
+
+
+c
+
+
+
+
+s
+
+vertical
+external
+cavity
+semiconductor
+laser
+
+The
+actual
+line
+-
+width
+of
+a
+single
+-
+mode
+laser
+highly
+depends
+on
+the
+frequency
+stability
+
+
+2
+0
+2 2
+2
+2 2
+c
+s l t l t
+s
+t out
+h
+c ca n L N n
+L L n P
+  
+ 
+
+ 
+
+   
+ 
+
+21 21
+3 3
+21 21
+8
+B W
+n
+h c A A
+
+
+
+
+ 
+  
+8
+for He-Ne : 3 10
+n
+ 
+n
+
+Total photon number
+Mode number
+Mode number
+A
+21
+W
+21
+Total photon number
+
+1
+2 2
+c
+R
+c
+L
+
+
+ 
+  
+
+
+--- page 15 ---
+4.6 Frequency Pulling of Laser
+15
+
+What
+is
+frequency
+pulling?
+
+Physical
+mechanism
+:
+dispersion
+
+Dispersion
+induced
+frequency
+pulling
+
+
+0
+0
+1
+H
+c
+g
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+0
+,
+2
+H
+H
+c
+g I
+
+ 
+  
+ 
+
+ 
+
+0
+0
+2
+q
+c
+q
+L
+
+
+
+
+
+0
+2
+2
+q
+c c
+q q
+L
+L
+
+
+ 
+ 
+ 
+
+
+0
+0
+0
+0
+0
+2
+2
+q q
+q
+c c
+q q
+L
+L
+ 
+
+ 
+
+
+
+  
+ 
+
+
+Passive cavity
+longitudinal frequency
+Active cavity
+longitudinal frequency
+Frequency difference
+between active and
+passive cavity
+In
+real
+lasers
+,
+the
+dispersion
+of
+gain
+material
+makes
+longitudinal
+frequency
+approach
+more
+closer
+to
+the
+central
+frequency
+compared
+to
+the
+passive
+cavity
+:
+Frequency
+Pulling
+
+--- page 16 ---
+16
+
+Discuss
+the
+refractive
+index
+change
+and
+pulling
+parameter
+(homogeneous
+and
+inhomogeneous
+broadening)
+homogeneous
+broadening
+pulling parameter of
+homogeneously broadened laser
+steady
+-
+state
+frequency
+difference
+between active and
+passive cavity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+2
+0
+21
+2 2
+2 2
+0
+0
+,
+2
+2
+,
+4
+2 1
+H
+H
+H
+H
+H
+H s
+c
+g I
+A n
+g I
+I I
+
+
+
+ 
+  
+ 
+
+
+
+  
+  
+
+ 
+
+
+
+
+
+   
+0
+0
+q
+q
+c
+H
+q H
+ 
+
+
+  
+
+
+  
+ 
+
+
+
+
+0
+0 0
+0
+0
+2
+q q
+q
+c
+q q q
+H H
+c
+L
+ 
+
+
+     
+  
+ 
+
+     
+ 
+
+
+0 0
+0
+q
+q q q
+ 
+  
+
+
+ 
+
+
+
+
+0
+0
+0
+,
+2
+q
+q
+q q H q
+H
+c
+g I
+
+ 
+  
+ 
+ 
+ 
+
+0
+q q
+ 
+
+0
+2
+c
+c
+L
+
+
+
+ 
+
+--- page 17 ---
+17
+inhomogeneous
+broadening
+
+
+
+
+2
+0
+0
+2
+4ln 2
+2 ln 2
+0
+0
+3 2
+0
+2
+D
+D
+t
+i i
+c
+g e e dt
+ 
+ 
+
+
+  
+ 
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+0
+0
+ln 2
+2 1
+q q
+q
+c
+i
+q D s
+I
+I
+
+ 
+
+
+   
+
+
+   
+ 
+
+
+
+
+
+
+2
+0
+4ln 2
+0
+0
+0
+3 2
+ln 2
+D
+i i
+c
+g e
+ 
+
+ 
+  
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+2
+0
+4ln 2
+0
+0 0
+0
+3 2 0
+0
+3 2 0
+0
+ln 2
+ln 2 , 1
+ln 2
+2 1
+D
+q
+q
+q
+q
+q q i
+D
+q
+i q
+D s
+c
+q
+D s
+c
+g e
+I
+c
+g I
+I
+I
+I
+ 
+
+
+
+
+ 
+  
+  
+ 
+
+  
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+  
+
+
+  
+
+
+   
+
+Steady state
+
+
+,
+q
+i q
+g I
+L
+
+
+
+
+0
+2
+c
+c
+L
+
+
+
+ 
+
+He
+-
+Ne laser
+σ
+i
+=
+10
+-
+3

@@ -1,0 +1,182 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh3-1\nResonant Interaction\nbetween Electromagnetic\nField & Matter\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 3: Resonant Interaction betweenElectromagnetic Field & Matter\n2\n3.1 Light and matter interaction3.2 Line broadening mechanismsHomogeneous broadening: natural, collisions, lattice vibrationInhomogeneous broadening: Doppler, lattice defectComprehensive broadening",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "3.1 Light & Matter Interaction\n3\nThe physical basis of laser: The resonant interaction betweenelectromagnetic fields and the (bound) electron inside atoms (or ions ,molecules) which form the matter.Laser theory: Light & Matter1) The Classical Theory– Classical atomic luminous modelDescription of light: classical electromagnetic field (Maxwellequations)Description of atom: classical atomic model (dipole resonator)You can approximate describe absorption, dispersion, spontaneous emission andspontaneous emission line-width and other physical phenomena, can notdescribe the nonlinear physical process (saturated, nonlinear polarization, etc.)",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "4\n2) Semi-Classical Theory– the Lamb theory (W. E. Lamb Jr, 1964)Description of light: classical electromagnetic field (Maxwell equations)Description of atom: quantum mechanicsCan deal with the volatility of light and the relevant physical phenomena likenon-linear phenomena and Lamb dip, etc., but can not deal with the related issuesof the particle nature of light (quantum optics), such as the quantum fluctuationsof light, and the photon statistics.3) Quantum Theory– quantum electrodynamics (QED) usingquantum processing to deal with radiation field and atomDescription of light: photons by using QEDDescription of atom: QED modelIt is the foundation of modern quantum optics, the physical problems associatedwith particles of light can be handled, but very complicate in handling issuesrelated to the volatility of light (such as phase). In QED, the number of photons(i.e. light amplitude) and the phase is a quantity of uncertainty.",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\n4) Rate Equation– a simplified quantum theoryInteraction between electromagnetic field (photons) & atoms of gain mediumDoes not consider the quantum fluctuations of the number of photons and phaseof the light, only discuss the number of photons (light intensity).The starting point of rate equation: the basic relationship of SP, STA and STE\n21\n21\n2\n12\n12\n1\n21\n21\n2\n1\n1\n1\nsp\nsta\nste\ndnA dt n\ndnW dt n\ndnW dt n\n                \n21\n21 2\n12\n12 1\n21\n21 2\nsp\nsta\nste\ndn A ndt\ndn W ndt\ndn W ndt\n    \n    \n    \n12 12\n21 21\n12 1 21 2\nW B\nW B\nB f B f\n\n\n\n\n\n\n\n2\n3\n8\n1b\nh\nk T\nh\nc e\n \n  \n\n2 1E E h P  single frequency has a distribution",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "3.2 Line broadening mechanisms\n6\n 21\n2 21\ndnP h n A h P P ddt    \n\n   \nP 1. Line broadeningp() 0,g  2. Line function: spectrum line-shape  0 0, , 1 Pg g d P\n    \n\n   \n3. Spectrum line-width4. Two broadening mechanisms: homogenous and inhomogeneous broadeningI. Homogenous Broadeningnatural, collisions, lattice vibration (phonon)",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "三个重点：\n1）中心频率\n2）线宽\n3）线型",
+        "rect": [
+          528.016,
+          302.253,
+          766.058,
+          476.758
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "时间能量的不确定性：激发态无规则运动，与其他原子的作用，同类激发态原子直接作用...",
+        "rect": [
+          135.454,
+          482.603,
+          402.73,
+          554.409
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "均匀展宽：所有原子对谱线宽度内所有频率均有影响且相同",
+        "rect": [
+          89.5156,
+          52.603,
+          385.19,
+          113.554
+        ]
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "text": "7\n1) Natural broadening: atoms have limited lifetime in the excited stateThe dipole oscillator damping vibration    \n0 2 2 2\n0\n, 2 4\nN\nPg P\n         \n    \n2\nP d x d\nP P d\n   \n \n\n\n\n\nNormalization condition   \n0 020\n0 22\nt\ni t xx t x e e x\ni\n\n     \n\n \n \nFTThe damping coefficient γand spontaneous emission lifetime τs(1) According to the concept of damping vibration  2 21 2\n2 20\ntdn dn n n t n edt dt\n\n\n    \n   \n2 2\n20 20 0 0\nt tP t n x t n x e P e     \n(2) According to the change of particles number in the E2state",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "8\n 2\n20 21 0\ns st tdn tP t h n h A e P edt\n       \n2 20\ntn t n e \n1 s \n0\ntP t P e \n   \n0 2 2\n0\n2, 2\nN\nN\nN\ng      \n   \n    \n0 2 2 2\n0\n1, 1 2 4\n1\n2\ns\nN\ns\nN\ns\ng      \n \n  \n \nLorentz function\n0P\nThe quantum interpretation of line broadening due to the limited lifetime ofenergy levelΔE1ΔE2\n2\nhE     \nFluorescence - energy level transition between quantum states The average lifetime of energy level can be understood asatoms in the state has an uncertainty of timeτ(time is nota determined value);Time and energy can't be accurately measured at the sametime, the state corresponding to the energy also have auncertainty of ΔE.\nnatural broadening line-width",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "自然展宽线型",
+        "rect": [
+          78.6575,
+          390.759,
+          244.87,
+          436.681
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "9\nΔE1ΔE2\n1 1 1\nsp nr   \n2 1\n1 2\n1 1\n2 2N\nE E\nh  \n     \nIf the high and low energy levels have certain width, thetransition between them is not defined by a certain frequencyv21, but the one with a range of frequency distribution ΔvNe atom, 632.8 nm, energy life time is 10-8s, natural broadening 107HzCO2molecule, 10.6 μm, natural broadening 103-104Hz\n1\n2N\ns\n   Completely ignore the width of the grand state energy level, this is due to the limitation of the classical radiation model.",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "10\n2) Collision Broadening: random \"collision\" between atoms Inelastic collision: internal energy transfer, equivalent to excited state lifetimeground state atom ↔ excited state atomexcited state atom ↔ other atomsElastic collision: spontaneous radiation & phase change, lengthDue to the random collisions, the phase change is big, and it is not related to theinterrupted wave. The average length of the wave is determined by the averagetime\nL\nL\n1\nL\nL\n  \n－average collision time (the time spacing between collision)\n－collision line-width... ...collision collision",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "类似于一个碰撞的lifetime",
+        "rect": [
+          102.879,
+          40.9151,
+          216.472,
+          128.585
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "11CO2 : a=49 kHz/PaHe3:Ne20(7:1): a=750 kHz/Pa   \n0 2 2\n0\n2 1, 2\nL\nL L\nLL\ng       \n    \nFor gas laser: collision broadening - pressure broadening Pressure collision between atom (molecule) collision broadening\nL p\np\n \n\n \nproportionality coefficientpressure3) Natural Broadening + Collision Broadening: still Lorentz function\n1 1 2\n2H N L\ns L\n     \n         ",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "12\n4) Phonon: Lattice Vibration BroadeningDue to the thermal lattice vibration, the excited ions fixed inside the lattice thatwill change with time, which results in position change within a certain range,and therefore induces the line broadening.The thermal lattice vibration has the same effect to all luminous ions, and it isclassified as homogenous bordering. Lattice vibration broadening is the mainbrooding mechanism for solid-state gain materials.Homogenous Broadening－The physical mechanism which causes the linebroadening is equivalent for all the atoms; Every light emitting atoms followthe line-shape ofLorentz function   \n0 2 2\n0\n2, 2\nH\nH\nH\ng      \n   ",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "13\nII. Inhomogeneous BroadeningDoppler, lattice defect1) Doppler BroadeningLight emitting from particles with thermal motion has line broadening due to Doppler frequency shiftOptical Doppler effect: spontaneous emission Doppler effect\n0\n1\n1\nz\nz\nc\nc\n  \n  0 1 z\nc\n      \n1z c \n1storder approximationReceiverlight source\n0 \n0 0z z  \nAtom moves toward receiver(along the light propagation direction)Atom leaves the receiver(reverse direction of propagation )\n0z  0z ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "非均匀展宽：部分原子对谱线宽度内部分频率有影响，且影响程度不相同",
+        "rect": [
+          83.6689,
+          496.799,
+          436.975,
+          543.557
+        ]
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "text": "14\nStimulated emission Doppler effect: one-dimensional Doppler effectmonochromatic light wave        light source moving atom light receiver imaginarylight sourceatom receiver\nz\n\n0z ifthe frequency that atom feel is \nbiggest resonant interaction when 0 \nwhen atom moving along z' 1 z c   \nbiggest resonant interaction when 0' \n2\n0 0 0 01 1 1 1 1 z zz z z\nc c c c c\n                                                 \nAtoms with speed of interacts with wave propagates in thezinteraction, thecenter frequency of atom is\n0 0 1 z\nc\n       \n0\nThe same direction of atom movement and light propagationThe reverse direction of atom movement and light propagation\n00\nz\nz\n \ncentral frequency0\nz",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "15\nThe Line Function of Doppler Broadening\n'0n('0)n'0)d'0d\nzvzn(vz)n(vz)dvzdvz01) Atom along zdirection: Maxwell distributionmass of atom  \n2\n2\n1 2\n/2\n2 2\n1 2\n/2\n1 1\n2\n2\nz b\nz b\nm k T\nz z z\nb\nm k T\nz z z\nb\nmn d n e d k T\nmn d n e d k T\n\n\n   \n   \n\n\n    \n    \n2) Atom around the central frequency 2 0 1 0\n0 0\n2 1\n,D\nn ng n n\n      \nfor E2for E1speedfrequency\n \n2\n1 2\n/2\n2\nz bm k T\nz z z\nb\nmn d n e d k T\n   \n    \n  22 0 0\n20\n1 2\n2\n2 0 0 2 0\n0 2\nb\nmc\nk T\nb\nc mn d n e d k T\n \n    \n       \n0 0 0\n0\n1 z\nz\ncd dc\n    \n      \nz\n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "原子运动的分布决定了多普勒效应的分布，进而决定多普勒展宽",
+        "rect": [
+          320.041,
+          457.557,
+          736.825,
+          498.47
+        ]
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "text": "if does not consider                    the SP frequency16p()dd\nP()\nAtom around the central frequency      0 0, z\nPg n n n P\n       \nDoppler line broadening function 0 2 21 0 21 2 0\n2 21 0\n,DP d h n A d h A n g d\nP n A h\n        \n\n \n\n\n  \n2 2\n020\n1 2\n2\n0\n0\n, 2\nb\nmc\nk T\nD\nb\nc mg e k T\n    \n     \nGaussian function\n,N L   0  \n  \n2 2\n0 020\n1 2\n2\n0 0\n0\n, 2\nb\nmc\nk T\nD\nb\nc mg e k T\n    \n      \n\n'0n('0)n'0)d'0dfrequency",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17\nD\nP\nGaussian-shapeLorentz-shapeatomic weight    \n2 2\n020\n1 2\n2\n0\n0\n1 2\n0 0 0\n0\n11 2 27\n0 0 2\n, 2\n, 2\n22 ln 2 7.16 10\nb\nmc\nk T\nD\nb\nD\nb\nb\nD\nc mg e k T\nc mwhen g k T\nk T T\nmc M\n    \n     \n  \n \n\n    \n     \n            \n\n\n    \n2\n0\n2\n4ln 21 2\n0\n1 2\n0 0\n0 0\n2 ln 2,\n2 ln 2 0.939,\n2 0.637,\nD\nD\nD\nD\nD D\nL\nN N\ng e\ng\ng\n \n   \n    \n    \n      \n      \n  \n\n\n\nDoppler broadeningline-widthDoppler broadening in gas is belong to inhomogeneous broadening. The central frequency is differentfor atoms with different velocities, each one contributes to the spectral line and leads to broadening.",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\n2) Local Field Inhomogeneous Broadening in Solid-State MaterialsCrystal defects (dislocation, vacancy) caused the disorder of crystal field.The poorer the crystal quality, the wider the spectral line-width. It can notbe described by any function, and can only be measured.For glass materials doped with active ions, the activated ion located at in-equivalent coordination field will lead to inhomogeneous broadening, suchas neodymium glass.Differences between homogeneous and inhomogeneous broadening:Homogeneous broadening: emission from any light emitting particles (atoms,ions, molecules) contribute to every frequency in the spectrumInhomogeneous broadening: emission from light emitting particles onlycontribute to certain frequency. In the inhomogeneous broadening, differentlight emitting particles contribute to different frequency insideg ",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "19\nIII. Comprehensive Broadeninghomogenous + inhomogeneous002   dn\n02 n\nP\nH\nComprehensive broadening line function\nThe comprehensive line function of gas1)                           the SP from energy level E22 0 0 0 21 0, ,D Hn g d h A g d         \n0 0 0 d     \nd    \n0 0 0\n2 0\nd\nn\n   \n     SP possibilityE2level2) the SP from all the particled   \n                \n2 0 0 0 21 0\n0 2 21 0 0 0 0\n0 2 21\n0 0 0 0 0\n, ,\n, ,\n, , ,\nD H\nD H\nD H\nP d d n g d h A g\nP h n A g g d\nP P d h n A\nPg g g d P\n        \n      \n  \n      \n\n\n\n\n\n\n\n\n  \n  \n \n   \n\n\n\n\n \n \n  \n0 ",
+    "annotations": []
+  },
+  {
+    "page": 20,
+    "text": "When                        , the comprehensive broadening is mainly due to Doppler inhomogeneous broadening20\n     0 0 0 0 0, , , D Hg g g d      \n\n     \n0 0 0, , ,D Hg g     The comprehensive broadeningline function is the convolution of(1) H D   \n0 0,Dg   can be regarded as     function, only has non-zero value when  0  \n       0 0 0 0 0, , , , D H Dg g g d g        \n\n       \nH D   \n(2)  When                          similarly,  D H    0 0, , Hg g    \nthe comprehensive broadening is mainly due to homogenous broadening",
+    "annotations": []
+  },
+  {
+    "page": 21,
+    "text": "21\n(1) He-Ne:  632.8 nm (2) CO2 : 10.6 μm (3) Broadening of solid-state materialsFor He-Ne laser, Doppler inhomogeneous broadening is the main mechanismP ~ 1333 Pa comprehensive; P >>1333 Pa homogenousRuby: Low temperature - inhomogeneous broadeningRoom temperature - homogeneous broadening 2.7*105 MHzNd: YAG crystals: homogeneous broadening due to lattice thermalvibration 1.95*105 MHzNd: Glass: inhomogeneous broadening 7*106 MHz\n710 Hz 100 ~ 300MHz 1500MHzN L D       \n3 410 ~ 10 Hz 49 Hz Pa 60MHzN L D p k          \nRubyNd:YAG",
+    "annotations": []
+  }
+]

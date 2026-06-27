@@ -1,0 +1,701 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+11: The Steady Magnetic Field
+• Magnetic Field Boundary Conditions
+ Consider an interface between two media that have different permeabilities 磁导率.
+ We want to find the relationship between magnetic fields at the boundary, on either
+ side. This is done by considering separately the normal and tangential components
+ of the field.
+
+
+
+
+                                                                                       35
+11: The Steady Magnetic Field
+• Boundary Condition for the Normal Component of B
+  In this case, we use Gauss’ Law for the magnetic flux density:
+
+
+
+
+   ..and apply this to the right circular cylinder as shown:
+
+
+                                     obtain:
+
+
+
+                                      so that:
+
+
+                                      The normal component of B is continuous across a
+                                      boundary.
+
+                                                                                     36
+11: The Steady Magnetic Field
+• Boundary Condition for the Tangential Component of H
+ In this case, we allow for the possibility of a
+ surface current density, K, at the boundary, as shown.
+ Ampere’s Circuital Law states:
+                                                                              K
+
+
+
+ ..and over the indicated path, this becomes:
+
+
+
+
+   or:                                 More generally:
+
+                                                    or
+
+  Obviously, if no surface current exists, then the two tangential fields are equal
+  at the boundary!                                                                    37
+11: The Steady Magnetic Field
+• Example (8.6)
+
+         Given, a configuration
+         for which:
+                                                     at z = 0
+
+
+                                               Find B2
+
+  First, we work with the normal components:
+
+
+
+
+   Therefore:
+
+                                                                38
+11: The Steady Magnetic Field
+• Example (8.6 Cont’d)
+ Next, we work with the tangential components:
+
+
+
+
+                                                 39
+11: The Steady Magnetic Field
+• Example (8.6 Cont’d)
+
+
+  Summarizing, we have:
+
+
+
+
+  ..so finally:
+
+
+
+
+                                40
+11: The Steady Magnetic Field
+• E and H -- and Related Potentials
+
+   Electric field -- electric
+   potential relations:
+
+
+
+
+   Magnetic field -- scalar
+   magnetic potential relations:
+
+
+
+
+   Vm is the magnetomotive force磁动势, or mmf. Unit: A.t 安匝
+
+                                                            41
+11: The Steady Magnetic Field
+• Ohm’s Law and Current Analogies 用电路模拟磁路
+
+  Point form of Ohm’s Law
+  for the electric field:
+
+
+  Current flux:
+
+
+
+  Analogy to Ohm’s Law       B assumes the role of
+  for the magnetic field:    current density
+
+
+  Magnetic “current” flux:
+
+
+                                                     42
+11: The Steady Magnetic Field
+• Reluctance as an analogy to Resistance 磁阻 vs 电阻
+ In large scale form, Ohm’s Law is:
+
+                                                                  This is the analogous
+ A similar rule can be constructed
+                                                                  equation for Ohm’s Law
+ that relates mmf to magnetic flux:
+                                                                  in a magnetic circuit 磁路
+
+ where     is the reluctance 磁阻 of the medium, in direct analogy to resistance.
+
+
+ For a straight wire of uniform conductivity, we found that:
+
+
+
+ For a similar medium of uniform permeability, it follows that:
+
+
+                                                                                        43
+11: The Steady Magnetic Field
+• Analogy to Source Voltage
+
+ In an electric circuit, Kirchoff’s
+ Voltage Law is expressed as:
+
+
+
+ The magnetic analogy is expressed
+ as Ampere’s Circuital Law:
+
+
+
+ Generally, the closed path integral of H may include N turns of wire, leading to:
+
+
+                                          This quantity is the mmf around a closed
+                                          path, which we use as Vm in our magnetic
+                                          circuit equation.
+
+                                                                                     44
+11: The Steady Magnetic Field
+• Application of Reluctance: A Simple Magnetic Circuit
+To see how reluctance is used, consider                                             y
+this example, involving a toroid of rectangular
+                                                                        x       x       x
+cross-section, in which the inner and outer radii               x           H                   x
+                                                                                                          N turns
+
+                                                                        . . . . .
+satisfy the condition b - a << b.                           x                                       x
+
+In this case, we can approximate the                                .                       .
+reluctance as:
+                                                        x
+                                                              .               . x
+                                                        x    .                 . Cx
+                                                              . I        a .
+                                                                                                           x
+                                                         x      .           .      x
+                                                           x
+                                                                  . . . . .
+                                                                       b
+                                                                                 x
+so that the flux becomes:                                       x                               x
+                                                                        x       x       x
+
+
+
+                                                    h
+..and finally:
+
+                                                                                                    a b
+                                                                                                               45
+11: The Steady Magnetic Field
+• Two Ways of Finding H
+                                                                               y
+Note that this result:                                                     x
+                                                                   x               x                 N turns
+                                                           x           H                   x
+                                                       x           . . . . .                   x
+                                                               .                       .
+                                                   x
+                                                         .               . x
+                                                   x    .                 . Cx
+                                                         . I        a .
+..is the same as that found using Ampere’s                                                            x
+circuital law at the mean radius, giving the        x      .           .      x
+magnetic field at that location:                      x
+                                                             . . . . .
+                                                                  b
+                                                                            x
+                                                           x                               x
+                                                                   x       x       x
+
+
+
+                                               h
+
+                                                                                               a b
+
+
+                                                                                                          46
+11: The Steady Magnetic Field
+• Toroid with Air Gap
+Suppose that an air gap exists in the                                                    y
+core, having thickness t, as shown.                                                  x
+                                                                            x                x                   N turns
+                                              Air Gap                 x                              x
+The reluctance of the magnetic circuit will                                      H
+                                                                            .. ...
+                                              (free space         x                                      x
+be the series combination of the core         permeability)
+reluctance and that of the air gap:                           x             .                    .           x
+                                                                          .               . C
+                                                                                           .                 x
+                                                                          .I         a .                          x
+                                                        t     x             ..    b
+                                                                                      . .                    x
+                                                                                 ...                     x
+                                                                  x
+The core permeability is                                              x                              x
+                                                                            x        x       x
+
+
+ with which the total reluctance is now:
+                                                        h
+
+                                                                                                     a       b
+                                                                                                                      47
+11: The Steady Magnetic Field
+• Approximations for Ferromagnetic Core
+If the core is ferromagnetic, the relative                                                  y
+permeability will be on the order of several                                            x
+                                                                               x                x                   N turns
+thousands, in which case the air gap               Air Gap               x                              x
+contribution to the reluctance may dominate,       (free space                      H
+                                                                               .. ...
+                                                                 x                                          x
+even though the gap dimension is very small.       permeability)
+                                                                 x             .                    .           x
+                                may neglect                                  .               . C
+                                                                                              .                 x
+                                                                             .I         a .                          x
+                                                           t     x             ..    b
+                                                                                         . .                    x
+                                                                                    ...                     x
+                                                                     x
+ If t is even a small fraction of the core circumference,                x                              x
+ the net reluctance can often be taken as that of the air gap.                 x        x       x
+
+
+ Another assumption is that the gap thickness is
+ small enough so that fringing magnetic fields
+ can be neglected.                                         h
+
+                                                                                                        a       b
+                                                                                                                         48
+11: The Steady Magnetic Field
+• Magnetic Field in Core and Air Gap
+    We assume that        …so that the net reluctance approximates as:
+
+
+
+
+                     The magnetic flux density is the same in the core and in the air gap
+                     (remember the boundary condition for B normal to an interface)
+
+      Hc
+
+
+t    Hg
+                     The magnetic field strengths in each region are now:
+
+      Hc                Core material:
+
+
+                        Air gap:
+
+
+                                                                                        49
+11: The Steady Magnetic Field
+• Nonlinear Relation between B and H
+  In ferromagnetic materials, B increases with increasing H, but in a nonlinear
+  manner as shown in the typical curve below
+
+
+
+
+   So we really don’t know what the actual permeability is until we have definite
+   knowledge of B or H.
+                                                                                    50
+11: The Steady Magnetic Field
+• Procedure for Including the Nonlinear B-H Characteristic
+  Consider again the toroid with mean radius                  and air gap of thickness t.
+
+
+  We already found that:
+
+  and that:                                                        ..so the problem is this:
+
+
+
+
+                                                                 given                         unknown
+     The procedure is to assume a value for B, solve the                   unknown
+     equation for     , and then use that result to find Hc
+     using the actual B-H curve.
+
+
+This, along with:                     must satisfy Ampere’s Circuital Law:
+
+
+ If not, try again with a corrected value for B, over as many iterations 迭代 as needed.
+                                                                                                         51
+11: The Steady Magnetic Field
+   • A Further Complication: Hysteresis 磁滞回线
+                                                                    Increasing H to high positive values lines up all
+Domain wall 磁畴壁 shifting in ferromagnetic materials introduces      magnetic moments, and a single domain is
+semi-permanent magnetization states that are slow to respond to     left (in the extreme case). The core is thus in
+changes in applied magnetic fields. The resulting magnetization     Saturation 饱和. Further increase in H leads to an
+curve demonstrates the hysteresis phenomenon as shown here.         increase in B through the free space permeability
+
+
+ Decreasing the applied H field to zero leaves many dipoles
+ still aligned, and we have the remnant magnetic flux density,
+ Br 剩余磁通密度. The material has become a permanent magnet.
+
+                                                                          Coercive field in transistioning
+                                                                          B from negative to positive values
+
+
+
+
+The remnant flux density is reduced to zero by applying
+an opposing magentic field strength, -Hc known as the
+coercive field (or coercive force). 矫顽力
+                                                                  Remanant magnetic flux density, for increasing H
+                                                                  field from negative to positive values
+
+
+
+Increasing H to high negative values again
+leads to saturation
+                                                                                                               52
+11: The Steady Magnetic Field
+• Magnetic Circuit in Rectangular Geometry
+
+
+
+
+ This problem is handled in the
+ same way as before, except that the
+ perimeter is constructed using the
+ mean distances, L1 and L2 .
+
+
+
+
+                                             53
+11: The Steady Magnetic Field
+• Energy and Energy Density in the Magnetic Field
+ In a previous lecture it was demonstrated that the energy in the electric field within
+ volume v is given by:
+
+
+
+ In like manner, it would seem logical that the magnetic field energy within volume v is:
+
+
+
+
+  Energy density relations are as previously found, or as expected:
+
+
+                                           and
+
+
+                                 valid for isotropic media
+
+                                                                                          54
+ 11: The Steady Magnetic Field
+  • Magnetic Flux 磁通 and Flux Linkage 磁链
+                   Consider a solenoid of length d, which carries current I in each of N turns
+                   匝. The turns have individual areas Si which may be different from each
+           B       other. The B field may also evaluate differently in each turn.
+
+                        The Flux Linkage is defined as the sum of the magnetic fluxes through
+                        all turns, where the flux evaluated at each surface is the total flux there,
+                        generated by all turns acting together.
+
+               I
+N turns            d
+                                                      where
+
+
+          Si
+                             Units of flux linkage are Weber-turns [Wb-t]
+
+                   If all turns (and B through each) are equal, then the above simplifies to:
+
+                                                           where the integral is evaluated
+                                                           over any single turn.
+                                                                                                 55
+11: The Steady Magnetic Field
+  • Inductance Definition 电感的定义
+                       Having the flux linkage:
+           B
+                                             where
+
+                       The inductance of the device is defined as the flux linkage
+                       per unit current, or
+               I
+N turns            d
+                                                  where the last equality applies if all
+                                                  turns are identical
+          Si
+
+
+
+                       The units of inductance are Weber-turns per Ampere, where
+                       1 Wb-t/A is defined as one Henry [H].
+
+
+
+                                                                                       56
+11: The Steady Magnetic Field
+  • Solenoid Inductance
+                                 For a long solenoid, having turn density n, and core permeability     ,
+                                 the magnetic flux density has magnitude:
+                 B
+
+
+
+                                           Then, assuming equal flux densities through N identical turns,
+                                           the flux linkage is
+                            I
+N turns                          d
+
+
+                Si                         …and the inductance is:
+
+
+
+
+      It is interesting to compare this result to the capacitance
+      of a parallel-plate capacitor, having plate area S, plate
+      spacing, d, and dielectric permittivity, :                                                    57
+11: The Steady Magnetic Field
+• Departure from the Ideal
+ In reality, flux density generated by each turn may not link the entire coil. Such fringing
+ fields 边缘场, shown here, may link only one or two turns.
+
+
+
+
+   The problem is made worse by increased winding pitch 匝距.
+
+                                                                                          58
+11: The Steady Magnetic Field
+• Example: Inductance of a Coaxial Line
+  Consider a length d of coax, as shown here. The magnetic field strength between
+  conductors is:
+
+
+
+                                           and so:
+
+                                      The magnetic flux is now the integral of B over the
+                                      flat surface between radii a and b, and of length d along z.
+              B                       As we have only one turn (N = 1), the result is also the flux
+                       d
+                                      linkage:
+
+
+
+
+            Now, with d = 1, the inductance per unit length is:
+
+
+
+                                                                                                  59
+11: The Steady Magnetic Field
+ • Two Inductors
+                         Suppose we have two solenoids, having different specifications as indicated:
+              B22                  The self linkage and self inductance 自感of each coil are determined in
+                                   the manner that we used before, assuming identical fluxes through each
+                                   turn.
+
+Coil 2   d2                   N2
+
+                    S2   I2              and
+
+
+
+          B11
+
+
+
+Coil 1   d1
+                              N1
+
+                    S1                     and
+                         I1
+
+
+                                                                                                       60
+11: The Steady Magnetic Field
+ • Interaction Between Inductors
+          B12        B22
+                                Actually, the magnetic fields generated by each coil will link the other,
+                                as shown here. This flux overlap is the basis of mutual inductance.
+
+                                Throughout this discussion, the field in red is that generated by Coil 1,
+         d2                N2   while the blue field is generated by Coil 2
+Coil 2
+                                With both currents on, all the fields indicated here will be present.
+                S2    I2
+                                The fields and other quantities are kept track of by the subscripts,
+                                the meaning of which is:
+
+
+          B11        B21                              Bi j
+                                              arising                 evaluated
+         d1                                   from coil i             within coil j
+Coil 1                     N1
+
+                S1    I1
+                                                        i, j = 1, 2
+
+
+                                                                                                        61
+11: The Steady Magnetic Field
+  • Mutual Inductance互感, M12
+          B12                  In this case, current in Coil 2 is turned off, leaving only the flux density
+                               generated by Coil 1, B12 , existing within Coil 2.
+
+
+Coil 2   d2               N2    The mutual linkage between Coils 1 and 2 is found through:
+
+                S2   I2 = 0
+
+
+
+                                … and the mutual inductance between Coils 1 and 2 is defined as:
+          B11
+
+
+
+Coil 1   d1
+                          N1
+
+                S1   I1
+
+
+
+                                                                                                         62
+11: The Steady Magnetic Field
+  • Mutual Inductance, M21
+                   B22        In this case, current in Coil 1 is turned off, leaving only the flux density
+                              generated by Coil 2, B21 , existing within Coil 1.
+
+
+         d2
+                              The mutual linkage between Coils 2 and 1 is found through:
+Coil 2                   N2
+
+              S2    I2
+
+
+
+                              … and the mutual inductance between Coils 2 and 1 is defined as:
+                   B21
+
+
+
+Coil 1   d1
+                         N1
+
+              S1    I1 = 0
+                                 Q: What are the key factors affecting mutual inductance?
+
+                                                                                                      63
+11: The Steady Magnetic Field
+ • Example: Concentric Solenoids 同轴螺线管
+
+                   In this configuration, two concentric solenoids have different
+                   numbers of turns, N1 and N2 (even though in the drawing the
+N1
+                   turn count would appear to be the same). Both coils have the
+               d   same length, d. The area of each identical turn in the two coils
+N2                 is S1 for the outer coil, and S2 for the interior coil. The core
+                   permeability is
+
+     S1   S2
+
+
+
+
+                                                                                64
+11: The Steady Magnetic Field
+• Mutual Inductance, M12
+                         With the outer coil current I1 turned on, the interior flux
+          B12            exists throughout the outer coil volume, and consequently
+                         throughout the volume of the inner coil as well.
+                         Flux density B12 resides inside coil 2 (and in coil 1 as well)
+
+
+                         Assuming a long coil,
+                         the flux density is:
+N1              I1
+                     d   The mutual linkage between coils 1 and 2 is then:
+N2
+
+
+
+     S1         S2
+                          .. and the mutual inductance is:
+
+
+          B11
+
+                                                                                          65
+11: The Steady Magnetic Field
+• Mutual Inductance, M21
+                         With the inner coil current I2 turned on, the interior flux
+          B21            exists throughout the inner coil volume, which overlaps with
+                         the outer coil volume
+                         Flux density B21 resides inside coil 2 (and in coil 1 as well), but
+                         the flux in the coil 1 volume is confined within the volume of coil 2.
+
+                          The coil 2 flux density
+N1
+                          (that resides in both coils) is:
+                     d
+N2                        The mutual flux linkage between coils 2 and 1 is then:
+
+
+     S1         S2
+                           …and the mutual inductance is:
+
+
+
+
+                                                                                           66
+11: The Steady Magnetic Field
+• A Property of the Mutual Inductances
+          The foregoing example illustrates an important property of
+          the mutual inductances between any pair of inductors:
+
+
+
+                            They’re equal!
+
+
+
+
+                                                                       67
+HW-8
+
+
+
+
+       68
+

@@ -1,0 +1,168 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh4-2\nOscillation\nCharacteristics of Lasers\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 4: Oscillation Characteristics4.2 Oscillation Mode (Output Mode)Mode competition in lasers with homogenous broadeningMulti-longitudinal mode oscillation of lasers with inhomogeneous broadening4.3 Output Optical Power and EnergyOutput power for CW or long-pulse laser Output power of short-pulse lasers（t0<<τs) 2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "4.2 Oscillation mode (output mode)Discuss the output modes of lasers from the mechanism of gain saturationMode competition in lasers with homogenous broadeningSelf-selection mode due to homogenous saturation of gain\n3steady-state gainConclusion: the output of a homogeneous broaden steady-state laser shouldbe a single longitudinal mode. Its working frequency locates at centralfrequency of the gain curve. Other longitudinal modes will be suppressed.......\nthg\n1 32\n0g  Gain Curvev1v2v3g (v)g (v1)I1g (v2)I2g (v3)I3Red > gth↑ > gth↑ > gth↑Blue > gth↑ > gth↑ = gth-Green = gth- > gth↑ < gth0Brown < gth0 = gth- < gth0",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "4... ...\nthg\n1 32\n0g \n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "这张图是重要考点：画出均匀展宽下各模式对增益的竞争",
+        "rect": [
+          131.277,
+          162.815,
+          710.097,
+          247.98
+        ]
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "text": "Multimode oscillation induced by spatial hole-burning1) Spatial hole burning effectAssume homogeneous transverse distribution, only considerz-directiondistributionStanding wave gain distributiong(z) spatial hole-burning\n5\n2) Physical mechanismDifferent longitudinal modes can use theactivated atoms in different positions inside thecavity3) Formation conditionsStanding wave cavity: spacing betweenburning holes is at the scale of wavelengthSlow spatial transfer speed of activated atoms",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "烧孔效应：局域性消耗增益，导致增益介质局域性增益下降的现象（烧孔效应是指在非均匀加宽激光介质中，由于粒子饱和吸收或受激辐射导致增益曲线局部下降的现象）\n原因：纵模：驻波的波腹处，消耗增益，增益下降\n           横模：光强集中处消耗增益，增益下降",
+        "rect": [
+          440.154,
+          504.657,
+          655.549,
+          545.775
+        ]
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "text": "Gas: random thermal motion, fast spatial transfer speed, difficultto form spatial hole-burning.Solid: example, Cr ions bound to the lattice structure,/4 spatialtransfer needs 10-4sSemiconductor: 10-7s\n6\n4) Formation mechanism of transversehole-burningNonuniform distribution of population oftransverse modes, transverse hole-burningsize is large (mm scale), spatial transfercannot eliminate the nonuniformity.With enough pumping, differenttransverse modes can utilize the activatedatoms in different positions and hence formmulti-transverse modes oscillation.\nX\nT E M0 0\nI0 0\nn\nX\nT E M10\nn\nI1 0\nHow about for pulse excitation?Mode competition time is in the range of μs",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "Multi-longitudinal mode oscillation of lasers withinhomogeneous broadening\n7\nExternal pump g0longitudinal modes that meet thresholdconditions mode numbersFor incident light (,I), gain saturationwill only happen in the frequency rangeof+d. Laser oscillation can stillhappen for other frequencies.For the case of Doppler broadening,symmetrical hole burning at both sidesof central frequency0. Ifq=0, modesq+1andq-1will compete, and result inrandom fluctuation of their output powerIf frequency spacing betweenqandq+1is less than the spacing of burning holewidth, their burning hoes will overlapand result in mode competition",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "Mode competition in inhomogeneous broadened lasers withstanding waveLongitudinal mode frequencies1and2symmetrically distribute onboth sides of the central frequency0, and deplete the invertedpopulationThe spatial burning holes will overlap for adjacent longitudinal modes ifthe spacing is small enough\n8\n0\nig\n1\n\n0 12 \nzn v",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": "1\n2 outP I TA P ITA P I   \n4.3 Output Optical Power and Energy\n9\nDiscuss the average intensity at steady-state, estimate the output powerOutput power for CW or long-pulsed laserSingle-mode laser (Assume mode lwith frequency of q)     \n0\nt\n0\nt\nt\n, ,\n,\n0, 0\nq q q q\nq q\nl l\nq q q\nq\nl\nl\nn n N n N n\ng g I g I I g I\ng I g I\ndN d n Ndt dt\n   \n \n  \n \n        \n    \n \n \nsaturationg()>gtenhancedsaturation fixedintensityno change\n1\n2q q ql lN h I I I N h         \n1\n2 lP I TA N h AT  \nArea of the laser beam’s cross-section",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "10\nLasers with homogeneous broaden (=0)Assumeparticipate saturation simultaneously How to calculateIinside cavity\n1, , 2T I I I I I I    \n       \n,I I \n \n  t, 1 2\nm\nH\ns\ngg I g I I l\n\n   \n1 12\nm\ns\ng lI I \n     \n1 12\nm\ns\ng lP I TA \n     \nα－single-loop net loss factor without considering reflectionA－effective sectional area of the laser beam  Gas lasers:1 2 1T T      \n21 12\nm\ns\ng lP I TA T\n      ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "gm是腔内增益介质对中心频率的小信号增益",
+        "rect": [
+          415.128,
+          204.541,
+          654.656,
+          312.7
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "往返的总损耗2sigma=透射散出+介质损耗",
+        "rect": [
+          277.49,
+          121.411,
+          397.253,
+          184.876
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "p pt 0\n0 0 1 pt\n2 pt p pt\n1 1 1 1 12 2\nm\ns\nP Pg l n l AP I TA h TA P P S P\n    \n                       \n11\nDiscussion 1: Output power ~ pumping power (PpP)  Solid-state lasers (optical pumping)\n0\np0\n21 p\np t\nt t 21 pt\nm\nF s\nF s\nh n Vg n P\nh n Vg n P\n  \n  \n  \n  \np\nt pt\nm m Pg g l\ng P  \npt 1 pt 1t\n2 p p\nP Pn\nh V h Sl\n \n  \n  \n2\n2 1 2 F\ns\n    \n0 2T 0\nt 21\n21 2\n,s\nhI n l\n     \nWhen Pp>Ppt, P increases linearly withPpThe output power of the optically pumped laseris converted from the pump power beyondPptIis determined by the gain beyondgt\nppptP\nP\n1 12\nm\ns\ng lP I TA \n     ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "S为增益介质横截面积",
+        "rect": [
+          499.142,
+          249.019,
+          536.68,
+          290.137
+        ]
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "text": "Gas lasers: exist optimum discharge current (P229)\n12\n上能级下能级\nj\nn\njm\nUp leveldown levelPjEmpirical formula of the optimal discharge current for He-Ne laser\n21.4 10m\nlg d\n \nSemiconductor lasers (P278) ηi –Carrier recombination probabilityηD –LD (laser diode) efficiency    \nln 1\nln 1\nln 1\nln 1\nth\ni out\nout th\nD i\nin\nrJ JP P Pe L r\nrP J J\nP J eV L r\n  \n  \n  \n  \n\n\ninP JV\nPIIth",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "21 12\nm\ns\ng lP I TA a T\n     \n13\nDiscussion 2: Output power ~ transmittance (optimum T)   Can be Experimentally measured and calculated\nt\nout\nm\nPT T g I \n   \nWhen T<<1, 2δT+a , a is the single-loop net loss factorTm: 1) Experimentally fixed Pp, change Tand measurePout2) Calculate dP/dT=0 \n2\n1\n2s m s\ndP aAI g l AIdT a T  \n0dP dT\n \n2 2 ma T g la  2m mT g la a  \n21 22m s mP AI g l a \n21 1 1 12 2\nm m\ns s\ng l g lP I TA I TA T \n             ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "gm和增益截止长度l越大，T越大，输出功率越大",
+        "rect": [
+          290.896,
+          218.195,
+          784.251,
+          292.387
+        ]
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "text": "14\nDiscussion 3: Output power ~ length of gain material (lP)Discussion 4: Output power ~ property of gain materialW03, n, 21, 2 Pfour-level system \n0 21 2\n03 2 21\n1 12\nm\ns\ns\nm\ng lP I TA\nI h\ng nW\n\n  \n \n     \n\n\n0 03\n21 2\n1 1\n2\nlP TAh nW   \n     \nto have Δn0>0three-level system \n13 20\n13 0\n21 2 13 2\n13 2\n21 2\n13 2 21 21\n0 13\n21 2 21 2\n11\n2 1\n1/ 1\n1\n1 1 1 1\n4 2\ns\nm\nn WhI W n W\nn Wg W A S\nnl lP ATh W n\n\n  \n  \n      \n       \n   \n                  \n13 2 1W \nW13, n, 21, 2 PNote for this physical model 1) assume T<<1; 2) -I I \n \n1 12\nm\ns\ng lP I TA \n     ",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "15\nLasers with inhomogeneous broaden (single-mode)When q0,I+and I-will have their own burning-holes\n\nI\nI\ncvz10cvz10\n   \n20 0\n, 1\n1\nq\ni q i q\ni q s\ns\ng g lg I I I lI\nI\n \n\n   \n\n\n                 \n \n22\n0\n2exp 4ln 2 1qm\ns\nD\ng lI I\n \n \n\n                     \n \n20\n1i q\ns\ng lP AI T AI T\n\n\n\n           \n21 12\nm\ns\ng lP AI T AI T \n           \n0 0 0 2I I I I   \n     similarly we haveWhen q=0",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "16\nLamb Dip: Relation between single mode output power and frequencyParea of the burning-hole (characterize the inverted populationswhich contribute to the lasing)a) Burning-hole overlap conditionb) Width of the Lamb dip (δ)Hole widthc) Width of the Lamb dip (δ) ~ ΔL\n0- 1 2\nq\nq\ns\nI\nI\n   \n1\nq\nH\ns\nI\nI\n   \nPressureCollision broadening ΔLLamb dip width δ, shallow depth",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "多普勒展宽导致的v3的两个烧孔面积大于v0的烧孔，消耗的增益更多，输出功率更大",
+        "rect": [
+          294.471,
+          323.025,
+          561.705,
+          499.118
+        ]
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "text": "17\nMulti-mode lasersInhomogeneous broadening: Δqlarge enough, NO overlapping of burning holes, calculate the outputpower for each longitudinal mode, their sum will be the total output power.Homogeneous broadening: (solid-state lasers)Poutmust be calculated using the multi-mode rate equation with simplifiedassumption (same loss for each mode, rectangular linear function)\np0\n0 1 pt\np pt\n1PAP PS P\n  \n      \nArea of the laser beam’s cross-sectionArea of the gain material’s cross-section",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\nOutput power of short-pulse lasers（t0<<τs)Four-level system:output energy→ stimulated photon number → n2 → absorbed pumping energyE0E3E3E2E2E1                                      EinAbsorb pumping energyActivated photon numberStimulated photon numberIntra-cavity laser energy\np 1\n0 2t\np\nE Ah n Vh S\n \n     \np 1\n2t\np\nE n Vh\n\n\n     \np 1\nt\np\nE n Vh\n\n  pE\n1 Pumping efficiency\nVolumeV\n \n\np t\npt\n1\nh n VE \n\n\nOutput energy (E)\np0\n1 pt\np pt\n1EA T ES T a E\n \n      \n0\nT\nT a  p0\n0 1 pt\np pt\n1EAE ES E\n  \n      ",
+    "annotations": []
+  }
+]

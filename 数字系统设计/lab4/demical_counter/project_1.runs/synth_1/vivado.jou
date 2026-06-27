@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 23 17:37:23 2026
+# Process ID: 19452
+# Current directory: D:/SUSTech/2026 Spring/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log decimal_counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decimal_counter.tcl
+# Log file: D:/SUSTech/2026 Spring/project_1/project_1.runs/synth_1/decimal_counter.vds
+# Journal file: D:/SUSTech/2026 Spring/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source decimal_counter.tcl -notrace

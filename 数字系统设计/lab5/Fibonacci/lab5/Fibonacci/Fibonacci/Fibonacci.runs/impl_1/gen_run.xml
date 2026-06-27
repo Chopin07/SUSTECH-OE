@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1776256465">
+  <File Type="BITSTR-BMM" Name="fibonacci_fsm_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fibonacci_fsm_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fibonacci_fsm_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="fibonacci_fsm_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fibonacci_fsm.tcl"/>
+  <File Type="OPT-TIMING" Name="fibonacci_fsm_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="fibonacci_fsm_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="fibonacci_fsm_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fibonacci_fsm_reports.tcl"/>
+  <File Type="OPT-DRC" Name="fibonacci_fsm_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fibonacci_fsm.hwdef"/>
+  <File Type="PWROPT-DCP" Name="fibonacci_fsm_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="fibonacci_fsm_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fibonacci_fsm_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fibonacci_fsm_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fibonacci_fsm_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fibonacci_fsm_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fibonacci_fsm_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fibonacci_fsm_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fibonacci_fsm_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fibonacci_fsm_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fibonacci_fsm_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="fibonacci_fsm_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fibonacci_fsm_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="fibonacci_fsm.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fibonacci_fsm_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fibonacci_fsm_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fibonacci_fsm_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="fibonacci_fsm.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="fibonacci_fsm_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fibonacci_fsm_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="fibonacci_fsm_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fibonacci_fsm_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fibonacci_fsm_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fibonacci_fsm_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fibonacci_fsm_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="fibonacci_fsm.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fibonacci_fsm_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fibonacci_fsm_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fibonacci_fsm_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fibonacci_fsm_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fibonacci_fsm_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fibonacci_fsm_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fibonacci_fsm_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fibonacci_fsm_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fibonacci_fsm_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fibonacci_fsm_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fibonacci_fsm_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fibonacci_fsm_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fibonacci_fsm_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fibonacci_fsm_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fibonacci_fsm_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fibonacci_fsm_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fibonacci_fsm_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fibonacci_fsm_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fibonacci_fsm_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fibonacci_fsm_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fibonacci_fsm_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="fibonacci_fsm.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fibonacci_fsm_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="fibonacci_fsm.rbt"/>
+  <File Type="BITSTR-NKY" Name="fibonacci_fsm.nky"/>
+  <File Type="PDI-FILE" Name="fibonacci_fsm.pdi"/>
+  <File Type="RCFI_FILE" Name="fibonacci_fsm.rcfi"/>
+  <File Type="CFI_FILE" Name="fibonacci_fsm.cfi"/>
+  <File Type="RNPI_FILE" Name="fibonacci_fsm.rnpi"/>
+  <File Type="NPI_FILE" Name="fibonacci_fsm.npi"/>
+  <File Type="RBD_FILE" Name="fibonacci_fsm.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fibonacci_fsm.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="fibonacci_fsm.sysdef"/>
+  <File Type="BG-BGN" Name="fibonacci_fsm.bgn"/>
+  <File Type="BG-DRC" Name="fibonacci_fsm.drc"/>
+  <File Type="RDI-RDI" Name="fibonacci_fsm.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sources_1/new/fibonacci.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fibonacci_fsm"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../数字系统设计/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

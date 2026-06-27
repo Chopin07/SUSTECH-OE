@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SUSTech/2026 Spring/lab5/Fibonacci/Fibonacci/Fibonacci.sim/sim_1/impl/timing/xsim/testbench_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fibonacci_fsm
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

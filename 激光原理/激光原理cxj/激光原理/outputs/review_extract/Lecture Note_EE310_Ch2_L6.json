@@ -1,0 +1,83 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh2-6\nOpen Cavity &\nGaussian Beam\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 2: Open Cavity & Gaussian Beam\n2\n2.11 The Focus and Alignment of Gaussian beamThe focus of Gaussian beamThe alignment of Gaussian beam2.13 Beam diffraction magnification factor2.14 Unstable resonator (not required)Formation of the unstable resonatorConjugate image point and self-reconstructed modeGeometrical magnificationEnergy loss",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "2.11 The focus & alignment of Gaussian beam\n3\nFocus: Increase the power density of laser beamAlignment: Decrease the laser divergence angle, increase the energy transfer distance  \n1 0 1 11 1 0 11 1\nlA B l lC D F F F\n                     \n2\n0 '2\n'0 0\n2\n00 1 1\nF\nwi lAq B wq i l w lCq D iF F\n\n\n \n\n          \n  \n2 2 2\n' '2 0\n02 22 22 2 0 0\nl F F F wl F w w wl F l F  \n \n               \n0q\n0w\nFq 0'q\n0'w\nl 'l",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "4\nThe focus of Gaussian beam w0' < w0\n0q\n0w\nFq 0'q\n0'w\nl 'l  \n2 2\n'2 0\n0 222 0\nF ww wl F \n\n      \nIn order to have focus, we need to have  \n22 2F l F f  \n1. Fis fixed, 1) When l<F, if ldecrease, beam size decrease, minimum at l=0That is 2 2 2 2 orl F F f l F F f     \nThere will be no focus effect in the range of\n2 2 2 2F F f l F F f     ",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\n0q\n0w\nFq 0'q\n0'w\nl 'l \n2 2\n'2 0\n0 222 0\nF ww wl F \n\n      \n1. Fis fixed, 1) When l<F, if ldecrease, beam size decrease, minimum at l=0 ' ' 0 0\n0 0 min2 22 2\n0\n0,\n1\nw ww if l w\nfwl F\nFF F\n\n\n  \n              \n  \n2\n'\n2 222 0\n11\n1\nl F Fl F F F fwl F F\n\n\n                        \n'\n0\n20\n1 1\n1\nwK w f\nF\n  \n   \nHas focus effect for any F, and the position is within FThen we haveThe focus of Gaussian beam w0' < w0",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "6\n1. Fis fixed, 2) When l>F, beam size decrease, forl→∞\n \n' '\n0then , andw F l Fw l\n\n \nforl F\n   \n22 2\n'2 ' 0\n0 2 22 22 2 0 0\n0 l F FF ww l F F w wl F l F  \n \n                \n   \n222 0 22 2\n20\n'2 2 2 2 2 2 2\n0 0 0\n1 1 1\nwl F wl w lw w F w F F F\n\n  \n \n                  \nFor bigger land smaller F, we will have smaller beam size1. Fis fixed, 3) When l=F, maximum beam size \n22 2\n'2 0\n0 22 02 0\nF ww F wwl F\n\n\n\n            Fwl\n0w\n0w\nl22 fFF 22 fFF \nFfixed\n2\n0 1 fw F\n   \n0F w \nF",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "7\n2. lis fixed2 2\n'2 2\n0 0\n1 1 l F f\nw w F F\n                \n2\n01 w\n2\n01 w\n2lR lR0 F \n2\n1 fR z z z\n            \n22\n01 wl fR l f l f l l\n\n\n                  \n1) There will be focus effect only when/ 2F R l\n2) Smaller F, smaller beam sizeExample:Wavelength of the Gaussian beam is 3.14 μm and the minimum beam size is 1mm. If put the lens on the beam waist and 2 m away from the beam waist, respectively,please determine the focal length of the lens to have focus effect.\n2 6\n0\n6\n3.14 10 13.14 10\nwf \n\n\n\n   \n1) For l=0, any lens is fine2) For l=2,  \n'\n0\n2 20\n1, we have 1.25w F F mw l F f\n  \n ",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "8\nThe alignment of Gaussian beam\n'\n0 0 '\n0 0\n2 2w w\n     1. The situation for single lens\nFor specificw0, whateverFandl, it can not have infinite beam size.Therefore, it isimpossibleto convert Gaussian beam into plane wave (i.e.good alignment) by using asingle lens.\n' '\n0 0 0 0w w   \n'2\n0\n1 0lw    0 max\n0\n,l F w F w\n\n FromWe know whenBiggerFand smallerw0will have better performance \n222 2\n2 ' 0 0\n0 0 2 2 22 00\n2 1 1 1w F w lw w F FwF l\n  \n\n                   ",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": "9\n2. The application of inverted telescope\n' 0\n''\n0\nM \nCollimation ratio\n'' '2 '\n' 0 0 0 0 0\n0 0 '' ' '\n0 00 0 0 2 0 0\n2 22 2 2 w w w\nw ww w F F w\n                 \n  \n22\n2' 0\n'' 2\n0 1 0 0 0\n1 1F w l w l l lM M M MF w w f w\n \n \n              \n   \n'' '' '\n' ' 0 0 0 1 01\n0 0 0 '\n0 0 0 2 2\nF wFw w ww l F F w l\n   \n    \n          ",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "2.13 Beam diffraction magnification factor\n10\nIt is good to describe the laser beam quality by beam size and divergence angle, but those parameters will change after passing the optical component.It is noted that0 0 2w  \n \n2 1 2\n2 1 2\nm m\nn n\nw m\nw n\n  \n  \n    \nFor Hermit-Gaussian beam2 1 2mn mnw m n    \nBeam Size * Divergence AngleBeam Size * Divergence Angle (of the TEM00)M2=  \n2\n2\ny2\n2 1\n2 1\n2 1\nx\nr\nM m\nM n\nM m n\n \n \n  \n2 1M     \n2 2\n2 2\n2 2\n2 1\n2 1\n2 1\nx mn\nm n\ny mn\nm n\nr mn\nm n\nM m C\nM n C\nM m n C\n       \n \n \n Fundamental base modeHigh-order modeDifferent modes without coherenceFor Laguerre-Gaussian beam",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "理想是1，越接近1品质越好",
+        "rect": [
+          152.994,
+          185.359,
+          673.347,
+          293.903
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "2.14 Unstable Resonator\n11\n1. The formation of unstable resonator: high loss cavitybiconvex lens双凸 Flat convex lens平凸 Concave-convex lens凹凸（虚共焦望远镜）\n1 2 1 21, 1, 1g g g g   1 1 2 1 2,R L R R R R L    1 2 1 21, 1, 1g g g g  \nCharacteristics:Transverse mode loss is high, the mode volume is big, small divergence angle,Able to achieve high power high beam quality of single mode operationAnalysis approach: geometrical optics; wave optics approximate analytical theory One-trip loss >> diffraction loss, cavity only exists a pair of conjugated image point and the corresponding self-reconstructed mode (resonant mode)\nLR1R21R 2R\nL\nR22R R1R2L\n1R 2R\nL",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "12\n2. Conjugate image point and geometric self-reconstructed mode\n1 2 2\n2 1 1\n1 1 2\n1 1 2\nl L l R\nl R l R\n      \n           \n1 2 1 2 2\n1\n1 2\n1 2 1 2 1\n2\n1 2\n2\n2\nL L R L R L R R L L Rl L R R\nL L R L R L R R L L Rl L R R\n        \n        \nP1 P2LR1R21R 2R\nL",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "13\n3. Geometrical magnificationOne-trip magnificationRound trip magnificationDouble convex cavityThe telescope cavity (virtual confocal cavity, or real confocal cavity)\n1 2\n4. Energy loss\n1 1 1 2 2 2m a a m a a  \n1 2M m m\n1 2\n1 2\n1 2\nl L l Lm m l l\n  \n1\n1 2\n2\nRM m m R ",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "14M＝m1m2   －MagnificationThe average one-trip lossExample:mLmR 1,10 \nSymmetrical biconvex428.2558.1  Mm\nThe escape energy from M2The escape energy from M1Energy reflected back by M2Energy reflected back by M1where\n1 2M M\n2\n22\n1 1 1\n1\n1 1 a ma         \n2 2 2 2\n2 2 1 1\n1 2\n1 1 1 2 2 2\na a a a\na a m a a m\n                           \n2 1 2 2 2 2\n1 2\n1 1 11 1 1 m m M        \n2 1M M\n2\n21\n2 2 2\n2\n1 1 a ma         \n1 1 2\n11 1 M      \n1 1 1 59%M   ",
+    "annotations": []
+  }
+]

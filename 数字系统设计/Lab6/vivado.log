@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 11 16:53:49 2026
+# Process ID: 15156
+# Current directory: D:/SUSTech/2026 Spring/数字系统设计/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7612 D:\SUSTech\2026 Spring\数字系统设计\Lab6\lab6_1.xpr
+# Log file: D:/SUSTech/2026 Spring/数字系统设计/Lab6/vivado.log
+# Journal file: D:/SUSTech/2026 Spring/数字系统设计/Lab6\vivado.jou
+#-----------------------------------------------------------
+sstart_guioopen_project {D:/SUSTech/2026 Spring/数字系统设计/Lab6/lab6_1.xpr}INFO: [Project 1-313] Project file moved from 'C:/Users/Lenovo/Desktop/lab6/lab_6/lab6_1' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/ButtonDebounce.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/ButtonDebounce.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/SegDisplay.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/SegDisplay.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/SpeedCtrl.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/SpeedCtrl.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/StepTimer.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/StepTimer.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/StepperDriver.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/StepperDriver.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/StepperMotorTop.vhd', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/StepperMotorTop.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/SUSTech/2026 Spring/数字系统设计/assignment1_vhdl_design_sources/constraints/StepperMotorTop_Nexys4DDR.xdc', nor could it be found using path 'C:/Users/Lenovo/Desktop/lab6/lab_6/assignment1_vhdl_design_sources/constraints/StepperMotorTop_Nexys4DDR.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:19 . Memory (MB): peak = 1121.570 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 11 16:55:11 2026...

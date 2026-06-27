@@ -1,0 +1,391 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+        Youwei 嘉有为
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+
+     This method employs these properties of conductors and fields:
+
+
+
+
+                                                                      25
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+ Given the conductor boundaries, equipotentials may be sketched in. An attempt is made
+ to establish approximately equal potential differences between them.
+
+
+
+
+A line of electric flux density, D, is then started (at point A), and then drawn such that
+it crosses equipotential lines at right-angles.
+                                                                                             26
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+ Two Lines of D are shown (sketched in red). All field lines must intersect
+ equipotentials at 900.
+
+ The volume between the two red field lines (having unit depth into the screen)
+ forms a “tube” of flux, of amount  This is the same as the charge on the
+ conductor that is bounded by the tube.
+
+ The electric field can now be written as:
+
+
+
+
+ Then, assuming potential difference V between
+ adjacent equipotentials, we may also write the
+ electric field as:
+
+
+                                                                                  27
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+ We now have two expressions for electric field, based on the line spacing in the sketch:
+
+
+
+ Setting the two expressions equal results in
+
+
+
+
+ or:
+
+
+ In other words, the sketch is done such that the ratio    /    is fixed. The
+ easiest way to do this is to make
+
+
+  So draw the sketch such that each grid segment is approximately square
+                                                                                        28
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+Here we see the completed sketch, drawn such that the region is divided into curvilinear
+squares 曲边正方形. Each segment along the conductor walls (again of unit depth)
+contains flux , (or charge Q). Each distance increment between conductors
+represents a change in potential of V.
+The number of segments along the conductor wall is NQ, the total charge on either
+conductor is therefore:
+
+
+The number of segments between conductors
+is NV, the potential difference between
+conductor is therefore:
+
+
+So that the capacitance is now:
+
+
+or finally:
+
+                                                                                           29
+10: Capacitance
+• Using Field Sketches to Estimate Capacitance
+ Example
+ In this transmission line, we wish to estimate
+ the capacitance per unit length. The field and
+ equipotential lines in one quadrant are shown.
+
+In this case, division of the range parallel to
+the conductors into an integral number of squares
+was not achieved. Instead, over one-eighth of the
+distance around the perimeter, we have 3.25
+divisions.
+Between conductors there are exactly four squares.
+Therefore:
+
+
+
+                                                     30
+10: Capacitance
+• Poisson’s and Laplace’s Equations 泊松、拉普拉斯方程
+ These equations allow one to find the potential field in a region, in which values of
+ potential or electric field are known at its boundaries.
+
+ Start with Maxwell’s first equation:
+
+
+
+                    where
+
+                    and
+
+   so that
+
+
+
+   or finally:
+
+
+                                                                                         31
+10: Capacitance
+• Poisson’s and Laplace’s Equations
+ Recall the divergence as expressed in rectangular coordinates:
+
+
+
+
+   …and the gradient:                                                 Pierre-Simon Laplace
+                                                                           (1749-1827)
+
+
+
+    then:
+
+
+
+
+                                                     It is known as the Laplacian operator.
+
+
+                                                                                             32
+10: Capacitance
+• Poisson’s and Laplace’s Equations
+   we already have:
+
+
+   which becomes:
+
+                                                                       Siméon Denis Poisson
+                                                                           (1781-1840)
+
+
+   This is Poisson’s equation, as stated in rectangular coordinates.
+
+   In the event that there is zero volume charge density, the right-hand-side becomes
+   zero, and we obtain Laplace’s equation:
+
+
+
+
+                                                                                         33
+10: Capacitance
+• The Laplacian Operator in the Three Coordinate Systems
+
+
+                                      (Laplace’s equation)
+
+
+
+
+                                                             34
+10: Capacitance
+• Example: Parallel Plate Capacitor
+ In this case, the plate separation, d, is assumed     x
+ much less than the smallest plate dimension.                          V = V0
+ Therefore V can be assumed to vary only with x.       d
+
+ Laplace’s equation reduces to:
+                                                       0
+                                                                       V=0
+ Integrating once, obtain:
+                                                                  Boundary conditions:
+                                                                   1. V = 0 at x = 0
+                                                                   2. V = V0 at x = d
+ Integrate a second time to get:
+
+ where A and B are integration constants that are to be evaluated subject to the
+ boundary conditions.
+                                                                                         35
+10: Capacitance
+• Finding Interior Potential Field
+   We now have:
+                                               x
+  Apply boundary condition 1:                                       V = V0
+                                              d
+                                                                                     Equipotential
+      0 = A(0) + B                                                                   Surfaces
+                                              0
+  Apply boundary condition 2:                                       V=0
+
+       V0 = Ad                                             Boundary conditions:
+                                                                1. V = 0 at x = 0
+    Finally:                                                    2. V = V0 at x = d
+
+                           This function is pictured by the
+                           equipotential surfaces shown in
+                           the capacitor, in which there is a
+                           constant voltage difference
+                           between adjacent surfaces                                         36
+10: Capacitance
+• Finding the Electric Field, Charge, and Capacitance
+   Start with:                                    Surface Area = S
+                                            x
+                                                             V = V0
+   Then:                                    d     + + + + + + + + + + + + + +
+
+                                                          n E                   Equipotential
+                                                                                Surfaces
+    From which:                             0
+                                                  - - - - - - - - - - - - - -
+
+                                                             V=0
+    At the lower plate surface (x = 0):
+
+                                                and n = ax
+
+    Then use:                     to find
+
+    The charge on the lower plate is now:
+                                                and the
+                                                capacitance is
+                                                                                       37
+10: Capacitance
+• Another Example: Coaxial Transmission Line
+As V is assumed to vary with radius only, Laplace’s equation becomes:
+
+                               (not valid at  = 0)
+                                                                              V0     V=0
+Our goal is to evaluate the potential function in the region                  E
+(a <   b)
+                                                                                    L
+ Integrate once:
+                                                                    Boundary conditions:
+
+                                                                    1.   V = 0 at  = b
+ .. and a second time:                                              2.   V = V0 at  = a
+
+
+
+
+                                                                                           38
+10: Capacitance
+• Another Example: Coaxial Transmission Line
+          Now have:
+
+
+  Apply boundary condition 1:              V0    V=0
+                                           E
+
+                                                L
+  Apply boundary condition 2:
+                                      Boundary conditions:
+
+                                      1.   V = 0 at  = b
+                                      2.   V = V0 at  = a
+    Putting it all together:
+
+
+
+
+                                                             39
+10: Capacitance
+• Another Example: Coaxial Transmission Line
+We have found the potential
+field between conductors:
+
+Then:
+                                                                V0    V=0
+                                                                E
+
+The charge density on the inner conductor is:                         L
+
+
+
+
+The total charge on the inner conductor is:     …and the capacitance is finally:
+
+
+
+
+                                                                                   40
+10: Capacitance
+• Another Example: Angled Plate Geometry
+ Cylindrical coordinates are used, with the assumption that
+ potential varies only with 
+ Laplace’s equation becomes:
+
+
+
+
+Integrate once:
+                                                                                     x
+ …and integrate again:
+                                                              Boundary Conditions:
+                                                              1.   V = 0 at  = 0
+ First boundary condition:                                    2.   V =V0 at  = 
+
+ Second boundary condition:
+
+
+ Finally:                        Then:
+                                                                                         41
+10: Capacitance
+• Another Example: Concentric Sphere Geometry
+
+                                           V=0
+                     E        a
+                         V0                      (Laplace’s equation)
+                                  b
+
+                    Boundary Conditions:
+
+                    1.   V = 0 at r = b
+                    2.   V = V0 at r = a
+
+
+
+
+                                                                        42
+10: Capacitance
+• Another Example: Concentric Sphere Geometry
+ V is assumed to vary only with radius. Laplace’s equation the becomes:
+
+
+                                                                                         V=0
+                                  or:
+                                                                   E        a
+                                                                       V0
+                                                                                b
+ Integrate once:            ..and again:
+                                                                 Boundary Conditions:
+
+  Boundary condition 1:                                          1.    V = 0 at r = b
+                                                                 2.    V = V0 at r = a
+
+ Boundary condition 2:
+
+
+  Finally:
+
+                                                                                          42
+10: Capacitance
+• Another Example: Concentric Sphere Geometry
+  We now have:                         (a < r < b)       V=0
+
+
+  Electric field between conductors:
+                                                     E
+                                                         V0 a
+                                                                b
+
+  Charge density on inner conductor:
+
+
+
+
+  Total charge on inner conductor:
+
+
+
+
+    Capacitance:
+                                                                    43
+HW-6
+
+
+
+
+       44
+HW-6
+
+
+
+
+       45
+

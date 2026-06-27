@@ -1,0 +1,94 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh5-1\nCharacteristics of\nLaser Amplification\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 5: Amplification Characteristics5.1 Classification of Laser AmplifiersClassification by timeClassification by working modeClassification by functionality and optical excitation5.2 Gain Characteristics of the Uniform Excited Continuous Laser AmplifierGain of the laser amplifier for weak signal Gain of the laser amplifier for strong signal (saturated) Maximum output intensityWidth of amplifier gain spectrum and output line profile5.3 Gain Characteristics of the Longitudinal Excited Continuous Laser Amplifier 2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "5.1 Classification of Laser Amplifiers Classification by time\n3\nRelaxation process: establishment or extinction of a certain state (relaxation time)Longitudinal relaxationT1: change of population at the energy levelTransverse relaxationT2: time of generation and extinction of macroscopicpolarized induction•EM resonant interaction: in phase, ΔLdominates•Collision and other process: out of phase, ΔDdominatesAccording to the incident pulse widthτ0and relaxation timeTof gain materialContinuous laser amplifierT1< τ0Steady-state methodPulse laser amplifierT2<< τ0< T1Nonsteady-state methodUltrashort pulse laser amplifierτ0< T2Semi-classical theory\n2 1L LT     \n*\n2 1 2 DT  ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "放大器中介质受激光器激发",
+        "rect": [
+          113.737,
+          321.456,
+          278.279,
+          344.835
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "碰撞展宽",
+        "rect": [
+          387.743,
+          286.037,
+          672.829,
+          323.557
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "多普勒展宽",
+        "rect": [
+          451.096,
+          256.855,
+          702.838,
+          281.868
+        ]
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "text": "4\nTime (s) Solid Gas SemiconductorLongitudinal relaxation time 10-3 ~ 10-410-6 ~ 10-910-9Transverse relaxation time 10-11 ~ 10-1210-8 ~ 10-910-12Classification by working modeTraveling wave amplifier          Regenerative amplifier (F-P amplifier)g>0\n0I lI\n0P lP g>0\n0I\n0P\nlI\nlP\n1r 2r\n\n1I \n2I\n\n2I\n1I\nTraveling wave amplifier: the incident light frequency is in the range of the gainspectrum.Regenerative amplifier: the incident light frequency needs to be close to theresonant frequency of the resonator to guarantee frequency matching.Gain of the amplifier\n0 0\nI l P lG I P  10lgdBG G",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\nGain of regenerative amplifierMulti-beam interference treatmentg>0\n0I\n0P\nlI\nlP\n1r 2r\n\n1I \n2I\n\n2I\n1I\nWhen                                                               maximum gain\n2 1\n1 2\ns\nI IG I I\n \n     \n1 2\n2 2\n1 2 1 2\n1 1\n21 4 sin\ns\ns s c\nr r GG lr r G r r G   \n        \n \n1 2\n2\n1 2\n1 1\n1\ns\nc\ns\nr r GG\nr r G\n    \n\ndeviates fromc→GThe largerr1orr2, the allowed bigger deviation offromc→Gr1and r2 0, regenerative amplifiertraveling wave amplifierG = GsExample of regenerative amplifier: semiconductor amplifierη=3.2-3.4\n2max\n1 2\nmin\n1 2\n1\n1\nFP\nFP\nG r rGG G G r r\n       \n1 2 0.17G r r  4\n1 2 1.7 10r r  \n2G dB  30G dB",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "6\nClassification by functionalityPreamplifier: weak signal working regime, small noise coefficient Power amplifier: strong signal, gain saturated state, large saturated output power Line amplifier: loss compensation of fiber in the system Classification by optical excitationUniform Transverse excitation: Δn,g0, andIsare all constant (solid-state orsemiconductor amplifier)Non-Uniform Longitudinal excitation: Δn,g0, andIsare related to transmissiondistance (fiber amplifier)Pumping 980 nm (1480 nm)Signal1550 nmI0(t) I1(t)Erbium-doped fiberI0(t) I1(t)CondenserPumpingGain material",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "5.2 Gain Characteristics of the Uniform ExcitedContinuous Laser Amplifier\n7\n(1) Gain   weak signal gain (2) Maximum output intensity (3) Gain spectrumSaturated gain               (saturated output power)I0 IGain materialOptical pumpingAssume: homogeneous broadening, average loss coefficient α, central frequency 0Gain of the laser amplifier for weak signalpreamplifierNet gain coefficient Weak signal   \n1\n1m\ns\ndI z I z gI z dz I \n\n     \n  0\n0\n0\nexp m\nI lG g l I      \nsI z I",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "8\nGain of the laser amplifier for strong signal (saturated)The incident signal is strong or the gain material is long enough~ sI z I\n   \n1\n1m\ns\ndI z I zgI z dz I \n\n     \n    \n1\n1 1\ns\nm\ns m\nI z I dI zg dz I z I z I g \n      \nIntegrate within the total length of the amplifierOutput intensityGain of the AmplifierI0is known, amplifier'sgm, l, and a can be measured, Isis known  0 0\n1ln ln 1\nm sm\nm\nm s\ng I l II l gg lI g I I\n  \n           \n  \n0\n0\n0 0\n1ln ln 1\nm sm\nm s\ng I l IG g\nG g I I\n\n  \n         ",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": "9\nMaximum output intensityWidth of amplifier gain spectrum and output line profileDue to gain saturation, when the input signal is strong or the gain material islong enough, amplifier gain coefficient will decrease, net gain coefficient = 0,intensity will no longer increase.   \n1\n1 0m\ns\ndI z I zgI z dz I \n\n      \n1m\nm s\ngI I \n    \nSmall signal homogeneous broadening optical amplifierwhenStrong signal homogeneous broadening optical amplifierSaturation effect at central frequency is strongOther frequencies saturation is weak 0\n0\nln 2\nln ln 2H G    \n 0 0\n0 0 4 HG G        \n HI l      ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "大信号被增益时：中心接近饱和，增长缓慢；旁边的增长快速，最终形成展宽",
+        "rect": [
+          172.679,
+          18.4035,
+          425.255,
+          83.4384
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "5.3 Gain Characteristics of the Longitudinal ExcitedContinuous Laser Amplifier\n10\nErbium-Doped Fiber Amplifier: EDFA\nWhy EDFA belongs to continuous laser amplifier?Optical signal transition rate: 108~1010b/s (T =10-8~ 10-10s), erbium ions:T1= 10-2s, very short action time, Δnonly has small fluctuation near thesteady-state valueCharacteristics of longitudinal optical excitation0 0, , ,p sI z I z g z n z I z ",
+    "annotations": []
+  }
+]

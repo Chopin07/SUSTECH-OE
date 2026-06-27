@@ -1,0 +1,3136 @@
+
+================================================================================
+Lecture Note_EE310_Ch2_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-1
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 2: Open Cavity & Gaussian Beam2.1 General Questions for Optical CavityMode & cavityCavity lossClassification of optical cavity2.2 Matrix Formulation of Geometrical OpticsABCD lawStable condition for coaxial cavity2
+
+--- page 3 ---
+ANNOTATIONS:
+- 驻波边界条件：相位差为2pi整数倍
+- 横模：横截面空间光强分布（光斑形状） / 纵模：腔内可以存在的光的模式，即驻波模式（频率）
+2.1 General Question for Optical Cavity Mode & CavityOptical mode is the photon state that can be distinguished inside theoptical cavityThe resonance mode is fixed once the cavity is givenMode theory for optical cavity is the laser mode theoryCharacteristics of mode: energy distribution, frequency, loss, angle ofdivergence…3
+' 2
+qL q 
+The resonance condition: After one period, it can return to the startingpoint with the same phase (=n*2π)
+2 2 ' 2
+q
+L q   
+c 
+2 '
+cq L L' : optical lengthλq: wavelength in vacuum
+
+--- page 4 ---
+4
+'L nL
+When the cavity is filled with material with refractive indexn, then
+'
+2
+qL q 
+2 ' 2q
+c cq qL nL  
+Lis the cavity lengthλ' is the resonance wavelength in materials
+1 2 'q q q
+c
+L      
+q
+q 1q 1q  2q 
+c
+91.5 10 Hzq  
+(1) ForL=10 cm,n=1,(2) Smaller cavity length,the larger longitudinal modespacing
+
+--- page 5 ---
+Cavity Loss1. Transmittance Loss (due to low reflection)2. Diffraction Loss (due to diffraction)3. Geometrical loss (due to angle)4. Other Loss (material, Q-switch element…)
+5
+1 2
+1ln2 r r  
+1 2 3 4 ...        
+0
+1
+1ln2
+I
+I 2
+1 0I I e 
+The average loss per cycle
+0 1
+0
+1
+2
+I I
+I  The percentage loss per cycleWhen the cavity loss is very small
+2
+20 1 0 0
+0 0
+2 1 1 (1 2 ) 2I I I I e eI I
+   
+
+        
+
+--- page 6 ---
+Parameters related to cavity loss(1) The average photon lifetime: time needed for the intensitydecrease to 1/e
+6
+2
+20
+ct
+LmI I e
+  2tm L c 
+ 0
+R
+t
+I t I e 
+
+R L c 1
+R
+2
+0
+m
+mI I e 
+optical length
+I N  0
+R
+t
+N t N e 
+
+0 R
+t
+R
+NdN e dt 
+
+
+ 
+density of photon number 0
+0 00 0
+1 1 1 R R
+t t
+R
+R R
+Nt dN t t e dt te dtN N
+   
+                  
+10
+!n ax
+n
+nx e dx a
+ 
+
+
+--- page 7 ---
+ANNOTATIONS:
+- Q越大损耗越小
+Parameters related to cavity loss(2)Q-factor for passive cavity
+7
+Total energy in the cavity（ξ）
+Energy loss per unit time（P）2Q 
+1
+RQ   
+2 R
+LQ c 
+ 0
+R
+t
+N N e 
+Nh VdNP h V dt
+ 
+
+
+ 
+The smaller the cavity loss, the higher the Q-factor of the cavity
+
+--- page 8 ---
+ANNOTATIONS:
+- 近轴近似：低阶光束
+- 在轴上方r为正，下方为负 / 向上扬为正，向下冲为负 / 从左往右，三->一象限方向夹角为正 / 从右往左，一->三象限方向夹角为负 / 
+2.2 Matrix Formulation of Geometrical Optics1. Formulation of Geometrical Optics（ABCD matrix）
+8
+rθA ray can be described byr  －distance with optical axisθ－angle with optical axisSmall angle (paraxial-ray)  tg sin  
+
+--- page 9 ---
+ANNOTATIONS:
+- 传输行为只需要知道传输矩阵就可以描述，不断左乘即可
+- 光在自由空间传播的传输矩阵
+1 0 2n n  
+2. The matrix in free space
+9
+A：r0, θ0B：r', θ'LABFree SpaceRay Matrix3. Interface between air and dielectric (refractive index n2)
+1n 2n
+inoutinout(Snell's law)
+0 0,r  ,r  
+0 
+0 0
+0 0
+1
+0 1L L
+r rr A B L T TC D  
+                             
+1 2
+1 0
+0LT n n
+   
+0 0,r  0r r
+1
+0
+2
+n
+n ,r  
+0 0r r L  
+
+--- page 10 ---
+1
+r r
+rf 
+  
+     
+1 1 1
+r r r l
+r l
+r rl l f
+
+
+ 
+      
+      
+            
+r A B r
+C D 
+                   2r r
+rR 
+  
+    
+4. The matrix for spherical mirror (and lens)
+10The two are the same
+Planer mirror1 0
+2 1RT
+R
+     
+1 0
+0 1RT    
+R
+,r  
+,r    
+f
+,r   ,r    
+l l 
+1 0
+1 1 2f
+RT f
+f
+     
+
+--- page 11 ---
+11
+3 34
+3 34
+1 1
+0 1 0 1 L L
+r rr L L T T 
+                           
+3 2 2
+3 2 2
+2 2
+1 0 1 0
+2 21 1 L L
+r r r T T
+R R  
+                                   
+2 1 1
+2 1 1
+1 1
+0 1 0 1 L L
+r r r L L T T  
+                           
+5 4 4
+5 4 4
+1 1
+1 0 1 0
+2 21 1 L L
+r r r T T
+R R  
+                                   
+The first travelThe second travelThe third travelThe fourth travel
+1 1( , )r 
+2 2( )r
+2 2( , )r 
+3 3( , )r 
+4 4( , )r 
+5 5( , )r 
+
+--- page 12 ---
+ANNOTATIONS:
+- 往返矩阵与这个腔是否能形成稳定来回有关，后续有判据
+5. ABCD Matrix Application (resonance inside spherical mirror)
+12
+球面镜腔中往返一周的光线矩阵（简称往返矩阵）
+1 2
+01
+01
+0 0
+0 0
+R L R L
+rr T T T T
+r r A BT C D
+
+ 
+                      
+1 2
+1 0 1 0 1 1
+2 2 1 10 1 0 1
+A B L LT C D R R
+                              
+2 2
+1 2 1 1 1 2
+21 2 1
+2 2 2 2 2 21 1 1
+L LA B LR R
+L L L LC D R R R R R R
+                                         
+
+--- page 13 ---
+13
+nIf travel nroundswhereLight travel in cavity can be treated as light pass through seriesof optical componentsThe matrix is not related to their starting position and lighttravel directionGeneral Steps(1) find the optical loop (2) fix the period (3)write down each component
+0 0 0
+0 0 0
+n n n
+n
+n n n
+r r r A B rT T T C D   
+                              
+  
+sin sin 1 sin1
+sin sin sin 1sinn
+A n n B nT C n D n n
+  
+  
+        
+ 1arccos2 A D 
+
+--- page 14 ---
+ANNOTATIONS:
+- 一种等效方法
+14l1l2l3l1l2l3l1l2l3
+LLR1R2R1Spherical cavity = series of lens
+3 2 1
+3 2 1
+1 0 1 0 1 01 1 1
+2 1 2 1 2 10 1 0 1 0 1
+l l l
+R R R
+                                 
+R1R2R3
+
+--- page 15 ---
+Ray matrices for some common cases
+15
+
+--- page 16 ---
+Ray matrices for some common cases
+16
+平方折射率介质
+
+--- page 17 ---
+Classification of Optical Cavity
+17
+l1l2l3
+2 > 1，2 > 3semiconductor laser
+1. Construction
+折叠腔
+环形腔
+dielectric waveguide
+
+--- page 18 ---
+18
+2. Geometrical leakage loss: stable, semi-stable, critical
+
+--- page 19 ---
+ANNOTATIONS:
+- 要注意
+19
+3. Stable condition for spherical mirror cavityCo-axis spherical mirror cavity: two mirrors are sphericalmirror, have the same optical axis.concave mirrorR> 0; convex mirrorR< 0; plane mirrorR＝∞凹透镜 凸透镜 平面镜
+Stable Condition: Geometrical lossStable Cavity: Any light with small angle can be reflected all the timesinside the cavity and can not escape from itsmall geometrical loss(low loss cavity)Unstable Cavity: Light with small angle will escape out of the cavityafter certain periodslarge geometrical loss (high loss cavity)Ray matrix can be used to analyze the geometrical loss anddetermine whether the cavity is stable
+
+--- page 20 ---
+20AnBnCnDnis infinite, then light can not escape from the cavityafter reflected for n times.ϕis a real number, and not equal tokπFor stale cavity
+If travel nroundsn
+0 0 0
+0 0 0
+n n n
+n
+n n n
+r r r A B rT T T C D   
+                              
+  
+sin sin 1 sin1
+sin sin sin 1sinn
+A n n B nT C n D n n
+  
+  
+        
+where 1arccos2 A D 
+1 12 A D 
+
+--- page 21 ---
+ANNOTATIONS:
+- 重要条件
+21
+ 1 12 A D    RealAn, Bn, Cn, Dnis limitedStable(1) 1 12 A D    ImagenAn, Bn, Cn, Dn Unstable(2)  1 1 1 12 2A D A D k         (3) kodd (-1)keven (+1)Discussion
+Find the limitationkoddkeven
+ 1arccos2 A D 
+    
+1 11 1 1 12
+n
+n
+An n BnA D T Cn Dn n
+            
+   
+1 11 1 1 12
+n
+n
+An n BnA D T Cn Dn n
+           
+
+--- page 22 ---
+ANNOTATIONS:
+- 重要条件另一种表达式
+22
+Another Expression
+Stable CavityUnstable CavityCritical Cavity
+2
+21 LA R 
+1 1 2
+2 2 21 1L L LD R R R
+                  
+ 
+2
+1 2 1 2
+1 2 2 2 12
+L L LA D R R R R    
+ 11 12 A D   
+1 2
+0 1 1 1L L
+R R
+             1 20 1g g 
+1 1
+2 2
+1
+1
+Lg R
+Lg R
+ 
+ 
+1 20 1g g 
+1 2 1 21,     0g g g g 
+1 2 1 20 1g g g g ，
+
+--- page 23 ---
+23
+1. Planer mirror cavity ( R= )
+3. Concentric cavityR1+R2=LM1M2R1R2UnstableStable2. Symmetrical confocal cavity R1=R2=LM1M2
+Some ExamplesForm close loop after two period: StableCriticalIt is used for all kinds of cavity. You can determine the stability by the ray matrix.
+1 2
+0 1n
+LnT    
+0 0
+0
+2n
+n
+r r Ln 
+ 
+ 
+
+0
+0 0
+0
+0
+n
+n
+r
+r r
+
+
+ 
+ 
+1 0
+0 1nT     
+   1 1 1 1  Stable   1  Unstable    1  Criticle2 2 2A D A D A D      ； ；
+
+================================================================================
+Lecture Note_EE310_Ch2_L2
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-2
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 2: Open Cavity & Gaussian Beam2.3 Mode for Open Cavity & Diffraction TheoryIntroductionThe self-reconstruction of modeFresnel Kirchhoff's lawThe physical meaning of the integral equation2.5 The self-reconstructed mode of square confocal cavityVariables separationSolutions: Analytical solution and approximation solution2
+
+--- page 3 ---
+1. Introduction
+3
+Diffraction plays an important role in spatial distribution of laser energyAfter multiple traveling, a steady-state field will be formed: energydistribution will not be influenced by diffraction any more; the field oflight is the same as the field before previous reflectionThe shape of the field is the sameThe amplitude is differentThe phase is differenceBabinet's Principle: In physics, Babinet's principle is a theoremconcerning diffraction. It mentions that the diffraction pattern from anopaque body is identical to that from a hole of the same size and shapeexcept for the overall forward beam intensity.
+
+--- page 4 ---
+ANNOTATIONS:
+- Babinet's Principle
+4
+Complementary (互补)
+A B 0U P U P U P 
+   
+A B 0
+i i i
+0 0 0
+i e i e i e d d d
+kr kr kr
+U Q U Q U Qr r r    
+        
+=+
+The far-field diffraction patterns induced by a pair of complementary structures have the same shape
+
+--- page 5 ---
+2. The Self-Reconstruction of Mode
+5
+Transverse mode
+amplitude phaseSelf-reconstructed modeIncident wave(shape not important)coherent
+
+--- page 6 ---
+ANNOTATIONS:
+- 每个点的场是无数前面的点的球面场的叠加
+   , , 1 cos4
+ik
+s
+ik eu x y u x y ds
+
+ 
+
+    
+3. Fresnel Kirchhoff's Law
+6
+Light field distributionfunction on the surfaceSSpherical wave from each point sourceAngle-related factor
+
+--- page 7 ---
+7
+U1(x1,y1)U3(x3, y3)Uj+1(xj+1, yj+1)Uj(xj, yj)M1 M2U2(x2, y2)With multiple travels, beside thedecrease of amplitude and changeof phase, the light fieldUj+1canconstructUjθrP(x, y)P’
+The same light fieldThe self-reconstruction of modeCondition for reconstructed mode
+The idea of self-reconstruction of modeL
+  1
+1, ,j jU x y U x y 
+,ju x y  1 ,ju x y  
+
+--- page 8 ---
+8
+Fresnel Kirchhoff'slawself-reconstructionof modeThe integral equation ofself-reconstruction fieldin optical cavity
+The stable field distribution in cavityThe integral of theself-reconstructedmode……..……..The integral equation   , , 1 cos4
+ik
+j j
+s
+ik eu x y u x y ds
+
+  
+
+    
+   1 1 , , 1 cos4
+ik
+j j
+s
+ik eu x y u x y ds
+
+  
+
+      
+   , , 1 cos4
+ikik eV x y V x y ds
+
+  
+
+    
+   1 , , 1 cos4
+ik
+j j
+s
+ik eu x y u x y ds
+
+ 
+
+     
+
+--- page 9 ---
+ANNOTATIONS:
+- 稳定场
+, ,cos 1 1 cos 2L x y L L         
+9Kernel (核) of the integral equationCapable for any symmetric cavity (Parallel plane, confocal, general spherical mirror cavity)Find V(x,y)        mode distribution Solve the Integral Equationwhere
+The integral of the self-reconstructed modeyxuj , y,xuj 1
+θrP(x,y)P’L  1 cos, , 4
+ikikV x y V x y e ds   
+   
+   , , ,, , ik x y x yiV x y V x y e dsL
+ 
+    
+, , , , ,V x y K x y x y V x y ds      
+  , , ,, , , ik x y x yiK x y x y e L
+
+
+   
+
+--- page 10 ---
+ANNOTATIONS:
+- 只用共焦腔可以得到解析解
+102a2a2a2a ...…...
+Type of Confocal CavityAnalytical Solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Hyper-ellipsoid function Laguerre-Gaussian functionAmplitudePhase300 iterations
+1. The analytical solution: only for symmetrical confocal cavity 2. The numerical solution: numerical iteration method (迭代)The solution for other stable spherical mirror cavities can be obtained bymeans of "equivalent" to the symmetry confocal cavity.Solve the integral of the self-reconstructed mode?
+
+--- page 11 ---
+ANNOTATIONS:
+- 激光腔内的场函数，只与这个激光腔有关，所以叫本征，还有一个腔体本身系数
+- 光场在反射面上的分布=横模（光斑形状）
+4. Integral equation: physical meaning
+11
+1) The expression of Eigen functionAmn(x, y) Amplitude distribution on the mirrorφmn(x, y) Phase distribution on the mirrorEigen Value本征值Eigen Function本征函数
+Vmn(x, y) Field distribution on the mirror (Eigen function transverse mode)There is no analytical solution for general spherical mirror cavityAnalytical solution can be obtained only for symmetrical confocal cavity
+   , , ,, , ik x y x yiV x y V x y e dsL
+ 
+    
+,, , mni x y
+mn mnV x y A x y e 
+
+--- page 12 ---
+ANNOTATIONS:
+- γ越大，单程损失越大
+2 2
+1 2
+2 2
+11 1mnj mnj
+D
+mnmnj
+u u eu
+ 
+     
+ 1 1
+1 i
+j j j j
+mn
+u u u e u e  
+
+ 
+  i
+mn e  
+mni
+mn mn e  
+12
+2) The meaning of eigen value γ－complex constantγis related to δD
+δD －The relative power loss per travel－单程损耗
+－Transmission factordecrease of amplitude per roundphase shiftif
+γmn－The single-pass loss of self-reconstructed mode－Different transverse mode has different δD－γmn   模的单程损耗δD 
+
+--- page 13 ---
+ANNOTATIONS:
+- phase shift决定最终自建模式的纵模
+mn q 
+1arg arg
+1arg
+2
+mn j j
+mn
+mn
+u u
+LkL
+
+  
+    
+ 
+  
+         
+13
+3) The phase shiftδφmn－the total phase shift of the selfreconstructed modesGeometrical phase shift几何相移
+Resonant conditionIf we know γmn, can obtain the resonant frequency of the reconstructed modeAdditional phase shift 附加相移
+The modulus of the complex constant is the one-round loss of the selfreconstructed mode, and its argument measures the phase shift, whichalso determines the resonant frequency of the mode.
+1
+1i
+j je u u  
+
+ 
+
+--- page 14 ---
+               
+,,
+,
+a
+x x a
+b
+y y b
+V x K x x V x dxV x y V x V y
+V y K y y V y dy
+
+
+
+
+
+
+  
+  
+
+
+W ,hen L R a
+, , , , ,V x y K x y x y V x y ds      
+Variable separation
+14ifassume  , , ,, , , ik x y x yiK x y x y e L
+
+
+   
+, , , , , x yx y x y x x y y      
+, , , , , x yK x y x y K x x K y y     , , ,, , , ik x y x yiK x y x y e L
+
+
+   
+?
+
+--- page 15 ---
+   
+2 2 2' 'x x y y L    
+1) Rectangular Planar Cavity
+15
+xx'y(x, y)2a2by'(x', y')LIIIρ   
+2 2
+2 2 2
+2 2 4 4
+2 2
+' '' ' 1
+1 ' 1 ' 1 ' 1 '1 2 2 8 8
+1 ' '
+4
+x x y yx x y y L L L L
+x x y y x x y y
+L L L LL x x y y
+L L
+                   
+                                                   
+  2
+1
+1 1 1 1 11 1 1 , 1,1 ! 2! !
+n n
+n
+n nx x x x x x n n
+         
+
+
+                    
+
+--- page 16 ---
+16
+   
+2 2
+2 2 2
+2 2 4 4
+2 2
+' '' ' 1
+1 ' 1 ' 1 ' 1 '1 2 2 8 8
+1 ' '
+4
+x x y yx x y y L L L L
+x x y y x x y y
+L L L LL x x y y
+L L
+                   
+                                                   
+  2 22 2 ' '1 ' 1 '1 2 22 2
+x x y yx x y y ikikL L LL Lik ikLe e e e
+                              
+    2 2' '
+, , , 2 2, , ,
+x x y yik ikik x y x y ikL ikL L Li i iK x y x y e e e e eL L L
+
+  
+        
+
+--- page 17 ---
+ANNOTATIONS:
+- 对于HG：m表示横轴几个零点，n表示y轴几个零点 / 对于LG：m表示径向几个零点（几个黑色环），n表示0-π内几个零点（切了几刀）
+17VmandVnare themthandnthsolutions，mandnthe correspondingcomplex constants：
+More general expression, , , , ,V x y K x y x y V x y ds      
+    
+2
+2
+'
+2
+'
+2
+, '
+, '
+x xikikL Lx
+y yikikL Ly
+iK x x e e L
+iK y y e e L
+
+
+
+
+  
+          
+,
+,
+a
+x x a
+b
+y y b
+x y
+V x K x x V x dx
+V y K y y V y dy
+
+
+  
+
+
+
+
+       
+
+
+          
+,
+,
+a
+m m x m a
+b
+n n y n b
+V x K x x V x dx
+V y K y y V y dy
+
+
+
+
+
+
+      
+
+
+,mn m n
+mn m n
+V x y V x V y
+  
+  
+
+--- page 18 ---
+2) Square Confocal Cavity
+18
+xY
+2a
+fL 0
++a
++a
+-a
+-a XYR1R2Variables separation (分离变量)Fresnel number N=a2/Lλ
+22
+L a
+a L
+L a
+
+
+ 
+   
+   , , ,, , ik x y x yiV x y V x y e dsL
+ 
+    
+               
+,,
+,
+a
+x x a
+a
+y x a
+V x K x x V x dxV x y V x V y
+V y K y y V y dy
+
+
+
+
+
+
+  
+  
+
+
+
+--- page 19 ---
+19for symmetricalconfocal cavity
+a
+LP2(x’,y’)P1(x,y)P’1 P’2Δ2Δ1        
+2 2 2 2
+1 2
+2 2 2 2
+1 2
+1, , ', ' 1 1 ' ' 2 ' '2
+1 ' ' 2 ' '2
+L Lx y x y L x y x y xx yyL R R
+L g x y g x y xx yyL
+                     
+        
+R1=R2=R=L
+, , , , ,V x y K x y x y V x y ds      
+       
+, , ,, , ,
+, , , , ,
+ik x y x y
+x y
+iK x y x y e L
+x y x y x x y y
+
+
+  
+   
+    , , , , ,K x y x y K x x K y y   
+1 2 1 1 2 2p p p p p p      
+  
+2 2
+1 2
+2 2 2 2
+1 1 1 2 2 2
+1 2
+2 2
+' '
+2 2
+x x y yPP L L L
+x y x yPP P P R R
+      
+        
+  1, , ,x y x y L xx yyL      
+
+--- page 20 ---
+20Separate Vmn=Fm(X)Gn(Y)Square confocal cavity
+Separate into two independent equations
+Fresnel number2
+2 2 ac N L  
+     
+   , , ,, , ik x y x y
+s
+iV x y V x y e dsL
+ 
+    
+L xx yy L    
+  , ,
+a a xx yyikikL Lmn mn mn
+a a
+iV x y e V x y e dx dyL 
+ 
+
+ 
+          
+1, 2 mn
+m n
+c cX x Y y c Na a       
+     2
+ikL c c iXX iYY
+m n m n m n c c
+ieF X G Y F X e dX G Y e dY  
+    
+       
+    
+2
+2
+ikL c iXX
+m m m c
+ikL c iYY
+n n n c
+ieF X F X e dX
+ieF Y F Y e dY
+ 
+ 
+  
+
+  
+
+ 
+ 
+
+
+
+================================================================================
+Lecture Note_EE310_Ch2_L3
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-3
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+ANNOTATIONS:
+- 腔体横截面接近方形是HG，接近圆是LG
+Chapter 2: Open Cavity & Gaussian Beam
+2
+2.3 Mode for Open Cavity & Diffraction TheoryIntroductionThe self-reconstruction of modeFresnel Kirchhoff's lawThe physical meaning of the integral equation2.5 The self-reconstructed mode of square confocal cavityVariables separationSolutions: analytical solution and approximation solutionType of SymmetricalConfocal CavityAnalytical Solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Hyper-ellipsoid function Laguerre-Gaussian function
+
+--- page 3 ---
+2.5 Self-reconstructd mode of square confocal cavity
+3
+xY
+2a
+fL 0
++a
++a
+-a
+-a XYR1R2
+22
+L a
+a L
+L a
+
+
+ 
+   
+   , , ,, , ik x y x y
+s
+iV x y V x y e dsL
+ 
+    
+    
+2
+2
+ikL c iXX
+m m m c
+ikL c iYY
+n n n c
+ieF X F X e dX
+ieF Y F Y e dY
+ 
+ 
+  
+
+  
+
+ 
+ 
+
+
+
+--- page 4 ---
+      
+11 1
+0 0 0 12 ,1 , ,m ictt
+m m mi R c S c t e S c t dt
+ 
+  
+4
+Analytical solution: Prolate-ellipsoid function (长椭球函数系)Radial prolate-ellipsoid function径向长椭球函数 (m=0, 1, 2….)•Eigen function－AngularAmplitude & Phase distributionAngular prolate-ellipsoid function角向长椭球函数
+    
+2
+2
+ikL c iXX
+m m m c
+ikL c iYY
+n n n c
+ieF X F X e dX
+ieF Y F Y e dY
+ 
+ 
+  
+
+  
+
+ 
+ 
+
+
+        
+0 0
+0 0 0 0
+, , ,
+, , , ,
+mn m n m n
+m m m n n n
+X YV x y F X G Y S c S c c c
+X x Y yF X S c S c G Y S c S c a ac c
+           
+                        
+
+--- page 5 ---
+ANNOTATIONS:
+- c是化简后表达式的一个参数，只有当c满足此条件时，才能进一步化简为带Hermit多项式的形式
+5Real function
+•Eigen value－Radial     Phase shift & loss of the mode
+For specificc(c=2πN=2πa2/Lλ), whenmandnis integer, we can obtain a seriousof eigen functions, which describe the amplitude and phase distribution on theconfocal cavity mirror; Meanwhile, we can obtain a series of eigen values, whichdescribe the phase shift and loss of the mode.TEMmn
+    
+1
+0
+1
+0
+2 ,1
+2 ,1
+ikL
+m n m n
+m
+m m
+n
+n n
+ie
+ci R c
+ci R c
+   
+ 
+ 
+
+
+
+    
+1 2
+1
+0
+1 2
+1
+0
+2 ,1 2
+2 ,1 2
+ikL
+m
+m m
+ikL
+n
+n n
+iei cR c
+iei cR c
+ 
+ 
+
+
+    
+    
+    
+1 (1) (1)2
+0 0
+1 4 ,1 ,1
+i kL m n
+mn m n m n
+m n
+Ne R c R c
+
+   
+       
+(1) (1)
+0 0 ,1 , ,1m nR c R c
+
+--- page 6 ---
+Hermite-Gaussian function: approximation
+6
+Mode distribute near the center of the mirror x , y << a  菲涅尔数较大c=2N 1Approximation requirement:Schrödinger equation of linear harmonic oscillatorfor X  ，Fm(X)0，the solution is Hermite-Gaussian function
+Approximation for prolate-ellipsoid function (长椭球函数)  
+1 2
+2
+ikL c iXX
+m m m c
+ieF X F X e dX 
+  
+
+      
+c   c  
+......
+
+
+  
+2
+2
+2 0m
+m
+d F X X F XdX     
+
+--- page 7 ---
+ANNOTATIONS:
+- c需要满足上面的条件（Page5）
+    
+2
+2
+20
+20
+,
+,
+X
+m m m m
+Y
+n n n n
+XF X S c C H X ec
+YG Y S c C H Y ec
+
+
+     
+     
+7
+Angular prolate-ellipsoid function
+Cmn－constant.  We  can use this approximation to discuss the field distribution on the confocal cavity's mirror
+（镜面上直角坐标）Eigen FunctionHermit polynomials Gaussian function
+, ,X Y x y
+    
+2 2
+2
+2 2
+2,
+2 2
+c x yamn mn m n
+x y
+L
+mn m n
+c cV x y C H x H y ea a
+C H x H y eL L
+  
+ 
+ 
+
+             
+             
+
+--- page 8 ---
+ANNOTATIONS:
+- 不同横模的表达式
+Hermite Polynomials & Hermite-Gaussian Function
+8
+1) m-order Hermite polynomial        
+2 2 2 2
+0
+1 !1 2 0,1, 2... ! 2 !
+m kmm m kX X
+m m
+k
+mdH X e e m X where mdX k m k
+    
+
+    
+Take integer part 取整数部分
+2) The first several order of Hermite polynomial     
+0 1 2 3
+2 3 4 2
+4
+1 2
+4 2 8 12
+16 48 12
+H X H X X
+H X X H X X X
+H X X X
+ 
+   
+  
+3) The zero position of the m-order Hermite polynomial: Hm(X)=0 has msolutions.Therefore, the m-order of hermite polynomial has mzero positions (along the xaxis, the position of the light that equal to zero has mpositions).4) The m-order Hermite-Gaussian function  2 2
+22,
+c x yamn mn m n
+c cV x y C H x H y ea a
+              
+The field distribution on the mirror: determine by mand n, called transverse mode orderTransverse mode: Field distribution perpendicular to the direction of propagationdetermine by mand n2 2X Y
+m nH X e H Y e 
+
+--- page 9 ---
+ANNOTATIONS:
+- 腔面横模函数完整形式
+- 00模，基模的前提下
+- 00模是一个高斯分布
+- 重要考点
+
+2 2
+2 2 0
+0 0
+00 00 00
+1
+s
+x y
+r wL
+H x H y
+V C e C e 
+ 
+ 
+ 
+Amplitude distribution of the field on the mirror
+9
+Low order fundamental transverse mode TEM00(m=n=0)TEM00is Gaussian shape基模在镜面上分布为高斯型y
+The radius of the light spot w0s: amplitude decrease to 1/eof the maximum.
+2 2
+00 00 00
+1
+x y
+LV C e C e
+ 
+
+ 
+2 2x y L   
+2 2
+0sw x y L     Only related to L, not related to the size of the mirror1/e2W0s
+2 2r x y 
+For CO2gas laser, L=1 m, λ=10.6 μm, w0s=1.84 mmHeNe gas laser, L=30 cm, λ=0.6328 μm, w0s=0.25 mm
+ 2 2
+22
+c x yamn mn m n
+c cV C H x H y ea a
+              
+
+--- page 10 ---
+Amplitude distribution of the field on the mirror
+10
+High order transverse mode TEMmn(mand n≠ 0 simultaneously)    
+2 2
+2
+2 2
+2,
+2 2
+c x yamn mn m n
+x y
+L
+mn m n
+c cV x y C H x H y ea a
+C H x H y eL L
+  
+ 
+ 
+
+             
+             
+        
+2 2 2 2
+2 20 0
+2 2 2 2
+2 20 0
+2
+0 1 2
+' '
+10 10 01 01
+' 2 2 '
+20 20 0 11 11
+1, 2 , 4 2...
+, , ,
+, 4 , ,
+...
+s s
+s s
+x y x y
+w w
+x y x y
+w w
+s
+H X H X X H X X
+V x y C xe V x y C ye
+V x y C x w e V x y C xye
+  
+  
+   
+ 
+  
+
+--- page 11 ---
+11
+The zero point of Hermite polynomials determines the pitch line of the field厄米多项式的零点决定场的节线
+
+--- page 12 ---
+12
+
+--- page 13 ---
+Intensity distribution
+13
+
+--- page 14 ---
+14
+The high order transverse mode is more complex than thefundamental base mode. They have pitch line and with biggerspotThe spot size of the high order mode is biggerAccording to ISO, the square of spot radius is defined as four times of the mean squaredifference of light field distribution根据国际标准化组织（ISO）光斑半径的平方定义为光场分布均方差值的四倍
+          
+2
+2
+2
+2
+2
+2
+4
+4
+m m
+ms
+m
+n n
+ns
+n
+F X x x F X dXw
+F X dX
+G Y y y G Y dYw
+G Y dY
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+0 0
+2 1, 2 1ms ns
+s s
+w w m nw w    
+2 2
+0
+2 2
+0
+2 1
+2 1
+ms s
+ns s
+w m w
+w n w
+ 
+ 
+
+--- page 15 ---
+ANNOTATIONS:
+- 重要的图N越大，loss越小
+Diffraction Loss per reflection--- Determined by N
+15mnis closely-related to NRadial prolate-ellipsoid function 径向长椭球函数
+Inside the cavityN D,m, n D01>00
+N=
+2
+2 211 1 1mn m n m n
+mn
+         
+ikL
+m n m n ie    
+  
+1
+0
+1
+0
+2 ,1
+2 ,1
+m
+m m
+n
+n n
+c i R c
+c i R c
+ 
+ 
+
+
+Different kind of cavitiesConfocal cavity < parallel planar cavity
+
+--- page 16 ---
+ANNOTATIONS:
+- 横模纵模合并影响最终频率
+    
+1 (1) (1)2
+0 04 ,1 ,1
+i kL m n
+m n m n Ne R c R c
+
+ 
+      
+Phase Shift & Resonant Frequency
+16
+Phase ShiftResonant ConditionResonant frequency Mod spacing between adjacent longitudinal modeFor the same longitudinal mode, themode spacing between transverse mode
+The change ofm, n, qlead to the change of resonant frequency, with thesame order of magnitude
+ 1 2
+2 2
+mn mn
+mn
+kL m n kL
+q
+ 
+ 
+        
+ 
+ 00
+1 12 2 2mnq q
+c cq m n qL L           
+( 1) 2 2q mn q mnq
+c c
+L L        
+( 1)
+1
+4 2n m n q mnq q m
+c
+L            
+
+--- page 17 ---
+ANNOTATIONS:
+- 考点
+17Mode degeneracy: modes number with the same frequencyMode degeneracy is a characteristic of confocal cavityThe single reflection loss of modes with the same frequency is not the sameMultiple modes exist at one frequency
+ 2mn q   1mn q  mnq  1mn q   2mn q   3mn q 
+   1 2m n q      1 1m n q    1m nq     1 1m n q      1 2m n q  
+  1 2m n q     1 1m n q    1m n q    1 1m n q     1 2m n q  
+1
+4 2
+1
+2
+n q
+m q
+c
+L  
+ 
+   
+  
+                       
+1 1 2 1 2 1 1 3 1
+1 1 1 1 1 1
+mnq m n q m n q m n q m n q
+m nq m n q m n q m n q
+    
+   
+        
+     
+    
+ 
+
+
+
+================================================================================
+Lecture Note_EE310_Ch2_L4
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-4
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 2: Open Cavity & Gaussian Beam2.6 The traveling-wave field of square confocal cavityThe Hermite-Gaussian beam in confocal cavityAmplitude distribution & beam sizeMode volumeConstant phase surface Far field divergence angle 2.7 The circular confocal cavity2.8 Characteristics of general stable spherical cavity2
+
+--- page 3 ---
+ANNOTATIONS:
+- 腔内各个空间位置的电场
+- 中心束腰的半径
+- 下面的一切讨论都是建立在confocal cavity的前提上
+2.6 The traveling-wave field of square confocal cavity
+3E0and Amnare constants,                                          , w0sbeam size on the mirror
+Fresnel Kirchhoff's LawField on the mirrorField at any position
+The field distribution of the mode
+1) The Hermite-Gaussian beam in confocal cavity
+0 0 2 2sw w L   
+   
+1
+1 1 1, , , 1 cos4
+ik
+s
+ik eV x y z V x y ds
+
+ 
+
+  
+  
+2 2
+2 2,
+x y
+L
+mn mn m nV x y C H x H y eL L
+  
+ 
+             
+      
+2
+2 , ,0
+0
+2 2, ,
+r
+w z i x y z
+mn mn m n
+wE x y z A E H x H y e ew z w z w z
+               
+
+--- page 4 ---
+4
+      z,y,xizw
+r
+nmmnmn eeyzwHxzwHzw
+wEAz,y,xE 
+
+
+
+
+
+2
+2
+220
+0
+The electric field of TEMmnon position (x,y,z) zw
+w0
+Amplitude Attenuation Factor: reflecting the amplitude change with propagation 
+2
+0
+2
+0
+2
+2
+11212 
+
+
+
+
+
+  f
+zwf
+zw
+f
+zLzw s
+
+
+Transverse Amplitude Distribution Factor:reflecting the distribution of the fieldamplitude in transverse direction   zw
+r
+nm eyzwHxzwH
+2
+2
+22 
+
+
+
+
+
+zyxie ,,
+Phase Factor: determine the phase distribution inside the confocal cavityPropagation factorPhase bending factorAdditional phase shift    
+2
+2
+00
+, , (1 ) 1 1 2 2
+1 2; ; 21 2
+s
+rx y z k f m n f
+w Lz zarctg w L f
+   
+   
+                 
+        
+
+--- page 5 ---
+2 2
+2 2
+0
+1w z z
+w f  
+5
+2) Amplitude distribution & beam size
+For fundamental mode     
+2 2
+20
+0
+2 2, ,
+x y
+w z
+mn mn m n
+wE x y z A E H x H y ew z w z w z
+             
+The amplitudeThe beam sizeWhen on the mirror   
+2 2
+20
+00 00 0, ,
+x y
+w zwE x y z A E e w z
+
+
+ 
+2 22
+0
+021 1 12 2
+swL z z zw z w f f f
+
+
+                   
+   0s
+Lw z w f w 
+   
+Beam waist 0
+0 0 22
+sw L fw w  
+    
+基模高斯光束的束腰半径
+Hyperbola shape双曲线型
+
+--- page 6 ---
+ANNOTATIONS:
+- 模式体积决定了有效增益体积，影响输出功率
+6
+3) Mode volume: Spatial expansion range of mode inside the cavityMode volumeContribution of excited state carriers Output powerw0sThe base mode volume of the confocal cavityFor high order mode: order number , mode volume Example：=10.6 m, L=1 m, 2a=20 mm, V=314 cm3=5.3 cm3= 5.3 / 314 = 1.7%
+0
+00V
+0
+00V V
+2
+0 2
+00 0
+1
+2 2 s
+LV L w  
+  
+2
+0 1 2 1 2 12 2mn ms ns
+LV L w w m n    
+
+--- page 7 ---
+7
+4) Equivalent phase surface (wave-front)whereFor equivalent phase surface
+      
+2
+2 , ,0
+0
+2 2, ,
+r
+w z i x y z
+mn mn m n
+wE x y z A E H x H y e ew z w z w z
+               
+    
+2
+2, , 1 1 1 2 2
+rx y z k f m n f
+   
+                 
+0, , 0,0,x y z z  
+2 1
+1
+z z arctgL f
+  
+      
+     0 0 00, 0, 1 1 2z k f m n                
+0
+0
+z
+f 
+
+--- page 8 ---
+     
+2
+0 021 1 1 11 2 2 2
+rk f m n k f m n f
+     
+                             
+8
+For paraxial lightparabolic equation抛物面方程
+c(x,y,z)zz00Spherical wavey 1storderGaussian beam can be approximately treated as spherical wave near the axis?高斯光波在腔轴附近可近似为球面波 ？
+1. Focus point clocates at –z 
+2 2 2 2 2
+0
+0 2 2 20 0
+0
+1 2 1 1
+x y r x yz z Lf L
+
+   
+      
+ 
+22 2 2
+0 0 0x y z R z R      
+2 2 2
+0 0 0
+2 2
+0 2
+0
+1 2
+z z R R x y
+x yR R
+    
+      
+2 2 2
+0x y R 
+2 2x y
+0 
+
+--- page 9 ---
+9
+Spherical wave near the axis近轴球面波 Gaussian beam near the axis近轴高斯光波
+v.s.parabolic equation抛物面方程
+c(x,y,z)zz00Spherical wavey2. Focus point clocates at +z, similar treatment
+2 2
+0 0 0 2
+0
+1 2
+x yz z R R R
+        
+2 2
+0
+02
+x yz z R
+  
+2 2
+0
+02
+x yz z R
+  
+ 
+2 2
+0 2
+0
+0
+1
+x yz z L 
+  
+
+ 
+2
+0 0 0
+0
+1 0 2
+LR z z z
+            
+ 
+2
+0 0 0
+0
+1 0 2
+LR z z z
+             
+2 2x y
+
+--- page 10 ---
+0 0 2 2z f L R z f L     
+0 0 0z z R z 
+0 0z R z   
+0 0 0z R z  
+ 
+22
+0
+0 0 0
+0 0 0
+1 2
+zf f LR z z f z z f z z
+                      
+10Plane wave perpendicular to the axisCenter of the confocal cavityWave-front perpendicular to the axisis the same, symmetry spherical waveWave-front coincident with mirros
+LL/2R0|z0|
+
+--- page 11 ---
+ANNOTATIONS:
+- 重要
+11
+5) Far-field divergence angle
+He-Ne : L=30cm   λ=632.8 nm~ 2.3×10-3radCO2 :            L=100 cm  λ=10.6 mm~ 5.2×10-3rad
+21 e
+21 e
+The divergence angle is small, only 10-3rad.The divergence angle is bigger for higher order mode
+2limz
+w z
+z 
+2
+2
+2
+1
+2 12lim 2e z
+L z
+f
+z f
+
+  
+    
+0 02 1 2 1m n m n      
+
+--- page 12 ---
+ 
+2 2 0
+00 00, sr wV r C e 
+ 
+2
+20
+2
+2
+0 0
+, 2 2 s
+m r
+wm im
+mn mn n
+s s
+r rV r C L e e w w
+
+           
+2.7 The Circular Confocal Cavity
+12
+Laguerre-Gaussian approximate0 1 1 1 ...m mL L m     Laguerre PolynomialFundamental modeEigen Function 
+
+ 
+ 212 
+
+nmkLi
+mn eEigen Value  
+2
+20
+2
+20
+0
+10 10
+0
+2
+01 01 2
+2,
+, 1 2
+s
+s
+s
+r
+w i
+s
+r
+w
+V r C re e w
+rV r C e w
+
+
+ 
+
+
+      
+High-order mode
+
+--- page 13 ---
+13
+The amplitude distribution of the modePhase shiftResonant frequencyDiffraction loss
+TEM00TEM01TEM02TEM10TEM20TEM30The traveling-wave field of circular confocal cavity    
+2
+22
+im i ( , , )0
+0 2( , , ) 2 2 e e e
+m r
+zm r z
+mn mn n
+w r rE r z A E L w z w z w z
+  
+                
+2
+11mn
+mn
+  
+ 1 2 12 2mnq
+c q m nL       
+ 2 1 2mn mn kL m n kL          
+
+--- page 14 ---
+ANNOTATIONS:
+- 前提是一般：L>>镜片半径
+14
+Type of Confocal CavityAnalytical solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Super-ellipsoid function Laguerre-Gaussian functionThe beam characteristics of confocal cavity only determine by focallengthf, not related to the size of the mirror. Parametersforw0determines the Gaussian beam inside the cavity.Analytical solution represents the real case of loss inside cavity. Theloss of the transverse mode is determine by the Fresnel number.Different transverse modes have different losses.Characteristics of confocal cavity:The diffraction loss is low.Mode degeneracy. Light spot size along the cavity axis follows the hyperbolic function. Equivalent phase surface (spherical).The phase surface coincide with the mirror.
+
+--- page 15 ---
+Integral equation of self-reconstructed modeVariable separationSquare confocal cavityField distribution(Prolate-ellipsoid function)Hermite-Gaussian FunctionCircular confocal cavityField distribution(Hyper-ellipsoid function)Symmetrical Confocal CavityLaguerre-Gaussian FunctionN  approximationField distributionon the mirrorField distribution in paceEigen valueD，γmnqTraveling-wave fieldInternal & externalBase modeGaussian Beam:w0、f、w(z)、R(z)、
+Eigen FunctionBeam size, mode volume
+
+fw 0
+light beamphase 
+2
+0 1 
+
+ f
+zwzw
+ z
+fzzR
+2
+
+fπ
+λ2θ 2e1 
+Diffraction loss
+Traveling-wave fieldInternal & external
+
+--- page 16 ---
+2.8 Characteristics of general stable spherical cavity
+16
+Any confocal cavity can be equivalent to an infinite number ofstable spherical cavitiesis stable spherical cavity
+Any confocal cavity can be equivalentto an infinite number of stablespherical cavities, while any stablespherical cavity can only have oneequivalent confocal cavity
+Basic idea: confocal cavity = = general stable spherical cavityEquivalent: have the same traveling wave
+1 2
+0 1 1 1L L
+R R
+            
+  
+2
+1 1 1
+1
+2
+2 2 2
+2
+2 1
+fR R z z z
+fR R z z z
+L z z
+       
+       
+ 
+
+--- page 17 ---
+17
+Any stable spherical cavity can only have one equivalent confocal cavityProblem: know R1 , R2 , L, how to determine the position and f of confocal cavity
+ifWe have
+  
+2
+1 1 1
+1
+2
+2 2 2
+2
+2 1
+fR R z z z
+fR R z z z
+L z z
+       
+       
+ 
+      
+2 1
+1 2
+1 2 1 2
+L R L L R Lz z L R L R L R L R
+         
+   
+1 2 1 22
+2
+1 2
+L R L R L R R Lf L R L R
+        
+1 20 1 1 1L R L R   
+2
+1 20, 0, 0f z z  
+
+--- page 18 ---
+ANNOTATIONS:
+- 作业涉及，注意这里的w0s的L是实际的腔长L，不是等效共焦腔的腔长L=2f
+18
+Mode characteristics of general stable spherical cavity
+1. Beam spot size on the mirror (base mode)
+Insert the expression of z1, z2 and f
+only for
+stable cavity2. Mode volume (base mode)
+   
+ 
+2
+2
+0
+00 00 0, ,
+r
+w zwE x y z A E e w z
+
+
+ 
+2
+0 1 zw z w f
+     
+ 
+   
+ 
+   
+1 42
+1 2
+1
+1 1 2
+1 42
+2 1
+2
+2 1 2
+s
+s
+R R LLw L R L R R L
+R R LLw L R L R R L
+
+
+
+
+                       
+ 
+ 
+1 4
+2
+1 1 2
+1 4
+1
+0
+1
+1
+s s
+s
+gw 1 w0
+g g g
+g
+g g gws2 w0s
+2 1 2
+w L  
+     
+           
+ 
+(2.8.6) or (2.8.7)
+2
+01 2 1 2
+00 00
+2 1 1 2
+2
+0 2
+00 0
+1 1 22 2 4 1
+1
+2 2
+s s
+s
+w w g gV L V g g g g
+LV Lw
+
+
+            
+  1 2 1g g 
+1 2 0g g  1 2g g
+00V 
+or but
+(2.8.8)
+×
+×
+
+--- page 19 ---
+19
+Mode volume (high-order)For square spherical cavity3. Equivalent phase surface (wave-front)(2.8.4)4. Far-field divergence angle (base mode)
+   
+0
+0
+00 00
+2 1 2 1mn mnV V m nV V   
+   0 0
+00
+1 2 1 2 12mn ms nsV L w w m n V   
+         
+2
+1 2 1 22
+2
+1 2
+f z fR z z f z f z
+L R L R L R R Lf L R L R
+       
+        
+2limz
+w z
+z 
+  
+1 42
+1 2 1 2
+1 2 1 2
+22 1
+2
+2
+2
+1 e z
+Lλ z2 12π f λθ lim 2 z f π
+g g g g
+L g g g g
+
+
+
+    
+         
+
+--- page 20 ---
+20
+5. Resonant frequencySquare stable spherical cavityCircular stable spherical cavityinsert z1, z2and fStable square spherical cavityStable circular spherical cavity
+     
+2
+2
+, 1 2 2 2.8.10
+, 2 1 2 2
+mn
+mn
+r f zΦ r z k z kf m n arctgR f z
+r f zΦ r z k z kf m n arctgR f z
+
+
+                                             
+2 1, 2 0, 0, 2 2.8.11mn mn mn2 Φ r z Φ z Φ z q        
+    
+1 2
+1 2
+1 1 cos 2.8.122
+2.8.131 2 1 cos2
+mnq
+mnq
+c q m n arc g gL
+c q m n arc g gL
+  
+  
+                 
+
+--- page 21 ---
+ANNOTATIONS:
+- 作业涉及
+21
+6. Diffraction lossFresnel numberGeneral stable spherical cavity = = confocal cavitySo diffraction loss follow same rules, same traveling wave fieldinsert into (2.8.6) and (2.8.7)According to the relationship between N and mn, insert Nto obtainmn1and mn2
+The mode loss is determined by NEffective Fresnel number of stable spherical cavitythey have same mnwhen
+2 2
+2
+0s
+a aN L w   0s
+Lw 
+
+2 2
+0
+2 2
+0i
+i
+s s
+a a
+w w  
+iefN
+           
+1
+2
+2 2 2
+1 1 21 1 1 1
+1 1 2 2
+1 2 2
+2 2 2
+2 1 22 2 2 2
+2 1 2 2
+2 1 1
+1
+2.8.18
+1
+ef
+s
+ef
+s
+R L R R La a a gN g g w R L R L L g
+R L R R La a a gN g g w R L R L L g
+  
+  
+               
+
+================================================================================
+Lecture Note_EE310_Ch2_L5
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-5
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 2: Open Cavity & Gaussian Beam
+2
+2.9 The Gaussian beamExpression of Gaussian beamThe transmission rule in free spaceCharacteristic Parameter of Gaussian beam’s fundamental mode2.10 Transformation Rule of Gaussian beamThe ABCD lawThe application of ABCD law
+
+--- page 3 ---
+2.9 The Gaussian Beam
+3
+Expression of the Gaussian BeamThe laser beam from a laser device is not the homogeneous plane wave, and isnot the homogeneous spherical wave, but Gaussian beam, that is sphericalGaussian beam whose amplitude and phase is changing.A Gaussian beam is a beam of electromagnetic radiation whose transverseelectric field and intensity (irradiance) distributions are well approximated byGaussian functions. Many lasers emit beams that approximate a Gaussianprofile, in which case the laser is said to operate on thefundamental transversemode, or “TEM00mode” of the laser's optical resonator.
+A 5 mW green laser pointer beam profile, showing the TEM00profileFigures from Wikipedia
+
+--- page 4 ---
+ANNOTATIONS:
+- 高斯光束非常重要的性质，波前半径按照球面波
+4
+Fundamental mode Gaussian beam, propagating along zdirection   
+2 2
+00 2, , exp exp 2
+c r r zx y z i k z arctgw z w z R f
+                         
+Where cis constant, 2 2 2 , 2r x y k    
+2
+0 0 ,f w w f    
+  
+2 2
+0 1 1 z z z fw z w R R z z ff f f z
+                            
+Minimum spot size of the Gaussian beam (beam waist)Confocal parameter of the Gaussian beam
+0wf
+2ff
+
+--- page 5 ---
+5
+The transmission rule in free space(1) The amplitude of the fundamental mode field cross-section followsthe Gaussian distribution. The beam radius is equal to 
+22
+0 0 2
+0
+1 1 z zw z w w f w
+
+
+           
+(2) The phase factor: phase shift characteristics of fundamental mode 
+2
+00 , , 2
+r zx y z k z arctgR f
+       
+geometric phase shiftphase shift related to x and yadditional phase shift besidez     
+222
+0
+0
+1 2
+2 0
+R z z
+R z z zwfR z z z R z f z fz z R z f z f
+z R z z f z f
+
+
+                                  
+
+--- page 6 ---
+6Gaussian beam can be approximately regarded asinhomogeneous spherical wavearound its axis transmission. The center of curvature changes constantly with thetransmission process. The amplitude and intensity followGaussian distributionwithin the cross section, and theirequiphase surface was spherical.(3) The far-field divergence angle
+0
+0 0
+2lim 2 0.6367 2 1.128z
+w z
+z w w f f
+         
+The wave-front is flat or planar shape atz=0, corresponding to an infinitecurvature orR(z)=∞. As the beam propagates, however, the wave-front graduallybecome curved, and theR(z) drops rather rapidly to finite values.For distances well beyond theRayleigh Rangefthe curvature then increasesagain asR(z)=z, i.e., the Gaussian beam becomes essentially like a sphericalwave centered at the beam waist (z=0). Physically, it means that the centers ofcurvature of the wave-fronts located at variouszpositions have the same center(z=0). The curvature increases fromR(z) wherez=fto ∞, when the wave-frontitself moves aszapproach +∞.
+
+--- page 7 ---
+7
+Characteristic Parameter of Gaussian beam's fundamental mode(1)f-zparameters: Usingw0(orf) andzto describe Gaussian beam(2)w-Rparameters: Usingw(z) andR(z) to describe Gaussian beam        
+1 222 2
+0 0
+122
+2
+1 1
+1
+w zzw z w w w z f R z
+R zfR z z z R zz w z
+
+
+
+
+
+
+                   
+              
+
+(3)qparameter: complex curvature       
+2 2
+00 2
+2
+2
+, , exp exp 2
+1exp exp2
+c r r zx y z i k z arctgw z w z R z f
+c r z ik i i kz arctgw z R z w z f
+
+
+                                                       
+
+--- page 8 ---
+ANNOTATIONS:
+- 定义q，用于描述高斯光束的传播
+8
+   2
+1 1 iq z R z w z
+
+ 
+    
+2
+00 2
+1, , exp exp 2
+c r zx y z ik i i kz arctgw z R z w z f
+
+
+                          
+  
+2
+00
+1, , exp exp 2
+c r zx y z ik i kz arctgw z q f
+                 
+    2
+1 1 Re
+1 1 Im
+R z q z
+w z q z
+
+
+                  
+Introduce a new qparameter
+Once we know the qparameter, we can obtain R(z) and w(z)Proofq z z if 
+
+--- page 9 ---
+9
+   2 2 2 2 2
+2
+2 2 2 2 2 2
+1 1 zi iq z R z w z z f f z f
+f
+z f z ifiz f z f z f
+ 
+  
+             
+  
+2 2
+0 01 z f fw z w R z z wf z
+
+
+       
+    
+2 22 2 z f z ifz fq z z ifz if z if z if
+      
+Discussion: at the beam waist z=0   2
+0
+1 1 1
+0 0 0 iq q R w
+
+   2
+0
+0wq i if
+ 2 2
+00w w 
+
+--- page 10 ---
+Three methods to describe Gaussian beam
+10q z z if 
+  
+2
+2
+zw z f f
+fR z z z
+
+
+     
+ 
+   2
+1 1 iq z R z w z
+
+ 
+w(z) andR(z) q(z)
+fandz
+
+--- page 11 ---
+11
+Exercise 1: The wavelength of the Gaussian beam is 3.14 μm, and the minimumspot sizew0=1 mm. Write down theqparameter, the beam sizew, and thecurvatureRof the equivalent phase surface at positionz=50 cm.(1) qparameter(2) Beam size wand curvature R of the equivalent phase surface
+2 6
+0
+0 6
+3.14 10 13.14 10
+0.5 0.5 ( )
+ww f f m
+z m q i m
+  
+
+
+    
+  
+  
+2 2
+0
+2 2
+0.51 1 1 1.12 1
+10.5 2.50.5
+zw z w m f
+fR z z m z
+            
+    
+Exercise 2: At one specificzposition, the beam size of the Gaussian beam isw(z)=1 mm, and the curvature of the equivalent phase surfaceR(z)=0.5 m. Writethe (1) Theqparameter of the Gaussian beam at this position. (2) The radius andposition of the beam waist (wavelengthλ=3.14 μm).
+
+--- page 12 ---
+12
+(1) qparameter(2) Position and radius w0  of the beam waist     
+6
+22 3
+1 1 1 3.14 10 20.5 3.14 10
+1 2 2 0.4 0.22 4 1 5
+i i iq z R z w z
+i iq i m i
+
+
+
+
+      
+      
+  
+2 2 2 2
+2 2 2 2
+1
+= =0.5
+z z z fw z f f f f f
+f f z fR z z z z z z
+
+
+        
+  
+2z f
+0.2
+0.4
+f m
+z m
+
+
+6
+0
+3.14 10 0.2 0.4473.14
+fw mm
+
+   
+
+--- page 13 ---
+Exercise 3: The wavelength of the Gaussian beam is 3.14 μm. If theqparameter at one specific position isq=1+i(m). (1) The radius of the beamwaist and this specific position. (2) The beam sizewand the curvatureRofthe equivalent phase surface at this position.(1) The radius and position of the beam waist(2) The beam sizewand the curvatureRof the equivalent phase surface13
+6
+0
+1 1
+3.14 10 1 13.14
+z m f m
+fw mm
+
+
+ 
+   
+2
+6
+2
+1 1 1 1 1 1
+1 2 2 2
+1 1 22
+1 2 2 3.14 10 1.4142 3.14
+i i iq i R w
+R mR
+w mmw
+
+
+ 
+ 
+
+     
+ 
+    
+
+--- page 14 ---
+2.10 Transformation Rule of Gaussian Beam
+14
+The ABCDlawThe transformation matrix of optical component is A BC D
+For Gaussian beam, if the radius of curvature isR1(z) and theparameter isq1(z), after passing thought this optical component, theradius of curvatureR2(z) and theq2(z) parameter can be described by
+1
+2
+1
+1
+2
+1
+AR BR CR D
+Aq Bq Cq D
+ 
+ 
+R1andq1are the parameters before the optical componentR2andq2are the parameters after the optical component
+
+--- page 15 ---
+15
+1) Free space
+1 1
+2 1
+1 1
+1
+0 1
+Aq B q Lq q LCq D q
+       
+Forq
+1 1
+2 1 2 1
+2 2
+q z if q q z z Lq z if
+         
+1 1 2 2
+2 1
+2 1 2 1 1
+,R z R z R R L
+R R z z R L
+         
+ForR
+1 1
+2 1
+1 1 0 1
+AR B R LR R LCR D R
+     
+10 1LT 
+Spherical wave Gaussian beamMatrix
+
+--- page 16 ---
+16
+2) Lens
+1 1 1
+2
+1 1 1
+1 0
+1
+Aq B q Fqq Cq D q F F q
+       
+Forq
+2 2
+1 1 1 2 2 2
+2 1
+2 1
+1 1 1 1
+1 1 1
+i iq R w q R w
+w wR R F
+ 
+ 
+       
+1 2 1
+2
+11
+2 1 1
+1 1 1
+1 1 1
+R R F FRR F RF R
+R R F FR
+         
+ForR
+1 1 1
+2
+1 1 1
+0
+1
+AR B R FRR CR D R F F R
+      
+1 01 1T
+F
+     
+Spherical wave Gaussian beamMatrix
+2 1 2 1
+1 1 1 1 1
+q q R R F     1
+2
+1
+Fqq F q 
+
+--- page 17 ---
+17
+3) Any optical element
+2 1
+2
+2 1
+r AR BR CR D
+  
+2 1 1
+2 1 1
+r Ar B
+Cr D
+
+ 
+ 
+ 
+2 1
+2 1
+r r A B
+C D 
+            
+2 2 2 1 1 1r R r R  
+Spherical waveGaussian beam: The change ofqparameter through optical system is thesame as transformation of spherical waveR
+
+--- page 18 ---
+18
+2 1 2 1
+2 1 2 1
+1 1 1 1 1 1
+R R L q q L
+R R F q q F
+   
+   
+Free spaceLensSpherical wave Gaussian beam
+1
+2
+1
+Aq Bq Cq D
+ 
+The ABCDlaw
+   2
+1 1 iq z R z w z
+
+ 
+The powerfulABCDlaw enables us to trace the Gaussian beam parameterq(z)through a complicated sequence of lens-like elements. The radius of curvatureR(z) and the spot sizew(z) at any planezcan be calculated through the use ofthe following expression.
+
+--- page 19 ---
+19
+The application of ABCDlawIf we know w0, land FAfter passing the lens, what isw0' andR0'  
+1 0 1 11 1 0 11 1
+lA B l lC D F F F
+                     
+2 '2
+' ' '0 0
+0 0 F
+w wq if i q q l i l 
+      
+0q
+0w
+Fq 0'q
+0'w
+l 'l
+2
+0 '2
+'0 0
+2
+00 1 1
+F
+wi lAq B wq i l w lCq D iF F
+
+
+ 
+
+            
+'
+0
+2 20
+w F
+w l F f
+
+ 
+  
+2 2 2
+' '2 0
+02 22 22 2 0 0
+l F F F wl F w w wl F l F  
+ 
+               
+
+--- page 20 ---
+20
+Discussion: imaging of Gaussian beam and geometric optics1) For  
+2 2l F l F f   
+ 
+2 2
+2 2
+1 1 1l F F F lFl F F l F l F l l Fl F f
+         
+2) When     
+2
+2 2
+l F
+l F Fl F F l F f
+
+    
+ 
+2 2 2 2
+2 2 0 0
+0 0 2 22
+w F w Fw w fF l f    
+l F
+geometric optics
+'l  
+3) When   0 'l F l F  
+geometric optics                      no imagel F
+
+================================================================================
+Lecture Note_EE310_Ch2_L6
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch2-6
+Open Cavity &
+Gaussian Beam
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 2: Open Cavity & Gaussian Beam
+2
+2.11 The Focus and Alignment of Gaussian beamThe focus of Gaussian beamThe alignment of Gaussian beam2.13 Beam diffraction magnification factor2.14 Unstable resonator (not required)Formation of the unstable resonatorConjugate image point and self-reconstructed modeGeometrical magnificationEnergy loss
+
+--- page 3 ---
+2.11 The focus & alignment of Gaussian beam
+3
+Focus: Increase the power density of laser beamAlignment: Decrease the laser divergence angle, increase the energy transfer distance  
+1 0 1 11 1 0 11 1
+lA B l lC D F F F
+                     
+2
+0 '2
+'0 0
+2
+00 1 1
+F
+wi lAq B wq i l w lCq D iF F
+
+
+ 
+
+          
+  
+2 2 2
+' '2 0
+02 22 22 2 0 0
+l F F F wl F w w wl F l F  
+ 
+               
+0q
+0w
+Fq 0'q
+0'w
+l 'l
+
+--- page 4 ---
+4
+The focus of Gaussian beam w0' < w0
+0q
+0w
+Fq 0'q
+0'w
+l 'l  
+2 2
+'2 0
+0 222 0
+F ww wl F 
+
+      
+In order to have focus, we need to have  
+22 2F l F f  
+1. Fis fixed, 1) When l<F, if ldecrease, beam size decrease, minimum at l=0That is 2 2 2 2 orl F F f l F F f     
+There will be no focus effect in the range of
+2 2 2 2F F f l F F f     
+
+--- page 5 ---
+5
+0q
+0w
+Fq 0'q
+0'w
+l 'l 
+2 2
+'2 0
+0 222 0
+F ww wl F 
+
+      
+1. Fis fixed, 1) When l<F, if ldecrease, beam size decrease, minimum at l=0 ' ' 0 0
+0 0 min2 22 2
+0
+0,
+1
+w ww if l w
+fwl F
+FF F
+
+
+  
+              
+  
+2
+'
+2 222 0
+11
+1
+l F Fl F F F fwl F F
+
+
+                        
+'
+0
+20
+1 1
+1
+wK w f
+F
+  
+   
+Has focus effect for any F, and the position is within FThen we haveThe focus of Gaussian beam w0' < w0
+
+--- page 6 ---
+6
+1. Fis fixed, 2) When l>F, beam size decrease, forl→∞
+ 
+' '
+0then , andw F l Fw l
+
+ 
+forl F
+   
+22 2
+'2 ' 0
+0 2 22 22 2 0 0
+0 l F FF ww l F F w wl F l F  
+ 
+                
+   
+222 0 22 2
+20
+'2 2 2 2 2 2 2
+0 0 0
+1 1 1
+wl F wl w lw w F w F F F
+
+  
+ 
+                  
+For bigger land smaller F, we will have smaller beam size1. Fis fixed, 3) When l=F, maximum beam size 
+22 2
+'2 0
+0 22 02 0
+F ww F wwl F
+
+
+
+            Fwl
+0w
+0w
+l22 fFF 22 fFF 
+Ffixed
+2
+0 1 fw F
+   
+0F w 
+F
+
+--- page 7 ---
+7
+2. lis fixed2 2
+'2 2
+0 0
+1 1 l F f
+w w F F
+                
+2
+01 w
+2
+01 w
+2lR lR0 F 
+2
+1 fR z z z
+            
+22
+01 wl fR l f l f l l
+
+
+                  
+1) There will be focus effect only when/ 2F R l
+2) Smaller F, smaller beam sizeExample:Wavelength of the Gaussian beam is 3.14 μm and the minimum beam size is 1mm. If put the lens on the beam waist and 2 m away from the beam waist, respectively,please determine the focal length of the lens to have focus effect.
+2 6
+0
+6
+3.14 10 13.14 10
+wf 
+
+
+
+   
+1) For l=0, any lens is fine2) For l=2,  
+'
+0
+2 20
+1, we have 1.25w F F mw l F f
+  
+ 
+
+--- page 8 ---
+8
+The alignment of Gaussian beam
+'
+0 0 '
+0 0
+2 2w w
+     1. The situation for single lens
+For specificw0, whateverFandl, it can not have infinite beam size.Therefore, it isimpossibleto convert Gaussian beam into plane wave (i.e.good alignment) by using asingle lens.
+' '
+0 0 0 0w w   
+'2
+0
+1 0lw    0 max
+0
+,l F w F w
+
+ FromWe know whenBiggerFand smallerw0will have better performance 
+222 2
+2 ' 0 0
+0 0 2 2 22 00
+2 1 1 1w F w lw w F FwF l
+  
+
+                   
+
+--- page 9 ---
+9
+2. The application of inverted telescope
+' 0
+''
+0
+M 
+Collimation ratio
+'' '2 '
+' 0 0 0 0 0
+0 0 '' ' '
+0 00 0 0 2 0 0
+2 22 2 2 w w w
+w ww w F F w
+                 
+  
+22
+2' 0
+'' 2
+0 1 0 0 0
+1 1F w l w l l lM M M MF w w f w
+ 
+ 
+              
+   
+'' '' '
+' ' 0 0 0 1 01
+0 0 0 '
+0 0 0 2 2
+F wFw w ww l F F w l
+   
+    
+          
+
+--- page 10 ---
+ANNOTATIONS:
+- 理想是1，越接近1品质越好
+2.13 Beam diffraction magnification factor
+10
+It is good to describe the laser beam quality by beam size and divergence angle, but those parameters will change after passing the optical component.It is noted that0 0 2w  
+ 
+2 1 2
+2 1 2
+m m
+n n
+w m
+w n
+  
+  
+    
+For Hermit-Gaussian beam2 1 2mn mnw m n    
+Beam Size * Divergence AngleBeam Size * Divergence Angle (of the TEM00)M2=  
+2
+2
+y2
+2 1
+2 1
+2 1
+x
+r
+M m
+M n
+M m n
+ 
+ 
+  
+2 1M     
+2 2
+2 2
+2 2
+2 1
+2 1
+2 1
+x mn
+m n
+y mn
+m n
+r mn
+m n
+M m C
+M n C
+M m n C
+       
+ 
+ 
+ Fundamental base modeHigh-order modeDifferent modes without coherenceFor Laguerre-Gaussian beam
+
+--- page 11 ---
+2.14 Unstable Resonator
+11
+1. The formation of unstable resonator: high loss cavitybiconvex lens双凸 Flat convex lens平凸 Concave-convex lens凹凸（虚共焦望远镜）
+1 2 1 21, 1, 1g g g g   1 1 2 1 2,R L R R R R L    1 2 1 21, 1, 1g g g g  
+Characteristics:Transverse mode loss is high, the mode volume is big, small divergence angle,Able to achieve high power high beam quality of single mode operationAnalysis approach: geometrical optics; wave optics approximate analytical theory One-trip loss >> diffraction loss, cavity only exists a pair of conjugated image point and the corresponding self-reconstructed mode (resonant mode)
+LR1R21R 2R
+L
+R22R R1R2L
+1R 2R
+L
+
+--- page 12 ---
+12
+2. Conjugate image point and geometric self-reconstructed mode
+1 2 2
+2 1 1
+1 1 2
+1 1 2
+l L l R
+l R l R
+      
+           
+1 2 1 2 2
+1
+1 2
+1 2 1 2 1
+2
+1 2
+2
+2
+L L R L R L R R L L Rl L R R
+L L R L R L R R L L Rl L R R
+        
+        
+P1 P2LR1R21R 2R
+L
+
+--- page 13 ---
+13
+3. Geometrical magnificationOne-trip magnificationRound trip magnificationDouble convex cavityThe telescope cavity (virtual confocal cavity, or real confocal cavity)
+1 2
+4. Energy loss
+1 1 1 2 2 2m a a m a a  
+1 2M m m
+1 2
+1 2
+1 2
+l L l Lm m l l
+  
+1
+1 2
+2
+RM m m R 
+
+--- page 14 ---
+14M＝m1m2   －MagnificationThe average one-trip lossExample:mLmR 1,10 
+Symmetrical biconvex428.2558.1  Mm
+The escape energy from M2The escape energy from M1Energy reflected back by M2Energy reflected back by M1where
+1 2M M
+2
+22
+1 1 1
+1
+1 1 a ma         
+2 2 2 2
+2 2 1 1
+1 2
+1 1 1 2 2 2
+a a a a
+a a m a a m
+                           
+2 1 2 2 2 2
+1 2
+1 1 11 1 1 m m M        
+2 1M M
+2
+21
+2 2 2
+2
+1 1 a ma         
+1 1 2
+11 1 M      
+1 1 1 59%M   

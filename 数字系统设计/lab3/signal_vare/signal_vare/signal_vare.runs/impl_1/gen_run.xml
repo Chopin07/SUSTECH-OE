@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1773298066">
+  <File Type="BITSTR-BMM" Name="signal_vare_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="signal_vare_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="signal_vare_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="signal_vare_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="signal_vare.tcl"/>
+  <File Type="OPT-TIMING" Name="signal_vare_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="signal_vare_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="signal_vare_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="signal_vare_reports.tcl"/>
+  <File Type="OPT-DRC" Name="signal_vare_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="signal_vare.hwdef"/>
+  <File Type="PWROPT-DCP" Name="signal_vare_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="signal_vare_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="signal_vare_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="signal_vare_placed.dcp"/>
+  <File Type="PLACE-IO" Name="signal_vare_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="signal_vare_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="signal_vare_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="signal_vare_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="signal_vare_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="signal_vare_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="signal_vare_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="signal_vare_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="signal_vare_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="signal_vare.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="signal_vare_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="signal_vare_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="signal_vare_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="signal_vare.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="signal_vare_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="signal_vare_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="signal_vare_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="signal_vare_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="signal_vare_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="signal_vare_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="signal_vare_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="signal_vare.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="signal_vare_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="signal_vare_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="signal_vare_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="signal_vare_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="signal_vare_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="signal_vare_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="signal_vare_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="signal_vare_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="signal_vare_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="signal_vare_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="signal_vare_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="signal_vare_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="signal_vare_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="signal_vare_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="signal_vare_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="signal_vare_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="signal_vare_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="signal_vare_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="signal_vare_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="signal_vare_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="signal_vare_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="signal_vare.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="signal_vare_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="signal_vare.rbt"/>
+  <File Type="BITSTR-NKY" Name="signal_vare.nky"/>
+  <File Type="PDI-FILE" Name="signal_vare.pdi"/>
+  <File Type="RCFI_FILE" Name="signal_vare.rcfi"/>
+  <File Type="CFI_FILE" Name="signal_vare.cfi"/>
+  <File Type="RNPI_FILE" Name="signal_vare.rnpi"/>
+  <File Type="NPI_FILE" Name="signal_vare.npi"/>
+  <File Type="RBD_FILE" Name="signal_vare.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="signal_vare.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="signal_vare.sysdef"/>
+  <File Type="BG-BGN" Name="signal_vare.bgn"/>
+  <File Type="BG-DRC" Name="signal_vare.drc"/>
+  <File Type="RDI-RDI" Name="signal_vare.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/dataflow.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="signal_vare"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../大三下/数字系统设计/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

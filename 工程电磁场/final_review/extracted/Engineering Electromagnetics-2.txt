@@ -1,0 +1,350 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+2: Coulomb’s Law库伦定律
+• Coulomb’s electrostatic force law 库伦静电力定律
+• Charles Augustin de Coulomb (1736－1806)
+  French physicist, French Army Engineers
+• Coulomb’s torsion balance库伦扭秤
+          Q1                              Q2
+         +            R          +        F
+  Force of repulsion排斥力, F, occurs when
+  charges have the same sign.
+  Charges attract each other when of opposite sign.
+                            where
+
+
+ Note: Please compare the Coulomb’s electrostatic force law with the Newton’s
+       law of universal gravitation.                                            1
+2: Coulomb’s Law库伦定律
+• Free Space Permittivity 自由空间的介电常数
+
+                            where
+
+
+
+
+                                               F: Farad 法拉/法
+
+
+  with which the Coulomb’s force becomes:
+
+
+• Unit of Charge 电荷量单位: Coulomb, C 库伦，库
+• Elementary charge基本电荷量 (Charge of Electron or Proton)
+                =1.60217657 × 10-19 Coulombs
+                                                          2
+2: Coulomb’s Law库伦定律
+• Coulomb’s law in vector form 库伦定律的矢量形式
+
+
+
+
+ Q1. How to describe F1?
+
+
+
+
+                                           3
+2: Coulomb’s Law库伦定律
+• Example
+
+
+
+
+                       4
+3: Electric Field Intensity电场强度
+• Unit test charge单位试验电荷
+                 Consider the force acting on a test charge,
+                 Qt , arising from charge Q1:
+
+
+
+                 where a1t is the unit vector directed from
+                 Q1 to Qt
+
+                 The electric field intensity is defined as
+                 the force per unit test charge, or
+
+                                                  N/C
+
+                                                              5
+3: Electric Field Intensity电场强度
+• Electric field intensity
+
+                                 N/C
+
+
+  A more convenient unit for electric field is V/m. V: Volt 伏特
+               Q2. What is aR?
+
+• Electric field of a charge off-origin
+
+
+
+
+                                                                 6
+3: Electric Field Intensity电场强度
+• Superposition of fields from two point charges 电场叠加
+
+
+
+
+                                     For n charges:
+
+
+
+
+                Note: Static Electric Field in free space is linear!
+                                                                       7
+ 3: Electric Field Intensity电场强度
+• Example
+  Find E at P, using
+  Qm=3nC
+
+  First, find the vectors:
+
+
+
+
+                             Then:
+
+
+                                     8
+ 3: Electric Field Intensity电场强度
+• Example (Cont.’d)
+  Find E at P, using
+
+
+   where
+
+
+
+
+    so that:
+
+
+
+
+                                   9
+  3: Electric Field Intensity电场强度
+• Electric field arising from a continuous volume charge
+  distribution 连续分布体电荷产生的电场
+
+
+
+
+   We denote volume charge density体电荷密度 by ρν,
+   having the units of coulombs per cubic meter (C/m3):
+
+
+
+
+                                                           10
+  3: Electric Field Intensity电场强度
+• Electric field arising from a continuous volume charge
+  distribution 连续分布体电荷产生的电场
+  Next, sum all contributions throughout a volume and take the limit as 
+  approaches zero, to obtain the integral:
+
+
+
+
+     Note: The vector r extends from the origin locates the field point where E is
+           being determined, whereas the vector r’ extends from the origin to the
+           source point where ρv (r’)dν’ is located.
+                                                                                     11
+  3: Electric Field Intensity电场强度
+• Electric field arising from a continuous volume charge
+  distribution 连续分布体电荷产生的电场
+  Example: Find the total charge contained
+  in a 2-cm length of the electron beam
+                             3
+
+
+
+
+                                                           12
+  3: Electric Field Intensity电场强度
+• Electric field arising from a continuous volume charge
+  distribution 连续分布体电荷产生的电场
+  Example (Cont’d): Find the total charge
+  contained in a 2-cm length of the electron beam
+
+
+
+
+  Note: pico-couloms (pc皮库)，10-12C
+                                                           13
+ 3: Electric Field Intensity电场强度
+• Electric field of a line charge 线电荷产生的电场
+   Line charge of constant line charge density 线电荷密度 L
+   C/m lies along the entire z axis. (infinite line of charge)
+    At point P, the electric field arising from
+    charge dQ on the z axis is:
+
+
+
+     where
+     and
+     so that
+    Therefore
+
+
+
+ Note: Cylindrical coordinate is adopted herein.
+                                                                 14
+ 3: Electric Field Intensity电场强度
+• Electric field of a line charge 线电荷产生的电场
+
+We have:
+
+ By symmetry, only a radial component
+ is present:
+
+
+
+
+                                             15
+ 3: Electric Field Intensity电场强度
+• Electric field of a line charge 线电荷产生的电场
+
+
+
+
+ Q3. How to describe in Rectangular
+ coordinates?
+ Q4. How to choose coordinate system?
+ Q5. How to memorize this result?
+                                             16
+ 3: Electric Field Intensity电场强度
+• Electric field of a line charge 线电荷产生的电场
+   Example: Off-Axis Line Charge
+With the line displaced to (6,8), the field becomes:
+
+
+
+
+ where
+
+
+
+ Finally:
+
+
+
+
+                                                       17
+ 3: Electric Field Intensity电场强度
+• Electric field of a sheet of charge 面电荷产生的电场
+  Surface charge density 面电荷密度 S C/m2
+  Consider the electric field produced by the uniform surface charge of
+  density s covers the entire y-z plane. (infinite sheet of charge)
+  We begin by writing down the line
+  charge field on the x axis for a strip
+  of differential width dy´, where we
+  consider the x component of that
+  field:
+
+
+
+
+                                                                          18
+  3: Electric Field Intensity电场强度
+• Electric field of a sheet of charge 面电荷产生的电场
+   Surface charge density 面电荷密度 S C/m2
+
+
+
+   The total field on the x axis is:
+
+
+
+
+ Q5. How to memorize this result?
+ Q6. Comparing P15 & P18, what
+     do you think?
+
+                                                 19
+ 3: Electric Field Intensity电场强度
+• Streamlines and sketches of fields电力线和电场分布图
+  How to visualize a electric field?
+  Consider the electric field caused by line charge
+
+                                     Let us be content to show only the
+                                     direction of E by drawing continuous
+                                     lines, which are everywhere tangent
+                                     to E, from the charge.
+                                     These lines are usually called
+                                     streamlines, although other terms such
+                                     as flux lines通量线 and direction lines
+                                     方向线 are also used.
+                                   Q6. Is it real that the magnitude of field
+                                   can not be indicated with streamlines?
+
+                                                                            20
+ 3: Electric Field Intensity电场强度
+• Streamlines and sketches of fields电力线和电场分布图
+   Methodology of Streamline Construction电力线的构建方法
+
+    The ratio of the y and x field
+    components gives the slope
+    of the field plot in the x-y plane
+
+
+
+
+                                                    21
+ 3: Electric Field Intensity电场强度
+• Streamlines and sketches of fields电力线和电场分布图
+   Methodology of Streamline Construction电力线的构建方法
+   Begin with the normalized line charge field in cylindrical coordinates:
+
+
+
+    Convert to rectangular components:
+
+
+
+    Then
+
+    whose solution is
+
+                          Finally
+                                                                             22
+ 3: Electric Field Intensity电场强度
+• Streamlines and sketches of fields电力线和电场分布图
+   Methodology of Streamline Construction电力线的构建方法
+
+
+
+
+                                                    23
+ 3: Electric Field Intensity电场强度
+• Streamlines and sketches of fields电力线和电场分布图
+   Methodology of Streamline Construction电力线的构建方法
+
+
+
+
+             −8𝑥     4𝑥 2      𝑑𝑦 𝐸𝑦      4𝑥 2 𝑦        𝑥
+    (a) E𝑥 =     E𝑦 = 2           =    =− 2       =−
+              𝑦      𝑦         𝑑𝑥 𝐸𝑥       𝑦 8𝑥        2𝑦
+                               1
+       2𝑦𝑑𝑦 = −𝑥𝑑𝑥       𝑦2 = − 𝑥2 + 𝐶   or     2𝑦 2 + 𝑥 2 = 𝐶′
+                               2
+       For P(1,4,-2), C’=33
+
+
+
+
+                                                                  23
+HW-2
+
+
+
+
+       24
+

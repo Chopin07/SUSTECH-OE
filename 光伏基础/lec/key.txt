@@ -1,0 +1,7 @@
+L2 P11 key advantage：absorb broader solar spectrum without substantial thermalization loss
+L2 P14 P15 P20 P25 calculation of power density
+L3 P20 P23 P30 P39 I0 must be as low as possible to improve the performance of solar cell
+L4 P4 P6 P10 P31 depletion region unit
+L5 P12 P32 reflectivity 
+L7 P11 2p2 
+L8 P3 P7 P11 OIMH 

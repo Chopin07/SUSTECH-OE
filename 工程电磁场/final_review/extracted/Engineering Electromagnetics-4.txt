@@ -1,0 +1,342 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+8: Energy and Potential能量与电位
+• Point charge in an external field 外场中的点电荷
+     To move charge Q against 逆着 the electric field, a force must be applied
+   that counteracts 克服 the force on Q that arises from the field:
+
+
+
+
+                                                           E
+                                                     + Q
+                                             Fappl
+
+
+
+
+                             Fappl = - Q E
+
+                                                                          1
+8: Energy and Potential能量与电位
+• Differential work 功 done on moving a point charge
+  against an external field
+         In moving point charge Q from initial position B over a differential
+      distance dL (to final position A), the work expended is:
+
+
+
+                                       A (final) B (initital)
+                                                                E
+                                           + dL     +
+                                   Fappl
+
+                                               dL
+
+                       dW = Fappl dL = QE dL = -QE .dL [J]
+
+ Note: Herein, the path is along an electric field line (in the opposite direction),
+ and over the differential path length, the field can be assumed constant.           2
+8: Energy and Potential能量与电位
+• Forcing a charge against the field in an arbitrary
+  direction 任意方向
+    What matters now is the component of force in the direction of motion.
+
+                   A
+
+                   +      Force magnitude is Fappl cos()
+
+                                           B
+                                 dL               E
+                             Fappl = -Q E +
+
+
+
+
+    Differential work in moving charge Q through distance dL will be:
+
+             dW = Fappl cos() dL = −QE . dL [J]
+                                                                             3
+8: Energy and Potential能量与电位
+• Forcing a charge against the field in an arbitrary
+  direction 任意方向
+   Total work done--All differential work contributions along the path
+   are summed to give:
+
+
+                      A (final)
+
+                      +
+
+                                               B (initial)
+                                      dL                E
+                                  Fappl = -Q E +
+
+
+
+
+   Note: The path must be specified before the integral can be evaluated.
+                                                                            4
+8: Energy and Potential能量与电位
+• Total work done over an arbitrary path
+     The integral expression for work is completely general: Any shape path may be
+  taken, with the component of force evaluated on each differential path segment.
+
+
+
+
+                     The integral expression involving the scalar product of the field
+                  with a differential path vector is called a line integral or a contour
+                  integral.线积分
+                                                                                           5
+8: Energy and Potential能量与电位
+• Total work done over an arbitrary path
+     The integral expression for work is completely general: Any shape path may be
+  taken, with the component of force evaluated on each differential path segment.
+
+
+
+
+                                          A uniform electric field 均匀电场 is selected
+                                          for simplicity. The path is divided into six
+                                          segments, L1,L2, . . . , L6, and the components
+                                          of E along each segment are denoted by EL1,
+                                          EL2, . . . , EL6.
+
+
+
+
+                                                                                       6
+8: Energy and Potential能量与电位
+• Total work done over an arbitrary path
+
+
+
+
+ Note: In a uniform electric field, the work involved in moving a charge does not
+       depend on the particular path we have selected along which to carry the charge.
+                                                                                         7
+8: Energy and Potential能量与电位
+• Line Integral Evaluation 线积分计算
+                 We wish to find:
+
+
+                 where
+
+                  and
+
+  using these:
+
+
+
+
+                                    8
+8: Energy and Potential能量与电位
+• Example
+ An electric field is given as:
+ We wish to find the work done in moving a point charge of magnitude Q = 2C over the
+ shorter arc of the circle given by                                    z
+ The initial point is B(1, 0, 1) and the final point is A(0.8, 0.6 ,1):
+
+
+
+
+                                                                          B   A
+                                                                                       y
+
+
+                                                                    x
+
+ This is the basic setup, in which the path has not yet been specified.
+
+                                                                                       9
+8: Energy and Potential能量与电位
+• Example (Cont.’d)
+We now have    W
+
+Note that the third integral vanishes because there is no motion along the z direction, and
+we need to include the y dependence on x in the first integral, and the x dependence on y in
+the second integral:
+Using the given equation for the circular path,                         , we rewrite the
+integrals:
+
+
+
+
+                                                                                           10
+8: Energy and Potential能量与电位
+• Example (Cont.’d)
+  Again find the work required to carry 2C from B to A in the same field, but this time
+  use the straight-line path from B to A.
+
+  We start by determining the equations of the straight line.             z
+  Any two of the following three equations for planes
+  passing through the line are sufficient to define the line:
+
+
+
+                                                                    B          A
+                                                                                          y
+
+
+                                                                x
+
+
+
+
+                                                                                          11
+8: Energy and Potential能量与电位
+• Example (Cont.’d)
+  Again find the work required to carry 2C from B to A in the same field, but this time
+  use the straight-line path from B to A.
+  The initial point is B(1, 0, 1) and the final point is A(0.8, 0.6 ,1):       z
+
+
+
+
+                                                                           B       A
+                                                                                          y
+
+
+                                                                   x
+
+
+    Note: It again demonstrates the statement (unproved) that the work done
+          is independent of the path taken in any electrostatic field.
+                                                                                          12
+8: Energy and Potential能量与电位
+• Another Example: Evaluating work within a line charge
+  field
+  In this example, the work in moving charge Q in a circular path around a line
+  charge is found:
+
+
+
+                                         where
+
+
+
+
+                                                                                  13
+8: Energy and Potential能量与电位
+• Another Example: Evaluating work within a line charge
+  field
+  In this example, the work in moving charge Q in radial direction near a Line charge
+  is found:
+
+
+
+
+  so that finally:
+
+  Suppose we carry Q from b to a, We still have
+  dL = dρ aρ and show the different direction by
+  recognizing ρ = b as the initial point and ρ = a
+  as the final point,
+
+
+
+                                                                                        14
+8: Energy and Potential能量与电位
+• Differential path lengths in three coordinate systems
+
+
+
+
+                                                          15
+8: Energy and Potential能量与电位
+
+
+
+
+       dW = Fappl dL = QE dL = -QE .dL [J]
+
+
+
+
+                                             16
+8: Energy and Potential能量与电位
+• Definition of Potential Difference
+We now have the work done in moving charge Q
+from initial to final positions. This is the potential
+energy 势能 gained by the charge as a result of this
+position change.
+The potential difference 电位差 is defined as the work done (or
+potential energy gained) per unit positive charge. 外源把单位正
+电荷从电场中一点移到另一点所做的功
+We express this quantity in units of Joules/Coulomb 焦耳/库, or
+volts 伏特:
+
+
+
+
+ Finally:                                                              Alessandro Volta (1745-1827)
+
+
+ Note: Please compare the height difference in gravitational field with the potential
+       difference in electrostatic field.                                                     17
+8: Energy and Potential能量与电位
+• Potential difference in a point charge field
+                       In this exercise, we evaluate the work done in moving a
+                       unit positive charge from point B to point A, within the
+                       field associated with point charge Q
+                        where
+      rA          .B
+    .        rB        and where in general:
+      A
+
++
+Q
+
+
+
+
+                                                                             18
+8: Energy and Potential能量与电位
+• Potential difference in a point charge field
+                       In this exercise, we evaluate the work done in moving a
+                       unit positive charge from point B to point A, within the
+                       field associated with point charge Q
+                        where
+      rA          .B
+    .        rB        and where in general:
+      A
+
++
+Q
+
+
+
+
+                                                                             19
+8: Energy and Potential能量与电位
+• Potential difference in a line charge field
+
+
+
+
+                                                20
+8: Energy and Potential能量与电位
+    • Potential, or Absolute Potential 电位，绝对电位
+           It is often convenient to speak of the potential, or absolute potential, of a
+        point, rather than the potential difference between two points, but this means
+        only that we agree to measure every potential difference with respect to a
+        specified reference point that we consider to have zero potential. 要求我们定
+        义一个参考零电位点/面，如同重力场中的海平面（海拔高度=0）
+           Perhaps the most universal zero reference point in experimental or physical
+        potential measurements is “ground,” 大地 by which we mean the potential of
+        the surface region of the earth itself.
+                                     Another widely used reference “point” is a point
+                                    which is infinitely far away (infinity). 无穷远处
+                                    的点
+
+
+            r                .B
+           . A          rB
+            A
+Q
+    +                                                                                      21
+

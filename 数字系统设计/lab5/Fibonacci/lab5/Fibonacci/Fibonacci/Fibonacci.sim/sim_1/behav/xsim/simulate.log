@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Test passed for n=0
+Time: 95 ns  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=4
+Time: 185 ns  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=8
+Time: 315 ns  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Error: Error: Result mismatch for n=63 Got -944741150 Expected -169803694
+Time: 995 ns  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd
+Note: Test passed for n=63
+Time: 995 ns  Iteration: 1  Process: /testbench/stimulus_process  File: D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd

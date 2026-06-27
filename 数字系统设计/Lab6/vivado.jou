@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 11 16:53:49 2026
+# Process ID: 15156
+# Current directory: D:/SUSTech/2026 Spring/数字系统设计/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7612 D:\SUSTech\2026 Spring\数字系统设计\Lab6\lab6_1.xpr
+# Log file: D:/SUSTech/2026 Spring/数字系统设计/Lab6/vivado.log
+# Journal file: D:/SUSTech/2026 Spring/数字系统设计/Lab6\vivado.jou
+#-----------------------------------------------------------
+sstart_guioopen_project {D:/SUSTech/2026 Spring/数字系统设计/Lab6/lab6_1.xpr}update_compile_order -fileset sources_1
+

@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../../数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw2/lab5_hw2.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

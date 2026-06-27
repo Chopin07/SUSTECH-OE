@@ -1,0 +1,7 @@
+*
+!*/
+!.gitignore
+!*.vhd
+!*.pdf
+!Nexys-4-DDR-Master.xdc
+!README.md

@@ -1,0 +1,205 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh2-3\nOpen Cavity &\nGaussian Beam\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 2: Open Cavity & Gaussian Beam\n2\n2.3 Mode for Open Cavity & Diffraction TheoryIntroductionThe self-reconstruction of modeFresnel Kirchhoff's lawThe physical meaning of the integral equation2.5 The self-reconstructed mode of square confocal cavityVariables separationSolutions: analytical solution and approximation solutionType of SymmetricalConfocal CavityAnalytical Solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Hyper-ellipsoid function Laguerre-Gaussian function",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "腔体横截面接近方形是HG，接近圆是LG",
+        "rect": [
+          50.2591,
+          58.4466,
+          768.564,
+          134.427
+        ]
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "text": "2.5 Self-reconstructd mode of square confocal cavity\n3\nxY\n2a\nfL 0\n+a\n+a\n-a\n-a XYR1R2\n22\nL a\na L\nL a\n\n\n \n   \n   , , ,, , ik x y x y\ns\niV x y V x y e dsL\n \n    \n    \n2\n2\nikL c iXX\nm m m c\nikL c iYY\nn n n c\nieF X F X e dX\nieF Y F Y e dY\n \n \n  \n\n  \n\n \n \n\n",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "      \n11 1\n0 0 0 12 ,1 , ,m ictt\nm m mi R c S c t e S c t dt\n \n  \n4\nAnalytical solution: Prolate-ellipsoid function (长椭球函数系)Radial prolate-ellipsoid function径向长椭球函数 (m=0, 1, 2….)•Eigen function－AngularAmplitude & Phase distributionAngular prolate-ellipsoid function角向长椭球函数\n    \n2\n2\nikL c iXX\nm m m c\nikL c iYY\nn n n c\nieF X F X e dX\nieF Y F Y e dY\n \n \n  \n\n  \n\n \n \n\n\n        \n0 0\n0 0 0 0\n, , ,\n, , , ,\nmn m n m n\nm m m n n n\nX YV x y F X G Y S c S c c c\nX x Y yF X S c S c G Y S c S c a ac c\n           \n                        ",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5Real function\n•Eigen value－Radial     Phase shift & loss of the mode\nFor specificc(c=2πN=2πa2/Lλ), whenmandnis integer, we can obtain a seriousof eigen functions, which describe the amplitude and phase distribution on theconfocal cavity mirror; Meanwhile, we can obtain a series of eigen values, whichdescribe the phase shift and loss of the mode.TEMmn\n    \n1\n0\n1\n0\n2 ,1\n2 ,1\nikL\nm n m n\nm\nm m\nn\nn n\nie\nci R c\nci R c\n   \n \n \n\n\n\n    \n1 2\n1\n0\n1 2\n1\n0\n2 ,1 2\n2 ,1 2\nikL\nm\nm m\nikL\nn\nn n\niei cR c\niei cR c\n \n \n\n\n    \n    \n    \n1 (1) (1)2\n0 0\n1 4 ,1 ,1\ni kL m n\nmn m n m n\nm n\nNe R c R c\n\n   \n       \n(1) (1)\n0 0 ,1 , ,1m nR c R c",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "c是化简后表达式的一个参数，只有当c满足此条件时，才能进一步化简为带Hermit多项式的形式",
+        "rect": [
+          188.073,
+          119.178,
+          362.638,
+          148.401
+        ]
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "text": "Hermite-Gaussian function: approximation\n6\nMode distribute near the center of the mirror x , y << a  菲涅尔数较大c=2N 1Approximation requirement:Schrödinger equation of linear harmonic oscillatorfor X  ，Fm(X)0，the solution is Hermite-Gaussian function\nApproximation for prolate-ellipsoid function (长椭球函数)  \n1 2\n2\nikL c iXX\nm m m c\nieF X F X e dX \n  \n\n      \nc   c  \n......\n\n\n  \n2\n2\n2 0m\nm\nd F X X F XdX     ",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "    \n2\n2\n20\n20\n,\n,\nX\nm m m m\nY\nn n n n\nXF X S c C H X ec\nYG Y S c C H Y ec\n\n\n     \n     \n7\nAngular prolate-ellipsoid function\nCmn－constant.  We  can use this approximation to discuss the field distribution on the confocal cavity's mirror\n（镜面上直角坐标）Eigen FunctionHermit polynomials Gaussian function\n, ,X Y x y\n    \n2 2\n2\n2 2\n2,\n2 2\nc x yamn mn m n\nx y\nL\nmn m n\nc cV x y C H x H y ea a\nC H x H y eL L\n  \n \n \n\n             \n             ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "c需要满足上面的条件（Page5）",
+        "rect": [
+          101.209,
+          489.061,
+          781.928,
+          557.527
+        ]
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "text": "Hermite Polynomials & Hermite-Gaussian Function\n8\n1) m-order Hermite polynomial        \n2 2 2 2\n0\n1 !1 2 0,1, 2... ! 2 !\nm kmm m kX X\nm m\nk\nmdH X e e m X where mdX k m k\n    \n\n    \nTake integer part 取整数部分\n2) The first several order of Hermite polynomial     \n0 1 2 3\n2 3 4 2\n4\n1 2\n4 2 8 12\n16 48 12\nH X H X X\nH X X H X X X\nH X X X\n \n   \n  \n3) The zero position of the m-order Hermite polynomial: Hm(X)=0 has msolutions.Therefore, the m-order of hermite polynomial has mzero positions (along the xaxis, the position of the light that equal to zero has mpositions).4) The m-order Hermite-Gaussian function  2 2\n22,\nc x yamn mn m n\nc cV x y C H x H y ea a\n              \nThe field distribution on the mirror: determine by mand n, called transverse mode orderTransverse mode: Field distribution perpendicular to the direction of propagationdetermine by mand n2 2X Y\nm nH X e H Y e ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "不同横模的表达式",
+        "rect": [
+          171.369,
+          293.068,
+          652.466,
+          377.398
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "\n2 2\n2 2 0\n0 0\n00 00 00\n1\ns\nx y\nr wL\nH x H y\nV C e C e \n \n \n \nAmplitude distribution of the field on the mirror\n9\nLow order fundamental transverse mode TEM00(m=n=0)TEM00is Gaussian shape基模在镜面上分布为高斯型y\nThe radius of the light spot w0s: amplitude decrease to 1/eof the maximum.\n2 2\n00 00 00\n1\nx y\nLV C e C e\n \n\n \n2 2x y L   \n2 2\n0sw x y L     Only related to L, not related to the size of the mirror1/e2W0s\n2 2r x y \nFor CO2gas laser, L=1 m, λ=10.6 μm, w0s=1.84 mmHeNe gas laser, L=30 cm, λ=0.6328 μm, w0s=0.25 mm\n 2 2\n22\nc x yamn mn m n\nc cV C H x H y ea a\n              ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "腔面横模函数完整形式",
+        "rect": [
+          284.961,
+          381.573,
+          715.944,
+          462.563
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "00模，基模的前提下",
+        "rect": [
+          282.455,
+          330.641,
+          494.606,
+          375.728
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "00模是一个高斯分布",
+        "rect": [
+          285.796,
+          263.01,
+          593.164,
+          328.971
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "重要考点",
+        "rect": [
+          276.609,
+          25.8837,
+          767.729,
+          383.243
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "Amplitude distribution of the field on the mirror\n10\nHigh order transverse mode TEMmn(mand n≠ 0 simultaneously)    \n2 2\n2\n2 2\n2,\n2 2\nc x yamn mn m n\nx y\nL\nmn m n\nc cV x y C H x H y ea a\nC H x H y eL L\n  \n \n \n\n             \n             \n        \n2 2 2 2\n2 20 0\n2 2 2 2\n2 20 0\n2\n0 1 2\n' '\n10 10 01 01\n' 2 2 '\n20 20 0 11 11\n1, 2 , 4 2...\n, , ,\n, 4 , ,\n...\ns s\ns s\nx y x y\nw w\nx y x y\nw w\ns\nH X H X X H X X\nV x y C xe V x y C ye\nV x y C x w e V x y C xye\n  \n  \n   \n \n  ",
+    "annotations": []
+  },
+  {
+    "page": 11,
+    "text": "11\nThe zero point of Hermite polynomials determines the pitch line of the field厄米多项式的零点决定场的节线",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "12",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "Intensity distribution\n13",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "14\nThe high order transverse mode is more complex than thefundamental base mode. They have pitch line and with biggerspotThe spot size of the high order mode is biggerAccording to ISO, the square of spot radius is defined as four times of the mean squaredifference of light field distribution根据国际标准化组织（ISO）光斑半径的平方定义为光场分布均方差值的四倍\n          \n2\n2\n2\n2\n2\n2\n4\n4\nm m\nms\nm\nn n\nns\nn\nF X x x F X dXw\nF X dX\nG Y y y G Y dYw\nG Y dY\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\n\n\n0 0\n2 1, 2 1ms ns\ns s\nw w m nw w    \n2 2\n0\n2 2\n0\n2 1\n2 1\nms s\nns s\nw m w\nw n w\n \n ",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "Diffraction Loss per reflection--- Determined by N\n15mnis closely-related to NRadial prolate-ellipsoid function 径向长椭球函数\nInside the cavityN D,m, n D01>00\nN=\n2\n2 211 1 1mn m n m n\nmn\n         \nikL\nm n m n ie    \n  \n1\n0\n1\n0\n2 ,1\n2 ,1\nm\nm m\nn\nn n\nc i R c\nc i R c\n \n \n\n\nDifferent kind of cavitiesConfocal cavity < parallel planar cavity",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要的图N越大，loss越小",
+        "rect": [
+          371.213,
+          30.3926,
+          777.259,
+          381.429
+        ]
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "text": "    \n1 (1) (1)2\n0 04 ,1 ,1\ni kL m n\nm n m n Ne R c R c\n\n \n      \nPhase Shift & Resonant Frequency\n16\nPhase ShiftResonant ConditionResonant frequency Mod spacing between adjacent longitudinal modeFor the same longitudinal mode, themode spacing between transverse mode\nThe change ofm, n, qlead to the change of resonant frequency, with thesame order of magnitude\n 1 2\n2 2\nmn mn\nmn\nkL m n kL\nq\n \n \n        \n \n 00\n1 12 2 2mnq q\nc cq m n qL L           \n( 1) 2 2q mn q mnq\nc c\nL L        \n( 1)\n1\n4 2n m n q mnq q m\nc\nL            ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "横模纵模合并影响最终频率",
+        "rect": [
+          60.282,
+          238.796,
+          535.533,
+          328.971
+        ]
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "text": "17Mode degeneracy: modes number with the same frequencyMode degeneracy is a characteristic of confocal cavityThe single reflection loss of modes with the same frequency is not the sameMultiple modes exist at one frequency\n 2mn q   1mn q  mnq  1mn q   2mn q   3mn q \n   1 2m n q      1 1m n q    1m nq     1 1m n q      1 2m n q  \n  1 2m n q     1 1m n q    1m n q    1 1m n q     1 2m n q  \n1\n4 2\n1\n2\nn q\nm q\nc\nL  \n \n   \n  \n                       \n1 1 2 1 2 1 1 3 1\n1 1 1 1 1 1\nmnq m n q m n q m n q m n q\nm nq m n q m n q m n q\n    \n   \n        \n     \n    \n \n\n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "考点",
+        "rect": [
+          28.5429,
+          16.699,
+          822.019,
+          569.437
+        ]
+      }
+    ]
+  }
+]

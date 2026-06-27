@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 11 20:05:26 2026
+# Process ID: 17200
+# Current directory: D:/SUSTech/full_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5688 D:\SUSTech\full_adder\full_adder.xpr
+# Log file: D:/SUSTech/full_adder/vivado.log
+# Journal file: D:/SUSTech/full_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SUSTech/full_adder/full_adder.xpr
+update_compile_order -fileset sources_1

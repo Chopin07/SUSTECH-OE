@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../digital_clock/digital_clock.srcs/sources_1/imports/Desktop/SevenSegDisplay.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/alu.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/controlunit.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/cpu.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/decoder.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/pcunit.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/ram.vhd" \
+"../../../../../cpu/cpu.srcs/sources_1/imports/sources/registerfile.vhd" \
+"../../../../../cpu/cpu.srcs/sim_1/imports/sources/cpu_tb.vhd" \
+
+# Do not sort compile order
+nosort

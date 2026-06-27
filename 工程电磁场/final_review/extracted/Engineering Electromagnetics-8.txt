@@ -1,0 +1,436 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+10: Capacitance
+• Capacitor Vs Capacitance 电容（器）？电容？
+
+
+
+
+                                       1
+10: Capacitance
+• Capacitor Vs Capacitance 电容（器）？电容？
+
+
+
+
+   A capacitor is a electrical component / device 元器件 used to store electric
+ energy (electric flux, electric field, electric charge).
+   Most of time, capacitors are purposely designated to perform specific
+ functions, but sometimes, capacitance may exist as an unavoidable by-product
+ of the device structure. Parasitical Capacitance 寄生电容                        2
+10: Capacitance
+• Capacitor Vs Capacitance 电容（器）？电容？
+
+    Parasitical capacitance in
+    semiconductor devices
+
+
+
+
+    Capacitance is a physical quantity used to measure the capability of energy
+  storage in electrical devices (Capacitors).
+    How to define capacitance, and why?
+    How to calculate the capacitance of a electrical device?
+    How to design a capacitor to fulfill specific purpose?
+    How to eliminate the bad effects aroused by parasitical capacitance?
+    What are the key factors that can affect the capacitance of capacitors?
+                                                                                  3
+10: Capacitance
+• Capacitance defined
+    A simple capacitor consists of two oppositely charged conductors surrounded by
+ a uniform dielectric.
+  An increase in Q by some factor results in an increase in E (and in D)
+ by the same factor.                                                            S
+          where                                                                       Q
+                                                                                       .A
+  Consequently, the potential difference between conductors:
+                                                                                    E, D
+                                                                       -Q   .
+                                                                            B
+
+
+       will also increase by the same factor -- so the ratio of Q to
+       V0 is a constant. We define the capacitance of the structure
+       as the ratio of the stored charge to the applied voltage, or
+
+
+                            Units are Coul/V or Farads
+                                                                                            4
+10: Capacitance
+• Capacitance defined
+ In general terms, we determine Q by a surface integral over
+ the positive conductors, and we find V0 by carrying a unit
+ positive charge from the negative to the positive surface,
+
+                                                                               S
+                                                                                     Q
+                                                                                      .A
+  The capacitance is independent of the potential                                  E, D
+  and total charge, for their ratio is constant.                     -Q    .
+                                                                          B
+
+  The capacitance is a function only of the physical
+  dimensions of the system of conductors and of the
+  permittivity of the homogeneous dielectric.
+  Capacitance is measured in farads (F), where a farad is defined as one coulomb
+  per volt. Common values of capacitance are apt to be very small fractions of a
+  farad, and consequently more practical units are the microfarad (μF), the
+  nanofarad (nF), and the picofarad (pF).                                                  5
+10: Capacitance
+• Parallel-Plane Capacitor
+ The horizontal dimensions are assumed to be much greater than the plate separation, d.
+ Therefore, electric field can be assumed to lie only in the z direction, and potential
+ varies only with z.
+
+
+                                                                               Plate area = S
+
+
+
+  Apply the boundary for D at the surface of a perfect conductor:
+
+Lower plate:
+                                                                    Same result either way!
+Upper Plate:
+
+   The electric field between plates is therefore:
+                                                                                          6
+10: Capacitance
+• Capacitance of Parallel-Plane Capacitor
+
+
+                                                     Plate area = S
+
+
+
+
+    Now with           The voltage between plate can be found through:
+
+
+
+
+   Then with     we finally obtain
+
+                                                                         7
+10: Capacitance
+• Energy Stored in Parallel-Plane Capacitor
+
+
+
+  or
+
+
+
+
+                              S
+                                                C   V02
+  There are three ways of writing the energy:
+
+
+
+
+                                                          8
+10: Capacitance
+• Parallel-Plane Capacitors in practical application
+
+
+
+
+                                                       9
+10: Capacitance
+• Capacitance in Coaxial Transmission Line
+
+
+
+                                      S
+                                      E
+
+                                             1
+                                          assume a unit length in z
+
+
+
+
+                                                                  10
+10: Capacitance
+• Capacitance in Coaxial Transmission Line
+We previously found using Gauss’ Law:
+
+
+
+                                                              S
+  E = 0 elsewhere, assuming a hollow inner
+                                                              E
+  conductor, and equal and opposite charges
+  on the inner and outer conductors.
+                                                                     1
+ The potential difference between conductors is now:              assume a unit length in z
+
+
+
+
+ …and the charge on the inner conductor per unit length is:
+
+                                    Finally:
+                                                                                          11
+10: Capacitance
+• Capacitance in Spherical Capacitor
+ Consider two concentric spherical conductors, having radii a and b.
+ Equal and opposite charges, Q, are on the inner and outer conductors.
+ Gauss’ Law tells us that electric field will exist only in the
+ region between spheres, and will be given by:                            E         a
+                                                                                Q           -Q
+                                                                                        b
+
+ The potential difference between inner and outer spheres is then:
+
+
+
+
+  and the capacitance is:
+                                     Note that as           (isolated sphere)
+
+
+
+                                       Our earth is a huge capacitor!
+                                                                                            12
+10: Capacitance
+• Capacitance in Isolated Sphere with a Dielectric Coating
+                                  A conducting sphere of radius a carries charge Q.
+                                A dielectric layer of thickness r1 - a and of permittivity 1
+                                surrounds the conductor. Electric field in the two regions
+                                  is found from Gauss’ Law to be:
+          a          E1    E2
+    Q
+
+          r1
+
+
+
+The potential at the sphere surface is (with zero reference at infinity):
+
+                                                                                 = V0
+
+
+ and the capacitance is:
+
+                                                                                            13
+10: Capacitance
+  • Capacitor with a Two-Layer Dielectric
+ In this case, we use the fact that D normal to an interface between two dielectrics will be
+ continuous across the boundary, assuming no surface charge is present there:
+ Thus                 and therefore:
+ The potential difference between bottom and top plates will be:
+
+  ..which leads to:
+
+
+The surface charge density on the bottom plate:
+                                                      DN2          E2
+                                                      DN1          E1
+
+
+The capacitance is then:
+
+                                                                                               14
+10: Capacitance
+• Capacitors in a Series / Parallel Connection
+
+
+
+
+      1   1  1  1                        C=C1+C2+C3
+        =   + +
+      C C1 C2 C3
+
+
+
+
+                                                      15
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+
+
+
+
+                                              16
+8: Energy and Potential能量与电位
+• Potential difference in a line charge field
+
+
+
+
+                                                20
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+ We begin with the potential field of a single line
+ charge on the z axis, with a zero reference at  = R0
+
+ We can use this result to write the potential at point P from two line charges of
+ opposite sign, positioned as shown:
+
+
+
+
+                                                                                     17
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+     We now have:
+
+
+
+
+                                              18
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+         We now have:
+
+Choose an equipotential surface on which V = V1, and define the dimensionless parameter:
+
+                 from which we identify:
+
+This is the equation of the equipotential surface on which the voltage is V1
+
+To better identify the surface, expand the squares, and collect terms:
+
+
+
+
+                                                                                      19
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+ The equation of an equipotential surface is:
+
+
+
+
+ This is the equation of a circle (actually a cylinder), displaced along the x axis by distance h,
+ and having radius b, where
+
+
+                                    and
+
+
+                     It is all independent of z, as you might expect!
+
+
+
+                                                                                           20
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+     Consider a grounded conductor in the y-z plane, and a conducting cylinder,
+     parallel to the z axis, positioned as shown. The cylinder has radius b and center
+ y   location h on the x axis, where
+
+     V=0                                          and
+
+                               Eliminate a between the two equations to get the quadratic:
+
+                 V = V0
+                                                                  Choose positive sign because it
+                        b                                         leads to a positive value for a
+
+                                           whose solution is:
+                    h               x
+
+
+
+                            Then, substitute K1 back into either starting equation to find:
+
+
+                                                                                                    21
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+     The expression                        gives the location of an equivalent line charge, l
+ y                From the original definition, we now have
+      V=0                                          from which
+
+                                Now, given h, b, and V0 , it is possible to find a, l , and K1.
+                      V = V0                      For a length L in the z direction,
+
+                  .
+                  l b
+                                       x
+                   a h
+                               So that finally:
+
+
+      The capacitance between two circular conductors separated by a distance 2h is
+
+                                                                                             22
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+                     Numerical Example
+        Choose b = 5 mm, h = 13 mm, and V0 = 100 V. Find l and C.
+
+
+
+
+                                                                     23
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+                     Numerical Example
+        Choose b = 5 mm, h = 13 mm, and V0 = 100 V. Find l and C.
+
+                                           mm
+
+
+
+                            Then:
+
+                           Obtain:
+
+
+
+
+                           and
+
+
+
+                                                                     23
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+                        Numerical Example (Cont’d)
+ In this step, we find the 50-volt equipotential surface
+
+        First:
+
+
+                                          mm
+
+
+
+                                     mm
+
+
+
+     The resulting surface is the dashed red circle
+
+
+
+                                                           24
+10: Capacitance
+• Capacitance in Two-Wire Transmission Line
+                        Numerical Example (Cont’d)
+ In this step, we find the 50-volt equipotential surface
+
+        First:
+
+
+                                          mm
+
+
+
+                                     mm
+
+
+
+     The resulting surface is the dashed red circle
+
+
+
+                                                           24
+

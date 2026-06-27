@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 11 20:05:26 2026
+# Process ID: 17200
+# Current directory: D:/SUSTech/full_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5688 D:\SUSTech\full_adder\full_adder.xpr
+# Log file: D:/SUSTech/full_adder/vivado.log
+# Journal file: D:/SUSTech/full_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SUSTech/full_adder/full_adder.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/SUSTech/full_adder/full_adder.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1120.328 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 11 20:07:13 2026...

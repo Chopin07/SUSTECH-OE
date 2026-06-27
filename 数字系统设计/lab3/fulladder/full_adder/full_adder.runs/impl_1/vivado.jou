@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 12 13:03:35 2026
+# Process ID: 14776
+# Current directory: D:/SUSTech/full_adder/full_adder.runs/impl_1
+# Command line: vivado.exe -log full_adder1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder1.tcl -notrace
+# Log file: D:/SUSTech/full_adder/full_adder.runs/impl_1/full_adder1.vdi
+# Journal file: D:/SUSTech/full_adder/full_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source full_adder1.tcl -notrace

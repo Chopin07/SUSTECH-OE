@@ -1,0 +1,429 @@
+
+================================================================================
+Lecture Note_EE310_Ch6_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch6-1
+Control & Improvement
+of Laser Properties
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 6: Control & Improvement of LaserPerformance6.1 Mode SelectionTransverse mode selectionLongitudinal mode selection 6.2 Frequency-Stabilized Laser External factors which influence the frequency stabilityFrequency stabilization principle: optical length of stable cavityFrequency stabilization method2
+
+--- page 3 ---
+6.1 Mode Selection
+3
+Purpose and Motivation: Fundamental transverse mode and singlelongitudinal mode possess very good spatial and temporal coherence.Transverse mode selectionPhysics Foundation: different transverse modes have differentdiffraction lossesSelection RulesMaximize the difference in diffraction loss between the fundamental andhigher-order modes. Ensure that only the TEM00mode meets the thresholdcondition, while suppressing all other modes.Minimize all losses except for diffraction loss, and maximize the proportionof diffraction loss in the total loss.
+1 2T d s s i         
+
+--- page 4 ---
+4Selection methods for transverse modesCavity design; Small aperture; Nonstable cavity; Fine-tuned cavity
+Symmetrical stable cavityFlat concave stable cavity
+
+--- page 5 ---
+ANNOTATIONS:
+- 利用腔内光阑筛选横模，只保留TEM00 / 
+5
+Small aperture for transverse mode selectionNonstable cavity (Suitable for lasers with high gain)Fine-tuned cavityCavity parameter g, Nselection
+apertureaperture
+
+--- page 6 ---
+ANNOTATIONS:
+- 频率通过分开足够开的，让不想要的纵模得不到有效增益
+6
+Longitudinal mode selectionTo achieve single longitudinal mode within the range of specific transitionlinesSelection ruleEnlarge the gain difference between adjacent longitudinal modes orartificially induce loss differenceSelection methods for longitudinal modesShort cavitySuitable for lasers with narrow fluorescentlinewidth, such as He-Ne laserDecrease cavity length, increase the longitudinalmode spacing
+2q osc
+c
+L    
+0g
+l
+
+
+
+F
+osc
+
+--- page 7 ---
+ANNOTATIONS:
+- 激光标准镜
+7
+IsolatorGain medium
+Ld
+
+Gain medium
+j
+
+
+
+
+T
+l
+
+0g AfterinsertFP
+2 cosj
+c
+d    1
+2
+c r
+d r 
+
+j osc   
+2q
+c
+L    
+Travelling-wave cavityF-P etalon
+Design requirementfor F-P etalon
+
+--- page 8 ---
+8
+Laser diodep-typen-typegratingp-typen-typeDBRDBRExternal cavity laserCombined cavity Distributed feedback (DFB) cavityDistributed Bragg Reflector (DBR)
+
+--- page 9 ---
+6.2 Frequency-Stabilized Laser External factors which influence the frequency stability
+9
+Longitudinal frequency: Frequency stability:Variation of cavity geometry: temperature and vibration (10-3/oC)Refractive index change: temperature, Δηfluctuation (discharging anddriving current, etc.), pressure, humidityFrequency stability of single mode He-Ne laser: 10-4-10-5(Δ=1010Hz)Improved methods include constant temperature, shock proof, soundinsulation, voltage stabilization, steady current : 10-7
+
+
+
+2q
+cq L 
+Frequency stabilization principle: optical length of stable cavitySelect standard reference frequencyError signal acquisitionDrive electronic servo system to automatically adjust the cavity length
+
+--- page 10 ---
+Frequency stabilization methodLamp dip; Saturated absorption; Zeeman absorption; F-P etalon
+10
+Piezoelectric ceramics:change cavity lengthDirect-current: change thesingle mode laser outputfrequencyAC signal: signal searching,judge positive or negativeforward voltage, external (+), internal (-), piezoelectric ceramics cavity lengthqbackward voltage, external (-), internal (+), piezoelectric ceramics cavity lengthq
+piezoelectric ceramicslaserphotodetectorfrequency selection amplificationphase-sensitive detectionDC amplificationmodulation boostrectificationaudio oscillation
+
+--- page 11 ---
+11
+Frequency stabilization: 10-9>0D-point: same phase, reverse V , piezoelectric ceramicscavitylengthq, pull back0<0B-point: reverse phase, positive V , piezoelectric ceramics cavitylengthq, pull back0=0C-point:2f, 0 voltage, no change of piezoelectric ceramics,=0Requires the symmetry of Lamb dip, narrow and dip (low pressure)Bad frequency reproducibility10-7
+BCD
+
+--- page 12 ---
+12
+Zeeman frequency stabilization
+
+--- page 13 ---
+13
+Saturated absorption-induced frequency stabilization: inverted Lamb dipAbsorption tube pressure: 1~10 PaDoppler broadening dominatesGood frequency stability of absorption peak for low pressure gas
+ 0
+0
+1 0 1
+21
+1
+H
+s
+s
+I
+II I
+I
+       
+ 
+       
+Burning hole widthAbsorption curveHole-burning effect
+Absorption saturation > gain saturation
+
+--- page 14 ---
+14
+Single pass loss of resonant cavity with absorption tube Output powerPvs.1 curve forms an inverted lamb dipFrequency stabilization: 10-11~10-12Frequency reproducibility: 10-11632.8 nm: isotopic iodine（碘）vapour3.39 μm: methane（甲烷）
+1 1 L       
+21 12 '
+m
+s
+g lP ATI 
+         
+
+================================================================================
+Lecture Note_EE310_Ch6_L2
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch6-2
+Control & Improvement
+of Laser Properties
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 6: Control & Improvement of LaserPerformance6.3 Q-SwitchWorking principle of Q-switching laser Q-switching methods6.4 Mode Locking: ultrashort pulse (ps-fs)OutlineMode locking principle2
+
+--- page 3 ---
+6.3 Q-Switching
+3
+Rotating Mirror: reflection lossAcousto-opitc: diffraction lossElectro-Optic: reflection lossSaturable absorber: absorption lossActiveQ-Switching: External drive source to adjust intracavity lossExamples: electro-optic and acousto-opticPassiveQ-Switching: Intracavity intensity to adjust lossExample: saturable absorber dyesSlow switchSwitch time > Pulse build-up timeExample: Rotating mirrorFast switchSwitch time < Pulse build-up time
+Gain materialReflecting mirrorRotating mirror
+
+--- page 4 ---
+Working principle of Q-switching laser
+4
+
+--- page 5 ---
+Q-switching methods
+5
+Electro-optic Q-switching
+ 
+3 3
+0 63 0 632 22
+y x
+d Ed Vc c c
+          
+Qswitch off ΔnaccumulateddQswitch on Oscillate to form a giant pulse0V 
+V V 
+Pockels EffectKerr Effect
+
+--- page 6 ---
+6
+Acousto-optic Q-switching: low gain CW laser
+Gain materialReflecting mirrorDriving sourceAcousto-optic materialReflecting mirrorBragg diffraction
+21 sin 2i
+I
+I
+    
+1 2
+2 d MPH
+ 
+     
+Saturable absorbing dye (passive Q-switching)
+12 22s
+hI 
+  
+Gain materialDye cell100% reflecting mirrorReflecting mirror1 102I/IsT0.40.60.81.0
+
+--- page 7 ---
+6.4 Mode Locking: ultrashort pulse (ps-fs)Outline
+7Total output
+Output characteristics of a free running (non-mode-locked) multimodelaserThe expression of electric field foreach longitudinal modeFrequency interval between adjacentlongitudinal modescosq q q qE t E t   
+2q q
+v v
+L L
+      
+ q qi t
+q
+q
+E t E e  
+tI
+
+--- page 8 ---
+8
+Different build-up time for each longitudinal modeDifferent Eq, ωq, and φqOutput: random superposition of multiple longitudinal modes Mode locking principleMode locking mechanism: keep the same initial phase for thelongitudinal modes in the cavity or to have a definite phase relationbetween the longitudinal modes, then the output is equal interval shortpulse sequence.Example: Superposition of 3 longitudinal modes after locking1 , 2, 32=21, 3=31E1=E2=E3=E0 φ1=φ2 =φ3=0(equal amplitude) (initial phase=0)
+Multi longitudinal mode phase locking 1q q a   
+  
+1 0 1
+2 0 1
+3 0 1
+cos 2
+cos 4
+cos 6
+E E t
+E E t
+E E t
+
+
+
+
+
+
+
+--- page 9 ---
+9
+  
+1 0 1
+2 0 1
+3 0 1
+cos 2
+cos 4
+cos 6
+E E t
+E E t
+E E t
+
+
+
+
+
+
+MaximumMaximumMinimumMinimum
+2 2
+1 2 3 0 0 00 3 9t E E E E E E E E     
+1/310E(t)0I(t)2/311
+1 1 2 0 3 01 3 2, 0t E E E E E E     
+1 1 2 0 3 02 3 2, 0t E E E E E E     
+2 2
+1 1 2 3 0 0 01 3 9t E E E E E E E E     
+
+--- page 10 ---
+10
+Discussion: Assume 2N+1 mode oscillation, equal amplitude (E0)Phase difference between adjacentlongitudinal modesAngular frequency interval betweenadjacent longitudinal modes
+1 0q q q q        
+q c L    
+q -N -(N-1) … -2 -1 0 1 2 … (N-1) N q 0-N 0-(N-1)   0-  0 0+   0+(N-1) 0+N q -N -(N-1)   - 0    (N-1)  N       0 0 0 0cos cos cos
+N N
+q N q N
+E t E q t q E t q t   
+ 
+         When lockedAmplitude     
+0
+1sin 2 12 1sin2
+N t
+A t E
+t
+
+
+  
+
+ 
+     
+0 0
+1sin 2 12cos 1sin2
+N t
+E t E t
+t
+
+
+
+  
+
+ 
+Amplitude modulation envelope
+
+--- page 11 ---
+11
+Mode-locked pulse characteristics Peak power Im(Max intensity) have maximum valueThe peak power has (2N+1)times difference before and after mode-lockingThe number of modes is beneficial to improve the peak power of the mode-locked pulseWays of increasing oscillation modes: L qand F(broad fluorescent line)Un-locked2
+02 1I N E 
+       
+2
+2 2
+0 2
+1sin 2 12 1sin 2
+N t
+I t A t E
+t
+
+
+  
+ 
+ 
+ 
+2 2
+0
+2 0,1...
+2 1m
+t m m
+I N E
+    
+ 
+Mode-locked pulse interval Interval between adjacent pulse maxima (T0)
+v
+L2
+0
+2 2 1
+q
+LT c
+
+
+   
+
+--- page 12 ---
+12
+Pulse width (τ)Neodymium glass ΔF=7.5×1012  (ps)
+Estimate mode-locked pulse width by ΔF   
+2 2 1 1 1 1
+2 1 2 1 2 1 q osc F
+L
+N c N N
+   
+          
+Lasers ΔF (s-1) 1/ΔF (s) Measured pulse width (τ) He-Ne 1.5×109 6.66×10-10 ～6×10-10 Nd:YAG 1.95×1011 5.2×10-12 7.6×10-12 Nd:Glass 7.5×1012 1.33×10-13 4×10-13 R6G 5×1012~3×1013 2×10-13～3×10-14 3×10-14 GaAlAs (0.85 μm) 1013 10-13 (0.5～30)×10-12 InGaAsP (1.55 μm) 1012~1013 10-12～10-13 (4～50)×10-12
+
+--- page 13 ---
+What to do with such high intensities
+13
+AδtIpeak=EMaximum intensity on target
+Pave= E rMaximum average power at the detectorPulseenergyRep rate
+PulseenergyBeam sizePulse width
+
+--- page 14 ---
+14
+
+--- page 15 ---
+Cavity Dumping
+15
+Before we consider amplification, recall that the intracavity pulse energy is ~50times the output pulse energy. So we have more pulse energy.How can we get at it?
+What if we instead used two high reflectors, let the pulse energy build up, andthen switch out the pulse. This is the opposite ofQ-switching: it involvesswitching from minimum to maximum loss, and it’s called “Cavity Dumping”.E= ToutputEintracavityTransmission of output coupler: ~2%R=100%R=98%EintracavityE
+
+--- page 16 ---
+Cavity dumping:  the Pockels cell
+16
+A Pockels cell is a device that can switch a pulse (in and) out of a resonator. It’s used inQ-switches and cavity dumpers.A voltage (a few kV) can turn a crystal into a half- or quarter-wave plate.
+Abruptly switching a Pockels cell allows us to extract a pulse from a cavity. This allowsus to achieve ~100 times the pulse energy at 1/100 the repetition rate (i.e., 100 nJ at 1MHz).
+V
+If V=0, the pulse polarization doesn’t change.If V=Vp, the pulse polarization switches to its orthogonal state.Pockels cell(voltage may be transverse or longitudinal)Polarizer
+
+--- page 17 ---
+Amplification of Laser Pulses, in General
+17
+Very simply, a powerful laser pulse at one color pumps an amplifier medium,creating an inversion, which amplifies another pulse.
+Nanosecond-pulse laser amplifiers pumped by other ns lasers are commonplace.Laser oscillatorAmplifier mediumpumpEnergy levelsλpump(λpump/λL)λLλpump
+
+--- page 18 ---
+Another problem with amplifying ultrashort laser pulses…
+18
+Another issue is that the ultrashort pulse is so much shorter than the (ns or ms) pump pulse that supplies the energy for amplification. So should the ultrashort pulse arrive early or late?Early: Late:Pump energy arrives too late and is wasted.timepumppumptimeEnergy decays and is wasted.In both cases, pump pulse energy is wasted, and amplification is poor.
+
+--- page 19 ---
+So we need many passes
+19
+All ultrashort-pulse amplifiers are multi-pass.
+This approach achieves much greater efficiency.timepumpThe ultrashort pulse returns many times to eventually extract most of the energy.
+
+--- page 20 ---
+Two main amplification methods
+20
+Multi-pass amplifierpumpinputoutputgainPockels cellpolarizergainpumpinput/outputRegenerative amplifier
+
+--- page 21 ---
+Chirped-Pulse Amplification
+21Chirped-pulse amplification in-volves stretching the pulse before amplifying it, and then compressing it later.We can stretch the pulse by a factor of 10,000, amplify it, and then recompress it!
+G. Mourou and coworkers 1983
+Pulse compressort
+tSolid state amplifier(s)
+tDispersive delay line
+tShort pulse oscillatorCPA is THE big development.
+
+--- page 22 ---
+Multiple-stage multi-pass amplifiers
+22
+1 kHz Multi-pass system at the University of Colorado (Murnane and Kapteyn)
+0.2 TW4 mJ, 20 fs pulse length
+
+--- page 23 ---
+Phase-matching in second-harmonic generation
+23
+How does phase-matching affect SHG?  It’s a major effect, another important reason you just don’t see SHG—or any other nonlinear-optical effects—every day.
+
+--- page 24 ---
+First demonstration of second-harmonic generation
+24
+P.A. Franken, et al, Physical Review Letters 7, p. 118 (1961)
+The second-harmonic beam was very weak because the process was not phase-matched.
+
+--- page 25 ---
+First demonstration of SHG: the data
+25
+The actual published results…Input beamThe second harmonicNote that the very weak spot due to the second harmonic is missing.  It was removed by an overzealous Physical Review Letters editor, who thought it was a speck of dirt.            Bloembergen, Nobel Physics 1980

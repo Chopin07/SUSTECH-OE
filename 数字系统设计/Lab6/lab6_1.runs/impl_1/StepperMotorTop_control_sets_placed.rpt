@@ -1,0 +1,87 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 28 00:50:03 2026
+| Host         : TZZ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file StepperMotorTop_control_sets_placed.rpt
+| Design       : StepperMotorTop
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     9 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              24 |           12 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             140 |           38 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------+-----------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |         Enable Signal        |          Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+------------------------------+-----------------------------------+------------------+----------------+--------------+
+|  clk100mhz_IBUF_BUFG | U_SPEED/speed_reg[3]_i_1_n_0 | btnL_IBUF                         |                3 |              4 |         1.33 |
+|  clk100mhz_IBUF_BUFG | U_SPEED/btn_out_reg_1        | btnL_IBUF                         |                3 |             12 |         4.00 |
+|  clk100mhz_IBUF_BUFG |                              | U_DEB_UP/counter[20]_i_1_n_0      |                5 |             21 |         4.20 |
+|  clk100mhz_IBUF_BUFG |                              | U_DEB_C/counter[20]_i_1__1_n_0    |                6 |             21 |         3.50 |
+|  clk100mhz_IBUF_BUFG |                              | U_DEB_DOWN/counter[20]_i_1__0_n_0 |                5 |             21 |         4.20 |
+|  clk100mhz_IBUF_BUFG |                              | U_DEB_R/counter[20]_i_1__2_n_0    |                6 |             21 |         3.50 |
+|  clk100mhz_IBUF_BUFG |                              |                                   |               12 |             24 |         2.00 |
+|  clk100mhz_IBUF_BUFG |                              | btnL_IBUF                         |                8 |             24 |         3.00 |
+|  clk100mhz_IBUF_BUFG |                              | U_TIMER/counter[0]_i_1__3_n_0     |                8 |             32 |         4.00 |
++----------------------+------------------------------+-----------------------------------+------------------+----------------+--------------+
+
+

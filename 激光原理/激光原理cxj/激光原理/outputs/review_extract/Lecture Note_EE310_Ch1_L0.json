@@ -1,0 +1,217 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nPreface\nGeneral\nIntroduction Tel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Laser Spectroscopy\n2\nSteady State Spectroscopy (Absorption, Reflection, Photoluminescence, Photoluminescence Excitation, etc)Nonlinear Optics(Z-Scan, Multi-Photon Spectroscopy)Time-Resolved Spectroscopy(Time-Resolved Photoluminescence)Ultra-Fast Pump-Probe Transient Absorption Spectroscopy\nOpticalPropertyOpticalMicrocavityPhotonicDeviceInvestigation of Carrier Dynamic;Excitonic Property; Energy TransferFabry-Pérot Cavity; Random Cavity;Whispering Gallery ModesLight Emitting Diode; TemperatureSensor; Refractive Index Sensor\nOpticalPropertyOpticalMicrocavityPhotonicDeviceResearch Summarize",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "Laser Spectroscopy\n3\nTimeTemperatureSpectrum\nSpace",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "Course References\n4",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "Principles and Technologies of Lasers\n5\nCourse InformationCourse ID: EE310Name: Principles and Technologies of LasersCredit: 3Content: Section 1: Basic principleChapter 1Section 2: Optical cavity oscillationChapter 2Section 3: Laser oscillation & amplificationChapter 3, 4, 5Section 4: Control & improvement techniqueChapter 6Section 5: Typical lasers and light amplifierChapter 7, 81. Attendance 10%2. Homework 20% 3. Mid-term exams 30%4. Final exam 40%Final Evaluation",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "6\nOptoelectronics\nPhotonics\nPhoton as a Carrier for\nInformation and Energy\nPhoton\nTechnolog\ny\nThe Coherent of Light\n Generation: Lasers\n Modulation\n Detection & Application\nElectronics\nElectron as a Carrier for\nInformation and Energy\nElectronic\nTechnology\nElectronic Components\n Functional Circuit Design and\nManufacturing\n Including Information\nTechnology and Power Electronics",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "Why the interest of Lasers\n Lasers have unique properties\n Created many new devices\n Improved existing devices\n7\nExamples of Laser application\n Bar-code readers, sensors\n Compact discs, computer printers\n Laser show, holography – 3D\n Position & motion control\n Non-destructive spectroscopy measurements\n Military system, medical procedures\n Fiberoptic communication",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "Lasers range in size from\nmicroscopic diode lasers (top) with\nnumerous applications, to football\nfield sized neodymium glass lasers\n(bottom) used for inertial\nconfinement fusion, nuclear weapons\nresearch and other high energy\n8\ndensity physics experiments.\nWarning symbol\nfor lasers",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": "Military Application\n9\nlaser designator Laser Sight Anti-Satellite Laser\nMilitary laser\nSafety",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "Medical Application\n10\nLow-level laser therapy Laser eye surgery",
+    "annotations": []
+  },
+  {
+    "page": 11,
+    "text": "Industrial and commercial\n11\n3D laser scan\nLaser light display\nLaser pointer\nLaser line level",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "Compact Disc Audio\n12\nAnalog sound data is digitized by\nsampling at 44.1 kHz and coding\nas binary numbers in the pits on\nthe compact disc. As the focused\nlaser beam sweeps over the pits, it\nreproduces the binary numbers in\nthe detection circuitry. The same\nfunction as the ‘pits’ can be\naccomplished by magneto optical\nrecording. The digital signal is\nthen reconverted to analog form\nby a D/A converter.",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "Other Laser Applications\n13\nMicro-machining\nLaser derusting\nMosquito eradicationLaser weapon\nLaser induced fusion",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "Development of Technology\nFundamental\n14\nResearch\nTechnology\nApplication\nProduct\nDevelopment Industry",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "Historical Evolution of Laser\n\n15\nSince its invention half a century ago, the laser\nhas made possible a staggering number of\napplications in a wide range of fields: industry,\nscience, medicine, the military and more.\n This section discusses the historical evolution\nof laser, and the key players who influenced\nthe development of this important technology.",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "1905 Photon\n Some theorists were on the right track, especially Plank\n16\n, who\nproposed that nature acted by using \"quanta\" of energy. But it\nwas the young, unknown Albert Einstein who explained\neverything and started the field of quantum mechanics with his\npaper on the photoelectric effect (1905).\nEinstein showed that\nlight does not consist\nof continuous waves,\nnor of small, hard\nparticles. Instead, it\nexists as bundles of\nwave energy called\nphotons.\nPlank Albert Einstein",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "1917 Stimulated Emission\n\n17\nEinstein proposed the process that\nmakes lasers possible, called\nstimulated emission . He theorized\nthat, besides absorbing and emitting\nlight spontaneously, electrons could\nbe stimulated to emit light of a\nparticular wavelength\n But it would take nearly 40 years\nbefore scientists would be able to\namplify those emissions, proving\nEinstein correct and putting lasers on\nthe path to becoming the powerful\nand ubiquitous tools they are today.\n\"A splendid light has\ndawned on me...\"\n- Albert Einstein",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "Microwave Cavity and Accelerator\nInvented and patented the\n18\nmicrowave cavity (1936) The linear accelerator (1947)",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "1954 First Microwave Laser\n\n19\nThe first population inversion was achieved in the ammonia\nmolecule, which consists of a nitrogen at the apex of a pyramid of\nthree hydrogen atoms. The two lowest levels of ammonia are the\nresult of inversion splitting of the vibrational levels caused by a\npotential curve with a double minima. Population inversion in\nammonia is established by physical separation of molecules in the\nupper quantum state from those in the lower quantum state.\nBeam of ammonia passes\nthrough an electrostatic\nfocuser to separate out\nmolecules in the upper\nquantum state. ( Townes,\n1954)",
+    "annotations": []
+  },
+  {
+    "page": 20,
+    "text": "1954 First Microwave Laser\n Working with Herbert J. Zeiger and graduate student\n20\nJames P. Gordon,\nTownes demonstrates the first maser at Columbia University.\n The ammonia Microwave Amplification by Stimulated Emission of\nRadiation (maser), the first device based on Einstein’s predictions.\n The maser radiates at a wavelength of a little more than 1 cm and\ngenerates approximately 10 nW of power.\nHerbert J. ZeigerCharles Hard Townes Townes & James P . Gordon",
+    "annotations": []
+  },
+  {
+    "page": 21,
+    "text": " 1955: At P.N. Lebedev Physical Institute in Moscow, Nikolai G. Basov\n21\nand\nAlexan-der M. Prokhorov attempt to design and build oscillators. They\npropose a method for the production of a negative absorption that was called\nthe pumping method.\n 1956: Nicolaas Bloembergen of Harvard University develops the microwave\nsolid-state maser.\n Sep. 14, 1957: Townes sketches an early optical maser in his lab notebook.\n 1958: Townes, a consultant for Bell Labs, and\nhis brother-in-law, Bell Labs researcher Arthur\nL. Schawlow , in a joint paper published in\nPhysical Review Letters , show that masers\ncould be made to operate in the optical and\ninfrared regions and propose how it could be\naccomplished. At Lebedev Institute, Basovand\nProkhorov also are exploring the possibilities\nof applying maser principles in the optical\nregion.\nArthur L. Schawlow",
+    "annotations": []
+  },
+  {
+    "page": 22,
+    "text": "Patent Dispute of the First Conceive of Laser\n\n22\nColumbia University graduate\nstudent Gordon Gould jots his ideas\nfor building a laser in his notebook\nand has it notarized at a candy store\nin the Bronx. It is considered the first\nuse of the acronym laser. Gould\nleaves the university a few months\nlater to join private research\ncompany TRG (Technical Research\nGroup), dated Nov. 13, 1957.\n April 1959 : Gould and TRG apply\nfor laser-related patents stemming\nfrom Gould’s ideas.",
+    "annotations": []
+  },
+  {
+    "page": 23,
+    "text": "Patent Dispute of the First Conceive of Laser\n23\n March 22, 1960 : Townes and Schawlow, under\nBell Labs, are granted US patent number\n2,929,922 for the optical maser, now called a\nlaser. With their application denied, Gould and\nTRG launch what would become a 30-year\npatent dispute related to laser invention.",
+    "annotations": []
+  },
+  {
+    "page": 24,
+    "text": "24",
+    "annotations": []
+  },
+  {
+    "page": 25,
+    "text": "1960 First Optical Laser\n\n25\nFabry-Pérot Cavity\n Two perfectly parallel mirrors were the key to stimulating\nboth solid and gaseous molecules to produce an inverted\npopulation. Without the Fabry-Pérot device, you’re just\nexciting particles randomly and to no avail.\nCharles Fabry Alfred Pérot\n19th century",
+    "annotations": []
+  },
+  {
+    "page": 26,
+    "text": "1960 First Optical Laser\n26\nTheodore H. Maiman , a physicist at Hughes Research Laboratories in\nMalibu, Calif., constructs the first laser using a cylinder of synthetic ruby\nmeasuring 1 cm in diameter and 2 cm long, with the ends silver-coated\nto make them reflective and able to serve as a Fabry-Pérot resonator.\nMaiman uses photographic flashlamps as the laser’s pump source.\nPaper submitted for publication  Rejected\nResults announced in New York Times, 8 July 1960.\nPaper accepted by “Nature”, appeared 6 August 1960.",
+    "annotations": []
+  },
+  {
+    "page": 27,
+    "text": " December 1960 : Ali Javan , William Bennett Jr . and\n27\nDonald\nHerriott of Bell Labs develop the helium-neon (HeNe) laser, the\nfirst to generate a continuous beam of light at 1.15 μm.\n 1961: Lasers begin appearing on the commercial market through\ncompanies such as Trion Instruments Inc., Perkin-Elmer and\nSpectra-Physics.\n October 1961 : American Optical Co.’s Elias Snitzer reports the\nfirst operation of a neodymium glass (Nd:glass) laser.\n December 1961 : The first medical treatment using a laser on a\nhuman patient is performed by Dr. Charles J. Campbell of the\nInstitute of Ophthalmology at Columbia-Presbyterian Medical\nCenter and Charles J. Koester of the American Optical Co. at\nColumbia-Presbyterian Hospital in Manhattan. An American\nOptical ruby laser is used to destroy a retinal tumor.",
+    "annotations": []
+  },
+  {
+    "page": 28,
+    "text": " October 1962 : Nick Holonyak Jr.,\n28\na consulting scientist at a\nGeneral Electric Co. lab in Syracuse, N.Y., publishes his work\non the “visible red” GaAsP laser diode, a compact, efficient\nsource of visible coherent light that is the basis for today’s red\nLEDs used in consumer products such as CDs, DVD players and\ncell phones.\n He also invented the first visible LED in\n1962 while working as a consulting scientist\nat a General Electric Company laboratory in\nSyracuse, New York and has been called\n\"the father of the light-emitting diode\"",
+    "annotations": []
+  },
+  {
+    "page": 29,
+    "text": "1964 First Gas Dynamic Laser\n The carbon dioxide laser is invented by Kumar Patel\n29\nat\nBell Labs. The most powerful continuously operating\nlaser of its time, it is now used worldwide as a cutting\ntool in surgery and industry.\nLarge scale 135 Kilowatt\ngasdynamic laser at Avco\nEverett Research Lab, Inc.\nwas among the first very high\npower lasers. Initially this\nresearch was classified by the\nU.S. government, even today\ninformation on these types of\nlasers is scarce. (Gerry, 1970)",
+    "annotations": []
+  },
+  {
+    "page": 30,
+    "text": " 1964\n30\n: The Nd:YAG (neodymium-doped YAG) laser is\ninvented by Joseph E. Geusic and Richard G. Smith at Bell\nLabs. The laser later proves ideal for cosmetic applications,\nsuch as laser-assisted in situ keratomileusis (lasik) vision\ncorrection and skin resurfacing.\n 1964: Townes, Basov and Prokhorov are awarded the Nobel\nPrize in physics for their “fundamental work in the field of\nquantum electronics, which has led to the construction of\noscillators and amplifiers based on the maser-laser-principle.”\n March 1964: After working for two years on HeNe and xenon\nlasers, William B. Bridges of Hughes Research Labs discovers\nthe pulsed argon-ion laser, which, although bulky and\ninefficient, could produce output at several visible and UV\nwavelengths.",
+    "annotations": []
+  },
+  {
+    "page": 31,
+    "text": "1966 Break through of fiber optics\n31\nn2\nn1\nn2\nq\nCharles K. Kao , working with George Hockham\nat Standard Telecommunication Laboratories in\nHarlow, England, makes a discovery that leads to\na breakthrough in fiber optics. He calculates how\nto transmit light over long distances via optical\nglass fibers, deciding that, with a fiber of purest\nglass, it would be possible to transmit light\nsignals over a distance of 100 km, compared with\nonly 20 m for the fibers available in the 1960s.\nKao receives a 2009 Nobel Prize in physics for\nhis work. 04-Nov-1933 to 23-Sep-2018",
+    "annotations": []
+  },
+  {
+    "page": 32,
+    "text": "1970 First Semiconductor Laser\n Zhores\n32\nAlferov’s group at the Ioffe Physico-Technical Institute\nin Russia and Mort Panish and Izuo Hayashi at Bell Labs\nproduce the first CW RT semiconductor lasers, paving the way\ntoward commercialization of fiber optics communications.\n2000 Nobel Laureate in Physics\nElectrode\nSubstrate\nCleaved reflecting\nsurface\nActive Region",
+    "annotations": []
+  },
+  {
+    "page": 33,
+    "text": " 1975\n33\n: Engineers at Laser Diode Labs Inc. develop the first\ncommercial continuous-wave semiconductor laser operating at room\ntemperature. Continuous-wave operation enables the transmission of\ntelephone conversations.\n 1978: Following the failure of its videodisc technology, Philips\nannounces the compact disc (CD) project.\n 1978: The LaserDisc hits the home video market, with little impact.\nThe earliest players use HeNe laser tubes to read the media, while\nlater players used infrared laser diodes.\n 1982: Peter F. Moulton of MIT’s Lincoln Laboratory develops the\ntitanium-sapphire laser, used to generate short pulses in the\npicosecond and femtosecond ranges. The Ti:Sapphire laser replaces\nthe dye laser for tunable and ultrafast laser applications.",
+    "annotations": []
+  },
+  {
+    "page": 34,
+    "text": " 1994\n34\n: The first demonstration of a quantum dot laser with high\nthreshold density was reported by Nikolai N. Ledentsov of A.F.\nIoffe Physico-Technical Institute in Leningrad.\n 1994: The first semiconductor laser that can simultaneously emit\nlight at multiple widely separated wavelengths — the quantum\ncascade (QC) laser — is invented at Bell Labs by Jerome Faist,\nFederico Capasso , Deborah L. Sivco, Carlo Sirtori, Albert L.\nHutchinson and Alfred Y. Cho . The laser is unique in that its\nentire structure is manufactured a layer of atoms at a time by the\ncrystal growth technique called molecular beam epitaxy. Simply\nchanging the thickness of the semiconductor layers can change\nthe laser’s wavelength. With its room-temperature operation and\npower and tuning ranges, the QC laser ideal for remote sensing of\ngases in the atmosphere.",
+    "annotations": []
+  },
+  {
+    "page": 35,
+    "text": " January 1997\n35\n: Shuji Nakamura, Steven P. DenBaars and\nJames S. Speck at the University of California, Santa\nBarbara, announce the development of a gallium-nitride\n(GaN) laser that emits bright blue-violet light in pulsed\noperation.\n 2004: Electronic switching in a Raman laser is\ndemonstrated for the first time by Ozdal Boyraz and\nBahram Jalali of the University of California, Los Angeles.\nThe first silicon Raman laser operates at room temperature\nwith 2.5-W peak output power. In contrast to traditional\nRaman lasers, the pure-silicon Raman laser can be directly\nmodulated to transmit data.",
+    "annotations": []
+  },
+  {
+    "page": 36,
+    "text": " September 2006\n36\n: John Bowers and colleagues at the University\nof California, Santa Barbara, and Mario Paniccia, director of\nIntel Corp.’s Photonics Technology Lab in Santa Clara, Calif.,\nannounce that they have built the first electrically powered\nhybrid silicon laser using standard silicon manufacturing\nprocesses.\n August 2007 : Bowers and his doctoral student Brian Koch\nannounce that they have built the first mode-locked silicon\nevanescent laser , providing a new way to integrate optical and\nelectronic functions on a single chip and enabling new types of\nintegrated circuits.\n May 29, 2009 : The largest and highest-energy laser in the\nworld, the National Ignition Facility (NIF) at Lawrence\nLivermore National Laboratory in Livermore, Calif., is\ndedicated. In a few weeks, the system begins firing all 192 of its\nlaser beams onto targets.",
+    "annotations": []
+  },
+  {
+    "page": 37,
+    "text": "37\nJanuary 2010 : The National Nuclear\nSecurity Administration announces that NIF\nhas successfully delivered a historic level of\nlaser energy — more than 1 MJ — to a target\nin a few billionths of a second and\ndemonstrated the target drive conditions\nrequired to achieve fusion ignition, a project\nscheduled for the summer of 2010. The peak\npower of the laser light is about 500 times\nthat used by the US at any given time.\nJune 2009 : NASA launches the Lunar\nReconnaissance Orbiter (LRO). LOLA, the\nLunar Orbiter Laser Altimeter on the LRO,\nwill use a laser to gather data about the high\nand low points on the moon. NASA will use\nthat information to create 3-D maps that\ncould help determine lunar ice locations and\nsafe landing sites for future spacecraft.",
+    "annotations": []
+  },
+  {
+    "page": 38,
+    "text": "The Nobel Prize in Physics 2018\n38\nThe Nobel Prize in Physics 2018 was awarded \"for groundbreaking inventions\nin the field of laser physics\" with one half to Arthur Ashkin \"for the optical\ntweezers and their application to biological systems\", the other half jointly to\nGérard Mourou and Donna Strickland \"for their method of generating high-\nintensity, ultra-short optical pulses.\"",
+    "annotations": []
+  },
+  {
+    "page": 39,
+    "text": "The Nobel Prize in Physics 2023\nThe Royal Swedish Academy of Sciences hasdecided to award the Nobel Prize in Physics2023 to Pierre Agostini, Ferenc Krausz, andAnne L'Huillier \"for experimental methodsthat generate attosecond pulses of light forthe study of electron dynamics in matter\".",
+    "annotations": []
+  },
+  {
+    "page": 40,
+    "text": "40\nDate Name Achievement\n1900 Max Plank Provided the understanding that light is a form of\nelectromagnetic radiation\n1916 Albert Einstein Theory of light emission. Concept of stimulated emission.\n1951 Charles H Townes The inventor of the MASER - First device based on\nstimulated emission, awarded Nobel prize 1964.\n1951\nAlexander M.\nProkhorov\nNikolai G. Basov\nIndependent inventors of MASER at Lebedev Institute of\nPhysics, Moscow. Awarded Nobel prize 1964.\n1956 Nicolas\nBloembergan\nFirst proposal for a three-level solid state MASER at Harvard\nUniversity.\n1957 Charles H Townes Sketches an early optical MASER in his lab\nbook.\n1957 Gordon Gould First document defining a LASER; notarized by a candy store\nowner. Credited with patent rights in the 1970s.\n1958\nArthur L\nSchawlow\nCharles H Townes\nFirst detailed paper describing “Optical MASER”. Credited\nwith invention of LASER. from Columbia University.\n1959  Gordon Gould  Applies for LASER related patents",
+    "annotations": []
+  },
+  {
+    "page": 41,
+    "text": "Date Name Achievement\n1960\nArthur L\nSchawlow\nCharles H Townes\nLASER patent No. 2,929,922.\n1960  Theodore Maiman Invented first working LASER based on Ruby. May 16th\n1960, Hughes Research Laboratories.\n1960\nAli Javan,\nWilliam Bennett\nDonald Herriot\nFirst helium-neon LASER at Bell Labs Dec. 1960, First gas\nlaser and first CW laser.\n1961  Leo F. Johnson,\nK. Nassau First neodymium crystal LASER at Bell Labs\n1962  Alan White\nDane Rigden First helium neon (HeNe) visible CW LASER at Bell Labs.\n1964  Kumar N Patel Inventor of CO 2 LASER at Bell Labs.\n1964 William Bridges  Invention of Argon Ion LASER at Hughes Labs.\n1966  Peter Sorokin\nJohn Lankard First dye LASER action demonstrated at IBM Labs.\n1966  Mary L. Spaeth First tunable dye LASER at Hughes Research Labs\n1970  Nikolai Basov\nYu M. Popov\nFirst Excimer LASER at Lebedev Labs, Moscow based on\nXenon (Xe) only. 41",
+    "annotations": []
+  },
+  {
+    "page": 42,
+    "text": "Date Name Achievement\n1972 Charles H, Henry First quantum well LASER\n1976 Jim Hsieh  First First InGaAsP diode LASER at MIT Lincoln Labs.\n1976 John M J Madey’s\nGroup First free electron LASER at Stanford University\n1981\nArthur Schawlow\nNicolas\nBloembergen\nAwarded Nobel Physics Prize for work in non-linear optics\nand spectroscopy\n1982  Peter F. Moulton First titanium sapphire LASER at MIT Lincoln Labs\n1987 David Payne ne  First erbium fiber LASER amplifier\n1994\nJerome Faist\nFederico Capasso\nDeborah L. Sivco\nCarlo Sirtori\nAlbert Hutchinson\nAlfred Y . Cho\nFirst quantum cascade multiple wavelength LASER at Bell\nLabs\n1994 Nikolai Ledentsov First quantum dot LASER at Ioffe Physico-Technical Institute.\n1996 Wolfgang Keterle First pulsed atom LASER at MI\n42",
+    "annotations": []
+  },
+  {
+    "page": 43,
+    "text": "Date Name Achievement\n1996 First Petawatt LASER at Lawrence Livermore National Labs.\n1997 Wolfgang Ketterle First atom LASER at MIT Lincoln Labs.\n2004 Ozdal Boyraz\nBahrom Jalali\nFirst silicon Raman LASER at the University of California,\nLos Angeles\n2006 John Bowers First silicon LASER\n2007 John Bowers\nBrian Koch First mode-locked silicon evanescent LASER\n2010 First 10 Petawatt LASER at Lawrence Livermore National\nLabs.\n43",
+    "annotations": []
+  }
+]

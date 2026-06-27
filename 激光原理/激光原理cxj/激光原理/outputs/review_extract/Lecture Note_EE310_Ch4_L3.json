@@ -1,0 +1,193 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh4-3\nOscillation\nCharacteristics of Lasers\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 4:\nOscillation Characteristics\n\n4.4 Relaxation Oscillation in Pulse Lasers\n\nQualitative\ninterpretation of\nrelaxation oscillation\n\nTheoretical treatment of relaxation oscillation\n\nPractical significance of\nrelaxation\noscillation\n\n4.5 Line\n-\nWidth Limit of Single Mode Lasers\n\nPassive cavity\nline\n-\nwidth limit\n\nActive cavity\nline\n-\nwidth limit\n\n4.6\nFrequency Pulling of Laser\n2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "4.4 Relaxation Oscillation in Pulse Lasers\n\nQualitative\ninterpretation\nof\nthe\nformation\nof\nrelaxation\noscillations\n(transient\nbehaviors\nof\nΔ\nn\nand\nN\nl\n)\n3\nThe increase\nr\nate of\nΔ\nn\ndue to\np\numping\nThe\ndecrease rate of\nΔ\nn\ndue to stimulated emission\n>\n\n\n\n\n1 1 2\n,\nt l\nn n n t t N n t t t\n           \n\nt\n1\n-\nt\n2",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "振荡本质是pump和stimulated emission两过程对Δn的影响不同步，又互相影响",
+        "rect": [
+          36.0748,
+          20.8723,
+          745.167,
+          161.134
+        ]
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "text": "\n\n\n\n\n\n2 2\n3\nl\nl\nl\nt\nN\ndN\nd n\nt t t t\ndt dt\nn\nN\nt t\nn\n\n\n    \n \n \n\n4\n\nt\n2\n-\nt\n3\nStimulated radiation causes\nN\nl\nto\nrise sharply\n\nΔ\nn\n\nmaximum\n\nt\n3\n-\nt\n4\nStimulated radiation causes\nΔ\nn <\nΔ\nn\nt\nN\nl\n\nsharply\n,\nΔ\nn\n\n\nt\n4\n-\nt\n5\nRate of\nΔ\nn\nreduction by stimulated radiation\n=\nRate of\nΔ\nn\nincrease by pump\nI\nf pump hasn’t stopped yet,\nweakening of stimulated radiation leads to\n\nt\n>\nt\n5\nS\ntart\nthe\nevolution\nof\n2\nnd\npulse\n.\nThis\nprocess\noccurs\nrepeatedly\nduring\nthe\npumping\nprocess\n.\nAs\na\nresult,\nthe\nlaser\nshows\na\nseries\nof\nspikes\n.\nl t\nN n n n\n     ",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\n\nThe\nrelaxation\noscillation\nprocess\noccurs\nduring\nthe\nestablishment\nof\na\nlaser\n.\nDuring\npumping,\nboth\nthe\ninverted\npopulation\nand\nphoton\ndensity\nundergo\nrapid\nchanges\ndue\nto\nSTE\n.\nAs\na\nresult,\nthe\noutput\nexhibits\nthe\ncharacteristics\nof\nrelaxation\noscillations,\nforming\nmultiple\nspikes\n.\n\nThe\nstronger\nthe\npump,\nthe\nhigher\nthe\ndamping\noscillation\nfrequency\n,\nleading\nto\na\nfaster\ndecay\n.\n\nTheoretical\ntreatment\nof\nthe\nrelaxation\noscillation\nprocess\n(solve\nthe\nrate\nequation\nat\nnon\n-\nsteady\n-\nstate)\n1\n)\nExact\nsolution\n:\nnumerical\nmethod\n\n2\n)\nApproximate\nsolution\n:\n1\nst\norder\nperturbation\nof\nsteady\n-\nstate\nQualitative\ninterpretation\nis\nOK\n.\nThe\nquantitative\ncomparison\ndoes\nnot\nalign\nwell\nwith\nthe\nexperimental\nresults\n.\nThis\ndiscrepancy\narises\nbecause\nΔ\nn\nand\nN\nare\nnot\nmerely\nsmall\nfluctuations\naround\nthe\nequilibrium\nstate\n;\ninstead,\nthey\nmay\nexhibit\nlarge\nfluctuations\nor\nintermittent\noscillations\n.\n.",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "6\nExample\n:\nFour\n-\nlevel system\n, s\ningle\n-\nmode\n\n=\n\n0\n,\nn\n2\n≈\nΔ\nn\nIn\nthe\n1\nst\norder\nperturbation\napproximation,\nassume\nthat\nthe\ntransient\nphoton\nnumber\ns\nand\nthe\ninverted\npopulations\nfluctuate\nslightly\nnear\ntheir\ncorresponding\nequilibrium\nvalues\n.\nAssume\n1 2\n1\nF\nL l\n  \n   \n32\n21\n1 2\n32 30 21 21\nS\nA\nS A A S\n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21\n21 21 03\nR\ndN t N t\nn t N t\ndt\nd n t\nn t N t n t A n n t W\ndt\n \n\n \n  \n\n      \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 0\n0 0\n0\n0\nand steady-state solution\nand small value\nN t N N t N t N\nn t n n t n t n\nN n\nN t n t\n \n  \n \n       \n\n \n",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "\n\n21 0 21 03\n1\nR\nd n\nN A W n N\ndt\n \n\n\n\n \n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n21 0\n0\n21 0 0 21 0\nt\nR\nt t\nR R\nN N t\ndN\nn n t N N t\ndt\nN t\nN\nn N n N t n t N n t N t N n\n \n\n   \n \n\n\n \n\n \n     \n   \n \n   \n \n\n    \n           \n \n \n7\n(1)\nSteady\n-\nstate (\ndX\n/\ndt\n=0):\nN\n0\nand (\nΔ\nn\n)\n0\n(2)\nApproximate solution with 1\nst\norder perturbation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21\n21 21 03\nR\ndN t N t\nn t N t\ndt\nd n t\nn t N t n t A n n t W\ndt\n \n\n \n  \n\n      \n \n \n\n\n21 21\n1\nt\nR\nn t n\nl\n\n   \n    \n\n\n0\nt\nn n\n  \n\n\n\n\n0 03 21 03 21\n21\n1\nt t R t t\nt\nN W n n A n W n n A n\nn\n\n \n         \n   \n   \n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "一阶微扰",
+        "rect": [
+          217.315,
+          186.18,
+          284.967,
+          247.962
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "重要：考试可能涉及",
+        "rect": [
+          90.3634,
+          24.2118,
+          453.679,
+          132.747
+        ]
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "text": "\n\n\n\n\n\n\n\n0 sin\n0 sin\n2\nt\nR\nt\nR\nn t n e t\nN t N e t\n\n\n\n\n\n \n   \n \n \n  \n \n \nt\n=0\nΔ\nn\n\nΔ\nn\nt\n8\n\nt\n>0\nΔ\nn'\n(\nt\n),\nΔ\nN'\n(\nt\n)\nshow\ndamped oscillation\nwith the\nsame damping period\nAttenuation coefficient\n\nW\n03\n\nφ\n\n,\nΩ\nR\n\n\nMulti\n-\nmode\n:\nFor\neach\nmode,\namplitude\n,\nφ\nand\nΩ\nR\nare\ndifferent\n.\nTherefore,\nrandom\nsuperposition\nand\nrandom\nfluctuation\nof\nintensity\nexist\n.\n2\n2\n2\n2\n0\n0\nd n d n\nn\ndt dt\nd N dN\nN\ndt dt\n \n \n \n \n\n   \n \n\n  \n\n\n03 21 21 0\n2 2\n1\n2 2\n1\n4\n2\nR\nW A N\n\n  \n   \n   \n    \n\n\n21 03\n03\n21\n03\n1\n2\n1\nR\nR\nR\nt\nW n\nW\nA\nW\n  \n\n\n \n  \n \n \n \n\n\n03\n21 03\n,1\nt R\nt\nt\nn n W\nA n W n\n\n  \n \nDamped oscillation frequency",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "阻尼振动",
+        "rect": [
+          466.207,
+          500.099,
+          714.264,
+          536.834
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "泵浦增强，衰减的更快，振荡频率也会更高",
+        "rect": [
+          120.431,
+          103.526,
+          286.637,
+          148.61
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "9\nsteady state\n\n\n\n\n\n\n\n\n\n\n0\n0\n1   , 0   ,\nt\nt n t N t N t N n t n n\n\n   \n        \n\nPractical\nsignificance\nof\nrelaxation\noscillation\n(pros\nand\ncons)\n\nThe\nrelaxation\noscillation\nreflects\nthe\ninstability\nof\nthe\nlaser\noscillation\nprocess\n.\nIt\nis\nuniversal\n.\nThe\nrelaxation\noscillation\nis\nthe\neffect\nof\nlaser\noscillation\non\nthe\ntransition\nfrom\na\nnon\n-\nsteady\n-\nstate\nto\na\nsteady\n-\nstate\n.\n\nRelaxation\noscillation\nin\nCW\nlasers\nwill\nlead\nto\ni\nnstability\nof\nlaser\noutput,\nwhich\nis\ncalled\nn\noise\n.\n\nwarm\n-\nup\ntime\n\nsuddenly\nchange\nthe\npump\nand\nloss\nwill\nlead\nto\noscillation\ninstability\n\n\n\n\n\n\n\n\n0 sin\n0 sin\n2\nt\nR\nt\nR\nn t n e t\nN t N e t\n\n\n\n\n\n \n   \n \n \n  \n \n ",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "4.5 Line\n-\nwidth Limit of Single Mode Lasers\n\nPassive cavity line\n-\nwidth: line\n-\nwidth of the eigen cavity mode\n~\nphoton lifetime\n10\nPassive cavity\n(\ng\n=0: e\nqual number of photons absorbed and emitted\n)\nIntensity variation of light propagating in a passive cavity\nExample\n: He\n-\nNe laser,\nL\n=30 cm,\nr\n1\n=1,\nr\n2\n=0.98,\na\n≈0,\nη\n=1.\n\n\n0\nR\nt\nR\nL\nI t I e\nc\n\n\n\n\n\n \n7 6 1\n10 , 1.6 10\nR c\ns s\n \n \n   \n1\n2 2\nc\nR\nc\nL\n\n\n \n   \n\nmonochromatic ~ temporal coherence",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "L'=nL",
+        "rect": [
+          492.099,
+          282.193,
+          540.541,
+          303.9
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "线宽计算公式",
+        "rect": [
+          321.716,
+          166.978,
+          508.803,
+          238.778
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "\nActive cavity linewidth (\ng\n>0)\n11\nStimulated\nEmission\nSpontaneous\nEmission\n+\n=\nLoss\nCoherent\nNoncoherent\nStarting from the photon lifetime\n?\n0\n\n\ns\n\n\nSpontaneous emission always exits in the process of oscillation, laser\nlinewidth can NOT be\n0\nlinewidth of the active cavity\nis smaller than passive one\n\n\n,\n2\ns\ns s s c\nc\ng I l\nL\n\n\n     \n\n        \n\n\n\nR s\nL c\n \n \n\n0\n0\nsp ste\ns\nP P P\ngl\n \n \n \n\nExistence\nof\nspontaneous\nemission\n\nloss\nis\nnot\nzero\nin\nactive\ncavity\n\nNoncoherent\nspontaneous\nemission\n\nrandom\nphase\n\na\nfinite\nand\nslightly\nattenuated\nwave\ntrain\nof\ncoherent\nradiation\n\nThe\nline\n-\nwidth\nof\nthe\nactive\ncavity\nis\ndetermined\nby\nthe\nnet\nloss",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重点：可能考选择题",
+        "rect": [
+          310.023,
+          439.152,
+          602.346,
+          505.943
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "在针对相干光的时候，如果考虑上自发辐射的非相干光也算损失，那么总损失δ>g*l",
+        "rect": [
+          126.277,
+          339.8,
+          690.043,
+          369.856
+        ]
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "text": "\nEstimation of\nΔ\n\ns\n12\n2\ns\ns\nc\nL\n\n\n\n \n\n(Four\n-\nlevel system, single mode,\nL\n=\nl\n）\nstable\noscillation\n2. Get\na\nl\n, N\nl\nSP probability distributed to the\nmode\nl\n1. Get\nδ\ns\n\n\n21 0 2\n,\nl l\nl l\nR\ndN N\nn N a n\ndt\n   \n\n   \n\n\n,\ng I\n\n\n\n\n\n\n21 0 21 0\n, ,\nl\nA g\na\nn SL SL\n\n     \n \n\n\n\n\n\n2 2 2\n2\n, 0\n,\nl\nl l t t\ns l t\nl\nN\ng I N a n n n n n\nL\nL\ng I l a n\nN\n\n\n\n \n  \n\n      \n  \nnet loss\n\n0\ncompensated by SP\n\n\n\n\n21 0\n2\n,\nout sp ste ste\nt l\nt l l\nP P P P\nn N SLh\nn a N SL h\n    \n\n  \n \n \n2\nl\nout\nN\nP Sh T\n \n\n2\n2\n2\nout\nl l\nt\nP\nT\nN a\nT Sh SL n\n\n \n  \n",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "\nThe line\n-\nwidth of the real lasers\n13\n3. Theoretical line\n-\nwidth limit of a single mode laser\nExample: He\n-\nNe,\nλ\n=632.8 nm,\nL\n=30 cm,\nT\n=0.02,\nP\nout\n=1 mW\nΔ\n\nc\n=1.6\n×\n10\n6\nHz,\nΔ\n\ns\n= 6\n×\n10\n-\n3\nHz,\nn\n2\nt\n/\nΔ\nn\nt\n=1\ninsert\nN\nl\n,a\nl\ninto\nδ\ns\ninsert\nδ\ns\n\n\n\n\n2 2\n0\n2 2\n2 2\nc c\nt t\ns\nt out t out\nh h\nn n\nn P n P\n     \n\n \n  \n \n\nMany orders\nof magnitude\nfar beyond theoretical line\n-\nwidth limit\nReason\n:\nFrequency drift caused by temperature and other factors\n\nHe\n-\nNe laser (\nglass shell\n) 0.01\no\nC → 1 MHz\n\nSolid\n-\nstate laser\n\n\n→\n\n0\nshift",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "极限宽度",
+        "rect": [
+          315.87,
+          394.903,
+          728.463,
+          492.585
+        ]
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "text": "14\nSummary\n\nPhysical\nmechanism\nof\nline\n-\nwidth\n(single\nmode\nlaser)\n:\nSP,\nnoise\n\nΔ\n\ns\n<<\nΔ\n\nc\n\nP\nout\n\n\nΔ\n\ns\n\ni\nntra\n-\ncavity\ncoherent\nphoton\nnumber\n\n,\nSTE\naccounts\nfor\na\nlarger\nproportion\nof\nP\nout\n\n\n\ns\n\n(\nΔ\n\nc\n)\n2\n\n\n\n\n\n\nc\n\n\n\n\ns\n\n\nL\n\n\nc\n\n\n\n\ns\n\nvertical\nexternal\ncavity\nsemiconductor\nlaser\n\nThe\nactual\nline\n-\nwidth\nof\na\nsingle\n-\nmode\nlaser\nhighly\ndepends\non\nthe\nfrequency\nstability\n\n\n2\n0\n2 2\n2\n2 2\nc\ns l t l t\ns\nt out\nh\nc ca n L N n\nL L n P\n  \n \n\n \n\n   \n \n\n21 21\n3 3\n21 21\n8\nB W\nn\nh c A A\n\n\n\n\n \n  \n8\nfor He-Ne : 3 10\nn\n \nn\n\nTotal photon number\nMode number\nMode number\nA\n21\nW\n21\nTotal photon number\n\n1\n2 2\nc\nR\nc\nL\n\n\n \n  \n",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "4.6 Frequency Pulling of Laser\n15\n\nWhat\nis\nfrequency\npulling?\n\nPhysical\nmechanism\n:\ndispersion\n\nDispersion\ninduced\nfrequency\npulling\n\n\n0\n0\n1\nH\nc\ng\n \n \n \n\n \n \n \n\n \n\n\n\n\n\n\n0\n,\n2\nH\nH\nc\ng I\n\n \n  \n \n\n \n\n0\n0\n2\nq\nc\nq\nL\n\n\n\n\n\n0\n2\n2\nq\nc c\nq q\nL\nL\n\n\n \n \n \n\n\n0\n0\n0\n0\n0\n2\n2\nq q\nq\nc c\nq q\nL\nL\n \n\n \n\n\n\n  \n \n\n\nPassive cavity\nlongitudinal frequency\nActive cavity\nlongitudinal frequency\nFrequency difference\nbetween active and\npassive cavity\nIn\nreal\nlasers\n,\nthe\ndispersion\nof\ngain\nmaterial\nmakes\nlongitudinal\nfrequency\napproach\nmore\ncloser\nto\nthe\ncentral\nfrequency\ncompared\nto\nthe\npassive\ncavity\n:\nFrequency\nPulling",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "16\n\nDiscuss\nthe\nrefractive\nindex\nchange\nand\npulling\nparameter\n(homogeneous\nand\ninhomogeneous\nbroadening)\nhomogeneous\nbroadening\npulling parameter of\nhomogeneously broadened laser\nsteady\n-\nstate\nfrequency\ndifference\nbetween active and\npassive cavity\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n2\n0\n21\n2 2\n2 2\n0\n0\n,\n2\n2\n,\n4\n2 1\nH\nH\nH\nH\nH\nH s\nc\ng I\nA n\ng I\nI I\n\n\n\n \n  \n \n\n\n\n  \n  \n\n \n\n\n\n\n\n   \n0\n0\nq\nq\nc\nH\nq H\n \n\n\n  \n\n\n  \n \n\n\n\n\n0\n0 0\n0\n0\n2\nq q\nq\nc\nq q q\nH H\nc\nL\n \n\n\n     \n  \n \n\n     \n \n\n\n0 0\n0\nq\nq q q\n \n  \n\n\n \n\n\n\n\n0\n0\n0\n,\n2\nq\nq\nq q H q\nH\nc\ng I\n\n \n  \n \n \n \n\n0\nq q\n \n\n0\n2\nc\nc\nL\n\n\n\n ",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17\ninhomogeneous\nbroadening\n\n\n\n\n2\n0\n0\n2\n4ln 2\n2 ln 2\n0\n0\n3 2\n0\n2\nD\nD\nt\ni i\nc\ng e e dt\n \n \n\n\n  \n \n \n\n\n\n \n\n \n\n \n\n0\n0\nln 2\n2 1\nq q\nq\nc\ni\nq D s\nI\nI\n\n \n\n\n   \n\n\n   \n \n\n\n\n\n\n\n2\n0\n4ln 2\n0\n0\n0\n3 2\nln 2\nD\ni i\nc\ng e\n \n\n \n  \n \n \n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\n\n2\n0\n4ln 2\n0\n0 0\n0\n3 2 0\n0\n3 2 0\n0\nln 2\nln 2 , 1\nln 2\n2 1\nD\nq\nq\nq\nq\nq q i\nD\nq\ni q\nD s\nc\nq\nD s\nc\ng e\nI\nc\ng I\nI\nI\nI\n \n\n\n\n\n \n  \n  \n \n\n  \n\n \n \n \n\n\n \n\n \n\n  \n\n\n  \n\n\n   \n\nSteady state\n\n\n,\nq\ni q\ng I\nL\n\n\n\n\n0\n2\nc\nc\nL\n\n\n\n \n\nHe\n-\nNe laser\nσ\ni\n=\n10\n-\n3",
+    "annotations": []
+  }
+]

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 13 17:35:09 2026
+# Process ID: 21468
+# Current directory: D:/SUSTech/2026 Spring/digital_design/lab5/Clock/Clock.runs/impl_1
+# Command line: vivado.exe -log topmodule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topmodule.tcl -notrace
+# Log file: D:/SUSTech/2026 Spring/digital_design/lab5/Clock/Clock.runs/impl_1/topmodule.vdi
+# Journal file: D:/SUSTech/2026 Spring/digital_design/lab5/Clock/Clock.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source topmodule.tcl -notrace

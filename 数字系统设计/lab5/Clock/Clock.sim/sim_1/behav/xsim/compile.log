@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/SUSTech/2026 Spring/数字系统设计/资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'timer'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/SUSTech/2026 Spring/数字系统设计/lab5/Clock/Clock.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

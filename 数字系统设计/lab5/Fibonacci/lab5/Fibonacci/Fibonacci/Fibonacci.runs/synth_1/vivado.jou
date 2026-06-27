@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 15 20:30:51 2026
+# Process ID: 12404
+# Current directory: D:/SUSTech/2026 Spring/lab5/Fibonacci/Fibonacci/Fibonacci.runs/synth_1
+# Command line: vivado.exe -log fibonacci_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fibonacci_fsm.tcl
+# Log file: D:/SUSTech/2026 Spring/lab5/Fibonacci/Fibonacci/Fibonacci.runs/synth_1/fibonacci_fsm.vds
+# Journal file: D:/SUSTech/2026 Spring/lab5/Fibonacci/Fibonacci/Fibonacci.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fibonacci_fsm.tcl -notrace

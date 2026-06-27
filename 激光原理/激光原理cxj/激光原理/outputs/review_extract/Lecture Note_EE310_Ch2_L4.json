@@ -1,0 +1,193 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh2-4\nOpen Cavity &\nGaussian Beam\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 2: Open Cavity & Gaussian Beam2.6 The traveling-wave field of square confocal cavityThe Hermite-Gaussian beam in confocal cavityAmplitude distribution & beam sizeMode volumeConstant phase surface Far field divergence angle 2.7 The circular confocal cavity2.8 Characteristics of general stable spherical cavity2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "2.6 The traveling-wave field of square confocal cavity\n3E0and Amnare constants,                                          , w0sbeam size on the mirror\nFresnel Kirchhoff's LawField on the mirrorField at any position\nThe field distribution of the mode\n1) The Hermite-Gaussian beam in confocal cavity\n0 0 2 2sw w L   \n   \n1\n1 1 1, , , 1 cos4\nik\ns\nik eV x y z V x y ds\n\n \n\n  \n  \n2 2\n2 2,\nx y\nL\nmn mn m nV x y C H x H y eL L\n  \n \n             \n      \n2\n2 , ,0\n0\n2 2, ,\nr\nw z i x y z\nmn mn m n\nwE x y z A E H x H y e ew z w z w z\n               ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "腔内各个空间位置的电场",
+        "rect": [
+          87.8451,
+          92.6177,
+          689.217,
+          167.763
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "中心束腰的半径",
+        "rect": [
+          299.996,
+          43.3556,
+          517.993,
+          81.7634
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "下面的一切讨论都是建立在confocal cavity的前提上",
+        "rect": [
+          539.709,
+          493.394,
+          729.308,
+          549.336
+        ]
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "text": "4\n      z,y,xizw\nr\nnmmnmn eeyzwHxzwHzw\nwEAz,y,xE \n\n\n\n\n\n2\n2\n220\n0\nThe electric field of TEMmnon position (x,y,z) zw\nw0\nAmplitude Attenuation Factor: reflecting the amplitude change with propagation \n2\n0\n2\n0\n2\n2\n11212 \n\n\n\n\n\n  f\nzwf\nzw\nf\nzLzw s\n\n\nTransverse Amplitude Distribution Factor:reflecting the distribution of the fieldamplitude in transverse direction   zw\nr\nnm eyzwHxzwH\n2\n2\n22 \n\n\n\n\n\nzyxie ,,\nPhase Factor: determine the phase distribution inside the confocal cavityPropagation factorPhase bending factorAdditional phase shift    \n2\n2\n00\n, , (1 ) 1 1 2 2\n1 2; ; 21 2\ns\nrx y z k f m n f\nw Lz zarctg w L f\n   \n   \n                 \n        ",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "2 2\n2 2\n0\n1w z z\nw f  \n5\n2) Amplitude distribution & beam size\nFor fundamental mode     \n2 2\n20\n0\n2 2, ,\nx y\nw z\nmn mn m n\nwE x y z A E H x H y ew z w z w z\n             \nThe amplitudeThe beam sizeWhen on the mirror   \n2 2\n20\n00 00 0, ,\nx y\nw zwE x y z A E e w z\n\n\n \n2 22\n0\n021 1 12 2\nswL z z zw z w f f f\n\n\n                   \n   0s\nLw z w f w \n   \nBeam waist 0\n0 0 22\nsw L fw w  \n    \n基模高斯光束的束腰半径\nHyperbola shape双曲线型",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "6\n3) Mode volume: Spatial expansion range of mode inside the cavityMode volumeContribution of excited state carriers Output powerw0sThe base mode volume of the confocal cavityFor high order mode: order number , mode volume Example：=10.6 m, L=1 m, 2a=20 mm, V=314 cm3=5.3 cm3= 5.3 / 314 = 1.7%\n0\n00V\n0\n00V V\n2\n0 2\n00 0\n1\n2 2 s\nLV L w  \n  \n2\n0 1 2 1 2 12 2mn ms ns\nLV L w w m n    ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "模式体积决定了有效增益体积，影响输出功率",
+        "rect": [
+          272.433,
+          207.007,
+          473.725,
+          277.978
+        ]
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "text": "7\n4) Equivalent phase surface (wave-front)whereFor equivalent phase surface\n      \n2\n2 , ,0\n0\n2 2, ,\nr\nw z i x y z\nmn mn m n\nwE x y z A E H x H y e ew z w z w z\n               \n    \n2\n2, , 1 1 1 2 2\nrx y z k f m n f\n   \n                 \n0, , 0,0,x y z z  \n2 1\n1\nz z arctgL f\n  \n      \n     0 0 00, 0, 1 1 2z k f m n                \n0\n0\nz\nf ",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "     \n2\n0 021 1 1 11 2 2 2\nrk f m n k f m n f\n     \n                             \n8\nFor paraxial lightparabolic equation抛物面方程\nc(x,y,z)zz00Spherical wavey 1storderGaussian beam can be approximately treated as spherical wave near the axis?高斯光波在腔轴附近可近似为球面波 ？\n1. Focus point clocates at –z \n2 2 2 2 2\n0\n0 2 2 20 0\n0\n1 2 1 1\nx y r x yz z Lf L\n\n   \n      \n \n22 2 2\n0 0 0x y z R z R      \n2 2 2\n0 0 0\n2 2\n0 2\n0\n1 2\nz z R R x y\nx yR R\n    \n      \n2 2 2\n0x y R \n2 2x y\n0 ",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": "9\nSpherical wave near the axis近轴球面波 Gaussian beam near the axis近轴高斯光波\nv.s.parabolic equation抛物面方程\nc(x,y,z)zz00Spherical wavey2. Focus point clocates at +z, similar treatment\n2 2\n0 0 0 2\n0\n1 2\nx yz z R R R\n        \n2 2\n0\n02\nx yz z R\n  \n2 2\n0\n02\nx yz z R\n  \n \n2 2\n0 2\n0\n0\n1\nx yz z L \n  \n\n \n2\n0 0 0\n0\n1 0 2\nLR z z z\n            \n \n2\n0 0 0\n0\n1 0 2\nLR z z z\n             \n2 2x y",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "0 0 2 2z f L R z f L     \n0 0 0z z R z \n0 0z R z   \n0 0 0z R z  \n \n22\n0\n0 0 0\n0 0 0\n1 2\nzf f LR z z f z z f z z\n                      \n10Plane wave perpendicular to the axisCenter of the confocal cavityWave-front perpendicular to the axisis the same, symmetry spherical waveWave-front coincident with mirros\nLL/2R0|z0|",
+    "annotations": []
+  },
+  {
+    "page": 11,
+    "text": "11\n5) Far-field divergence angle\nHe-Ne : L=30cm   λ=632.8 nm~ 2.3×10-3radCO2 :            L=100 cm  λ=10.6 mm~ 5.2×10-3rad\n21 e\n21 e\nThe divergence angle is small, only 10-3rad.The divergence angle is bigger for higher order mode\n2limz\nw z\nz \n2\n2\n2\n1\n2 12lim 2e z\nL z\nf\nz f\n\n  \n    \n0 02 1 2 1m n m n      ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要",
+        "rect": [
+          425.557,
+          325.328,
+          779.236,
+          480.075
+        ]
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "text": " \n2 2 0\n00 00, sr wV r C e \n \n2\n20\n2\n2\n0 0\n, 2 2 s\nm r\nwm im\nmn mn n\ns s\nr rV r C L e e w w\n\n           \n2.7 The Circular Confocal Cavity\n12\nLaguerre-Gaussian approximate0 1 1 1 ...m mL L m     Laguerre PolynomialFundamental modeEigen Function \n\n \n 212 \n\nnmkLi\nmn eEigen Value  \n2\n20\n2\n20\n0\n10 10\n0\n2\n01 01 2\n2,\n, 1 2\ns\ns\ns\nr\nw i\ns\nr\nw\nV r C re e w\nrV r C e w\n\n\n \n\n\n      \nHigh-order mode",
+    "annotations": []
+  },
+  {
+    "page": 13,
+    "text": "13\nThe amplitude distribution of the modePhase shiftResonant frequencyDiffraction loss\nTEM00TEM01TEM02TEM10TEM20TEM30The traveling-wave field of circular confocal cavity    \n2\n22\nim i ( , , )0\n0 2( , , ) 2 2 e e e\nm r\nzm r z\nmn mn n\nw r rE r z A E L w z w z w z\n  \n                \n2\n11mn\nmn\n  \n 1 2 12 2mnq\nc q m nL       \n 2 1 2mn mn kL m n kL          ",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "14\nType of Confocal CavityAnalytical solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Super-ellipsoid function Laguerre-Gaussian functionThe beam characteristics of confocal cavity only determine by focallengthf, not related to the size of the mirror. Parametersforw0determines the Gaussian beam inside the cavity.Analytical solution represents the real case of loss inside cavity. Theloss of the transverse mode is determine by the Fresnel number.Different transverse modes have different losses.Characteristics of confocal cavity:The diffraction loss is low.Mode degeneracy. Light spot size along the cavity axis follows the hyperbolic function. Equivalent phase surface (spherical).The phase surface coincide with the mirror.",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "前提是一般：L>>镜片半径",
+        "rect": [
+          59.447,
+          332.253,
+          772.74,
+          431.612
+        ]
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "text": "Integral equation of self-reconstructed modeVariable separationSquare confocal cavityField distribution(Prolate-ellipsoid function)Hermite-Gaussian FunctionCircular confocal cavityField distribution(Hyper-ellipsoid function)Symmetrical Confocal CavityLaguerre-Gaussian FunctionN  approximationField distributionon the mirrorField distribution in paceEigen valueD，γmnqTraveling-wave fieldInternal & externalBase modeGaussian Beam:w0、f、w(z)、R(z)、\nEigen FunctionBeam size, mode volume\n\nfw 0\nlight beamphase \n2\n0 1 \n\n f\nzwzw\n z\nfzzR\n2\n\nfπ\nλ2θ 2e1 \nDiffraction loss\nTraveling-wave fieldInternal & external",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "2.8 Characteristics of general stable spherical cavity\n16\nAny confocal cavity can be equivalent to an infinite number ofstable spherical cavitiesis stable spherical cavity\nAny confocal cavity can be equivalentto an infinite number of stablespherical cavities, while any stablespherical cavity can only have oneequivalent confocal cavity\nBasic idea: confocal cavity = = general stable spherical cavityEquivalent: have the same traveling wave\n1 2\n0 1 1 1L L\nR R\n            \n  \n2\n1 1 1\n1\n2\n2 2 2\n2\n2 1\nfR R z z z\nfR R z z z\nL z z\n       \n       \n ",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17\nAny stable spherical cavity can only have one equivalent confocal cavityProblem: know R1 , R2 , L, how to determine the position and f of confocal cavity\nifWe have\n  \n2\n1 1 1\n1\n2\n2 2 2\n2\n2 1\nfR R z z z\nfR R z z z\nL z z\n       \n       \n \n      \n2 1\n1 2\n1 2 1 2\nL R L L R Lz z L R L R L R L R\n         \n   \n1 2 1 22\n2\n1 2\nL R L R L R R Lf L R L R\n        \n1 20 1 1 1L R L R   \n2\n1 20, 0, 0f z z  ",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\nMode characteristics of general stable spherical cavity\n1. Beam spot size on the mirror (base mode)\nInsert the expression of z1, z2 and f\nonly for\nstable cavity2. Mode volume (base mode)\n   \n \n2\n2\n0\n00 00 0, ,\nr\nw zwE x y z A E e w z\n\n\n \n2\n0 1 zw z w f\n     \n \n   \n \n   \n1 42\n1 2\n1\n1 1 2\n1 42\n2 1\n2\n2 1 2\ns\ns\nR R LLw L R L R R L\nR R LLw L R L R R L\n\n\n\n\n                       \n \n \n1 4\n2\n1 1 2\n1 4\n1\n0\n1\n1\ns s\ns\ngw 1 w0\ng g g\ng\ng g gws2 w0s\n2 1 2\nw L  \n     \n           \n \n(2.8.6) or (2.8.7)\n2\n01 2 1 2\n00 00\n2 1 1 2\n2\n0 2\n00 0\n1 1 22 2 4 1\n1\n2 2\ns s\ns\nw w g gV L V g g g g\nLV Lw\n\n\n            \n  1 2 1g g \n1 2 0g g  1 2g g\n00V \nor but\n(2.8.8)\n×\n×",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "作业涉及，注意这里的w0s的L是实际的腔长L，不是等效共焦腔的腔长L=2f",
+        "rect": [
+          61.1172,
+          196.8,
+          807.957,
+          408.028
+        ]
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "text": "19\nMode volume (high-order)For square spherical cavity3. Equivalent phase surface (wave-front)(2.8.4)4. Far-field divergence angle (base mode)\n   \n0\n0\n00 00\n2 1 2 1mn mnV V m nV V   \n   0 0\n00\n1 2 1 2 12mn ms nsV L w w m n V   \n         \n2\n1 2 1 22\n2\n1 2\nf z fR z z f z f z\nL R L R L R R Lf L R L R\n       \n        \n2limz\nw z\nz \n  \n1 42\n1 2 1 2\n1 2 1 2\n22 1\n2\n2\n2\n1 e z\nLλ z2 12π f λθ lim 2 z f π\ng g g g\nL g g g g\n\n\n\n    \n         ",
+    "annotations": []
+  },
+  {
+    "page": 20,
+    "text": "20\n5. Resonant frequencySquare stable spherical cavityCircular stable spherical cavityinsert z1, z2and fStable square spherical cavityStable circular spherical cavity\n     \n2\n2\n, 1 2 2 2.8.10\n, 2 1 2 2\nmn\nmn\nr f zΦ r z k z kf m n arctgR f z\nr f zΦ r z k z kf m n arctgR f z\n\n\n                                             \n2 1, 2 0, 0, 2 2.8.11mn mn mn2 Φ r z Φ z Φ z q        \n    \n1 2\n1 2\n1 1 cos 2.8.122\n2.8.131 2 1 cos2\nmnq\nmnq\nc q m n arc g gL\nc q m n arc g gL\n  \n  \n                 ",
+    "annotations": []
+  },
+  {
+    "page": 21,
+    "text": "21\n6. Diffraction lossFresnel numberGeneral stable spherical cavity = = confocal cavitySo diffraction loss follow same rules, same traveling wave fieldinsert into (2.8.6) and (2.8.7)According to the relationship between N and mn, insert Nto obtainmn1and mn2\nThe mode loss is determined by NEffective Fresnel number of stable spherical cavitythey have same mnwhen\n2 2\n2\n0s\na aN L w   0s\nLw \n\n2 2\n0\n2 2\n0i\ni\ns s\na a\nw w  \niefN\n           \n1\n2\n2 2 2\n1 1 21 1 1 1\n1 1 2 2\n1 2 2\n2 2 2\n2 1 22 2 2 2\n2 1 2 2\n2 1 1\n1\n2.8.18\n1\nef\ns\nef\ns\nR L R R La a a gN g g w R L R L L g\nR L R R La a a gN g g w R L R L L g\n  \n  \n               ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "作业涉及",
+        "rect": [
+          62.7877,
+          27.5534,
+          774.411,
+          78.4854
+        ]
+      }
+    ]
+  }
+]

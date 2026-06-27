@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 25 15:35:59 2026
+# Process ID: 23820
+# Current directory: D:/SUSTech/2026 Spring/lab4/seq_detect/seq_detect/seq_detect.runs/impl_1
+# Command line: vivado.exe -log seq_detect.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source seq_detect.tcl -notrace
+# Log file: D:/SUSTech/2026 Spring/lab4/seq_detect/seq_detect/seq_detect.runs/impl_1/seq_detect.vdi
+# Journal file: D:/SUSTech/2026 Spring/lab4/seq_detect/seq_detect/seq_detect.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source seq_detect.tcl -notrace

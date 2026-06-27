@@ -1,0 +1,3190 @@
+132                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                     Note that the elements of the matrix depend on the selection of the coordinate axes in
+                     the anisotropic material. Certain choices of axis directions lead to simpler matrices.7
+                          D and E (and P) are no longer parallel, and although D = 0 E + P remains
+                     a valid equation for anisotropic materials, we may continue to use D = E only
+                     by interpreting it as a matrix equation. We will concentrate our attention on linear
+                     isotropic materials and reserve the general case for a more advanced text.
+                          In summary, then, we now have a relationship between D and E that depends on
+                     the dielectric material present,
+
+                                                                            D = E                                   (30)
+                     where
+                                                                             = 0 r                                (31)
+
+                     This electric flux density is still related to the free charge by either the point or integral
+                     form of Gauss’s law:
+
+                                                                        ∇ · D = ρν                                   (27)
+
+                                                                    
+                                                                            D · dS = Q                               (26)
+                                                                        S
+
+
+                          Use of the relative permittivity, as indicated by Eq. (31), makes consideration
+                     of the polarization, dipole moments, and bound charge unnecessary. However, when
+                     anisotropic or nonlinear materials must be considered, the relative permittivity, in the
+                     simple scalar form that we have discussed, is no longer applicable.
+
+ E X A M P L E 5.4
+
+                     We locate a slab of Teflon in the region 0 ≤ x ≤ a, and assume free space where
+                     x < 0 and x > a. Outside the Teflon there is a uniform field Eout = E 0 ax V/m. We
+                     seek values for D, E, and P everywhere.
+                     Solution. The dielectric constant of the Teflon is 2.1, and thus the electric suscepti-
+                     bility is 1.1.
+                          Outside the slab, we have immediately Dout = 0 E 0 ax. Also, as there is no
+                     dielectric material there, Pout = 0. Now, any of the last four or five equations will
+                     enable us to relate the several fields inside the material to each other. Thus
+                                                       Din = 2.10 Ein              (0 ≤ x ≤ a)
+                                                       Pin = 1.10 Ein              (0 ≤ x ≤ a)
+
+
+
+                     7 A more complete discussion of this matrix may be found in the Ramo, Whinnery, and Van Duzer
+
+                     reference listed at the end of this chapter.
+                                                   CHAPTER 5       Conductors and Dielectrics   133
+
+
+As soon as we establish a value for any of these three fields within the dielectric, the
+other two can be found immediately. The difficulty lies in crossing over the boundary
+from the known fields external to the dielectric to the unknown ones within it. To do
+this we need a boundary condition, and this is the subject of the next section. We will
+complete this example then.
+     In the remainder of this text we will describe polarizable materials in terms of D
+and  rather than P and χe . We will limit our discussion to isotropic materials.
+
+    D5.8. A slab of dielectric material has a relative dielectric constant of 3.8 and
+    contains a uniform electric flux density of 8 nC/m2 . If the material is lossless,
+    find: (a) E; (b) P; (c) the average number of dipoles per cubic meter if the
+    average dipole moment is 10−29 C · m.
+
+    Ans. 238 V/m; 5.89 nC/m2 ; 5.89 × 1020 m−3
+
+
+
+
+5.8 BOUNDARY CONDITIONS FOR PERFECT
+    DIELECTRIC MATERIALS
+How do we attack a problem in which there are two different dielectrics, or a dielectric
+and a conductor? This is another example of a boundary condition, such as the condi-
+tion at the surface of a conductor whereby the tangential fields are zero and the normal
+electric flux density is equal to the surface charge density on the conductor. Now we
+take the first step in solving a two-dielectric problem, or a dielectric-conductor prob-
+lem, by determining the behavior of the fields at the dielectric interface.
+     Let us first consider the interface between two dielectrics having permittivities
+1 and 2 and occupying regions 1 and 2, as shown in Figure 5.10. We first examine
+
+
+
+
+                                                       n
+
+
+
+
+       Figure 5.10 The boundary between perfect dielectrics of permittivities 1
+       and 2 . The continuity of D N is shown by the gaussian surface on the right,
+       and the continuity of E tan is shown by the line integral about the closed path
+       at the left.
+134   ENGINEERING ELECTROMAGNETICS
+
+
+
+      the tangential components by using
+                                        
+                                               E · dL = 0
+
+      around the small closed path on the left, obtaining
+                                     E tan 1 w − E tan 2 w = 0
+           The small contribution to the line integral by the normal component of E along
+      the sections of length h becomes negligible as h decreases and the closed path
+      crowds the surface. Immediately, then,
+
+                                            E tan 1 = E tan 2                               (32)
+
+      Evidently, Kirchhoff’s voltage law is still applicable to this case. Certainly we have
+      shown that the potential difference between any two points on the boundary that are
+      separated by a distance w is the same immediately above or below the boundary.
+          If the tangential electric field intensity is continuous across the boundary, then
+      tangential D is discontinuous, for
+                                  Dtan 1                       Dtan 2
+                                         = E tan 1 = E tan 2 =
+                                   1                           2
+      or
+                                             Dtan 1   1
+                                                    =                                       (33)
+                                             Dtan 2   2
+          The boundary conditions on the normal components are found by applying
+      Gauss’s law to the small “pillbox” shown at the right in Figure 5.10. The sides are
+      again very short, and the flux leaving the top and bottom surfaces is the difference
+                                D N 1 S − D N 2 S = Q = ρ S S
+      from which
+
+                                          D N 1 − D N 2 = ρS                                (34)
+
+           What is this surface charge density? It cannot be a bound surface charge density,
+      because we are taking the polarization of the dielectric into effect by using a dielectric
+      constant different from unity; that is, instead of considering bound charges in free
+      space, we are using an increased permittivity. Also, it is extremely unlikely that any
+      free charge is on the interface, for no free charge is available in the perfect dielectrics
+      we are considering. This charge must then have been placed there deliberately, thus
+      unbalancing the total charge in and on this dielectric body. Except for this special
+      case, then, we may assume ρ S is zero on the interface and
+
+                                             DN 1 = DN 2                                    (35)
+                                                 CHAPTER 5       Conductors and Dielectrics   135
+
+
+or the normal component of D is continuous. It follows that
+                                   1 E N 1 = 2 E N 2                                (36)
+and normal E is discontinuous.
+     Equations (32) and (34) can be written in terms of field vectors in any direction,
+along with the unit normal to the surface as shown in Figure 5.10. Formally stated,
+the boundary conditions for the electric flux density and the electric field strength at
+the surface of a perfect dielectric are
+                                 (D1 − D2 ) · n = ρs                                  (37)
+which is the general statement of Eq. (32), and
+                                 (E1 − E2 ) × n = 0                                   (38)
+generally states Eq. (34). This construction was used previously in Eqs. (17) and (18)
+for a conducting surface, in which the normal or tangential components of the fields
+are obtained through the dot product or cross product with the normal, respectively.
+     These conditions may be used to show the change in the vectors D and
+E at the surface. Let D1 (and E1 ) make an angle θ1 with a normal to the surface
+(Figure 5.11). Because the normal components of D are continuous,
+                        D N 1 = D1 cos θ1 = D2 cos θ2 = D N 2                         (39)
+The ratio of the tangential components is given by (33) as
+                               Dtan 1   D1 sin θ1   1
+                                      =           =
+                               Dtan 2   D2 sin θ2   2
+or
+                              2 D1 sin θ1 = 1 D2 sin θ2                             (40)
+
+
+
+
+                                    n
+
+
+
+
+                     Figure 5.11 The refraction of D at a
+                     dielectric interface. For the case shown,
+                     1 > 2 ; E1 and E2 are directed along D1
+                     and D2 , with D 1 > D 2 and E 1 < E 2 .
+136                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                     and the division of this equation by (39) gives
+                                                             tan θ1   1
+                                                                    =                                         (41)
+                                                             tan θ2   2
+                     In Figure 5.11 we have assumed that 1 > 2 , and therefore θ1 > θ2 .
+                          The direction of E on each side of the boundary is identical with the direction of
+                     D, because D = E.
+                          The magnitude of D in region 2 may be found from Eq. (39) and (40),
+                                                                                   2
+                                                                               2
+                                                D2 = D 1     cos2 θ   1+                 sin2 θ1              (42)
+                                                                               1
+                     and the magnitude of E2 is
+                                                                               2
+                                                                2          1
+                                                E 2 = E 1 sin θ1 +                   cos2 θ1                  (43)
+                                                                           2
+                     An inspection of these equations shows that D is larger in the region of larger permit-
+                     tivity (unless θ1 = θ2 = 0◦ where the magnitude is unchanged) and that E is larger
+                     in the region of smaller permittivity (unless θ1 = θ2 = 90◦ , where its magnitude is
+                     unchanged).
+
+
+ E X A M P L E 5.5
+
+                     Complete Example 5.4 by finding the fields within the Teflon (r = 2.1), given the
+                     uniform external field Eout = E 0 ax in free space.
+                     Solution. We recall that we had a slab of Teflon extending from x = 0 to x = a,
+                     as shown in Figure 5.12, with free space on both sides of it and an external field
+                     Eout = E 0 ax . We also have Dout = 0 E 0 ax and Pout = 0.
+                           Inside, the continuity of D N at the boundary allows us to find that Din = Dout =
+                     0 E 0 ax . This gives us Ein = Din / = 0 E 0 ax /(r 0 ) = 0.476E 0 ax . To get the polar-
+                     ization field in the dielectric, we use D = 0 E + P and obtain
+
+                                 Pin = Din − 0 Ein = 0 E 0 ax − 0.4760 E 0 ax = 0.5240 E 0 ax
+
+                     Summarizing then gives
+
+                                              Din = 0 E 0 ax                   (0 ≤ x ≤ a)
+                                              Ein = 0.476E 0 ax                 (0 ≤ x ≤ a)
+                                              Pin = 0.5240 E 0 ax              (0 ≤ x ≤ a)
+
+                          A practical problem most often does not provide us with a direct knowledge of
+                     the field on either side of the boundary. The boundary conditions must be used to help
+                     us determine the fields on both sides of the boundary from the other information that
+                     is given.
+                                                   CHAPTER 5      Conductors and Dielectrics   137
+
+
+
+
+       Figure 5.12 A knowledge of the electric field external to the dielectric
+       enables us to find the remaining external fields first and then to use the
+       continuity of normal D to begin finding the internal fields.
+
+
+    D5.9. Let Region 1 (z < 0) be composed of a uniform dielectric material
+    for which r = 3.2, while Region 2 (z > 0) is characterized by r = 2. Let
+    D1 = −30ax + 50a y + 70az nC/m2 and find: (a) D N 1 ; (b) Dt1 ; (c) Dt1 ; (d) D1 ;
+    (e) θ1 ; ( f ) P1 .
+
+    Ans. 70 nC/m2 ; −30ax + 50a y nC/m2 ; 58.3 nC/m2 ; 91.1 nC/m2 ; 39.8◦ ; −20.6ax +
+    34.4a y + 48.1az nC/m2
+
+
+    D5.10. Continue Problem D5.9 by finding: (a) D N 2 ; (b) Dt2 ; (c) D2 ; (d) P2 ;
+    (e) θ2 .
+
+    Ans. 70az nC/m2 ; −18.75ax + 31.25a y nC/m2 ; −18.75ax + 31.25a y + 70az nC/m2 ;
+    −9.38ax + 15.63a y + 35az nC/m2 ; 27.5◦
+
+
+
+
+REFERENCES
+1. Fano, R. M., L. J. Chu, and R. B. Adler. Electromagnetic Fields, Energy, and Forces.
+   Cambridge, MA: MIT Press, 1968. Polarization in dielectrics is discussed in Chapter 5.
+   This junior-level text presupposes a full-term physics course in electricity and
+   magnetism, and it is therefore slightly more advanced in level. The introduction
+   beginning on p. 1 should be read.
+2. Dekker, A. J. Electrical Engineering Materials. Englewood Cliffs, NJ: Prentice-Hall,
+   1963. This admirable little book covers dielectrics, conductors, semiconductors, and
+   magnetic materials.
+138   ENGINEERING ELECTROMAGNETICS
+
+
+
+      3. Fink, D. G., and H. W. Beaty. Standard Handbook for Electrical Engineers. 15th ed. New
+         York: McGraw-Hill, 2006.
+      4. Maxwell, J. C. A Treatise on Electricity and Magnetism. New York: Cambridge
+         University Press, 2010.
+      5. Wert, C. A., and R. M. Thomson. Physics of Solids. 2nd ed. New York: McGraw-Hill,
+         1970. This is an advanced undergraduate-level text that covers metals, semiconductors,
+         and dielectrics.
+
+
+      CHAPTER 5               PROBLEMS
+      5.1    Given the current density J = −104 [sin(2x)e−2y ax + cos(2x)e−2y a y ] kA/m2
+             (a) Find the total current crossing the plane y = 1 in the a y direction in the
+             region 0 < x < 1, 0 < z < 2. (b) Find the total current leaving the region
+             0 < x, y < 1, 2 < z < 3 by integrating J · d S over the surface of the cube.
+             (c) Repeat part (b), but use the divergence theorem.
+      5.2    Given J = −10−4 (yax + xa y ) A/m2 , find the current crossing the y = 0
+             plane in the −a y direction between z = 0 and 1, and x = 0 and 2.
+      5.3    Let J = 400 sin θ/(r 2 + 4) ar A/m2 . (a) Find the total current flowing
+             through that portion of the spherical surface r = 0.8, bounded by
+             0.1π < θ < 0.3π, 0 < φ < 2π. (b) Find the average value of J over the
+             defined area.
+      5.4    If volume charge density is given as ρv = (cos ωt)/r 2 C/m2 in spherical
+             coordinates, find J. It is reasonable to assume that J is not a function of θ or φ.
+      5.5    Let J = 25/ρaρ − 20/(ρ 2 + 0.01) az A/m2 . (a) Find the total current
+             crossing the plane z = 0.2 in the az direction for ρ < 0.4. (b) Calculate
+             ∂ρν /∂t. (c) Find the outward current crossing the closed surface defined by
+             ρ = 0.01, ρ = 0.4, z = 0, and z = 0.2. (d) Show that the divergence
+             theorem is satisified for J and the surface specified in part (c).
+      5.6    In spherical coordinates, a current density J = −k/(r sin θ ) aθ A/m2 exists in
+             a conducting medium, where k is a constant. Determine the total current in
+             the az direction that crosses a circular disk of radius R, centered on the z axis
+             and located at (a) z = 0; (b) z = h.
+      5.7    Assuming that there is no transformation of mass to energy or vice versa, it is
+             possible to write a continuity equation for mass. (a) If we use the continuity
+             equation for charge as our model, what quantities correspond to J and ρν?
+             (b) Given a cube 1 cm on a side, experimental data show that the rates at
+             which mass is leaving each of the six faces are 10.25, −9.85, 1.75, −2.00,
+             −4.05, and 4.45 mg/s. If we assume that the cube is an incremental volume
+             element, determine an approximate value for the time rate of change of
+             density at its center.
+      5.8    A truncated cone has a height of 16 cm. The circular faces on the top and
+             bottom have radii of 2 mm and 0.1 mm, respectively. If the material from
+                                               CHAPTER 5      Conductors and Dielectrics   139
+
+
+       which this solid cone is constructed has a conductivity of 2 × 106 S/m, use
+       some good approximations to determine the resistance between the two
+       circular faces.
+5.9    (a) Using data tabulated in Appendix C, calculate the required diameter for a
+       2-m-long nichrome wire that will dissipate an average power of 450 W when
+       120 V rms at 60 Hz is applied to it. (b) Calculate the rms current density in
+       the wire.
+5.10 A large brass washer has a 2-cm inside diameter, a 5-cm outside diameter,
+     and is 0.5 cm thick. Its conductivity is σ = 1.5 × 107 S/m. The washer is cut
+     in half along a diameter, and a voltage is applied between the two rectangular
+     faces of one part. The resultant electric field in the interior of the half-washer
+     is E = (0.5/ρ) aφ V/m in cylindrical coordinates, where the z axis is the axis
+     of the washer. (a) What potential difference exists between the two
+     rectangular faces? (b) What total current is flowing? (c) What is the
+     resistance between the two faces?
+5.11 Two perfectly conducting cylindrical surfaces of length are located at
+     ρ = 3 and ρ = 5 cm. The total current passing radially outward through the
+     medium between the cylinders is 3 A dc. (a) Find the voltage and resistance
+     between the cylinders, and E in the region between the cylinders, if a
+     conducting material having σ = 0.05 S/m is present for 3 < ρ < 5 cm.
+     (b) Show that integrating the power dissipated per unit volume over the
+     volume gives the total dissipated power.
+5.12 Two identical conducting plates, each having area A, are located at z = 0 and
+     z = d. The region between plates is filled with a material having z-dependent
+     conductivity, σ (z) = σ0 e−z/d , where σ0 is a constant. Voltage V0 is applied to
+     the plate at z = d; the plate at z = 0 is at zero potential. Find, in terms of the
+     given parameters, (a) the resistance of the material; (b) the total current
+     flowing between plates; (c) the electric field intensity E within the material.
+5.13 A hollow cylindrical tube with a rectangular cross section has external
+     dimensions of 0.5 in. by 1 in. and a wall thickness of 0.05 in. Assume that the
+     material is brass, for which σ = 1.5 × 107 S/m. A current of 200 A dc is
+     flowing down the tube. (a) What voltage drop is present across a 1 m length
+     of the tube? (b) Find the voltage drop if the interior of the tube is filled with
+     a conducting material for which σ = 1.5 × 105 S/m.
+5.14 A rectangular conducting plate lies in the x y plane, occupying the region
+     0 < x < a, 0 < y < b. An identical conducting plate is positioned directly
+     above and parallel to the first, at z = d. The region between plates is filled
+     with material having conductivity σ (x) = σ0 e−x/a , where σ0 is a constant.
+     Voltage V0 is applied to the plate at z = d; the plate at z = 0 is at zero
+     potential. Find, in terms of the given parameters, (a) the electric field
+     intensity E within the material; (b) the total current flowing between plates;
+     (c) the resistance of the material.
+140   ENGINEERING ELECTROMAGNETICS
+
+
+
+      5.15 Let V = 10(ρ + 1)z 2 cos φ V in free space. (a) Let the equipotential surface
+           V = 20 V define a conductor surface. Find the equation of the conductor
+           surface. (b) Find ρ and E at that point on the conductor surface where φ =
+           0.2π and z = 1.5. (c) Find |ρ S | at that point.
+      5.16 A coaxial transmission line has inner and outer conductor radii a and b.
+           Between conductors (a < ρ < b) lies a conductive medium whose
+           conductivity is σ (ρ) = σ0 /ρ, where σ0 is a constant. The inner conductor is
+           charged to potential V0 , and the outer conductor is grounded. (a) Assuming
+           dc radial current I per unit length in z, determine the radial current density
+           field J in A/m2 . (b) Determine the electric field intensity E in terms of I and
+           other parameters, given or known. (c) By taking an appropriate line integral
+           of E as found in part (b), find an expression that relates V0 to I . (d) Find an
+           expression for the conductance of the line per unit length, G.
+      5.17 Given the potential field V = 100x z/(x 2 + 4) V in free space: (a) Find D at
+           the surface z = 0. (b) Show that the z = 0 surface is an equipotential surface.
+           (c) Assume that the z = 0 surface is a conductor and find the total charge on
+           that portion of the conductor defined by 0 < x < 2, −3 < y < 0.
+      5.18 Two parallel circular plates of radius a are located at z = 0 and z = d. The
+           top plate (z = d) is raised to potential V0 ; the bottom plate is grounded.
+           Between the plates is a conducting material having radial-dependent
+           conductivity, σ (ρ) = σ0 ρ, where σ0 is a constant. (a) Find the ρ-independent
+           electric field strength, E, between plates. (b) Find the current density, J
+           between plates. (c) Find the total current, I , in the structure. (d) Find the
+           resistance between plates.
+      5.19 Let V = 20x 2 yz − 10z 2 V in free space. (a) Determine the equations of the
+           equipotential surfaces on which V = 0 and 60 V. (b) Assume these are
+           conducting surfaces and find the surface charge density at that point on the
+           V = 60 V surface where x = 2 and z = 1. It is known that 0 ≤ V ≤ 60 V is
+           the field-containing region. (c) Give the unit vector at this point that is
+           normal to the conducting surface and directed toward the V = 0 surface.
+      5.20 Two point charges of −100π µC are located at (2, −1, 0) and (2, 1, 0). The
+           surface x = 0 is a conducting plane. (a) Determine the surface charge
+           density at the origin. (b) Determine ρ S at P(0, h, 0).
+      5.21 Let the surface y = 0 be a perfect conductor in free space. Two uniform
+           infinite line charges of 30 nC/m each are located at x = 0, y = 1, and
+           x = 0, y = 2. (a) Let V = 0 at the plane y = 0, and find V at P(1, 2, 0).
+           (b) Find E at P.
+      5.22 The line segment x = 0, −1 ≤ y ≤ 1, z = 1, carries a linear charge density
+           ρ L = π |y| µC/m. Let z = 0 be a conducting plane and determine the surface
+           charge density at: (a) (0, 0, 0); (b) (0, 1, 0).
+                                                  CHAPTER 5      Conductors and Dielectrics   141
+
+
+
+5.23 A dipole with p = 0.1az µC · m is located at A(1, 0, 0) in free space, and the
+     x = 0 plane is perfectly conducting. (a) Find V at P(2, 0, 1). (b) Find the
+     equation of the 200 V equipotential surface in rectangular coordinates.
+5.24 At a certain temperature, the electron and hole mobilities in intrinsic
+     germanium are given as 0.43 and 0.21 m2 /V · s, respectively. If the electron
+     and hole concentrations are both 2.3 × 1019 m−3 , find the conductivity at this
+     temperature.
+5.25 Electron and hole concentrations increase with temperature. For pure
+     silicon, suitable expressions are ρh = −ρe = 6200T 1.5 e−7000/T C/m3 .
+     The functional dependence of the mobilities on temperature is given by
+     µh = 2.3 × 105 T −2.7 m2 /V · s and µe = 2.1 × 105 T −2.5 m2 /V · s, where the
+     temperature, T , is in degrees Kelvin. Find σ at: (a) 0◦ C; (b) 40◦ C; (c) 80◦ C.
+5.26 A semiconductor sample has a rectangular cross section 1.5 by 2.0 mm, and a
+     length of 11.0 mm. The material has electron and hole densities of 1.8 × 1018
+     and 3.0 × 1015 m−3 , respectively. If µe = 0.082 m2 /V · s and µh = 0.0021
+     m2 / V · s, find the resistance offered between the end faces of the sample.
+5.27 Atomic hydrogen contains 5.5 × 1025 atoms/m3 at a certain temperature and
+     pressure. When an electric field of 4 kV/m is applied, each dipole formed by
+     the electron and positive nucleus has an effective length of 7.1 × 10−19 m.
+     (a) Find P. (b) Find r .
+5.28 Find the dielectric constant of a material in which the electric flux density is
+     four times the polarization.
+5.29 A coaxial conductor has radii a = 0.8 mm and b = 3 mm and a polystyrene
+     dielectric for which r = 2.56. If P = (2/ρ)aρ nC/m2 in the dielectric, find
+     (a) D and E as functions of ρ; (b) Vab and χe . (c) If there are 4 × 1019
+     molecules per cubic meter in the dielectric, find p(ρ).
+5.30 Consider a composite material made up of two species, having number
+     densities N1 and N2 molecules/m3, respectively. The two materials are
+     uniformly mixed, yielding a total number density of N = N1 + N2 . The
+     presence of an electric field E induces molecular dipole moments p1 and p2
+     within the individual species, whether mixed or not. Show that the dielectric
+     constant of the composite material is given by r = f r 1 + (1 − f )r 2 , where
+     f is the number fraction of species 1 dipoles in the composite, and where r 1
+     and r 2 are the dielectric constants that the unmixed species would have if
+     each had number density N .
+5.31 The surface x = 0 separates two perfect dielectrics. For x > 0, let r =
+     r 1 = 3, while r 2 = 5 where x < 0. If E1 = 80ax − 60a y − 30az V/m, find
+     (a) E N 1 ; (b) ET 1 ; (c) E1 ; (d) the angle θ1 between E1 and a normal to the
+     surface; (e) D N 2 ; ( f ) DT 2 ; (g) D2 ; (h) P2 ; (i) the angle θ2 between E2 and a
+     normal to the surface.
+142   ENGINEERING ELECTROMAGNETICS
+
+
+
+      5.32 Two equal but opposite-sign point charges of 3 µC are held x meters apart by
+           a spring that provides a repulsive force given by Fsp = 12(0.5 − x) N.
+           Without any force of attraction, the spring would be fully extended to 0.5 m.
+           (a) Determine the charge separation. (b) What is the dipole moment?
+      5.33 Two perfect dielectrics have relative permittivities r 1 = 2 and r 2 = 8. The
+           planar interface between them is the surface x − y + 2z = 5. The origin lies
+           in region 1. If E1 = 100ax + 200a y − 50az V/m, find E2 .
+      5.34 Region 1 (x ≥ 0) is a dielectric with r 1 = 2, while region 2(x < 0) has
+           r 2 = 5. Let E1 = 20ax − 10a y + 50az V/m. (a) Find D2 . (b) Find the energy
+           density in both regions.
+      5.35 Let the cylindrical surfaces ρ = 4 cm and ρ = 9 cm enclose two wedges of
+           perfect dielectrics, r 1 = 2 for 0 < φ < π/2 and r 2 = 5 for π/2 < φ < 2π.
+           If E1 = (2000/ρ)aρ V/m, find (a) E2 ; (b) the total electrostatic energy stored
+           in a 1 m length of each region.
+                                                   C H A P T E R                         6
+Capacitance
+
+         apacitance measures the capability of energy storage in electrical devices.
+
+C        It can be deliberately designed for a specific purpose, or it may exist as
+         an unavoidable by-product of the device structure that one must live with.
+Understanding capacitance and its impact on device or system operation is critical in
+every aspect of electrical engineering.
+     A capacitor is a device that stores energy; energy thus stored can either be as-
+sociated with accumulated charge or it can be related to the stored electric field,
+as was discussed in Section 4.8. In fact, one can think of a capacitor as a device
+that stores electric flux, in a similar way that an inductor — an analogous device —
+stores magnetic flux (or ultimately magnetic field energy). We will explore this in
+Chapter 8. A primary goal in this chapter is to present the methods for calculating
+capacitance for a number of cases, including transmission line geometries, and to be
+able to make judgments on how capacitance will be altered by changes in materials
+or their configuration. ■
+
+
+
+6.1 CAPACIT ANCE DEFINED
+Consider two conductors embedded in a homogeneous dielectric (Figure 6.1). Con-
+ductor M2 carries a total positive charge Q, and M1 carries an equal negative charge.
+There are no other charges present, and the total charge of the system is zero.
+     We now know that the charge is carried on the surface as a surface charge density
+and also that the electric field is normal to the conductor surface. Each conductor
+is, moreover, an equipotential surface. Because M2 carries the positive charge, the
+electric flux is directed from M2 to M1, and M2 is at the more positive potential. In
+other words, work must be done to carry a positive charge from M1 to M2 .
+     Let us designate the potential difference between M2 and M1 as V0 . We may now
+define the capacitance of this two-conductor system as the ratio of the magnitude
+
+
+
+                                                                                             143
+144   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                           Figure 6.1 Two oppositely charged
+                           conductors M1 and M2 surrounded by a uniform
+                           dielectric. The ratio of the magnitude of the
+                           charge on either conductor to the magnitude of
+                           the potential difference between them is the
+                           capacitance C.
+
+
+
+      of the total charge on either conductor to the magnitude of the potential difference
+      between conductors,
+                                                     Q
+                                              C=                                             (1)
+                                                     V0
+
+      In general terms, we determine Q by a surface integral over the positive conductors,
+      and we find V0 by carrying a unit positive charge from the negative to the positive
+      surface,
+                                                
+                                                S E · dS
+                                         C=     +                                           (2)
+                                               − − E · dL
+
+           The capacitance is independent of the potential and total charge, for their ratio
+      is constant. If the charge density is increased by a factor of N, Gauss’s law indicates
+      that the electric flux density or electric field intensity also increases by N, as does the
+      potential difference. The capacitance is a function only of the physical dimensions of
+      the system of conductors and of the permittivity of the homogeneous dielectric.
+           Capacitance is measured in farads (F), where a farad is defined as one coulomb
+      per volt. Common values of capacitance are apt to be very small fractions of a farad,
+      and consequently more practical units are the microfarad (µF), the nanofarad (nF),
+      and the picofarad (pF).
+                                                              CHAPTER 6       Capacitance    145
+
+
+6.2 PARALLEL-PLATE CAPACITOR
+We can apply the definition of capacitance to a simple two-conductor system in which
+the conductors are identical, infinite parallel planes with separation d (Figure 6.2).
+Choosing the lower conducting plane at z = 0 and the upper one at z = d, a uniform
+sheet of surface charge ±ρ S on each conductor leads to the uniform field [Section
+2.5, Eq. (18)]
+                                            ρS
+                                      E=       az
+                                             
+where the permittivity of the homogeneous dielectric is , and
+                                       D = ρ S az
+     Note that this result could be obtained by applying the boundary condition at a
+conducting surface (Eq. (18), Chapter 5) at either one of the plate surfaces. Referring
+to the surfaces and their unit normal vectors in Fig. 6.2, where n = az and nu = −az ,
+we find on the lower plane:
+                               
+                       D · n z=0 = D · az = ρs ⇒ D = ρs az
+On the upper plane, we get the same result
+                         
+                  D · nu z=d = D · (−az ) = −ρs ⇒ D = ρs az
+This is a key advantage of the conductor boundary condition, in that we need to
+apply it only to a single boundary to obtain the total field there (arising from all other
+sources).
+    The potential difference between lower and upper planes is
+                              lower             0
+                                                     ρS         ρS
+                      V0 = −         E · dL = −          dz =      d
+                              upper               d            
+Since the total charge on either plane is infinite, the capacitance is infinite. A more
+practical answer is obtained by considering planes, each of area S, whose linear
+dimensions are much greater than their separation d. The electric field and charge
+
+
+
+
+                                                    nu
+
+
+
+                                                    nl
+
+
+
+
+                    Figure 6.2 The problem of the parallel-plate
+                    capacitor. The capacitance per square meter of
+                    surface area is /d.
+146                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                     distribution are then almost uniform at all points not adjacent to the edges, and this
+                     latter region contributes only a small percentage of the total capacitance, allowing us
+                     to write the familiar result
+                                                            Q = ρS S
+                                                                  ρS
+                                                            V0 =     d
+                                                                  
+
+                                                               Q    S
+                                                         C=       =                                       (3)
+                                                               V0   d
+
+                          More rigorously, we might consider Eq. (3) as the capacitance of a portion of the
+                     infinite-plane arrangement having a surface area S. Methods of calculating the effect
+                     of the unknown and nonuniform distribution near the edges must wait until we are
+                     able to solve more complicated potential problems.
+
+ E X A M P L E 6.1
+
+                     Calculate the capacitance of a parallel-plate capacitor having a mica dielectric, r = 6,
+                     a plate area of 10 in.2 , and a separation of 0.01 in.
+                     Solution. We may find that
+
+                                             S = 10 × 0.02542 = 6.45 × 10−3 m2
+                                             d = 0.01 × 0.0254 = 2.54 × 10−4 m
+                     and therefore
+                                           6 × 8.854 × 10−12 × 6.45 × 10−3
+                                     C=                                    = 1.349 nF
+                                                     2.54 × 10−4
+                          A large plate area is obtained in capacitors of small physical dimensions by
+                     stacking smaller plates in 50- or 100-decker sandwiches, or by rolling up foil plates
+                     separated by a flexible dielectric.
+                          Table C.1 in Appendix C also indicates that materials are available having di-
+                     electric constants greater than 1000.
+                          Finally, the total energy stored in the capacitor is
+                                                            S d                  2             2 2
+                                                                   ρ S2         1 ρS      1  S ρS d
+                               W E = 12        E 2 dv = 12         2
+                                                                         dz dS = 2
+                                                                                      Sd = 2
+                                          vol                0  0                            d 2
+                     or
+                                                                                 Q2
+                                                W E = 12 C V 02 = 12 Q V0 = 12                            (4)
+                                                                                 C
+
+                     which are all familiar expressions. Equation (4) also indicates that the energy stored
+                     in a capacitor with a fixed potential difference across it increases as the dielectric
+                     constant of the medium increases.
+                                                              CHAPTER 6       Capacitance    147
+
+
+
+    D6.1. Find the relative permittivity of the dielectric material present in a
+    parallel-plate capacitor if: (a) S = 0.12 m2 , d = 80 µm, V0 = 12 V, and the
+    capacitor contains 1 µJ of energy; (b) the stored energy density is 100 J/m3 ,
+    V0 = 200 V, and d = 45 µm; (c) E = 200 kV/m and ρ S = 20 µC/m2 .
+
+    Ans. 1.05; 1.14; 11.3
+
+
+
+
+6.3 SEVERAL CAPACIT ANCE EXAMPLES
+As a first brief example, we choose a coaxial cable or coaxial capacitor of inner
+radius a, outer radius b, and length L. No great derivational struggle is required,
+because the potential difference is given as Eq. (11) in Section 4.3, and we find the
+capacitance very simply by dividing this by the total charge ρ L L in the length L.
+Thus,
+                                            2π  L
+                                     C=                                               (5)
+                                           ln(b/a)
+
+     Next we consider a spherical capacitor formed of two concentric spherical con-
+ducting shells of radius a and b, b > a. The expression for the electric field was
+obtained previously by Gauss’s law,
+                                              Q
+                                     Er =
+                                            4πr 2
+where the region between the spheres is a dielectric with permittivity . The expression
+for potential difference was found from this by the line integral [Section 4.3, Eq. (12)].
+Thus,
+                                                     
+                                         Q 1 1
+                                 Vab =           −
+                                       4π a        b
+Here Q represents the total charge on the inner sphere, and the capacitance becomes
+                                        Q     4π 
+                                 C=        =                                          (6)
+                                       Vab   1 1
+                                               −
+                                             a    b
+
+     If we allow the outer sphere to become infinitely large, we obtain the capacitance
+of an isolated spherical conductor,
+
+                                       C = 4πa                                       (7)
+
+For a diameter of 1 cm, or a sphere about the size of a marble,
+                                     C = 0.556 pF
+in free space.
+148   ENGINEERING ELECTROMAGNETICS
+
+
+
+                              1
+                    C =
+                           d1   d                              Area, S
+                              + 2
+                          e1S e 2 S
+
+                                                       e2      d2
+                   Conducting                                            d
+                     plates
+                                                       e1      d1
+
+
+                   Figure 6.3 A parallel-plate capacitor containing two
+                   dielectrics with the dielectric interface parallel to the conducting
+                   plates.
+
+
+          Coating this sphere with a different dielectric layer, for which  = 1 , extending
+      from r = a to r = r1,
+                                            Q
+                                      Dr =
+                                           4πr 2
+                                             Q
+                                      Er =                  (a < r < r1 )
+                                           4π1r 2
+                                               Q
+                                         =                  (r1 < r )
+                                             4π0r 2
+      and the potential difference is
+                                                    a        r1
+                                                  Q dr            Q dr
+                             Va − V∞ = −                2
+                                                          −              2
+                                              r1 4π1 r       ∞ 4π0 r
+                                                                      
+                                            Q 1 1          1       1
+                                          =             −      +
+                                            4π 1 a r1            0 r 1
+      Therefore,
+                                                           4π
+                                       C=                                               (8)
+                                              1        1    1      1
+                                                         −      +
+                                              1       a r1       0r1
+           In order to look at the problem of multiple dielectrics a little more thoroughly,
+      let us consider a parallel-plate capacitor of area S and spacing d, with the usual
+      assumption that d is small compared to the linear dimensions of the plates. The
+      capacitance is 1 S/d, using a dielectric of permittivity 1 . Now replace a part of
+      this dielectric by another of permittivity 2 , placing the boundary between the two
+      dielectrics parallel to the plates (Figure 6.3).
+           Some of us may immediately suspect that this combination is effectively two
+      capacitors in series, yielding a total capacitance of
+                                                            1
+                                              C=
+                                                         1    1
+                                                            +
+                                                         C1   C2
+                                                                CHAPTER 6        Capacitance    149
+
+
+where C1 = 1 S/d1 and C2 = 2 S/d2 . This is the correct result, but we can obtain it
+using less intuition and a more basic approach.
+     Because the capacitance definition, C = Q/V , involves a charge and a voltage,
+we may assume either and then find the other in terms of it. The capacitance is not a
+function of either, but only of the dielectrics and the geometry. Suppose we assume
+a potential difference V0 between the plates. The electric field intensities in the two
+regions, E 2 and E 1 , are both uniform, and V0 = E 1 d1 + E 2 d2 . At the dielectric
+interface, E is normal, and our boundary condition, Eq. (35) Chapter 5, tells us that
+D N 1 = D N 2 , or 1 E 1 = 2 E 2 . This assumes (correctly) that there is no surface charge
+at the interface. Eliminating E 2 in our V0 relation, we have
+                                                   V0
+                                      E1 =
+                                             d1 + d2 (1 /2 )
+and the surface charge density on the lower plate therefore has the magnitude
+                                                    V0
+                          ρ S1 = D1 = 1 E 1 =
+                                                 d1    d2
+                                                    +
+                                                 1    2
+    Because D1 = D2 , the magnitude of the surface charge is the same on each plate.
+The capacitance is then
+                        Q    ρS S          1              1
+                   C=      =      =                =
+                        V0    V0      d1       d2     1       1
+                                           +             +
+                                     1 S     2 S    C1     C2
+      As an alternate (and slightly simpler) solution, we might assume a charge Q on
+one plate, leading to a charge density Q/S and a value of D that is also Q/S. This is
+true in both regions, as D N 1 = D N 2 and D is normal. Then E 1 = D/1 = Q/(1 S),
+E 2 = D/2 = Q/(2 S), and the potential differences across the regions are V1 =
+E 1 d1 = Qd1 /(1 S), and V2 = E 2 d2 = Qd2 /(2 S). The capacitance is
+                                 Q      Q           1
+                          C=       =         =                                           (9)
+                                 V   V1 + V2    d1     d2
+                                                    +
+                                               1 S   2 S
+     How would the method of solution or the answer change if there were a third
+conducting plane along the interface? We would now expect to find surface charge on
+each side of this conductor, and the magnitudes of these charges should be equal. In
+other words, we think of the electric lines not as passing directly from one outer plate
+to the other, but as terminating on one side of this interior plane and then continuing
+on the other side. The capacitance is unchanged, provided, of course, that the added
+conductor is of negligible thickness. The addition of a thick conducting plate will
+increase the capacitance if the separation of the outer plates is kept constant, and this
+is an example of a more general theorem which states that the replacement of any
+portion of the dielectric by a conducting body will cause an increase in the capacitance.
+     If the dielectric boundary were placed normal to the two conducting plates and
+the dielectrics occupied areas of S1 and S2 , then an assumed potential difference V0
+would produce field strengths E 1 = E 2 = V0 /d. These are tangential fields at the
+150   ENGINEERING ELECTROMAGNETICS
+
+
+
+      interface, and they must be equal. Then we may find in succession D1 , D2 , ρ S1 , ρ S2 ,
+      and Q, obtaining a capacitance
+
+                                         1 S1 + 2 S2
+                                   C=                  = C1 + C2                            (10)
+                                               d
+
+      as we should expect.
+           At this time we can do very little with a capacitor in which two dielectrics
+      are used in such a way that the interface is not everywhere normal or parallel to
+      the fields. Certainly we know the boundary conditions at each conductor and at the
+      dielectric interface; however, we do not know the fields to which to apply the boundary
+      conditions. Such a problem must be put aside until our knowledge of field theory has
+      increased and we are willing and able to use more advanced mathematical techniques.
+
+          D6.2. Determine the capacitance of: (a) a 1-ft length of 35B/U coaxial cable,
+          which has an inner conductor 0.1045 in. in diameter, a polyethylene dielectric
+          (r = 2.26 from Table C.1), and an outer conductor that has an inner diameter of
+          0.680 in.; (b) a conducting sphere of radius 2.5 mm, covered with a polyethylene
+          layer 2 mm thick, surrounded by a conducting sphere of radius 4.5 mm; (c) two
+          rectangular conducting plates, 1 cm by 4 cm, with negligible thickness, between
+          which are three sheets of dielectric, each 1 cm by 4 cm, and 0.1 mm thick, having
+          dielectric constants of 1.5, 2.5, and 6.
+
+          Ans. 20.5 pF; 1.41 pF; 28.7 pF
+
+
+
+      6.4 CAPACIT ANCE OF A TWO-WIRE LINE
+      We next consider the problem of the two-wire line. The configuration consists of two
+      parallel conducting cylinders, each of circular cross section, and we will find complete
+      information about the electric field intensity, the potential field, the surface-charge-
+      density distribution, and the capacitance. This arrangement is an important type of
+      transmission line, as is the coaxial cable.
+           We begin by investigating the potential field of two infinite line charges. Figure 6.4
+      shows a positive line charge in the x z plane at x = a and a negative line charge at
+      x = −a. The potential of a single line charge with zero reference at a radius of R0 is
+
+                                                 ρL     R0
+                                           V =       ln
+                                                 2π    R
+
+      We now write the expression for the combined potential field in terms of the radial
+      distances from the positive and negative lines, R1 and R2 , respectively,
+                                                   
+                               ρL      R10      R20     ρ L R10 R2
+                           V =      ln     − ln       =    ln
+                               2π     R1       R2      2π R20 R1
+                                                                     CHAPTER 6       Capacitance   151
+
+
+                                        y
+
+
+
+
+                                                                R2      P(x, y, 0)
+
+                                                                R1
+                     (−a, 0, 0)
+                                                                               x
+                                                  (a, 0, 0)
+                                  2a
+
+
+
+             −rL         z   +rL
+
+            Figure 6.4 Two parallel infinite line charges carrying opposite
+            charge. The positive line is at x = a, y = 0, and the negative line
+            is at x = −a, y = 0. A general point P(x, y, 0) in the xy plane is
+            radially distant R1 and R2 from the positive and negative lines,
+            respectively. The equipotential surfaces are circular cylinders.
+
+We choose R10 = R20 , thus placing the zero reference at equal distances from each
+line. This surface is the x = 0 plane. Expressing R1 and R2 in terms of x and y,
+
+                         ρL     (x + a)2 + y 2   ρ L (x + a)2 + y 2
+                   V =       ln                =    ln                                     (11)
+                         2π    (x − a)2 + y 2   4π (x − a)2 + y 2
+     In order to recognize the equipotential surfaces and adequately understand the
+problem we are going to solve, some algebraic manipulations are necessary. Choosing
+an equipotential surface V = V1, we define K 1 as a dimensionless parameter that is
+a function of the potential V1,
+                                            K 1 = e4π V1 /ρL                              (12)
+so that
+                                         (x + a)2 + y 2
+                                       K1 =
+                                         (x − a)2 + y 2
+After multiplying and collecting like powers, we obtain
+                                      K1 + 1
+                            x 2 − 2ax          + y2 + a2 = 0
+                                      K1 − 1
+We next work through a couple of lines of algebra and complete the square,
+                                                    √ 2
+                                 K1 + 1 2       2     2a K 1
+                          x −a              +y =
+                                 K1 − 1               K1 − 1
+This shows that the V = V1 equipotential surface is independent of z (or is a cylinder)
+and intersects the x y plane in a circle of radius b,
+                                              √
+                                            2a K 1
+                                      b=
+                                            K1 − 1
+152   ENGINEERING ELECTROMAGNETICS
+
+
+
+      which is centered at x = h, y = 0, where
+                                                  K1 + 1
+                                           h=a
+                                                  K1 − 1
+           Now let us attack a physical problem by considering a zero-potential conducting
+      plane located at x = 0, and a conducting cylinder of radius b and potential V0 with
+      its axis located a distance h from the plane. We solve the last two equations for a and
+      K 1 in terms of the dimensions b and h,
+                                           a=      h 2 − b2                             (13)
+      and
+                                                     √
+                                                h+     h 2 − b2
+                                        K1 =                                            (14)
+                                                       b
+      But the potential of the cylinder is V0 , so Eq. (12) leads to
+                                            K 1 = e2πV0 /ρL
+      Therefore,
+                                               4πV0
+                                            ρL =                                      (15)
+                                                lnK 1
+      Thus, given h, b, and V0 , we may determine a, ρ L , and the parameter K 1 . The
+      capacitance between the cylinder and plane is now available. For a length L in the z
+      direction, we have
+                                     ρL L     4πL      2πL
+                                C=         =        = √
+                                      V0      lnK 1    ln K 1
+      or
+                                       2πL                 2πL
+                         C=           √               =                               (16)
+                              ln[(h + h 2 − b2 )/b]      cosh−1 (h/b)
+           The solid line in Figure 6.5 shows the cross section of a cylinder of 5 m radius
+      at a potential of 100 V in free space, with its axis 13 m distant from a plane at zero
+      potential. Thus, b = 5, h = 13, V0 = 100, and we rapidly find the location of the
+      equivalent line charge from Eq. (13),
+                               a=     h 2 − b2 =     132 − 52 = 12 m
+      the value of the potential parameter K 1 from Eq. (14),
+                                    √
+                               h + h 2 − b2       13 + 12
+                        K1 =                   =          =5           K 1 = 25
+                                      b              5
+      the strength of the equivalent line charge from Eq. (15),
+                         4πV0    4π × 8.854 × 10−12 × 100
+                   ρL =         =                             = 3.46 nC/m
+                          lnK 1              ln 25
+      and the capacitance between cylinder and plane from Eq. (16),
+                              2π      2π × 8.854 × 10−12
+                    C=        −1
+                                     =                    = 34.6 pF/m
+                          cosh (h/b)      cosh−1 (13/5)
+                                                                    CHAPTER 6     Capacitance   153
+
+
+                    y
+
+
+                        V=0
+                                           Equivalent
+                                           line charge
+
+
+                                                                           x
+                                       b=5      Center, x = 13,
+                          h = 13
+                                                y = 0, V = 100
+                                     Center, x = 18, y = 0
+                                       radius = 13.42
+                                           V = 50
+
+
+                   Figure 6.5 A numerical example of the
+                   capacitance, linear charge density, position of an
+                   equivalent line charge, and characteristics of the
+                   mid-equipotential surface for a cylindrical
+                   conductor of 5 m radius at a potential of 100 V,
+                   parallel to and 13 m from a conducting plane at
+                   zero potential.
+
+
+     We may also identify the cylinder representing the 50 V equipotential surface by
+finding new values for K 1 , h, and b. We first use Eq. (12) to obtain
+                                                   −12
+                                                         ×50/3.46×10−9
+                K 1 = e4πV1 /ρL = e4π ×8.854×10                         = 5.00
+Then the new radius is
+                             √              √
+                          2a K 1      2 × 12 5
+                      b=           =           = 13.42 m
+                           K1 − 1       5−1
+and the corresponding value of h becomes
+                                 K1 + 1        5+1
+                          h=a             = 12       = 18 m
+                                 K1 − 1        5−1
+This cylinder is shown in color in Figure 6.5.
+     The electric field intensity can be found by taking the gradient of the potential
+field, as given by Eq. (11),
+                                                         
+                                       ρ L (x + a)2 + y 2
+                            E = −∇        ln
+                                       4π (x − a)2 + y 2
+Thus,
+                                                            
+                 ρ L 2(x + a)ax + 2ya y   2(x − a)ax + 2ya y
+             E=−                        −
+                 4π   (x + a)2 + y 2       (x − a)2 + y 2
+and
+                                                               
+                        ρ L (x + a)ax + ya y   (x − a)ax + ya y
+             D = E = −                      −
+                        2π (x + a)2 + y 2       (x − a)2 + y 2
+154   ENGINEERING ELECTROMAGNETICS
+
+
+
+      If we evaluate Dx at x = h − b, y = 0, we may obtain ρ S,max
+                                                                            
+                                           ρL h − b + a           h−b−a
+                ρ S,max = −Dx,x=h−b,y=0 =                    −
+                                           2π (h − b + a)2      (h − b − a)2
+      For our example,
+                                                                       
+                      3.46 × 10−9        13 − 5 + 12      13 − 5 − 12
+            ρ S,max =                                  −                  = 0.165 nC/m2
+                          2π            (13 − 5 + 12)2   (13 − 5 − 12)2
+      Similarly, ρ S,min = Dx,x=h+b,y=0, and
+                                                           
+                        3.46 × 10−9 13 + 5 + 12 13 + 5 − 12
+            ρ S,min =                          −              = 0.073 nC/m2
+                            2π            302       62
+      Thus,
+                                           ρ S,max = 2.25ρ S,min
+            If we apply Eq. (16) to the case of a conductor for which b  h, then
+                                               
+                        ln h + h 2 − b2 /b =                     ˙ ln(2h/b)
+                                                 ˙ ln[(h + h)/b] =
+      and
+                                           2πL
+                                     C=                (b  h)                           (17)
+                                        ln(2h/b)
+           The capacitance between two circular conductors separated by a distance 2h
+      is one-half the capacitance given by Eqs. (16) or (17). This last answer is of inter-
+      est because it gives us an expression for the capacitance of a section of two-wire
+      transmission line, one of the types of transmission lines studied later in Chapter 13.
+
+            D6.3. A conducting cylinder with a radius of 1 cm and at a potential of 20 V is
+            parallel to a conducting plane which is at zero potential. The plane is 5 cm distant
+            from the cylinder axis. If the conductors are embedded in a perfect dielectric
+            for which r = 4.5, find: (a) the capacitance per unit length between cylinder
+            and plane; (b) ρ S,max on the cylinder.
+
+            Ans. 109.2 pF/m; 42.6 nC/m2
+
+
+      6.5 USING FIELD SKETCHES TO ESTIMATE
+          CAPACIT ANCE IN TWO-DIMENSIONAL
+          PROBLEMS
+      In capacitance problems in which the conductor configurations cannot be easily de-
+      scribed using a single coordinate system, other analysis techniques are usually applied.
+      Such methods typically involve a numerical determination of field or potential values
+      over a grid within the region of interest. In this section, another approach is described
+      that involves making sketches of field lines and equipotential surfaces in a manner
+      that follows a few simple rules. This approach, although lacking the accuracy of more
+                                                              CHAPTER 6       Capacitance   155
+
+
+elegant methods, allows fairly quick estimates of capacitance while providing a useful
+visualization of the field configuration.
+    The method, requiring only pencil and paper, is capable of yielding good accu-
+racy if used skillfully and patiently. Fair accuracy (5 to 10 percent on a capacitance
+determination) may be obtained by a beginner who does no more than follow the
+few rules and hints of the art. The method to be described is applicable only to fields
+in which no variation exists in the direction normal to the plane of the sketch. The
+procedure is based on several facts that we have already demonstrated:
+1. A conductor boundary is an equipotential surface.
+2. The electric field intensity and electric flux density are both perpendicular to the
+   equipotential surfaces.
+3. E and D are therefore perpendicular to the conductor boundaries and possess
+   zero tangential values.
+4. The lines of electric flux, or streamlines, begin and terminate on charge and
+   hence, in a charge-free, homogeneous dielectric, begin and terminate only on
+   the conductor boundaries.
+      We consider the implications of these statements by drawing the streamlines on
+a sketch that already shows the equipotential surfaces. In Figure 6.6a, two conductor
+boundaries are shown, and equipotentials are drawn with a constant potential differ-
+ence between lines. We should remember that these lines are only the cross sections
+of the equipotential surfaces, which are cylinders (although not circular). No variation
+in the direction normal to the surface of the paper is permitted. We arbitrarily choose
+to begin a streamline, or flux line, at A on the surface of the more positive conductor.
+It leaves the surface normally and must cross at right angles the undrawn but very
+real equipotential surfaces between the conductor and the first surface shown. The
+line is continued to the other conductor, obeying the single rule that the intersection
+with each equipotential must be square.
+      In a similar manner, we may start at B and sketch another streamline ending
+at B  . We need to understand the meaning of this pair of streamlines. The streamline,
+
+
+
+
+ Figure 6.6 (a) Sketch of the equipotential surfaces between two conductors. The
+ increment of potential between each of the two adjacent equipotentials is the same.
+ (b) One flux line has been drawn from A to A , and a second from B to B .
+156   ENGINEERING ELECTROMAGNETICS
+
+
+
+      by definition, is everywhere tangent to the electric field intensity or to the electric flux
+      density. Because the streamline is tangent to the electric flux density, the flux density
+      is tangent to the streamline, and no electric flux may cross any streamline. In other
+      words, if there is a charge of 5 µC on the surface between A and B (and extending
+      1 m into the paper), then 5 µC of flux begins in this region, and all must terminate
+      between A and B  . Such a pair of lines is sometimes called a flux tube, because it
+      physically seems to carry flux from one conductor to another without losing any.
+           We next construct a third streamline, and both the mathematical and visual in-
+      terpretations we may make from the sketch will be greatly simplified if we draw this
+      line starting from some point C chosen so that the same amount of flux is carried in
+      the tube BC as is contained in AB. How do we choose the position of C?
+           The electric field intensity at the midpoint of the line joining A to B may be
+      found approximately by assuming a value for the flux in the tube AB, say , which
+      allows us to express the electric flux density by /L t , where the depth of the tube
+      into the paper is 1 m and L t is the length of the line joining A to B. The magnitude
+      of E is then
+                                                  1 
+                                             E=
+                                                   L t
+           We may also find the magnitude of the electric field intensity by dividing the
+      potential difference between points A and A1, lying on two adjacent equipotential
+      surfaces, by the distance from A to A1 . If this distance is designated L N and an
+      increment of potential between equipotentials of V is assumed, then
+                                                    V
+                                              E=
+                                                   L N
+           This value applies most accurately to the point at the middle of the line segment
+      from A to A1 , while the previous value was most accurate at the midpoint of the line
+      segment from A to B. If, however, the equipotentials are close together (V small)
+      and the two streamlines are close together ( small), the two values found for the
+      electric field intensity must be approximately equal,
+                                           1        V
+                                                   =                                         (18)
+                                            L t     L N
+           Throughout our sketch we have assumed a homogeneous medium ( constant), a
+      constant increment of potential between equipotentials (V constant), and a constant
+      amount of flux per tube ( constant). To satisfy all these conditions, Eq. (18) shows
+      that
+                                     L t              1 
+                                          = constant =                                       (19)
+                                     L N               V
+
+           A similar argument might be made at any point in our sketch, and we are therefore
+      led to the conclusion that a constant ratio must be maintained between the distance
+      between streamlines as measured along an equipotential, and the distance between
+      equipotentials as measured along a streamline. It is this ratio that must have the same
+      value at every point, not the individual lengths. Each length must decrease in regions
+      of greater field strength, because V is constant.
+                                                                  CHAPTER 6   Capacitance    157
+
+
+
+
+                           Figure 6.7 The remaining of the
+                           streamlines have been added to
+                           Fig. 6.6b by beginning each new line
+                           normally to the conductor and
+                           maintaining curvilinear squares
+                           throughout the sketch.
+
+
+     The simplest ratio we can use is unity, and the streamline from B to B  shown in
+Figure 6.6b was started at a point for which L t = L N . Because the ratio of these
+distances is kept at unity, the streamlines and equipotentials divide the field-containing
+region into curvilinear squares, a term implying a planar geometric figure that differs
+from a true square in having slightly curved and slightly unequal sides but which
+approaches a square as its dimensions decrease. Those incremental surface elements
+in our three coordinate systems which are planar may also be drawn as curvilinear
+squares.
+     We may now sketch in the remainder of the streamlines by keeping each small
+box as square as possible. One streamline is begun, an equipotential line is roughed
+in, another streamline is added, forming a curvilinear square, and the map is gradually
+extended throughout the desired region. The complete sketch is shown in Figure 6.7.
+     The construction of a useful field map is an art; the science merely furnishes
+the rules. Proficiency in any art requires practice. A good problem for beginners is
+the coaxial cable or coaxial capacitor, since all the equipotentials are circles while the
+flux lines are straight lines. The next sketch attempted should be two parallel circular
+conductors, where the equipotentials are again circles but with different centers. Each
+of these is given as a problem at the end of the chapter.
+     Figure 6.8 shows a completed map for a cable containing a square inner conductor
+surrounded by a circular conductor. The capacitance is found from C = Q/V0 by
+replacing Q by NQ Q = NQ , where NQ is the number of flux tubes joining
+the two conductors, and letting V0 = N V V, where N V is the number of potential
+increments between conductors,
+
+                                             N Q Q
+                                      C=
+                                             N V V
+
+and then using Eq. (19),
+
+                                      N Q L t    NQ
+                                C=            =                                    (20)
+                                      N V L N    NV
+158   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                            Figure 6.8 An example of a curvilinear-square
+                            field map. The side of the square is two-thirds the
+                            radius of the circle. NV = 4 and NQ = 8 × 3.25
+                            × 26, and therefore C = 0 NQ /NV = 57.6 pF/m.
+
+      since L t /L N = 1. The determination of the capacitance from a flux plot merely
+      consists of counting squares in two directions, between conductors and around either
+      conductor. From Figure 6.8 we obtain
+                                        8 × 3.25
+                                      C = 0      = 57.6 pF/m
+                                           4
+           Ramo, Whinnery, and Van Duzer have an excellent discussion with examples
+      of the construction of field maps by curvilinear squares. They offer the following
+      suggestions:1
+      1. Plan on making a number of rough sketches, taking only a minute or so apiece,
+         before starting any plot to be made with care. The use of transparent paper over
+         the basic boundary will speed up this preliminary sketching.
+      2. Divide the known potential difference between electrodes into an equal number
+         of divisions, say four or eight to begin with.
+      3. Begin the sketch of equipotentials in the region where the field is known best,
+         for example, in some region where it approaches a uniform field. Extend the
+         equipotentials according to your best guess throughout the plot. Note that they
+         should tend to hug acute angles of the conducting boundary and be spread out
+         in the vicinity of obtuse angles of the boundary.
+
+
+      1 By permission from S. Ramo, J. R. Whinnery, and T. Van Duzer, pp. 51–52. See References at the end
+
+      of this chapter. Curvilinear maps are discussed on pp. 50–52.
+                                                            CHAPTER 6      Capacitance    159
+
+
+4. Draw in the orthogonal set of field lines. As these are started, they should form
+   curvilinear squares, but, as they are extended, the condition of orthogonality
+   should be kept paramount, even though this will result in some rectangles with
+   ratios other than unity.
+5. Look at the regions with poor side ratios and try to see what was wrong with the
+   first guess of equipotentials. Correct them and repeat the procedure until
+   reasonable curvilinear squares exist throughout the plot.
+6. In regions of low field intensity, there will be large figures, often of five or six
+   sides. To judge the correctness of the plot in this region, these large units should
+   be subdivided. The subdivisions should be started back away from the region
+   needing subdivision, and each time a flux tube is divided in half, the potential
+   divisions in this region must be divided by the same factor.
+
+    D6.4. Figure 6.9 shows the cross section of two circular cylinders at potentials
+    of 0 and 60 V. The axes are parallel and the region between the cylinders is air-
+    filled. Equipotentials at 20 V and 40 V are also shown. Prepare a curvilinear-
+    square map on the figure and use it to establish suitable values for: (a) the
+    capacitance per meter length; (b) E at the left side of the 60 V conductor if its
+    true radius is 2 mm; (c) ρ S at that point.
+
+    Ans. 69 pF/m; 60 kV/m; 550 nC/m2
+
+
+
+
+         Figure 6.9 See Problem D6.4.
+160   ENGINEERING ELECTROMAGNETICS
+
+
+
+      6.6 POISSON’S AND LAPLACE’S EQUATIONS
+      In preceding sections, we have found capacitance by first assuming a known charge
+      distribution on the conductors and then finding the potential difference in terms of
+      the assumed charge. An alternate approach would be to start with known potentials
+      on each conductor, and then work backward to find the charge in terms of the known
+      potential difference. The capacitance in either case is found by the ratio Q/V .
+           The first objective in the latter approach is thus to find the potential function
+      between conductors, given values of potential on the boundaries, along with possible
+      volume charge densities in the region of interest. The mathematical tools that enable
+      this to happen are Poisson’s and Laplace’s equations, to be explored in the remainder
+      of this chapter. Problems involving one to three dimensions can be solved either ana-
+      lytically or numerically. Laplace’s and Poisson’s equations, when compared to other
+      methods, are probably the most widely useful because many problems in engineering
+      practice involve devices in which applied potential differences are known, and in
+      which constant potentials occur at the boundaries.
+           Obtaining Poisson’s equation is exceedingly simple, for from the point form of
+      Gauss’s law,
+
+                                           ∇ · D = ρν                                  (21)
+
+      the definition of D,
+
+                                            D = E                                     (22)
+
+      and the gradient relationship,
+
+                                           E = −∇V                                     (23)
+
+      by substitution we have
+
+                             ∇ · D = ∇ · (E) = −∇ · (∇V ) = ρν
+
+      or
+                                                      ρν
+                                         ∇ · ∇V = −                                    (24)
+                                                      
+      for a homogeneous region in which  is constant.
+           Equation (24) is Poisson’s equation, but the “double ∇” operation must be inter-
+      preted and expanded, at least in rectangular coordinates, before the equation can be
+      useful. In rectangular coordinates,
+                                         ∂A x   ∂A y   ∂A z
+                                ∇ ·A =        +      +
+                                         ∂x      ∂y     ∂z
+                                         ∂V      ∂V      ∂V
+                                  ∇V =      ax +    ay +    az
+                                         ∂x      ∂y      ∂z
+                                                               CHAPTER 6      Capacitance    161
+
+
+and therefore
+                                                             
+                                ∂        ∂V           ∂ ∂V    ∂ ∂V
+                    ∇ · ∇V =                      +         +
+                                ∂x       ∂x           ∂y ∂y   ∂z ∂z
+                                ∂2V   ∂2V    ∂2V
+                            =       +      +                                         (25)
+                                ∂x2   ∂ y2   ∂z 2
+Usually the operation ∇ · ∇ is abbreviated ∇ 2 (and pronounced “del squared”), a good
+reminder of the second-order partial derivatives appearing in Eq. (5), and we have
+
+                                  ∂2V    ∂2V    ∂2V     ρν
+                        ∇2V =        2
+                                       +    2
+                                              +    2
+                                                     =−                              (26)
+                                  ∂x     ∂y     ∂z      
+
+in rectangular coordinates.
+     If ρν = 0, indicating zero volume charge density, but allowing point charges,
+line charge, and surface charge density to exist at singular locations as sources of the
+field, then
+                                              ∇2V = 0                                (27)
+
+which is Laplace’s equation. The ∇ 2 operation is called the Laplacian of V.
+    In rectangular coordinates Laplace’s equation is
+
+                            ∂2V   ∂2V    ∂2V
+                    ∇2V =       +      +      =0            (rectangular)            (28)
+                            ∂x2   ∂ y2   ∂z 2
+
+and the form of ∇ 2 V in cylindrical and spherical coordinates may be obtained by using
+the expressions for the divergence and gradient already obtained in those coordinate
+systems. For reference, the Laplacian in cylindrical coordinates is
+                                     
+                2 1 ∂      ∂V     1 ∂2V     ∂2V
+            ∇ V =        ρ      + 2       +                       (cylindrical)      (29)
+                  ρ ∂ρ     ∂ρ    ρ ∂φ 2     ∂z 2
+
+and in spherical coordinates is
+                                         
+   2   1 ∂    2 ∂V       1     ∂         ∂V       1    ∂2V
+ ∇ V = 2    r        + 2           sin θ      + 2 2                          (spherical)
+      r ∂r      ∂r    r sin θ ∂θ         ∂θ    r sin θ ∂φ 2
+
+                                                                                     (30)
+
+These equations may be expanded by taking the indicated partial derivatives, but it is
+usually more helpful to have them in the forms just given; furthermore, it is much easier
+to expand them later if necessary than it is to put the broken pieces back together again.
+     Laplace’s equation is all-embracing, for, applying as it does wherever volume
+charge density is zero, it states that every conceivable configuration of electrodes
+162   ENGINEERING ELECTROMAGNETICS
+
+
+
+      or conductors produces a field for which ∇ 2 V = 0. All these fields are different,
+      with different potential values and different spatial rates of change, yet for each
+      of them ∇ 2 V = 0. Because every field (if ρν = 0) satisfies Laplace’s equation,
+      how can we expect to reverse the procedure and use Laplace’s equation to find one
+      specific field in which we happen to have an interest? Obviously, more information is
+      required, and we shall find that we must solve Laplace’s equation subject to certain
+      boundary conditions.
+           Every physical problem must contain at least one conducting boundary and usu-
+      ally contains two or more. The potentials on these boundaries are assigned values,
+      perhaps V0 , V1 , . . . , or perhaps numerical values. These definite equipotential sur-
+      faces will provide the boundary conditions for the type of problem to be solved. In
+      other types of problems, the boundary conditions take the form of specified values of
+      E (alternatively, a surface charge density, ρ S ) on an enclosing surface, or a mixture
+      of known values of V and E.
+           Before using Laplace’s equation or Poisson’s equation in several examples, we
+      must state that if our answer satisfies Laplace’s equation and also satisfies the boundary
+      conditions, then it is the only possible answer. This is a statement of the Uniqueness
+      Theorem, the proof of which is presented in Appendix D.
+
+          D6.5. Calculate numerical values for V and ρν at point P in free space if:
+                      4yz                                                       π
+          (a) V = 2       , at P(1, 2, 3); (b) V = 5ρ 2 cos 2φ, at P(ρ = 3, φ = ,
+                    x +1                                                         3
+                          2 cos φ                       ◦        ◦
+          z = 2); (c) V =         , at P(r = 0.5, θ = 45 , φ = 60 ).
+                             r2
+          Ans. 12 V, −106.2 pC/m3 ; −22.5 V, 0; 4 V, 0
+
+
+      6.7 EXAMPLES OF THE SOLUTION
+          OF LAPLACE’S EQUATION
+      Several methods have been developed for solving Laplace’s equation. The simplest
+      method is that of direct integration. We will use this technique to work several exam-
+      ples involving one-dimensional potential variation in various coordinate systems in
+      this section.
+           The method of direct integration is applicable only to problems that are “one-
+      dimensional,” or in which the potential field is a function of only one of the three
+      coordinates. Since we are working with only three coordinate systems, it might seem,
+      then, that there are nine problems to be solved, but a little reflection will show that
+      a field that varies only with x is fundamentally the same as a field that varies only
+      with y. Rotating the physical problem a quarter turn is no change. Actually, there are
+      only five problems to be solved, one in rectangular coordinates, two in cylindrical,
+      and two in spherical. We will solve them all.
+           First, let us assume that V is a function only of x and worry later about which
+      physical problem we are solving when we have a need for boundary conditions.
+      Laplace’s equation reduces to
+                                             ∂2V
+                                                   =0
+                                              ∂x2
+                                                              CHAPTER 6      Capacitance                   163
+
+
+and the partial derivative may be replaced by an ordinary derivative, since V is not a
+function of y or z,
+                                       d2V
+                                           =0
+                                       dx2
+We integrate twice, obtaining
+                                       dV
+                                          =A
+                                       dx
+and
+                                     V = Ax + B                                     (31)
+where A and B are constants of integration. Equation (31) contains two such constants,
+as we would expect for a second-order differential equation. These constants can be
+determined only from the boundary conditions.
+     Since the field varies only with x and is not a function of y and z, then V is a
+constant if x is a constant or, in other words, the equipotential surfaces are parallel
+planes normal to the x axis. The field is thus that of a parallel-plate capacitor, and as
+soon as we specify the potential on any two planes, we may evaluate our constants of
+integration.
+
+                                                                                            E X A M P L E 6.2
+
+Start with the potential function, Eq. (31), and find the capacitance of a parallel-plate
+capacitor of plate area S, plate separation d, and potential difference V0 between
+plates.
+Solution. Take V = 0 at x = 0 and V = V0 at x = d. Then from Eq. (31),
+                                         V0
+                                   A=          B=0
+                                         d
+and
+                                              V0 x
+                                       V =                                          (32)
+                                               d
+
+     We still need the total charge on either plate before the capacitance can be found.
+We should remember that when we first solved this capacitor problem, the sheet of
+charge provided our starting point. We did not have to work very hard to find the
+charge, for all the fields were expressed in terms of it. The work then was spent in
+finding potential difference. Now the problem is reversed (and simplified).
+     The necessary steps are these, after the choice of boundary conditions has been
+made:
+1.    Given V, use E = −∇V to find E.
+2.    Use D = E to find D.
+3.    Evaluate D at either capacitor plate, D = D S = D N a N.
+4.    Recognize that ρ S = D N.
+                                                                   
+5.    Find Q by a surface integration over the capacitor plate, Q = S ρ S dS.
+164                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                     Here we have
+                                                           x
+                                                  V = V0
+                                                           d
+                                                          V0
+                                                  E = − ax
+                                                           d
+                                                            V0
+                                                  D = − ax
+                                                             d
+                                                                V0
+                                                 D S = Dx=0 = − ax
+                                                                 d
+                                                 a N = ax
+                                                          V0
+                                                D N = −      = ρS
+                                                          d
+                                                      
+                                                          −V0         V0 S
+                                                 Q=            dS = −
+                                                        S   d           d
+                     and the capacitance is
+
+                                                               |Q|   S
+                                                       C=          =                                  (33)
+                                                                V0   d
+
+                     We will use this procedure several times in the examples to follow.
+
+
+
+ E X A M P L E 6.3
+                     Because no new problems are solved by choosing fields which vary only with y or
+                     with z in rectangular coordinates, we pass on to cylindrical coordinates for our next
+                     example. Variations with respect to z are again nothing new, and we next assume
+                     variation with respect to ρ only. Laplace’s equation becomes
+                                                                  
+                                                       1 ∂      ∂V
+                                                              ρ      =0
+                                                       ρ ∂ρ     ∂ρ
+                     Noting the ρ in the denominator, we exclude ρ = 0 from our solution and then
+                     multiply by ρ and integrate,
+                                                               dV
+                                                           ρ      =A
+                                                               dρ
+                     where a total derivative replaces the partial derivative because V varies only with ρ.
+                     Next, rearrange, and integrate again,
+
+                                                       V = A ln ρ + B                                 (34)
+
+                         The equipotential surfaces are given by ρ = constant and are cylinders, and the
+                     problem is that of the coaxial capacitor or coaxial transmission line. We choose a
+                                                                 CHAPTER 6   Capacitance                  165
+
+
+potential difference of V0 by letting V = V0 at ρ = a, V = 0 at ρ = b, b > a, and
+obtain
+
+                                              ln(b/ρ)
+                                    V = V0                                         (35)
+                                              ln(b/a)
+from which
+
+                                             V0   1
+                                      E=               aρ
+                                             ρ ln(b/a)
+                                                V0
+                               D N (ρ=a) =
+                                             a ln(b/a)
+                                             V0 2πaL
+                                      Q=
+                                             a ln(b/a)
+
+
+                                              2πL
+                                      C=                                           (36)
+                                             ln(b/a)
+
+which agrees with our result in Section 6.3 (Eq. (5)).
+
+
+                                                                                           E X A M P L E 6.4
+
+Now assume that V is a function only of φ in cylindrical coordinates. We might look
+at the physical problem first for a change and see that equipotential surfaces are given
+by φ = constant. These are radial planes. Boundary conditions might be V = 0 at
+φ = 0 and V = V0 at φ = α, leading to the physical problem detailed in Figure 6.10.
+
+
+
+
+                  Figure 6.10 Two infinite radial planes with an
+                  interior angle α. An infinitesimal insulating gap exists
+                  at ρ = 0. The potential field may be found by applying
+                  Laplace’s equation in cylindrical coordinates.
+166                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                         Laplace’s equation is now
+                                                          1 ∂2V
+                                                                   =0
+                                                          ρ 2 ∂φ 2
+                     We exclude ρ = 0 and have
+                                                            d2V
+                                                                 =0
+                                                            dφ 2
+                     The solution is
+                                                         V = Aφ + B
+                     The boundary conditions determine A and B, and
+
+                                                                    φ
+                                                           V = V0                                       (37)
+                                                                    α
+
+                     Taking the gradient of Eq. (37) produces the electric field intensity,
+
+                                                                  V0 aφ
+                                                          E=−                                           (38)
+                                                                   αρ
+
+                     and it is interesting to note that E is a function of ρ and not of φ. This does not
+                     contradict our original assumptions, which were restrictions only on the potential
+                     field. Note, however, that the vector field E is in the φ direction.
+                          A problem involving the capacitance of these two radial planes is included at the
+                     end of the chapter.
+
+
+ E X A M P L E 6.5
+                     We now turn to spherical coordinates, dispose immediately of variations with respect
+                     to φ only as having just been solved, and treat first V = V (r ).
+                          The details are left for a problem later, but the final potential field is given by
+
+                                                                1 1
+                                                                  −
+                                                         V = V0 r   b
+                                                                1 1                                     (39)
+                                                                  −
+                                                                a   b
+
+                     where the boundary conditions are evidently V = 0 at r = b and V = V0 at r = a,
+                     b > a. The problem is that of concentric spheres. The capacitance was found previ-
+                     ously in Section 6.3 (by a somewhat different method) and is
+
+                                                                  4π
+                                                          C=
+                                                                1 1                                     (40)
+                                                                   −
+                                                                a     b
+                                                                CHAPTER 6   Capacitance                   167
+
+
+                                                                                           E X A M P L E 6.6
+
+In spherical coordinates we now restrict the potential function to V = V (θ ), obtaining
+                                                   
+                                1     d          dV
+                                           sin θ        =0
+                            r 2 sin θ dθ         dθ
+We exclude r = 0 and θ = 0 or π and have
+                                          dV
+                                    sin θ      =A
+                                          dθ
+The second integral is then
+                                       
+                                           A dθ
+                                  V =             +B
+                                           sin θ
+which is not as obvious as the previous ones. From integral tables (or a good memory)
+we have                                          
+                                                θ
+                                V = A ln tan        +B                           (41)
+                                                2
+
+   The equipotential surfaces of Eq. (41) are cones. Figure 6.11 illustrates the case
+where V = 0 at θ = π/2 and V = V0 at θ = α, α < π/2. We obtain
+                                                
+                                               θ
+                                        ln tan
+                                               2
+                                  V = V0                                         (42)
+                                               α
+                                        ln tan
+                                               2
+
+
+
+
+                  Figure 6.11 For the cone θ = α at V0 and the
+                  plane θ = π/2 at V = 0, the potential field is given by
+                  V = V0 [ln(tan θ/2)]/[ln(tan α/2)].
+168   ENGINEERING ELECTROMAGNETICS
+
+
+
+           In order to find the capacitance between a conducting cone with its vertex sepa-
+      rated from a conducting plane by an infinitesimal insulating gap and its axis normal
+      to the plane, we first find the field strength:
+
+                                      −1 ∂V                     V0
+                       E = −∇V =            aθ = −                      aθ
+                                      r ∂θ                            α
+                                                       r sin θ ln tan
+                                                                      2
+
+      The surface charge density on the cone is then
+
+                                                  −V0
+                                    ρS =                   
+                                                          α
+                                           r sin α ln tan
+                                                          2
+
+      producing a total charge Q,
+                                               ∞ 2π
+                                   −V0               r sin α dφ dr
+                         Q=                
+                                          α    0  0          r
+                             sin α ln tan
+                                          2
+                                          ∞
+                              −2π0 V0
+                            =               dr
+                                     α    0
+                             ln tan
+                                     2
+
+      This leads to an infinite value of charge and capacitance, and it becomes necessary to
+      consider a cone of finite size. Our answer will now be only an approximation because
+      the theoretical equipotential surface is θ = α, a conical surface extending from r = 0
+      to r = ∞, whereas our physical conical surface extends only from r = 0 to, say,
+      r = r1 . The approximate capacitance is
+
+                                                2πr1
+                                         ˙
+                                       C =                                           (43)
+                                                     α
+                                              ln cot
+                                                     2
+
+
+           If we desire a more accurate answer, we may make an estimate of the capacitance
+      of the base of the cone to the zero-potential plane and add this amount to our answer.
+      Fringing, or nonuniform, fields in this region have been neglected and introduce an
+      additional source of error.
+
+          D6.6. Find |E| at P(3, 1, 2) in rectangular coordinates for the field of: (a)
+          two coaxial conducting cylinders, V = 50 V at ρ = 2 m, and V = 20 V
+          at ρ = 3 m; (b) two radial conducting planes, V = 50 V at φ = 10◦ , and
+          V = 20 V at φ = 30◦ .
+
+          Ans. 23.4 V/m; 27.2 V/m
+                                                              CHAPTER 6       Capacitance    169
+
+
+6.8 EXAMPLE OF THE SOLUTION
+    OF POISSON’S EQUATION: THE P-N
+    JUNCTION CAPACITANCE
+To select a reasonably simple problem that might illustrate the application of Poisson’s
+equation, we must assume that the volume charge density is specified. This is not
+usually the case, however; in fact, it is often the quantity about which we are seeking
+further information. The type of problem which we might encounter later would
+begin with a knowledge only of the boundary values of the potential, the electric
+field intensity, and the current density. From these we would have to apply Poisson’s
+equation, the continuity equation, and some relationship expressing the forces on
+the charged particles, such as the Lorentz force equation or the diffusion equation,
+and solve the whole system of equations simultaneously. Such an ordeal is beyond
+the scope of this text, and we will therefore assume a reasonably large amount of
+information.
+     As an example, let us select a pn junction between two halves of a semiconductor
+bar extending in the x direction. We will assume that the region for x < 0 is doped p
+type and that the region for x > 0 is n type. The degree of doping is identical on each
+side of the junction. To review some of the facts about the semiconductor junction,
+we note that initially there are excess holes to the left of the junction and excess
+electrons to the right. Each diffuses across the junction until an electric field is built
+up in such a direction that the diffusion current drops to zero. Thus, to prevent more
+holes from moving to the right, the electric field in the neighborhood of the junction
+must be directed to the left; E x is negative there. This field must be produced by a net
+positive charge to the right of the junction and a net negative charge to the left. Note
+that the layer of positive charge consists of two parts—the holes which have crossed
+the junction and the positive donor ions from which the electrons have departed.
+The negative layer of charge is constituted in the opposite manner by electrons and
+negative acceptor ions.
+     The type of charge distribution that results is shown in Figure 6.12a, and the
+negative field which it produces is shown in Figure 6.12b. After looking at these two
+figures, one might profitably read the previous paragraph again.
+     A charge distribution of this form may be approximated by many different
+expressions. One of the simpler expressions is
+                                                 x        x
+                               ρν = 2ρν0 sech tanh                                   (44)
+                                                 a        a
+which has a maximum charge density ρv,max = ρv0 that occurs at x = 0.881a. The
+maximum charge density ρv0 is related to the acceptor and donor concentrations Na
+and Nd by noting that all the donor and acceptor ions in this region (the depletion
+layer) have been stripped of an electron or a hole, and thus
+                                   ρv0 = eNa = eNd
+    We now solve Poisson’s equation,
+                                                 ρν
+                                     ∇2V = −
+                                                 
+170   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+           Figure 6.12 (a) The charge density, (b) the electric field intensity, and
+           (c) the potential are plotted for a pn junction as functions of distance from
+           the center of the junction. The p-type material is on the left, and the n-type
+           is on the right.
+                                                              CHAPTER 6       Capacitance    171
+
+
+subject to the charge distribution assumed above,
+                              d2V         2ρv0       x    x
+                                 2
+                                   =−           sech tanh
+                              dx                    a    a
+in this one-dimensional problem in which variations with y and z are not present. We
+integrate once,
+                                dV      2ρv0 a      x
+                                    =           sech + C1
+                                dx                 a
+and obtain the electric field intensity,
+                                         2ρv0 a      x
+                               Ex = −           sech − C1
+                                                    a
+To evaluate the constant of integration C1 , we note that no net charge density and no
+fields can exist far from the junction. Thus, as x → ±∞, E x must approach zero.
+Therefore C1 = 0, and
+                                            2ρv0 a      x
+                                  Ex = −           sech                           (45)
+                                                       a
+     Integrating again,
+                                   4ρv0 a 2
+                             V =            tan−1 e x/a + C2
+                                      
+Let us arbitrarily select our zero reference of potential at the center of the junction,
+x = 0,
+                                       4ρv0 a 2 π
+                                 0=               + C2
+                                               4
+and finally,
+                                                             
+                                   4ρv0 a 2                 π
+                           V =                tan−1 e x/a −                           (46)
+                                                           4
+    Figure 6.12 shows the charge distribution (a), electric field intensity (b), and the
+potential (c), as given by Eqs. (44), (45), and (46), respectively.
+    The potential is constant once we are a distance of about 4a or 5a from the
+junction. The total potential difference V0 across the junction is obtained from Eq. (46),
+                                                        2πρv0 a 2
+                          V0 = Vx→∞ − Vx→−∞ =                                         (47)
+                                                           
+This expression suggests the possibility of determining the total charge on one side of
+the junction and then using Eq. (47) to find a junction capacitance. The total positive
+charge is
+                               ∞
+                                             x        x
+                     Q=S           2ρν0 sech tanh d x = 2ρν0 aS
+                               0             a       a
+where S is the area of the junction cross section. If we make use of Eq. (47) to eliminate
+the distance parameter a, the charge becomes
+                                           
+                                              2ρν0 V0
+                                    Q=S                                               (48)
+                                                 π
+172   ENGINEERING ELECTROMAGNETICS
+
+
+
+      Because the total charge is a function of the potential difference, we have to be careful
+      in defining a capacitance. Thinking in “circuit” terms for a moment,
+                                              dQ         d V0
+                                         I =       =C
+                                              dt          dt
+      and thus
+                                                    dQ
+                                             C=
+                                                    d V0
+      By differentiating Eq. (48), we therefore have the capacitance
+                                            
+                                               ρν0         S
+                                       C=            S=                                    (49)
+                                              2πV0         2πa
+      The first form of Eq. (49) shows that the capacitance varies inversely as the square
+      root of the voltage. That is, a higher voltage causes a greater separation of the charge
+      layers and a smaller capacitance. The second form is interesting in that it indicates
+      that we may think of the junction as a parallel-plate capacitor with a “plate” separation
+      of 2πa. In view of the dimensions of the region in which the charge is concentrated,
+      this is a logical result.
+           Poisson’s equation enters into any problem involving volume charge density.
+      Besides semiconductor diode and transistor models, we find that vacuum tubes, mag-
+      netohydrodynamic energy conversion, and ion propulsion require its use in construct-
+      ing satisfactory theories.
+
+          D6.7. In the neighborhood of a certain semiconductor junction, the volume
+          charge density is given by ρν = 750 sech 106 πx tanh 106 πx C/m3 . The di-
+          electric constant of the semiconductor material is 10 and the junction area is
+          2 × 10−7 m2 . Find: (a) V0 ; (b) C; (c) E at the junction.
+
+          Ans. 2.70 V; 8.85 pF; 2.70 MV/m
+
+                                                                     √
+          D6.8. Given the volume charge density ρν = −2 × 107 0 x C/m3 in free
+          space, let V = 0 at x = 0 and let V = 2 V at x = 2.5 mm. At x = 1 mm, find:
+          (a) V ; (b) E x .
+
+          Ans. 0.302 V; −555 V/m
+
+
+      REFERENCES
+      1. Matsch, L. W. Capacitors, Magnetic Circuits, and Transformers. Englewood Cliffs, NJ:
+         Prentice-Hall, 1964. Many of the practical aspects of capacitors are discussed in
+         Chapter 2.
+      2. Ramo, S., J. R. Whinnery, and T. Van Duzer. Fields and Waves in Communication
+         Electronics. 3rd ed. New York: John Wiley and Sons, 1994. This classic text is primarily
+         directed toward beginning graduate students, but it may be read by anyone familiar with
+         basic electromagnetics concepts. Curvilinear square plotting is described on pp. 50–52. A
+         more advanced discussion of methods of solving Laplace’s equation is given in Chapter 7.
+                                                                CHAPTER 6       Capacitance   173
+
+
+3. Dekker, A. J. See references for Chapter 5.
+4. Hayt, W. H. Jr., and J. E. Kemmerly. Engineering Circuit Analysis. 5th ed. New York:
+   McGraw-Hill, 1993.
+5. Collin, R. E., and R. E. Plonsey. Principles and Applications of Electromagnetic Fields.
+   New York: McGraw-Hill, 1961. Provides an excellent treatment of methods of solving
+   Laplace’s and Poisson’s equations.
+6. Smythe, W. R. Static and Dynamic Electricity. 3rd ed. Taylor and Francis, 1989. An
+   advanced treatment of potential theory is given in Chapter 4.
+
+CHAPTER 6 PROBLEMS
+6.1    Consider a coaxial capacitor having inner radius a, outer radius b, unit
+       length, and filled with a material with dielectric constant, r . Compare this to
+       a parallel-plate capacitor having plate width w, plate separation d, filled with
+       the same dielectric, and having unit length. Express the ratio b/a in terms of
+       the ratio d/w, such that the two structures will store the same energy for a
+       given applied voltage.
+6.2    Let S = 100 mm2 , d = 3 mm, and r = 12 for a parallel-plate capacitor.
+       (a) Calculate the capacitance. (b) After connecting a 6-V battery across the
+       capacitor, calculate E, D, Q, and the total stored electrostatic energy.
+       (c) With the source still connected, the dielectric is carefully withdrawn
+       from between the plates. With the dielectric gone, recalculate E, D, Q, and
+       the energy stored in the capacitor. (d) If the charge and energy found in
+       part (c) are less than the values found in part (b) (which you should have
+       discovered), what became of the missing charge and energy?
+6.3    Capacitors tend to be more expensive as their capacitance and
+       maximum voltage Vmax increase. The voltage Vmax is limited by the field
+       strength at which the dielectric breaks down, E BD . Which of these dielectrics
+       will give the largest CVmax product for equal plate areas? (a) Air: r = 1,
+       E BD = 3 MV/m. (b) Barium titanate: r = 1200, E BD = 3 MV/m. (c) Silicon
+       dioxide: r = 3.78, E BD = 16 MV/m. (d) Polyethylene: r = 2.26, E BD =
+       4.7 MV/m.
+6.4    An air-filled parallel-plate capacitor with plate separation d and plate
+       area A is connected to a battery that applies a voltage V0 between
+       plates. With the battery left connected, the plates are moved apart to a
+       distance of 10d. Determine by what factor each of the following
+       quantities changes: (a) V0 ; (b) C; (c) E; (d) D; (e) Q; ( f ) ρ S ; (g) W E .
+6.5    A parallel-plate capacitor is filled with a nonuniform dielectric characterized
+       by r = 2 + 2 × 106 x 2 , where x is the distance from one plate in meters.
+       If S = 0.02 m2 and d = 1 mm, find C.
+6.6    Repeat Problem 6.4, assuming the battery is disconnected before the plate
+       separation is increased.
+6.7    Let r 1 = 2.5 for 0 < y < 1 mm, r 2 = 4 for 1 < y < 3 mm, and r 3 for
+       3 < y < 5 mm (region 3). Conducting surfaces are present at y = 0 and
+174   ENGINEERING ELECTROMAGNETICS
+
+
+
+             y = 5 mm. Calculate the capacitance per square meter of surface area
+             if (a) region 3 is air; (b) r 3 = r 1 ; (c) r 3 = r 2 ; (d) region 3 is silver.
+      6.8    A parallel-plate capacitor is made using two circular plates of radius a, with
+             the bottom plate on the x y plane, centered at the origin. The top plate is
+             located at z = d, with its center on the z axis. Potential V0 is on the top plate;
+             the bottom plate is grounded. Dielectric having radially dependent
+             permittivity fills the region between plates. The permittivity is given by
+             (ρ) = 0 (1 + ρ 2 /a 2 ). Find (a) E; (b) D; (c) Q; (d) C.
+      6.9    Two coaxial conducting cylinders of radius 2 cm and 4 cm have a length
+             of 1 m. The region between the cylinders contains a layer of dielectric from
+             ρ = c to ρ = d with r = 4. Find the capacitance if (a) c = 2 cm, d = 3 cm;
+             (b) d = 4 cm, and the volume of the dielectric is the same as in part (a).
+      6.10 A coaxial cable has conductor dimensions of a = 1.0 mm and b = 2.7 mm.
+           The inner conductor is supported by dielectric spacers (r = 5) in the
+           form of washers with a hole radius of 1 mm and an outer radius of 2.7 mm,
+           and with a thickness of 3.0 mm. The spacers are located every 2 cm down
+           the cable. (a) By what factor do the spacers increase the capacitance per
+           unit length? (b) If 100 V is maintained across the cable, find E at all points.
+      6.11 Two conducting spherical shells have radii a = 3 cm and b = 6 cm. The
+           interior is a perfect dielectric for which r = 8. (a) Find C. (b) A portion of
+           the dielectric is now removed so that r = 1.0, 0 < φ < π/2, and r = 8,
+           π/2 < φ < 2π. Again find C.
+      6.12 (a) Determine the capacitance of an isolated conducting sphere of radius a in
+           free space (consider an outer conductor existing at r → ∞). (b) The sphere is
+           to be covered with a dielectric layer of thickness d and dielectric contant r . If
+           r = 3, find d in terms of a such that the capacitance is twice that of part (a).
+      6.13 With reference to Figure 6.5, let b = 6 m, h = 15 m, and the conductor
+           potential be 250 V. Take  = 0 . Find values for K 1 , ρ L , a, and C.
+      6.14 Two #16 copper conductors (1.29 mm diameter) are parallel with a separation
+           d between axes. Determine d so that the capacitance between wires in air
+           is 30 pF/m.
+      6.15 A 2-cm-diameter conductor is suspended in air with its axis 5 cm from a
+           conducting plane. Let the potential of the cylinder be 100 V and that of the
+           plane be 0 V. (a) Find the surface charge density on the cylinder at a point
+           nearest the plane. (b) Plane at a point nearest the cylinder; (c) find
+           the capacitance per unit length.
+      6.16 Consider an arrangement of two isolated conducting
+           surfaces of any shape that form a capacitor. Use the definitions of capacitance
+           (Eq. (2) in this chapter) and resistance (Eq. (14) in Chapter 5) to show
+           that when the region between the conductors is filled with either conductive
+           material (conductivity σ ) or a perfect dielectric (permittivity ), the resulting
+                                                               CHAPTER 6   Capacitance   175
+
+
+      resistance and capacitance of the structures are related through the simple
+      formula RC = /σ . What basic properties must be true about both the
+      dielectric and the conducting medium for this condition to hold for certain?
+6.17 Construct a curvilinear-square map for a coaxial capacitor of 3 cm inner
+     radius and 8 cm outer radius. These dimensions are suitable for the drawing.
+     (a) Use your sketch to calculate the capacitance per meter length, assuming
+     r = 1. (b) Calculate an exact value for the capacitance per unit length.
+6.18 Construct a curvilinear-square map of the potential field about two
+     parallel circular cylinders, each of 2.5 cm radius, separated by a center-
+     to-center distance of 13 cm. These dimensions are suitable for the actual
+     sketch if symmetry is considered. As a check, compute the capacitance
+     per meter both from your sketch and from the exact formula. Assume r = 1.
+6.19 Construct a curvilinear-square map of the potential field between two
+     parallel circular cylinders, one of 4 cm radius inside another of 8 cm radius.
+     The two axes are displaced by 2.5 cm. These dimensions are suitable for
+     the drawing. As a check on the accuracy, compute the capacitance per meter
+     from the sketch and from the exact expression:
+                                                  2π
+                          C=           −1
+                                cosh        [(a 2 + b2 − D 2 )/(2ab)]
+      where a and b are the conductor radii and D is the axis separation.
+6.20 A solid conducting cylinder of 4 cm radius is centered within a rectangular
+     conducting cylinder with a 12 cm by 20 cm cross section. (a) Make a full-size
+     sketch of one quadrant of this configuration and construct a curvilinear-square
+     map for its interior. (b) Assume  = 0 and estimate C per meter length.
+6.21 The inner conductor of the transmission line shown in Figure 6.13 has a
+     square cross section 2a × 2a, whereas the outer square is 4a × 5a. The axes
+     are displaced as shown. (a) Construct a good-sized drawing of this
+     transmission line, say with a = 2.5 cm, and then prepare a curvilinear-square
+     plot of the electrostatic field between the conductors. (b) Use the map to
+     calculate the capacitance per meter length if  = 1.60 . (c) How would your
+     result to part (b) change if a = 0.6 cm?
+6.22 Two conducting plates, each 3 × 6 cm, and three slabs of dielectric, each
+     1 × 3 × 6 cm, and having dielectric constants of 1, 2, and 3, are assembled
+     into a capacitor with d = 3 cm. Determine the two values of capacitance
+     obtained by the two possible methods of assembling the capacitor.
+6.23 A two-wire transmission line consists of two parallel perfectly conducting
+     cylinders, each having a radius of 0.2 mm, separated by a center-to-center
+     distance of 2 mm. The medium surrounding the wires has r = 3 and σ =
+     1.5 mS/m. A 100-V battery is connected between the wires. (a) Calculate
+     the magnitude of the charge per meter length on each wire. (b) Using
+     the result of Problem 6.16, find the battery current.
+176   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                  Figure 6.13 See Problem 6.21.
+
+
+      6.24 A potential field in free space is given in spherical coordinates as
+
+                                           
+                                               [ρ0 /(60 )] [3a 2 − r 2 ] (r ≤ a)
+                                V (r ) =
+                                                   (a 3 ρ0 )/(30r ) (r ≥ a)
+
+             where ρ0 and a are constants. (a) Use Poisson’s equation to
+             find the volume charge density everywhere. (b) Find the total charge present.
+      6.25 Let V = 2x y 2 z 3 and  = 0 . Given point P(1, 2, −1), find. (a) V at P; (b) E at
+           P; (c) ρν at P; (d) the equation of the equipotential surface passing
+           through P; (e) the equation of the streamline passing through P. ( f ) Does V
+           satisfy Laplace’s equation?
+      6.26 Given the spherically symmetric potential field in free space, V = V0 e−r/a ,
+           find. (a) ρν at r = a; (b) the electric field at r = a; (c) the total charge.
+      6.27 Let V (x, y) = 4e2x + f (x) − 3y 2 in a region of free space where ρν = 0.
+           It is known that both E x and V are zero at the origin. Find f (x) and V (x, y).
+                                                            CHAPTER 6      Capacitance    177
+
+
+
+6.28 Show that in a homogeneous medium of conductivity σ , the potential field
+     V satisfies Laplace’s equation if any volume charge density present does
+     not vary with time.
+6.29 Given the potential field V = (Aρ 4 + Bρ −4 ) sin 4φ: (a) Show that ∇ 2 V = 0.
+     (b) Select A and B so that V = 100 V and |E| = 500 V/m at P(ρ = 1,
+     φ = 22.5◦ , z = 2).
+6.30 A parallel-plate capacitor has plates located at z = 0 and z = d. The region
+     between plates is filled with a material that contains volume charge of uniform
+     density ρ0 C/m3 and has permittivity . Both plates are held at ground
+     potential. (a) Determine the potential field between plates. (b) Determine the
+     electric field intensity E between plates. (c) Repeat parts (a) and (b) for the
+     case of the plate at z = d raised to potential V0 , with the z = 0 plate grounded.
+6.31 Let V = (cos 2φ)/ρ in free space. (a) Find the volume charge density at
+     point A(0.5, 60◦ , 1). (b) Find the surface charge density on a conductor
+     surface passing through the point B(2, 30◦ , 1).
+6.32 A uniform volume charge has constant density ρν = ρ0 C/m3 and fills the
+     region r < a, in which permittivity  is assumed. A conducting spherical
+     shell is located at r = a and is held at ground potential. Find (a) the
+     potential everywhere; (b) the electric field intensity, E, everywhere.
+6.33 The functions V1 (ρ, φ, z) and V2 (ρ, φ, z) both satisfy Laplace’s equation
+     in the region a < ρ < b, 0 ≤ φ < 2π , −L < z < L; each is zero on
+     the surfaces ρ = b for −L < z < L; z = −L for a < ρ < b; and z = L for
+     a < ρ < b; and each is 100 V on the surface ρ = a for −L < z < L . (a) In
+     the region specified, is Laplace’s equation satisfied by the functions V1 + V2 ,
+     V1 − V2 , V1 + 3, and V1 V2 ? (b) On the boundary surfaces specified, are the
+     potential values given in this problem obtained from the functions V1 + V2 ,
+     V1 − V2 , V1 + 3, and V1 V2 ? (c) Are the functions V1 + V2 , V1 − V2 ,
+     V1 + 3, and V1 V2 identical with V1 ?
+6.34 Consider the parallel-plate capacitor of Problem 6.30, but this time the
+     charged dielectric exists only between z = 0 and z = b, where b < d.
+     Free space fills the region b < z < d. Both plates are at ground
+     potential. By solving Laplace’s and Poisson’s equations, find (a) V (z)
+     for 0 < z < d; (b) the electric field intensity for 0 < z < d.
+     No surface charge exists at z = b, so both V and D are continuous there.
+6.35 The conducting planes 2x + 3y = 12 and 2x + 3y = 18 are at potentials
+     of 100 V and 0, respectively. Let  = 0 and find (a) V at P(5, 2, 6); (b) E
+     at P.
+6.36 The derivation of Laplace’s and Poisson’s equations assumed constant
+     permittivity, but there are cases of spatially varying permittivity in which the
+     equations will still apply. Consider the vector identity, ∇ · (ψG) = G · ∇ψ +
+     ψ∇ · G, where ψ and G are scalar and vector functions, respectively.
+178   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                    Figure 6.14 See Problem 6.39.
+
+
+             Determine a general rule on the allowed directions in which  may vary
+             with respect to the local electric field.
+      6.37 Coaxial conducting cylinders are located at ρ = 0.5 cm and ρ = 1.2 cm.
+           The region between the cylinders is filled with a homogeneous perfect
+           dielectric. If the inner cylinder is at 100 V and the outer at 0 V, find
+           (a) the location of the 20 V equipotential surface; (b) E ρ max ; (c) r if the
+           charge per meter length on the inner cylinder is 20 nC/m.
+      6.38 Repeat Problem 6.37, but with the dielectric only partially filling
+           the volume, within 0 < φ < π, and with free space in the remaining volume.
+      6.39 The two conducting planes illustrated in Figure 6.14 are
+           defined by 0.001 < ρ < 0.120 m, 0 < z < 0.1 m, φ = 0.179 and 0.188 rad.
+           The medium surrounding the planes is air. For Region 1, 0.179 < φ < 0.188;
+           neglect fringing and find (a) V (φ); (b) E(ρ); (c) D(ρ); (d) ρs on the upper
+           surface of the lower plane; (e) Q on the upper surface of the lower plane.
+           ( f ) Repeat parts (a) through (c) for Region 2 by letting the location of
+           the upper plane be φ = .188 − 2π , and then find ρs and Q on the lower
+           surface of the lower plane. (g) Find the total charge on the lower plane and
+           the capacitance between the planes.
+      6.40 A parallel-plate capacitor is made using two circular plates
+           of radius a, with the bottom plate on the x y plane, centered at the origin.
+           The top plate is located at z = d, with its center on the z axis. Potential V0
+           is on the top plate; the bottom plate is grounded. Dielectric having radially
+           dependent permittivity fills the region between plates. The permittivity
+           is given by (ρ) = 0 (1 + ρ 2 /a 2 ). Find (a)V (z); (b) E; (c) Q; (d) C.
+           This is a reprise of Problem 6.8, but it starts with Laplace’s equation.
+      6.41 Concentric conducting spheres are located at r = 5 mm and r = 20 mm.
+           The region between the spheres is filled with a perfect dielectric. If
+           the inner sphere is at 100 V and the outer sphere is at 0 V (a) Find the
+                                                            CHAPTER 6       Capacitance   179
+
+
+      location of the 20 V equipotential surface. (b) Find Er,max . (c) Find r if
+      the surface charge density on the inner sphere is 1.0 µC/m2 .
+6.42 The hemisphere 0 < r < a, 0 < θ < π/2, is composed of homogeneous
+     conducting material of conductivity σ . The flat side of the hemisphere
+     rests on a perfectly conducting plane. Now, the material within the
+     conical region 0 < θ < α, 0 < r < a is drilled out and replaced with
+     material that is perfectly conducting. An air gap is maintained between the
+     r = 0 tip of this new material and the plane. What resistance
+     is measured between the two perfect conductors? Neglect fringing fields.
+6.43 Two coaxial conducting cones have their vertices at the origin and the z axis
+     as their axis. Cone A has the point A(1, 0, 2) on its surface, while cone B
+     has the point B(0, 3, 2) on its surface. Let V A = 100 V and VB = 20 V. Find
+     (a) α for each cone; (b) V at P(1, 1, 1).
+6.44 A potential field in free space is given as V = 100 ln tan(θ/2) + 50 V.
+     (a) Find the maximum value of |Eθ | on the surface θ = 40◦
+     for 0.1 < r < 0.8 m, 60◦ < φ < 90◦ . (b) Describe the surface V = 80 V.
+6.45 In free space, let ρν = 2000 /r 2.4 . (a) Use Poisson’s equation to
+     find V (r ) if it is assumed that r 2 Er → 0 when r → 0, and also that V → 0
+     as r → ∞. (b) Now find V (r ) by using Gauss’s law and a line integral.
+6.46 By appropriate solution of Laplace’s and Poisson’s equations, determine
+     the absolute potential at the center of a sphere of radius a, containing
+     uniform volume charge of density ρ0 . Assume permittivity 0 everywhere.
+     Hint: What must be true about the potential and the electric
+     field at r = 0 and at r = a?
+      7   C H A P T E R
+
+
+
+
+          The Steady Magnetic Field
+
+                    t this point, the concept of a field should be a familiar one. Since we first
+
+          A         accepted the experimental law of forces existing between two point charges
+                    and defined electric field intensity as the force per unit charge on a test charge
+          in the presence of a second charge, we have discussed numerous fields. These fields
+          possess no real physical basis, for physical measurements must always be in terms
+          of the forces on the charges in the detection equipment. Those charges that are the
+          source cause measurable forces to be exerted on other charges, which we may think
+          of as detector charges. The fact that we attribute a field to the source charges and then
+          determine the effect of this field on the detector charges amounts merely to a division
+          of the basic problem into two parts for convenience.
+               We will begin our study of the magnetic field with a definition of the magnetic
+          field itself and show how it arises from a current distribution. The effect of this field
+          on other currents, or the second half of the physical problem, will be discussed in
+          Chapter 8. As we did with the electric field, we confine our initial discussion to free-
+          space conditions, and the effect of material media will also be saved for discussion
+          in Chapter 8.
+               The relation of the steady magnetic field to its source is more complicated than
+          is the relation of the electrostatic field to its source. We will find it necessary to
+          accept several laws temporarily on faith alone. The proof of the laws does exist and
+          is available on the Web site for the disbelievers or the more advanced student. ■
+
+
+
+          7.1 BIOT-SAVART LAW
+          The source of the steady magnetic field may be a permanent magnet, an electric field
+          changing linearly with time, or a direct current. We will largely ignore the permanent
+          magnet and save the time-varying electric field for a later discussion. Our present study
+          will concern the magnetic field produced by a differential dc element in free space.
+               We may think of this differential current element as a vanishingly small section of
+          a current-carrying filamentary conductor, where a filamentary conductor is the limiting
+
+180
+                                                           CHAPTER 7         The Steady Magnetic Field       181
+
+
+
+
+                             Figure 7.1 The law of Biot-Savart
+                             expresses the magnetic field intensity dH2
+                             produced by a differential current element
+                             I 1 dL1 . The direction of dH2 is into the
+                             page.
+
+
+case of a cylindrical conductor of circular cross section as the radius approaches zero.
+We assume a current I flowing in a differential vector length of the filament dL. The
+law of Biot-Savart1 then states that at any point P the magnitude of the magnetic
+field intensity produced by the differential element is proportional to the product of
+the current, the magnitude of the differential length, and the sine of the angle lying
+between the filament and a line connecting the filament to the point P at which
+the field is desired; also, the magnitude of the magnetic field intensity is inversely
+proportional to the square of the distance from the differential element to the point P.
+The direction of the magnetic field intensity is normal to the plane containing the
+differential filament and the line drawn from the filament to the point P. Of the two
+possible normals, that one to be chosen is the one which is in the direction of progress
+of a right-handed screw turned from dL through the smaller angle to the line from the
+filament to P. Using rationalized mks units, the constant of proportionality is 1/4π .
+     The Biot-Savart law, just described in some 150 words, may be written concisely
+using vector notation as
+                                    I dL × a R      I dL × R
+                             dH =          2
+                                                 =                                     (1)
+                                       4πR            4πR 3
+The units of the magnetic field intensity H are evidently amperes per meter (A/m).
+The geometry is illustrated in Figure 7.1. Subscripts may be used to indicate the point
+to which each of the quantities in (1) refers. If we locate the current element at point 1
+and describe the point P at which the field is to be determined as point 2, then
+
+                                                  I1 dL1 × a R12
+                                       dH2 =              2
+                                                                                                       (2)
+                                                      4πR12
+
+
+1 Biot and Savart were colleagues of Ampère, and all three were professors of physics at the Collège de
+
+France at one time or another. The Biot-Savart law was proposed in 1820.
+182   ENGINEERING ELECTROMAGNETICS
+
+
+
+           The law of Biot-Savart is sometimes called Ampère’s law for the current element,
+      but we will retain the former name because of possible confusion with Ampère’s
+      circuital law, to be discussed later.
+           In some aspects, the Biot-Savart law is reminiscent of Coulomb’s law when that
+      law is written for a differential element of charge,
+                                                     dQ 1 a R12
+                                          dE2 =              2
+                                                     4π 0 R12
+      Both show an inverse-square-law dependence on distance, and both show a linear
+      relationship between source and field. The chief difference appears in the direction
+      of the field.
+           It is impossible to check experimentally the law of Biot-Savart as expressed by (1)
+      or (2) because the differential current element cannot be isolated. We have restricted
+      our attention to direct currents only, so the charge density is not a function of time.
+      The continuity equation in Section 5.2, Eq. (5),
+                                                         ∂ρν
+                                           ∇ ·J = −
+                                                          ∂t
+      therefore shows that
+                                             ∇ ·J = 0
+      or upon applying the divergence theorem,
+                                         
+                                           J · dS = 0
+                                             s
+      The total current crossing any closed surface is zero, and this condition may be satisfied
+      only by assuming a current flow around a closed path. It is this current flowing in a
+      closed circuit that must be our experimental source, not the differential element.
+          It follows that only the integral form of the Biot-Savart law can be verified
+      experimentally,
+                                                 
+                                                     I dL × a R
+                                        H=                                                  (3)
+                                                        4πR 2
+
+           Equation (1) or (2), of course, leads directly to the integral form (3), but other
+      differential expressions also yield the same integral formulation. Any term may be
+      added to (1) whose integral around a closed path is zero. That is, any conservative field
+      could be added to (1). The gradient of any scalar field always yields a conservative
+      field, and we could therefore add a term ∇G to (1), where G is a general scalar field,
+      without changing (3) in the slightest. This qualification on (1) or (2) is mentioned
+      to show that if we later ask some foolish questions, not subject to any experimental
+      check, concerning the force exerted by one differential current element on another,
+      we should expect foolish answers.
+           The Biot-Savart law may also be expressed in terms of distributed sources, such
+      as current density J and surface current density K. Surface current flows in a sheet of
+      vanishingly small thickness, and the current density J, measured in amperes per square
+                                                   CHAPTER 7      The Steady Magnetic Field   183
+
+
+
+
+                    Figure 7.2 The total current I within a
+                    transverse width b, in which there is a uniform
+                    surface current density K, is K b.
+
+
+
+meter, is therefore infinite. Surface current density, however, is measured in amperes
+per meter width and designated by K. If the surface current density is uniform, the
+total current I in any width b is
+
+                                        I = Kb
+
+where we assume that the width b is measured perpendicularly to the direction in which
+the current is flowing. The geometry is illustrated by Figure 7.2. For a nonuniform
+surface current density, integration is necessary:
+                                             
+                                      I =        KdN                                   (4)
+
+where dN is a differential element of the path across which the current is flowing.
+Thus the differential current element I dL, where dL is in the direction of the current,
+may be expressed in terms of surface current density K or current density J,
+
+
+                                 I dL = K d S = J dν                                   (5)
+
+
+and alternate forms of the Biot-Savart law obtained,
+                                        
+                                              K × aR d S
+                                  H=                                                   (6)
+                                            s   4πR 2
+and
+                                        
+                                             J × a R dν
+                                  H=                                                   (7)
+                                         vol   4πR 2
+184   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                               Figure 7.3 An infinitely long straight filament
+                               carrying a direct current I. The field at point 2 is
+                               H = (I/2πρ)aφ .
+
+           We illustrate the application of the Biot-Savart law by considering an infinitely
+      long straight filament. We apply (2) first and then integrate. This, of course, is the
+      same as using the integral form (3) in the first place.2
+           Referring to Figure 7.3, we should recognize the symmetry of this field. No
+      variation with z or with φ can exist. Point 2, at which we will determine the field,
+      is therefore chosen in the z = 0 plane. The field point r is therefore r = ρaρ . The
+      source point r  is given by r = z  az , and therefore
+                                    R12 = r − r = ρaρ − z  az
+      so that
+                                                   ρaρ − z  az
+                                        a R12 = 
+                                                     ρ 2 + z 2
+      We take dL = dz  az and (2) becomes
+                                           I dz  az × (ρaρ − z  az )
+                                 dH2 =
+                                               4π (ρ 2 + z 2 )3/2
+      Because the current is directed toward increasing values of z  , the limits are −∞ and
+      ∞ on the integral, and we have
+                                       ∞
+                                             I dz  az × (ρaρ − z  az )
+                               H2 =
+                                        −∞        4π (ρ 2 + z 2 )3/2
+                                            ∞
+                                        I             ρdz  aφ
+                                   =
+                                       4π −∞ (ρ 2 + z 2 )3/2
+
+
+      2 The closed path for the current may be considered to include a return filament parallel to the first
+
+      filament and infinitely far removed. An outer coaxial conductor of infinite radius is another theoretical
+      possibility. Practically, the problem is an impossible one, but we should realize that our answer will be
+      quite accurate near a very long, straight wire having a distant return path for the current.
+                                                     CHAPTER 7      The Steady Magnetic Field   185
+
+
+
+
+                                Figure 7.4 The streamlines of the
+                                magnetic field intensity about an
+                                infinitely long straight filament
+                                carrying a direct current I. The
+                                direction of I is into the page.
+
+
+At this point the unit vector aφ under the integral sign should be investigated, for it is
+not always a constant, as are the unit vectors of the rectangular coordinate system. A
+vector is constant when its magnitude and direction are both constant. The unit vector
+certainly has constant magnitude, but its direction may change. Here aφ changes with
+the coordinate φ but not with ρ or z. Fortunately, the integration here is with respect
+to z  , and aφ is a constant and may be removed from under the integral sign,
+                                          
+                                    Iρaφ ∞          dz 
+                              H2 =
+                                     4π −∞ (ρ 2 + z  2 )3/2
+                                                         ∞
+                                    Iρaφ       z        
+                                                         
+                                  =                     
+                                     4π ρ 2 ρ 2 + z  2 
+                                                           −∞
+and
+
+                                                  I
+                                          H2 =       aφ                                  (8)
+                                                 2πρ
+
+     The magnitude of the field is not a function of φ or z, and it varies inversely with
+the distance from the filament. The direction of the magnetic-field-intensity vector is
+circumferential. The streamlines are therefore circles about the filament, and the field
+may be mapped in cross section as in Figure 7.4.
+     The separation of the streamlines is proportional to the radius, or inversely pro-
+portional to the magnitude of H. To be specific, the streamlines have been drawn with
+curvilinear squares in mind. As yet, we have no name for the family of lines3 that
+are perpendicular to these circular streamlines, but the spacing of the streamlines has
+
+
+3 If you can’t wait, see Section 7.6.
+186   ENGINEERING ELECTROMAGNETICS
+
+
+
+      been adjusted so that the addition of this second set of lines will produce an array of
+      curvilinear squares.
+           A comparison of Figure 7.4 with the map of the electric field about an infinite
+      line charge shows that the streamlines of the magnetic field correspond exactly to
+      the equipotentials of the electric field, and the unnamed (and undrawn) perpendicular
+      family of lines in the magnetic field corresponds to the streamlines of the electric
+      field. This correspondence is not an accident, but there are several other concepts
+      which must be mastered before the analogy between electric and magnetic fields can
+      be explored more thoroughly.
+           Using the Biot-Savart law to find H is in many respects similar to the use of
+      Coulomb’s law to find E. Each requires the determination of a moderately complicated
+      integrand containing vector quantities, followed by an integration. When we were
+      concerned with Coulomb’s law we solved a number of examples, including the fields
+      of the point charge, line charge, and sheet of charge. The law of Biot-Savart can be
+      used to solve analogous problems in magnetic fields, and some of these problems
+      appear as exercises at the end of the chapter rather than as examples here.
+           One useful result is the field of the finite-length current element, shown in
+      Figure 7.5. It turns out (see Problem 7.8 at the end of the chapter) that H is most
+      easily expressed in terms of the angles α1 and α2 , as identified in the figure. The
+      result is
+                                           I
+                                   H=          (sin α2 − sin α1 )aφ                       (9)
+                                         4πρ
+      If one or both ends are below point 2, then α1 is or both α1 and α2 are negative.
+
+
+
+
+                          Figure 7.5 The magnetic field intensity
+                          caused by a finite-length current filament
+                          on the z axis is (I/4πρ)(sin α2 − sin α1 )aφ .
+                                                 CHAPTER 7       The Steady Magnetic Field                  187
+
+
+     Equation (9) may be used to find the magnetic field intensity caused by current
+filaments arranged as a sequence of straight-line segments.
+
+                                                                                             E X A M P L E 7.1
+
+As a numerical example illustrating the use of (9), we determine H at P2 (0.4, 0.3, 0)
+in the field of an 8. A filamentary current is directed inward from infinity to the origin
+on the positive x axis, and then outward to infinity along the y axis. This arrangement
+is shown in Figure 7.6.
+Solution. We first consider the semi-infinite current on the x axis, identifying the
+two angles, α1x = −90◦ and α2x = tan−1 (0.4/0.3) = 53.1◦ . The radial distance ρ is
+measured from the x axis, and we have ρx = 0.3. Thus, this contribution to H2 is
+                         8                           2            12
+             H2(x) =           (sin 53.1◦ + 1)aφ =      (1.8)aφ =    aφ
+                       4π(0.3)                     0.3π           π
+The unit vector aφ must also be referred to the x axis. We see that it becomes −az .
+Therefore,
+                                             12
+                                 H2(x) = −      az A/m
+                                             π
+For the current on the y axis, we have α1y = − tan−1 (0.3/0.4) = −36.9◦ , α2y = 90◦ ,
+and ρ y = 0.4. It follows that
+                            8                               8
+                H2(y) =           (1 + sin 36.9◦ )(−az ) = − az A/m
+                          4π(0.4)                           π
+
+
+
+
+               Figure 7.6 The individual fields of two semi-infinite
+               current segments are found by (9) and added to obtain
+               H2 at P2 .
+188   ENGINEERING ELECTROMAGNETICS
+
+
+
+      Adding these results, we have
+                                                             20
+                             H2 = H2(x) + H2(y) = −             az = −6.37az A/m
+                                                             π
+
+           D7.1. Given the following values for P1 , P2 , and I1 L 1 , calculate H2 :
+           (a) P1 (0, 0, 2), P2 (4, 2, 0), 2π az µA·m; (b) P1 (0, 2, 0), P2 (4, 2, 3), 2π az µA·m;
+           (c) P1 (1, 2, 3), P2 (−3, −1, 2), 2π (−ax + a y + 2az )µA·m.
+
+           Ans. −8.51ax + 17.01a y nA/m; 16a y nA/m; 18.9ax − 33.9a y + 26.4az nA/m
+
+
+           D7.2. A current filament carrying 15 A in the az direction
+                                                                 √        lies along the entire
+           z axis. Find H in rectangular coordinates at: (a) PA ( 20, 0, 4); (b) PB (2, −4, 4).
+
+           Ans. 0.534a y A/m; 0.477ax + 0.239a y A/m
+
+
+      7.2 AMP ÈRE’S CIRCUITAL LAW
+      After solving a number of simple electrostatic problems with Coulomb’s law, we
+      found that the same problems could be solved much more easily by using Gauss’s
+      law whenever a high degree of symmetry was present. Again, an analogous procedure
+      exists in magnetic fields. Here, the law that helps us solve problems more easily is
+      known as Ampère’s circuital4 law, sometimes called Ampère’s work law. This law
+      may be derived from the Biot-Savart law (see Section 7.7).
+           Ampère’s circuital law states that the line integral of H about any closed path is
+      exactly equal to the direct current enclosed by that path,
+                                                  
+                                                      H · dL = I                               (10)
+
+      We define positive current as flowing in the direction of advance of a right-handed
+      screw turned in the direction in which the closed path is traversed.
+           Referring to Figure 7.7, which shows a circular wire carrying a direct current I,
+      the line integral of H about the closed paths lettered a and b results in an answer of
+      I; the integral about the closed path c which passes through the conductor gives an
+      answer less than I and is exactly that portion of the total current that is enclosed by
+      the path c. Although paths a and b give the same answer, the integrands are, of course,
+      different. The line integral directs us to multiply the component of H in the direction
+      of the path by a small increment of path length at one point of the path, move along
+      the path to the next incremental length, and repeat the process, continuing until the
+      path is completely traversed. Because H will generally vary from point to point, and
+      because paths a and b are not alike, the contributions to the integral made by, say,
+
+
+      4 The preferred pronunciation puts the accent on “circ-.”
+                                                   CHAPTER 7        The Steady Magnetic Field   189
+
+
+
+
+                 Figure 7.7 A conductor has a total current I. The line
+                 integral of H about the closed paths a and b is equal to
+                 I, and the integral around path c is less than I, since the
+                 entire current is not enclosed by the path.
+
+
+each micrometer of path length are quite different. Only the final answers are the
+same.
+     We should also consider exactly what is meant by the expression “current en-
+closed by the path.” Suppose we solder a circuit together after passing the conductor
+once through a rubber band, which we use to represent the closed path. Some strange
+and formidable paths can be constructed by twisting and knotting the rubber band, but
+if neither the rubber band nor the conducting circuit is broken, the current enclosed
+by the path is that carried by the conductor. Now replace the rubber band by a circular
+ring of spring steel across which is stretched a rubber sheet. The steel loop forms
+the closed path, and the current-carrying conductor must pierce the rubber sheet if
+the current is to be enclosed by the path. Again, we may twist the steel loop, and
+we may also deform the rubber sheet by pushing our fist into it or folding it in any
+way we wish. A single current-carrying conductor still pierces the sheet once, and
+this is the true measure of the current enclosed by the path. If we should thread the
+conductor once through the sheet from front to back and once from back to front, the
+total current enclosed by the path is the algebraic sum, which is zero.
+     In more general language, given a closed path, we recognize this path as the
+perimeter of an infinite number of surfaces (not closed surfaces). Any current-carrying
+conductor enclosed by the path must pass through every one of these surfaces once.
+Certainly some of the surfaces may be chosen in such a way that the conductor pierces
+them twice in one direction and once in the other direction, but the algebraic total
+current is still the same.
+     We will find that the nature of the closed path is usually extremely simple and can
+be drawn on a plane. The simplest surface is, then, that portion of the plane enclosed
+by the path. We need merely find the total current passing through this region of the
+plane.
+     The application of Gauss’s law involves finding the total charge enclosed by a
+closed surface; the application of Ampère’s circuital law involves finding the total
+current enclosed by a closed path.
+190   ENGINEERING ELECTROMAGNETICS
+
+
+
+           Let us again find the magnetic field intensity produced by an infinitely long
+      filament carrying a current I . The filament lies on the z axis in free space (as in
+      Figure 7.3), and the current flows in the direction given by az . Symmetry inspection
+      comes first, showing that there is no variation with z or φ. Next we determine which
+      components of H are present by using the Biot-Savart law. Without specifically using
+      the cross product, we may say that the direction of dH is perpendicular to the plane
+      conaining dL and R and therefore is in the direction of aφ . Hence the only component
+      of H is Hφ , and it is a function only of ρ.
+           We therefore choose a path, to any section of which H is either perpendicular
+      or tangential, and along which H is constant. The first requirement (perpendicularity
+      or tangency) allows us to replace the dot product of Ampère’s circuital law with the
+      product of the scalar magnitudes, except along that portion of the path where H is
+      normal to the path and the dot product is zero; the second requirement (constancy)
+      then permits us to remove the magnetic field intensity from the integral sign. The
+      integration required is usually trivial and consists of finding the length of that portion
+      of the path to which H is parallel.
+           In our example, the path must be a circle of radius ρ, and Ampère’s circuital law
+      becomes
+
+                                   2π                      2π
+                        H · dL =          Hφ ρdφ = Hφ ρ            dφ = Hφ 2πρ = I
+                                    0                        0
+
+
+      or
+
+                                                       I
+                                               Hφ =
+                                                      2πρ
+
+      as before.
+           As a second example of the application of Ampère’s circuital law, consider an
+      infinitely long coaxial transmission line carrying a uniformly distributed total current
+      I in the center conductor and −I in the outer conductor. The line is shown in Fig-
+      ure 7.8a. Symmetry shows that H is not a function of φ or z. In order to determine the
+      components present, we may use the results of the previous example by considering
+      the solid conductors as being composed of a large number of filaments. No filament
+      has a z component of H. Furthermore, the Hρ component at φ = 0◦, produced by one
+      filament located at ρ = ρ1 , φ = φ1 , is canceled by the Hρ component produced by a
+      symmetrically located filament at ρ = ρ1 , φ = −φ1 . This symmetry is illustrated by
+      Figure 7.8b. Again we find only an Hφ component which varies with ρ.
+           A circular path of radius ρ, where ρ is larger than the radius of the inner conduc-
+      tor but less than the inner radius of the outer conductor, then leads immediately to
+
+                                                I
+                                        Hφ =          (a < ρ < b)
+                                               2πρ
+                                                     CHAPTER 7         The Steady Magnetic Field   191
+
+
+
+
+      Figure 7.8 (a) Cross section of a coaxial cable carrying a uniformly
+      distributed current I in the inner conductor and −I in the outer conductor. The
+      magnetic field at any point is most easily determined by applying Ampère’s
+      circuital law about a circular path. (b) Current filaments at ρ = ρ1 , φ = ±φ1 ,
+      produces Hρ components which cancel. For the total field, H = Hφ aφ .
+
+
+    If we choose ρ smaller than the radius of the inner conductor, the current
+enclosed is
+                                                    ρ2
+                                        Iencl = I
+                                                    a2
+and
+                                                     ρ2
+                                      2πρHφ = I
+                                                     a2
+or
+                                         Iρ
+                                  Hφ =          (ρ < a)
+                                        2πa 2
+    If the radius ρ is larger than the outer radius of the outer conductor, no current is
+enclosed and
+                                    Hφ = 0      (ρ > c)
+Finally, if the path lies within the outer conductor, we have
+                                           2      
+                                            ρ − b2
+                          2πρHφ = I − I 2
+                                            c − b2
+                                      I c2 − ρ 2
+                             Hφ =                        (b < ρ < c)
+                                     2πρ c2 − b2
+     The magnetic-field-strength variation with radius is shown in Figure 7.9 for
+a coaxial cable in which b = 3a, c = 4a. It should be noted that the magnetic
+field intensity H is continuous at all the conductor boundaries. In other words, a
+slight increase in the radius of the closed path does not result in the enclosure of a
+tremendously different current. The value of Hφ shows no sudden jumps.
+192   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                      Figure 7.9 The magnetic field intensity as a function of
+                      radius in an infinitely long coaxial transmission line with
+                      the dimensions shown.
+
+
+
+           The external field is zero. This, we see, results from equal positive and negative
+      currents enclosed by the path. Each produces an external field of magnitude I /2πρ,
+      but complete cancellation occurs. This is another example of “shielding”; such a
+      coaxial cable carrying large currents would, in principle, not produce any noticeable
+      effect in an adjacent circuit.
+           As a final example, let us consider a sheet of current flowing in the positive y
+      direction and located in the z = 0 plane. We may think of the return current as equally
+      divided between two distant sheets on either side of the sheet we are considering. A
+      sheet of uniform surface current density K = K y a y is shown in Figure 7.10. H cannot
+      vary with x or y. If the sheet is subdivided into a number of filaments, it is evident
+      that no filament can produce an Hy component. Moreover, the Biot-Savart law shows
+      that the contributions to Hz produced by a symmetrically located pair of filaments
+      cancel. Thus, Hz is zero also; only an Hx component is present. We therefore choose
+      the path 1-1 -2 -2-1 composed of straight-line segments that are either parallel or
+
+
+
+
+                     Figure 7.10 A uniform sheet of surface current
+                     K = K y a y in the z = 0 plane. H may be found by applying
+                     Ampère’s circuital law about the paths 1-1 -2 -2-1 and
+                     3-3 -2 -2-3.
+                                                  CHAPTER 7     The Steady Magnetic Field   193
+
+
+perpendicular to Hx . Ampère’s circuital law gives
+                              Hx1 L + Hx2 (−L) = K y L
+or
+                                   Hx1 − Hx2 = K y
+     If the path 3-3 -2 -2-3 is now chosen, the same current is enclosed, and
+                                   Hx3 − Hx2 = K y
+and therefore
+                                      Hx3 = Hx1
+It follows that Hx is the same for all positive z. Similarly, Hx is the same for all
+negative z. Because of the symmetry, then, the magnetic field intensity on one side
+of the current sheet is the negative of that on the other. Above the sheet,
+                                 Hx = 12 K y     (z > 0)
+while below it
+                                Hx = − 12 K y     (z < 0)
+Letting a N be a unit vector normal (outward) to the current sheet, the result may be
+written in a form correct for all z as
+
+                                    H = 12 K × a N                                  (11)
+
+    If a second sheet of current flowing in the opposite direction, K = −K y a y , is
+placed at z = h, (11) shows that the field in the region between the current sheets is
+
+                             H = K × aN         (0 < z < h)                         (12)
+
+and is zero elsewhere,
+
+                               H=0       (z < 0, z > h)                             (13)
+
+     The most difficult part of the application of Ampère’s circuital law is the deter-
+mination of the components of the field that are present. The surest method is the
+logical application of the Biot-Savart law and a knowledge of the magnetic fields of
+simple form.
+     Problem 7.13 at the end of this chapter outlines the steps involved in applying
+Ampère’s circuital law to an infinitely long solenoid of radius a and uniform current
+density K a aφ , as shown in Figure 7.11a. For reference, the result is
+                                 H = K a az     (ρ < a)                            (14a)
+                                 H=0            (ρ > a)                            (14b)
+194   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+              Figure 7.11 (a) An ideal solenoid of infinite length with a circular
+              current sheet K = K a aφ . (b) An N-turn solenoid of finite length d.
+
+
+           If the solenoid has a finite length d and consists of N closely wound turns of a
+      filament that carries a current I (Figure 7.11b), then the field at points well within the
+      solenoid is given closely by
+                                    NI
+                              H=        az (well within the solenoid)                       (15)
+                                     d
+      The approximation is useful it if is not applied closer than two radii to the open ends,
+      nor closer to the solenoid surface than twice the separation between turns.
+           For the toroids shown in Figure 7.12, it can be shown that the magnetic field
+      intensity for the ideal case, Figure 7.12a, is
+                                          ρ0 − a
+                                H = Ka           aφ (inside toroid)                       (16a)
+                                             ρ
+                                H=0                   (outside)                           (16b)
+
+      For the N -turn toroid of Figure 7.12b, we have the good approximations,
+                                           NI
+                                    H=        aφ     (inside toroid)                      (17a)
+                                          2πρ
+                                    H=0              (outside)                            (17b)
+      as long as we consider points removed from the toroidal surface by several times the
+      separation between turns.
+           Toroids having rectangular cross sections are also treated quite readily, as you
+      can see for yourself by trying Problem 7.14.
+           Accurate formulas for solenoids, toroids, and coils of other shapes are available
+      in Section 2 of the Standard Handbook for Electrical Engineers (see References for
+      Chapter 5).
+                                                   CHAPTER 7        The Steady Magnetic Field   195
+
+
+
+
+          Figure 7.12 (a) An ideal toroid carrying a surface current K in the
+          direction shown. (b) An N-turn toroid carrying a filamentary current I.
+
+
+
+
+    D7.3. Express the value of H in rectangular components at P(0, 0.2, 0) in the
+    field of: (a) a current filament, 2.5 A in the az direction at x = 0.1, y = 0.3;
+    (b) a coax, centered on the z axis, with a = 0.3, b = 0.5, c = 0.6, I = 2.5 A
+    in the az direction in the center conductor; (c) three current sheets, 2.7ax A/m
+    at y = 0.1, −1.4ax A/m at y = 0.15, and −1.3ax A/m at y = 0.25.
+
+    Ans. 1.989ax − 1.989a y A/m; −0.884ax A/m; 1.300az A/m
+
+
+
+7.3 CURL
+We completed our study of Gauss’s law by applying it to a differential volume element
+and were led to the concept of divergence. We now apply Ampère’s circuital law to
+the perimeter of a differential surface element and discuss the third and last of the
+special derivatives of vector analysis, the curl. Our objective is to obtain the point
+form of Ampère’s circuital law.
+     Again we choose rectangular coordinates, and an incremental closed path of sides
+x and y is selected (Figure 7.13). We assume that some current, as yet unspecified,
+produces a reference value for H at the center of this small rectangle,
+                            H0 = Hx0 ax + Hy0 a y + Hz0 az
+The closed line integral of H about this path is then approximately the sum of the four
+values of H · L on each side. We choose the direction of traverse as 1-2-3-4-1, which
+corresponds to a current in the az direction, and the first contribution is therefore
+                                (H · L)1−2 = Hy,1−2 y
+The value of Hy on this section of the path may be given in terms of the reference
+value Hy0 at the center of the rectangle, the rate of change of Hy with x, and the
+196   ENGINEERING ELECTROMAGNETICS
+
+
+
+
+                         Figure 7.13 An incremental closed path in
+                         rectangular coordinates is selected for the
+                         application of Ampère’s circuital law to determine
+                         the spatial rate of change of H.
+
+
+      distance x/2 from the center to the midpoint of side 1–2:
+                                                            
+                                        .        ∂ Hy 1
+                               Hy,1−2 = Hy0 +             x
+                                                  ∂x 2
+      Thus
+                                                                
+                                        .               1 ∂ Hy
+                            (H · L)1−2 =         Hy0 +        x y
+                                                        2 ∂x
+      Along the next section of the path we have
+                                                               
+                              .              .         1 ∂ Hx
+                  (H · L)2−3 = Hx,2−3 (−x) = − Hx0 +        y x
+                                                       2 ∂y
+      Continuing for the remaining two segments and adding the results,
+                                                      
+                                        . ∂ Hy     ∂ Hx
+                                H · dL =        −         xy
+                                            ∂x      ∂y
+      By Ampère’s circuital law, this result must be equal to the current enclosed by the
+      path, or the current crossing any surface bounded by the path. If we assume a general
+                                                            .
+      current density J, the enclosed current is then I = Jz xy, and
+                                                    
+                                    . ∂ Hy       ∂ Hx          .
+                           H · dL =           −         xy = Jz xy
+                                         ∂x       ∂y
+      or
+                                  
+                                    H · dL . ∂ Hy       ∂ Hx .
+                                            =        −        = Jz
+                                   xy         ∂x       ∂y
+      As we cause the closed path to shrink, the preceding expression becomes more nearly
+      exact, and in the limit we have the equality
+                                      
+                                        H · dL     ∂ Hy    ∂ Hx
+                                lim             =       −       = Jz                 (18)
+                              x,y→0 xy          ∂x      ∂y
+                                                  CHAPTER 7        The Steady Magnetic Field   197
+
+
+     After beginning with Ampère’s circuital law equating the closed line integral of
+H to the current enclosed, we have now arrived at a relationship involving the closed
+line integral of H per unit area enclosed and the current per unit area enclosed, or
+current density. We performed a similar analysis in passing from the integral form of
+Gauss’s law, involving flux through a closed surface and charge enclosed, to the point
+form, relating flux through a closed surface per unit volume enclosed and charge per
+unit volume enclosed, or volume charge density. In each case a limit is necessary to
+produce an equality.
+     If we choose closed paths that are oriented perpendicularly to each of the re-
+maining two coordinate axes, analogous processes lead to expressions for the x and
+y components of the current density,
+
+                                    
+                                    H · dL   ∂ Hz   ∂ Hy
+                            lim            =      −      = Jx                          (19)
+                          y,z→0   yz      ∂y     ∂z
+
+and
+                                    
+                                    H · dL   ∂ Hx   ∂ Hz
+                            lim            =      −      = Jy                          (20)
+                          z,x→0   zx      ∂z     ∂x
+
+     Comparing (18)–(20), we see that a component of the current density is given by
+the limit of the quotient of the closed line integral of H about a small path in a plane
+normal to that component and of the area enclosed as the path shrinks to zero. This
+limit has its counterpart in other fields of science and long ago received the name of
+curl. The curl of any vector is a vector, and any component of the curl is given by
+the limit of the quotient of the closed line integral of the vector about a small path in
+a plane normal to that component desired and the area enclosed, as the path shrinks
+to zero. It should be noted that this definition of curl does not refer specifically to a
+particular coordinate system. The mathematical form of the definition is
+                                                      
+                                                          H · dL
+                               (curl H) N = lim                                        (21)
+                                            S N →0       S N
+
+where S N is the planar area enclosed by the closed line integral. The N subscript
+indicates that the component of the curl is that component which is normal to the
+surface enclosed by the closed path. It may represent any component in any coordinate
+system.
+     In rectangular coordinates, the definition (21) shows that the x, y, and z compo-
+nents of the curl H are given by (18)–(20), and therefore
+
+                                                                     
+                     ∂ Hz   ∂ Hy         ∂ Hx   ∂ Hz          ∂ Hy   ∂ Hx
+      curl H =            −       ax +        −        ay +        −        az         (22)
+                      ∂y     ∂z           ∂z     ∂x            ∂x     ∂y
+198   ENGINEERING ELECTROMAGNETICS
+
+
+
+      This result may be written in the form of a determinant,
+                                                               
+                                                 ax   ay   az 
+                                                
+                                                ∂          ∂ 
+                                                      ∂
+                                       curl H =                                           (23)
+                                                ∂x    ∂y   ∂z 
+                                                               
+                                                 Hx   Hy   Hz 
+
+      and may also be written in terms of the vector operator,
+
+                                             curl H = ∇ × H                                 (24)
+
+           Equation (22) is the result of applying the definition (21) to the rectangular coordi-
+      nate system. We obtained the z component of this expression by evaluating Ampère’s
+      circuital law about an incremental path of sides x and y, and we could have ob-
+      tained the other two components just as easily by choosing the appropriate paths. Equa-
+      tion (23) is a neat method of storing the rectangular coordinate expression for curl; the
+      form is symmetrical and easily remembered. Equation (24) is even more concise and
+      leads to (22) upon applying the definitions of the cross product and vector operator.
+           The expressions for curl H in cylindrical and spherical coordinates are derived in
+      Appendix A by applying the definition (21). Although they may be written in determi-
+      nant form, as explained there, the determinants do not have one row of unit vectors on
+      top and one row of components on the bottom, and they are not easily memorized. For
+      this reason, the curl expansions in cylindrical and spherical coordinates that follow
+      here and appear inside the back cover are usually referred to whenever necessary.
+
+                                                                  
+                                    1 ∂Hz    ∂Hφ           ∂Hρ   ∂Hz
+                    ∇ ×H=                  −        aρ +       −       aφ
+                                    ρ ∂φ       ∂z           ∂z    ∂ρ
+                                                                                          (25)
+                                      1 ∂(ρ Hφ )   1 ∂Hρ
+                                  +              −         az (cylindrical)
+                                      ρ ∂ρ         ρ ∂φ
+
+                                                                             
+                     1          ∂(Hφ sin θ ) ∂Hθ         1   1 ∂Hr      ∂(rHφ )
+       ∇ ×H=                                −       ar +             −           aθ
+                  r sin θ          ∂θ          ∂φ        r sin θ ∂φ       ∂r
+                                                                                          (26)
+                                     1 ∂(rHθ ) ∂Hr
+                                   +            −        aφ (spherical)
+                                     r      ∂r     ∂θ
+
+            Although we have described curl as a line integral per unit area, this does not
+      provide everyone with a satisfactory physical picture of the nature of the curl operation,
+      for the closed line integral itself requires physical interpretation.
+                                                                            This integral was
+      first met in the electrostatic field, where we saw that E · dL = 0. Inasmuch as the
+      integral was zero, we did not belabor the physical picture. More recently we have
+      discussed the closed line integral of H, H · dL = I . Either of these closed line
+      integrals is also known by the name of circulation, a term borrowed from the field of
+      fluid dynamics.
+                                                      CHAPTER 7        The Steady Magnetic Field   199
+
+
+
+
+  Figure 7.14 (a) The curl meter shows a component of the curl of the water velocity
+  into the page. (b) The curl of the magnetic field intensity about an infinitely long filament
+  is shown.
+
+                                  
+     The circulation of H, or H · dL, is obtained by multiplying the component
+of H parallel to the specified closed path at each point along it by the differential
+path length and summing the results as the differential lengths approach zero and as
+their number becomes infinite. We do not require a vanishingly small path. Ampère’s
+circuital law tells us that if H does possess circulation about a given path, then current
+passes through this path. In electrostatics we see that the circulation of E is zero about
+every path, a direct consequence of the fact that zero work is required to carry a charge
+around a closed path.
+     We may describe curl as circulation per unit area. The closed path is vanishingly
+small, and curl is defined at a point. The curl of E must be zero, for the circulation
+is zero. The curl of H is not zero, however; the circulation of H per unit area is the
+current density by Ampère’s circuital law [or (18), (19), and (20)].
+     Skilling5 suggests the use of a very small paddle wheel as a “curl meter.” Our
+vector quantity, then, must be thought of as capable of applying a force to each blade
+of the paddle wheel, the force being proportional to the component of the field normal
+to the surface of that blade. To test a field for curl, we dip our paddle wheel into the
+field, with the axis of the paddle wheel lined up with the direction of the component of
+curl desired, and note the action of the field on the paddle. No rotation means no curl;
+larger angular velocities mean greater values of the curl; a reversal in the direction of
+spin means a reversal in the sign of the curl. To find the direction of the vector curl and
+not merely to establish the presence of any particular component, we should place
+our paddle wheel in the field and hunt around for the orientation which produces the
+greatest torque. The direction of the curl is then along the axis of the paddle wheel,
+as given by the right-hand rule.
+     As an example, consider the flow of water in a river. Figure 7.14a shows the
+longitudinal section of a wide river taken at the middle of the river. The water velocity
+is zero at the bottom and increases linearly as the surface is approached. A paddle
+wheel placed in the position shown, with its axis perpendicular to the paper, will turn
+in a clockwise direction, showing the presence of a component of curl in the direction
+
+5 See the References at the end of the chapter.
+200                  ENGINEERING ELECTROMAGNETICS
+
+
+
+                     of an inward normal to the surface of the page. If the velocity of water does not change
+                     as we go up- or downstream and also shows no variation as we go across the river
+                     (or even if it decreases in the same fashion toward either bank), then this component
+                     is the only component present at the center of the stream, and the curl of the water
+                     velocity has a direction into the page.
+                          In Figure 7.14b, the streamlines of the magnetic field intensity about an infinitely
+                     long filamentary conductor are shown. The curl meter placed in this field of curved
+                     lines shows that a larger number of blades have a clockwise force exerted on them
+                     but that this force is in general smaller than the counterclockwise force exerted on
+                     the smaller number of blades closer to the wire. It seems possible that if the curvature
+                     of the streamlines is correct and also if the variation of the field strength is just right,
+                     the net torque on the paddle wheel may be zero. Actually, the paddle wheel does not
+                     rotate in this case, for since H = (I /2πρ)aφ , we may substitute into (25) obtaining
+
+                                                          ∂Hφ      1 ∂(ρ Hφ )
+                                             curl H = −       aρ +            az = 0
+                                                           ∂z      ρ ∂ρ
+
+
+
+ E X A M P L E 7.2
+
+                     As an example of the evaluation of curl H from the definition and of the evaluation of
+                     another line integral, suppose that H = 0.2z 2 ax for z > 0, and H = 0 elsewhere, as
+                     shown in Figure 7.15. Calculate H · dL about a square path with side d, centered
+                     at (0, 0, z 1 ) in the y = 0 plane where z 1 > d/2.
+
+
+
+
+                                   Figure 7.15 A square path of side    d with its center on the
+                                   z axis at z = z1 is used to evaluate H · dL and find curl H.
+                                                       CHAPTER 7      The Steady Magnetic Field   201
+
+
+Solution. We evaluate the line integral of H along the four segments, beginning at
+the top:
+              
+                                        2                     2
+                  H · dL = 0.2 z 1 + 12 d d + 0 − 0.2 z 1 − 12 d d + 0
+
+                         = 0.4z 1 d 2
+
+In the limit as the area approaches zero, we find
+                                        
+                                            H · dL       0.4z 1 d 2
+                  (∇ × H) y = lim                  = lim            = 0.4z 1
+                               d→0           d2      d→0    d2
+
+The other components are zero, so ∇ × H = 0.4z 1 a y .
+     To evaluate the curl without trying to illustrate the definition or the evaluation of
+a line integral, we simply take the partial derivative indicated by (23):
+                                                  
+                     ax             ay        az 
+                    
+                     ∂              ∂         ∂ 
+                                                     ∂
+               ∇× H=                              =   (0.2z 2 )a y = 0.4za y
+                     ∂x             ∂y        ∂z  ∂z
+                                                  
+                    0.2z 2          0         0
+
+which checks with the preceding result when z = z 1 .
+
+    Returning now to complete our original examination of the application of
+Ampère’s circuital law to a differential-sized path, we may combine (18)–(20), (22),
+and (24),
+                                                            
+                                ∂Hz   ∂Hy            ∂Hx   ∂Hz
+             curl H = ∇ × H =       −        ax +        −       ay
+                                 ∂y    ∂z             ∂z   ∂x
+                                             
+                                  ∂Hy   ∂Hx
+                              +       −         az = J                                    (27)
+                                   ∂x     ∂y
+
+and write the point form of Ampère’s circuital law,
+
+                                            ∇ ×H = J                                      (28)
+
+    This is the second of Maxwell’s four equations as they apply to non-time-varying
+         We may also write the third of these equations at this time; it is the point
+conditions.
+form of E · dL = 0, or
+
+                                            ∇ ×E = 0                                      (29)
+
+The fourth equation appears in Section 7.5.
+202   ENGINEERING ELECTROMAGNETICS
+
+
+
+          D7.4. (a) Evaluate the closed line integral of H about the rectangular path
+          P1 (2, 3, 4) to P2 (4, 3, 4) to P3 (4, 3, 1) to P4 (2, 3, 1) to P1 , given H = 3zax −
+          2x 3 az A/m. (b) Determine the quotient of the closed line integral and the area
+          enclosed by the path as an approximation to (∇ × H) y . (c) Determine (∇ × H) y
+          at the center of the area.
+
+          Ans. 354 A; 59 A/m2 ; 57 A/m2
+
+
+          D7.5. Calculate the value of the vector current density: (a) in rectangular
+          coordinates at PA (2, 3, 4) if H = x 2 za y − y 2 xaz ; (b) in cylindrical coordi-
+                                                2
+          nates at PB (1.5, 90◦ , 0.5) if H = (cos 0.2φ)aρ ; (c) in spherical coordinates at
+                                                ρ
+                                       1
+          PC (2, 30 , 20 ) if H =
+                   ◦     ◦
+                                           aθ .
+                                     sin θ
+          Ans. −16ax + 9a y + 16az A/m2 ; 0.055az A/m2 ; aφ A/m2
+
+
+
+      7.4 STOKES’ THEOREM
+      Although Section 7.3 was devoted primarily to a discussion of the curl operation,
+      the contribution to the subject of magnetic fields should not be overlooked. From
+      Ampère’s circuital law we derived one of Maxwell’s equations, ∇ × H = J. This
+      latter equation should be considered the point form of Ampère’s circuital law and
+      applies on a “per-unit-area” basis. In this section we shall again devote a major share
+      of the material to the mathematical theorem known as Stokes’ theorem, but in the
+      process we will show that we may obtain Ampère’s circuital law from ∇ × H = J.
+      In other words, we are then prepared to obtain the integral form from the point form
+      or to obtain the point form from the integral form.
+           Consider the surface S of Figure 7.16, which is broken up into incremental
+      surfaces of area S. If we apply the definition of the curl to one of these incremental
+      surfaces, then                 
+                                       H · dLS .
+                                                   = (∇ × H) N
+                                         S
+      where the N subscript again indicates the right-hand normal to the surface. The
+      subscript on dLS indicates that the closed path is the perimeter of an incremental
+      area S. This result may also be written
+                                   
+                                      H · dLS .
+                                                 = (∇ × H) · a N
+                                        S
+      or                
+                                       .
+                           H · dLS = (∇ × H) · a N S = (∇ × H) · S
+
+      where a N is a unit vector in the direction of the right-hand normal to S.
+           Now let us determine this circulation for every S comprising S and sum the re-
+      sults. As we evaluate the closed line integral for each S, some cancellation will occur
+

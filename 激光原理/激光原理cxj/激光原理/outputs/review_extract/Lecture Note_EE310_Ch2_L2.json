@@ -1,0 +1,200 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh2-2\nOpen Cavity &\nGaussian Beam\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 2: Open Cavity & Gaussian Beam2.3 Mode for Open Cavity & Diffraction TheoryIntroductionThe self-reconstruction of modeFresnel Kirchhoff's lawThe physical meaning of the integral equation2.5 The self-reconstructed mode of square confocal cavityVariables separationSolutions: Analytical solution and approximation solution2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "1. Introduction\n3\nDiffraction plays an important role in spatial distribution of laser energyAfter multiple traveling, a steady-state field will be formed: energydistribution will not be influenced by diffraction any more; the field oflight is the same as the field before previous reflectionThe shape of the field is the sameThe amplitude is differentThe phase is differenceBabinet's Principle: In physics, Babinet's principle is a theoremconcerning diffraction. It mentions that the diffraction pattern from anopaque body is identical to that from a hole of the same size and shapeexcept for the overall forward beam intensity.",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "4\nComplementary (互补)\nA B 0U P U P U P \n   \nA B 0\ni i i\n0 0 0\ni e i e i e d d d\nkr kr kr\nU Q U Q U Qr r r    \n        \n=+\nThe far-field diffraction patterns induced by a pair of complementary structures have the same shape",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "Babinet's Principle",
+        "rect": [
+          71.1401,
+          68.466,
+          780.257,
+          173.67
+        ]
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "text": "2. The Self-Reconstruction of Mode\n5\nTransverse mode\namplitude phaseSelf-reconstructed modeIncident wave(shape not important)coherent",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "   , , 1 cos4\nik\ns\nik eu x y u x y ds\n\n \n\n    \n3. Fresnel Kirchhoff's Law\n6\nLight field distributionfunction on the surfaceSSpherical wave from each point sourceAngle-related factor",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "每个点的场是无数前面的点的球面场的叠加",
+        "rect": [
+          168.028,
+          175.34,
+          664.994,
+          278.874
+        ]
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "text": "7\nU1(x1,y1)U3(x3, y3)Uj+1(xj+1, yj+1)Uj(xj, yj)M1 M2U2(x2, y2)With multiple travels, beside thedecrease of amplitude and changeof phase, the light fieldUj+1canconstructUjθrP(x, y)P’\nThe same light fieldThe self-reconstruction of modeCondition for reconstructed mode\nThe idea of self-reconstruction of modeL\n  1\n1, ,j jU x y U x y \n,ju x y  1 ,ju x y  ",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "8\nFresnel Kirchhoff'slawself-reconstructionof modeThe integral equation ofself-reconstruction fieldin optical cavity\nThe stable field distribution in cavityThe integral of theself-reconstructedmode……..……..The integral equation   , , 1 cos4\nik\nj j\ns\nik eu x y u x y ds\n\n  \n\n    \n   1 1 , , 1 cos4\nik\nj j\ns\nik eu x y u x y ds\n\n  \n\n      \n   , , 1 cos4\nikik eV x y V x y ds\n\n  \n\n    \n   1 , , 1 cos4\nik\nj j\ns\nik eu x y u x y ds\n\n \n\n     ",
+    "annotations": []
+  },
+  {
+    "page": 9,
+    "text": ", ,cos 1 1 cos 2L x y L L         \n9Kernel (核) of the integral equationCapable for any symmetric cavity (Parallel plane, confocal, general spherical mirror cavity)Find V(x,y)        mode distribution Solve the Integral Equationwhere\nThe integral of the self-reconstructed modeyxuj , y,xuj 1\nθrP(x,y)P’L  1 cos, , 4\nikikV x y V x y e ds   \n   \n   , , ,, , ik x y x yiV x y V x y e dsL\n \n    \n, , , , ,V x y K x y x y V x y ds      \n  , , ,, , , ik x y x yiK x y x y e L\n\n\n   ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "稳定场",
+        "rect": [
+          132.948,
+          236.086,
+          655.807,
+          300.377
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "102a2a2a2a ...…...\nType of Confocal CavityAnalytical Solution ApproximationSquare Prolate-ellipsoid function Hermite-Gaussian functionCircular Hyper-ellipsoid function Laguerre-Gaussian functionAmplitudePhase300 iterations\n1. The analytical solution: only for symmetrical confocal cavity 2. The numerical solution: numerical iteration method (迭代)The solution for other stable spherical mirror cavities can be obtained bymeans of \"equivalent\" to the symmetry confocal cavity.Solve the integral of the self-reconstructed mode?",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "只用共焦腔可以得到解析解",
+        "rect": [
+          63.6232,
+          454.843,
+          741.001,
+          499.93
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "4. Integral equation: physical meaning\n11\n1) The expression of Eigen functionAmn(x, y) Amplitude distribution on the mirrorφmn(x, y) Phase distribution on the mirrorEigen Value本征值Eigen Function本征函数\nVmn(x, y) Field distribution on the mirror (Eigen function transverse mode)There is no analytical solution for general spherical mirror cavityAnalytical solution can be obtained only for symmetrical confocal cavity\n   , , ,, , ik x y x yiV x y V x y e dsL\n \n    \n,, , mni x y\nmn mnV x y A x y e ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "激光腔内的场函数，只与这个激光腔有关，所以叫本征，还有一个腔体本身系数",
+        "rect": [
+          104.55,
+          413.096,
+          642.443,
+          489.076
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "光场在反射面上的分布=横模（光斑形状）",
+        "rect": [
+          446.162,
+          196.844,
+          756.036,
+          234.416
+        ]
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "text": "2 2\n1 2\n2 2\n11 1mnj mnj\nD\nmnmnj\nu u eu\n \n     \n 1 1\n1 i\nj j j j\nmn\nu u u e u e  \n\n \n  i\nmn e  \nmni\nmn mn e  \n12\n2) The meaning of eigen value γ－complex constantγis related to δD\nδD －The relative power loss per travel－单程损耗\n－Transmission factordecrease of amplitude per roundphase shiftif\nγmn－The single-pass loss of self-reconstructed mode－Different transverse mode has different δD－γmn   模的单程损耗δD ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "γ越大，单程损失越大",
+        "rect": [
+          173.039,
+          195.174,
+          665.83,
+          336.281
+        ]
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "text": "mn q \n1arg arg\n1arg\n2\nmn j j\nmn\nmn\nu u\nLkL\n\n  \n    \n \n  \n         \n13\n3) The phase shiftδφmn－the total phase shift of the selfreconstructed modesGeometrical phase shift几何相移\nResonant conditionIf we know γmn, can obtain the resonant frequency of the reconstructed modeAdditional phase shift 附加相移\nThe modulus of the complex constant is the one-round loss of the selfreconstructed mode, and its argument measures the phase shift, whichalso determines the resonant frequency of the mode.\n1\n1i\nj je u u  \n\n ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "phase shift决定最终自建模式的纵模",
+        "rect": [
+          59.447,
+          54.0677,
+          796.962,
+          167.621
+        ]
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "text": "               \n,,\n,\na\nx x a\nb\ny y b\nV x K x x V x dxV x y V x V y\nV y K y y V y dy\n\n\n\n\n\n\n  \n  \n\n\nW ,hen L R a\n, , , , ,V x y K x y x y V x y ds      \nVariable separation\n14ifassume  , , ,, , , ik x y x yiK x y x y e L\n\n\n   \n, , , , , x yx y x y x x y y      \n, , , , , x yK x y x y K x x K y y     , , ,, , , ik x y x yiK x y x y e L\n\n\n   \n?",
+    "annotations": []
+  },
+  {
+    "page": 15,
+    "text": "   \n2 2 2' 'x x y y L    \n1) Rectangular Planar Cavity\n15\nxx'y(x, y)2a2by'(x', y')LIIIρ   \n2 2\n2 2 2\n2 2 4 4\n2 2\n' '' ' 1\n1 ' 1 ' 1 ' 1 '1 2 2 8 8\n1 ' '\n4\nx x y yx x y y L L L L\nx x y y x x y y\nL L L LL x x y y\nL L\n                   \n                                                   \n  2\n1\n1 1 1 1 11 1 1 , 1,1 ! 2! !\nn n\nn\nn nx x x x x x n n\n         \n\n\n                    ",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "16\n   \n2 2\n2 2 2\n2 2 4 4\n2 2\n' '' ' 1\n1 ' 1 ' 1 ' 1 '1 2 2 8 8\n1 ' '\n4\nx x y yx x y y L L L L\nx x y y x x y y\nL L L LL x x y y\nL L\n                   \n                                                   \n  2 22 2 ' '1 ' 1 '1 2 22 2\nx x y yx x y y ikikL L LL Lik ikLe e e e\n                              \n    2 2' '\n, , , 2 2, , ,\nx x y yik ikik x y x y ikL ikL L Li i iK x y x y e e e e eL L L\n\n  \n        ",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17VmandVnare themthandnthsolutions，mandnthe correspondingcomplex constants：\nMore general expression, , , , ,V x y K x y x y V x y ds      \n    \n2\n2\n'\n2\n'\n2\n, '\n, '\nx xikikL Lx\ny yikikL Ly\niK x x e e L\niK y y e e L\n\n\n\n\n  \n          \n,\n,\na\nx x a\nb\ny y b\nx y\nV x K x x V x dx\nV y K y y V y dy\n\n\n  \n\n\n\n\n       \n\n\n          \n,\n,\na\nm m x m a\nb\nn n y n b\nV x K x x V x dx\nV y K y y V y dy\n\n\n\n\n\n\n      \n\n\n,mn m n\nmn m n\nV x y V x V y\n  \n  ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "对于HG：m表示横轴几个零点，n表示y轴几个零点\n对于LG：m表示径向几个零点（几个黑色环），n表示0-π内几个零点（切了几刀）",
+        "rect": [
+          49.4241,
+          41.5448,
+          789.445,
+          252.787
+        ]
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "text": "2) Square Confocal Cavity\n18\nxY\n2a\nfL 0\n+a\n+a\n-a\n-a XYR1R2Variables separation (分离变量)Fresnel number N=a2/Lλ\n22\nL a\na L\nL a\n\n\n \n   \n   , , ,, , ik x y x yiV x y V x y e dsL\n \n    \n               \n,,\n,\na\nx x a\na\ny x a\nV x K x x V x dxV x y V x V y\nV y K y y V y dy\n\n\n\n\n\n\n  \n  \n\n",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "19for symmetricalconfocal cavity\na\nLP2(x’,y’)P1(x,y)P’1 P’2Δ2Δ1        \n2 2 2 2\n1 2\n2 2 2 2\n1 2\n1, , ', ' 1 1 ' ' 2 ' '2\n1 ' ' 2 ' '2\nL Lx y x y L x y x y xx yyL R R\nL g x y g x y xx yyL\n                     \n        \nR1=R2=R=L\n, , , , ,V x y K x y x y V x y ds      \n       \n, , ,, , ,\n, , , , ,\nik x y x y\nx y\niK x y x y e L\nx y x y x x y y\n\n\n  \n   \n    , , , , ,K x y x y K x x K y y   \n1 2 1 1 2 2p p p p p p      \n  \n2 2\n1 2\n2 2 2 2\n1 1 1 2 2 2\n1 2\n2 2\n' '\n2 2\nx x y yPP L L L\nx y x yPP P P R R\n      \n        \n  1, , ,x y x y L xx yyL      ",
+    "annotations": []
+  },
+  {
+    "page": 20,
+    "text": "20Separate Vmn=Fm(X)Gn(Y)Square confocal cavity\nSeparate into two independent equations\nFresnel number2\n2 2 ac N L  \n     \n   , , ,, , ik x y x y\ns\niV x y V x y e dsL\n \n    \nL xx yy L    \n  , ,\na a xx yyikikL Lmn mn mn\na a\niV x y e V x y e dx dyL \n \n\n \n          \n1, 2 mn\nm n\nc cX x Y y c Na a       \n     2\nikL c c iXX iYY\nm n m n m n c c\nieF X G Y F X e dX G Y e dY  \n    \n       \n    \n2\n2\nikL c iXX\nm m m c\nikL c iYY\nn n n c\nieF X F X e dX\nieF Y F Y e dY\n \n \n  \n\n  \n\n \n \n\n",
+    "annotations": []
+  }
+]

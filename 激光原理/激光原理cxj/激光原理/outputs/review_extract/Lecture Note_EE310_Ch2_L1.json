@@ -1,0 +1,246 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh2-1\nOpen Cavity &\nGaussian Beam\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 2: Open Cavity & Gaussian Beam2.1 General Questions for Optical CavityMode & cavityCavity lossClassification of optical cavity2.2 Matrix Formulation of Geometrical OpticsABCD lawStable condition for coaxial cavity2",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "2.1 General Question for Optical Cavity Mode & CavityOptical mode is the photon state that can be distinguished inside theoptical cavityThe resonance mode is fixed once the cavity is givenMode theory for optical cavity is the laser mode theoryCharacteristics of mode: energy distribution, frequency, loss, angle ofdivergence…3\n' 2\nqL q \nThe resonance condition: After one period, it can return to the startingpoint with the same phase (=n*2π)\n2 2 ' 2\nq\nL q   \nc \n2 '\ncq L L' : optical lengthλq: wavelength in vacuum",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "驻波边界条件：相位差为2pi整数倍",
+        "rect": [
+          69.8872,
+          176.175,
+          769.817,
+          251.32
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "横模：横截面空间光强分布（光斑形状）\n纵模：腔内可以存在的光的模式，即驻波模式（频率）",
+        "rect": [
+          112.484,
+          435.009,
+          190.162,
+          472.582
+        ]
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "text": "4\n'L nL\nWhen the cavity is filled with material with refractive indexn, then\n'\n2\nqL q \n2 ' 2q\nc cq qL nL  \nLis the cavity lengthλ' is the resonance wavelength in materials\n1 2 'q q q\nc\nL      \nq\nq 1q 1q  2q \nc\n91.5 10 Hzq  \n(1) ForL=10 cm,n=1,(2) Smaller cavity length,the larger longitudinal modespacing",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "Cavity Loss1. Transmittance Loss (due to low reflection)2. Diffraction Loss (due to diffraction)3. Geometrical loss (due to angle)4. Other Loss (material, Q-switch element…)\n5\n1 2\n1ln2 r r  \n1 2 3 4 ...        \n0\n1\n1ln2\nI\nI 2\n1 0I I e \nThe average loss per cycle\n0 1\n0\n1\n2\nI I\nI  The percentage loss per cycleWhen the cavity loss is very small\n2\n20 1 0 0\n0 0\n2 1 1 (1 2 ) 2I I I I e eI I\n   \n\n        ",
+    "annotations": []
+  },
+  {
+    "page": 6,
+    "text": "Parameters related to cavity loss(1) The average photon lifetime: time needed for the intensitydecrease to 1/e\n6\n2\n20\nct\nLmI I e\n  2tm L c \n 0\nR\nt\nI t I e \n\nR L c 1\nR\n2\n0\nm\nmI I e \noptical length\nI N  0\nR\nt\nN t N e \n\n0 R\nt\nR\nNdN e dt \n\n\n \ndensity of photon number 0\n0 00 0\n1 1 1 R R\nt t\nR\nR R\nNt dN t t e dt te dtN N\n   \n                  \n10\n!n ax\nn\nnx e dx a\n \n",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "Parameters related to cavity loss(2)Q-factor for passive cavity\n7\nTotal energy in the cavity（ξ）\nEnergy loss per unit time（P）2Q \n1\nRQ   \n2 R\nLQ c \n 0\nR\nt\nN N e \nNh VdNP h V dt\n \n\n\n \nThe smaller the cavity loss, the higher the Q-factor of the cavity",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "Q越大损耗越小",
+        "rect": [
+          145.894,
+          323.126,
+          665.412,
+          426.66
+        ]
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "text": "2.2 Matrix Formulation of Geometrical Optics1. Formulation of Geometrical Optics（ABCD matrix）\n8\nrθA ray can be described byr  －distance with optical axisθ－angle with optical axisSmall angle (paraxial-ray)  tg sin  ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "近轴近似：低阶光束",
+        "rect": [
+          346.849,
+          265.408,
+          741.673,
+          309.918
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "在轴上方r为正，下方为负\n向上扬为正，向下冲为负\n从左往右，三->一象限方向夹角为正\n从右往左，一->三象限方向夹角为负\n",
+        "rect": [
+          116.628,
+          31.7311,
+          237.855,
+          267.634
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "1 0 2n n  \n2. The matrix in free space\n9\nA：r0, θ0B：r', θ'LABFree SpaceRay Matrix3. Interface between air and dielectric (refractive index n2)\n1n 2n\ninoutinout(Snell's law)\n0 0,r  ,r  \n0 \n0 0\n0 0\n1\n0 1L L\nr rr A B L T TC D  \n                             \n1 2\n1 0\n0LT n n\n   \n0 0,r  0r r\n1\n0\n2\nn\nn ,r  \n0 0r r L  ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "传输行为只需要知道传输矩阵就可以描述，不断左乘即可",
+        "rect": [
+          547.041,
+          78.2305,
+          786.16,
+          224.0
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "光在自由空间传播的传输矩阵",
+        "rect": [
+          539.256,
+          266.285,
+          748.346,
+          398.702
+        ]
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "text": "1\nr r\nrf \n  \n     \n1 1 1\nr r r l\nr l\nr rl l f\n\n\n \n      \n      \n            \nr A B r\nC D \n                   2r r\nrR \n  \n    \n4. The matrix for spherical mirror (and lens)\n10The two are the same\nPlaner mirror1 0\n2 1RT\nR\n     \n1 0\n0 1RT    \nR\n,r  \n,r    \nf\n,r   ,r    \nl l \n1 0\n1 1 2f\nRT f\nf\n     ",
+    "annotations": []
+  },
+  {
+    "page": 11,
+    "text": "11\n3 34\n3 34\n1 1\n0 1 0 1 L L\nr rr L L T T \n                           \n3 2 2\n3 2 2\n2 2\n1 0 1 0\n2 21 1 L L\nr r r T T\nR R  \n                                   \n2 1 1\n2 1 1\n1 1\n0 1 0 1 L L\nr r r L L T T  \n                           \n5 4 4\n5 4 4\n1 1\n1 0 1 0\n2 21 1 L L\nr r r T T\nR R  \n                                   \nThe first travelThe second travelThe third travelThe fourth travel\n1 1( , )r \n2 2( )r\n2 2( , )r \n3 3( , )r \n4 4( , )r \n5 5( , )r ",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "5. ABCD Matrix Application (resonance inside spherical mirror)\n12\n球面镜腔中往返一周的光线矩阵（简称往返矩阵）\n1 2\n01\n01\n0 0\n0 0\nR L R L\nrr T T T T\nr r A BT C D\n\n \n                      \n1 2\n1 0 1 0 1 1\n2 2 1 10 1 0 1\nA B L LT C D R R\n                              \n2 2\n1 2 1 1 1 2\n21 2 1\n2 2 2 2 2 21 1 1\nL LA B LR R\nL L L LC D R R R R R R\n                                         ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "往返矩阵与这个腔是否能形成稳定来回有关，后续有判据",
+        "rect": [
+          73.2526,
+          28.803,
+          737.224,
+          179.024
+        ]
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "text": "13\nnIf travel nroundswhereLight travel in cavity can be treated as light pass through seriesof optical componentsThe matrix is not related to their starting position and lighttravel directionGeneral Steps(1) find the optical loop (2) fix the period (3)write down each component\n0 0 0\n0 0 0\nn n n\nn\nn n n\nr r r A B rT T T C D   \n                              \n  \nsin sin 1 sin1\nsin sin sin 1sinn\nA n n B nT C n D n n\n  \n  \n        \n 1arccos2 A D ",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "14l1l2l3l1l2l3l1l2l3\nLLR1R2R1Spherical cavity = series of lens\n3 2 1\n3 2 1\n1 0 1 0 1 01 1 1\n2 1 2 1 2 10 1 0 1 0 1\nl l l\nR R R\n                                 \nR1R2R3",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "一种等效方法",
+        "rect": [
+          76.5892,
+          492.106,
+          424.701,
+          541.067
+        ]
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "text": "Ray matrices for some common cases\n15",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "Ray matrices for some common cases\n16\n平方折射率介质",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "Classification of Optical Cavity\n17\nl1l2l3\n2 > 1，2 > 3semiconductor laser\n1. Construction\n折叠腔\n环形腔\ndielectric waveguide",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\n2. Geometrical leakage loss: stable, semi-stable, critical",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "19\n3. Stable condition for spherical mirror cavityCo-axis spherical mirror cavity: two mirrors are sphericalmirror, have the same optical axis.concave mirrorR> 0; convex mirrorR< 0; plane mirrorR＝∞凹透镜 凸透镜 平面镜\nStable Condition: Geometrical lossStable Cavity: Any light with small angle can be reflected all the timesinside the cavity and can not escape from itsmall geometrical loss(low loss cavity)Unstable Cavity: Light with small angle will escape out of the cavityafter certain periodslarge geometrical loss (high loss cavity)Ray matrix can be used to analyze the geometrical loss anddetermine whether the cavity is stable",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "要注意",
+        "rect": [
+          71.0283,
+          372.975,
+          438.048,
+          406.358
+        ]
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "text": "20AnBnCnDnis infinite, then light can not escape from the cavityafter reflected for n times.ϕis a real number, and not equal tokπFor stale cavity\nIf travel nroundsn\n0 0 0\n0 0 0\nn n n\nn\nn n n\nr r r A B rT T T C D   \n                              \n  \nsin sin 1 sin1\nsin sin sin 1sinn\nA n n B nT C n D n n\n  \n  \n        \nwhere 1arccos2 A D \n1 12 A D ",
+    "annotations": []
+  },
+  {
+    "page": 21,
+    "text": "21\n 1 12 A D    RealAn, Bn, Cn, Dnis limitedStable(1) 1 12 A D    ImagenAn, Bn, Cn, Dn Unstable(2)  1 1 1 12 2A D A D k         (3) kodd (-1)keven (+1)Discussion\nFind the limitationkoddkeven\n 1arccos2 A D \n    \n1 11 1 1 12\nn\nn\nAn n BnA D T Cn Dn n\n            \n   \n1 11 1 1 12\nn\nn\nAn n BnA D T Cn Dn n\n           ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要条件",
+        "rect": [
+          42.1116,
+          341.346,
+          759.467,
+          493.792
+        ]
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "text": "22\nAnother Expression\nStable CavityUnstable CavityCritical Cavity\n2\n21 LA R \n1 1 2\n2 2 21 1L L LD R R R\n                  \n \n2\n1 2 1 2\n1 2 2 2 12\nL L LA D R R R R    \n 11 12 A D   \n1 2\n0 1 1 1L L\nR R\n             1 20 1g g \n1 1\n2 2\n1\n1\nLg R\nLg R\n \n \n1 20 1g g \n1 2 1 21,     0g g g g \n1 2 1 20 1g g g g ，",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要条件另一种表达式",
+        "rect": [
+          148.881,
+          61.8103,
+          664.932,
+          230.948
+        ]
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "text": "23\n1. Planer mirror cavity ( R= )\n3. Concentric cavityR1+R2=LM1M2R1R2UnstableStable2. Symmetrical confocal cavity R1=R2=LM1M2\nSome ExamplesForm close loop after two period: StableCriticalIt is used for all kinds of cavity. You can determine the stability by the ray matrix.\n1 2\n0 1n\nLnT    \n0 0\n0\n2n\nn\nr r Ln \n \n \n\n0\n0 0\n0\n0\nn\nn\nr\nr r\n\n\n \n \n1 0\n0 1nT     \n   1 1 1 1  Stable   1  Unstable    1  Criticle2 2 2A D A D A D      ； ；",
+    "annotations": []
+  }
+]

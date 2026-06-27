@@ -1,0 +1,209 @@
+[
+  {
+    "page": 1,
+    "text": "《激光原理与技术》\nPrinciples and\nTechnologies of Lasers\nCh3-3\nResonant Interaction\nbetween Electromagnetic\nField & Matter\nDr. Dan Luo(罗丹 )\nEmail: luod@sustech.edu.cn\nOffice: Room 331 at College\nof Engineering South Tower\nTel: 0755-88018552",
+    "annotations": []
+  },
+  {
+    "page": 2,
+    "text": "Chapter 3: Resonant Interaction betweenElectromagnetic Field & Matter\n2\n3.4 Gain coefficient (homogeneous broadening)Saturation of population inversionGain saturation3.5 Gain coefficient (inhomogeneous broadening)Gain saturationHole-burning behavior",
+    "annotations": []
+  },
+  {
+    "page": 3,
+    "text": "3.4 Gain coefficient (homogeneous)\n3\n0zGain materialI(z)I00zdz  \n1dI zg z dz I z\nignore loss  \n2\n2 1 21 0\n1\n21 0\n,\n,\nRl\nfdN Nn n Ndt f\nn N\n    \n   \n     \n \nI z Nh \n         \n21 0\n21 0 21 0\n2\n21\n21 0 0 2\n0\n,\n, ,\n1 , , 8\ndI z I zdN ndt h dt h\ndI n dt n dzI z\ndI z Ag n n gdz I z\n    \n      \n     \n  \n    \n      ",
+    "annotations": []
+  },
+  {
+    "page": 4,
+    "text": "4\nSaturation of population inversion (four-level system)  \n2\n21\n21 0 0 2\n0\n, , 8\nAg n n g          Gain Coefficient    \n3\n0 03 3 32 30\n0\n1 10 0 03 3 30\n2\n2 1\n1\n2 2\n2 1 21 0 2 21 21 3 32\n1\n,\ndn n W n S Adt\ndn n S n W n Adt\nfn n n f\ndn f n n N n S A n Sdt f    \n  \n  \n  \n        \nequilibrium\n0 03 3 32n W n S 3 0n \n32 03\n32 30\nS WS A\nequilibrium\n1 0n 1 10 0 03n S n W 10 03S W\n2n n 1 0n \n    \n21 0 21 21 3 32\n21 0 0 03\n2\n,\n,\nd n n N n S A n Sdt nn N n W\n   \n    \n      \n    2\n21 21\n1\nA S   lifetime of energy level E2",
+    "annotations": []
+  },
+  {
+    "page": 5,
+    "text": "5\nequilibrium \n03 2\n21 1 0 21 ,\nnWn N\n\n       21 0 0 03\n2\n,d n n n N n Wdt     \n    \n \n1\n0\n1\n1\ns\nnn I\nI\n\n\n \n\n(1) For weak light                         we have1 1sI I  0\n03 2n n nW    \n   \n1\n0\n03 2\n1\n01\n1\n21 1 0 2 21 1 0 2, ,s\nn nW\nI Nh\nhhI\n\n\n \n        \n \n\n \nwhere(population inversion density for weak light)(saturation intensity at frequency v1)(2) For intensive light we have                    that means0n n   1I n   \nSaturation of population inversion: when the incident lightIv1is comparable toIs(v1), thedecay rate of population inversion due to stimulated emission is comparable with otherprocesses like spontaneous emission and non-radiative recombination. Therefore, whenIv1<<Is(v1), Δnis not related to intensity. However, whenIv1is comparable toIs(v1), Δndecrease with the increase ofIv1. WhenIv1=Is(v1), Δn=Δn0/2Is(v1) is determined by the property of gain materials and frequency of incident light. It can bemeasured (as shown in Appendix I)\n0n n",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重要考点",
+        "rect": [
+          64.3127,
+          334.007,
+          247.701,
+          482.42
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "最开始的最多的粒子数反转",
+        "rect": [
+          314.388,
+          445.734,
+          440.259,
+          484.922
+        ]
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "text": "6\nSaturated intensityIs(v1) isinversely proportional tothe line function. For homogenousbroadening, we know that the line function has Lorentz shape       \n2\n0 21\n1 21 1 0 1 0 2\n21 1 0 2 0\n1 0 2 2\n1 0\n, ,, 8\n2, 2\ns\nH\nH\nH\nh AI g\ng\n          \n     \n \n   \n\n\n    \n2\n1 1 1 0\n20\n21 2\n41s s\ns H\nI I\nhI\n   \n  \n   \n0\n21 2\ns\nhI \n  saturated intensity at central frequency v0Saturated intensity has minimum value at  v1=v0, and it equal to the saturated intensity at central frequency",
+    "annotations": []
+  },
+  {
+    "page": 7,
+    "text": "Characteristics of the saturation of population inversion\n7\n1. The saturation intensity has minimum value at central frequency, which is equal toIs=hv0/σ21τ2. When the frequency of the incident light is far away from the centralfrequency, the corresponding saturation intensity will increase.2. For specific incident light intensity: the smaller saturation intensity, the quickerdecrease of Δn, and therefore the more serious saturation effect.3. The saturation effect is most pronounced when the incident light frequencymatches the central frequency. As the frequency deviates further from the centralfrequency, the saturation effect weakens.WHY?Stimulated emission is most likely to occur at the central frequency. The incidentlight causes a rapid decrease in the number of inverted carriers.",
+    "annotations": []
+  },
+  {
+    "page": 8,
+    "text": "8\n \n1\n0\n1\n1\ns\nnn I\nI\n\n\n \n\n   1\n2 2\n1 0 0\n22\n1 0\n2\n12\nH\nH\ns\nn n I\nI\n\n  \n \n               \nLorentz shape4. The influence of incident light with different frequencies on the populationinversion is not the same.\n1\n1 0 1 2\nH\ns\nI\nI\n     Only when                                             , there is significant saturation effect Note: What we discussed herein is the four-level system. For other systems, the gaincoefficient has similar expression. However, the expression of the saturationintensity is not the same.",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "只有在中心频率周围一个很小的范围内，饱和效应较为明显",
+        "rect": [
+          195.185,
+          201.563,
+          672.829,
+          274.102
+        ]
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "text": "9\nGain saturationGain saturation: the gain coefficient decrease with the increase of light intensity1. The expression of the gain coefficient when incident light with frequencyv1and intensityIv1passes through a homogenous gain mediumFor monochromatic light with frequencyv1and light intensityIv1, what is the gaincoefficientgH(v1,Iv1) when the light passes through a gain material withhomogeneous broadening?   \n1\n1 1\n0 0\n21 1 0 1\n1\n1 1\n,,\n1 1\nH\nH\ns s\nn gg I I I\nI I\n  \n   \n \n \n \n \n1\n1\n1 21 1 0\n0\n1\n, ,\n1\nH\ns\ng I n\nnn I\nI\n\n\n   \n\n \n \n",
+    "annotations": []
+  },
+  {
+    "page": 10,
+    "text": "10\nCharacteristics of the gain saturation1. For weak incident light , the gain coefficient is not related tothe incident light intensity. The gain coefficient is equal to2. When is comparable to , the value of will decreasewith the increase of , this is the gain saturation effect.3. When , we have4. For specific incident light intensity: if the frequency of the incident light isequal to the central frequency, the gain saturation effect is the most seriousone. While the frequency is far away from the central frequency, the gainsaturation effect is weak.\n1 1sI I \n1sI 1I\n0\n1Hg \n11,Hg I \n1sI \n1 1sI I   1\n0\n1 1, 2H Hg I g   ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "当入射光光强可比时，增益g不仅受增益函数影响，还随增益频率的光强上升而下降",
+        "rect": [
+          111.827,
+          322.268,
+          733.681,
+          386.469
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "入射光频率较弱，不可比时，仅由增益函数本身对该频率增益决定。",
+        "rect": [
+          112.661,
+          406.48,
+          736.182,
+          481.52
+        ]
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "text": "11\n    \n2\n0 0 0\n1 21 1 0 21 1 0 2\n0\n, , 8Hg n n A g           \nThe gain coefficient for weak incident light is not related to the frequency of incident light. Its shape is totally determined by the line function1 0,g  \n             \n1\n1\n1\n2\n1 21 1 0 21 1 0 2\n0\n2 2 21 0 0\n212 2 2 22 0 1 01 0\n22\n0 21\n22 20\n1 0\n2\n0\n21 22\n1 0\n, , , 8\n2 2\n8 212\n22\n8 12\n2\n12\nH\nH H\nH H\ns\nH\nH H\ns\nH\nH\ng I n n A g\nv n AIv I\nAn Iv I\nn\nv\n\n\n\n      \n   \n   \n\n   \n \n   \n                  \n             \n        \n\n   1 1\n2\n0\n0 22\n1 0\n2\n12\nH\nH\nH\ns s\ngI I vI I\n \n \n                ",
+    "annotations": []
+  },
+  {
+    "page": 12,
+    "text": "12\n(1) The gain coefficient for weak incident light is not related to light intensity andcan be expressed as0\n1Hg \n     \n2\n0 0\n1 0 22\n1 0\n2\n2\nH\nH H\nH\ng g\nv\n  \n      \nis determined by the properties of gain materials and the pumping speed. It can bemeasured experimentally.0\n0Hg \n(2) The gain coefficient at central frequency for weak incident light \n2 2\n0 0 0 0 0 21 21\n0 21 03 2 2 2 2\n0 0\n2\n8 4H\nH H\nA Ag n n n n nW                   \n10\n0\n1Hg \n0\ngain coefficient for weak incident light",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "上面公式Iv1=0，对中心频率附近的的一个频率的增益",
+        "rect": [
+          89.3203,
+          320.407,
+          500.277,
+          459.648
+        ]
+      },
+      {
+        "subtype": "/Square",
+        "contents": "中心频率增益",
+        "rect": [
+          92.6546,
+          144.479,
+          587.804,
+          238.696
+        ]
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "text": "13\nGain saturation2. The expression of the gain coefficient of weak light (with frequencyv)when the incident light (with frequencyv1and intensityIv1) is intensive.\n    \n1\n1 1\n0 0\n21 0\n21 0\n1 1\n,, ,\n1 1\nH\nH\ns s\nn gg I n I I\nI I\n  \n      \n \n   \n \nFor monochromatic light with frequencyv1and strong intensityIv1, along withweak light at frequencyv. What is the gain coefficient of the weak lightgH(v,Iv1)?For gain materials with homogeneous broadening, the intensive light willdecrease the population inversion density Δn, and the decrease of Δnwill resultin the decrease of gain coefficient.",
+    "annotations": []
+  },
+  {
+    "page": 14,
+    "text": "14\n    \n1 1\n1 1\n0 0\n1\n1\n1 1\n, ,\n1 1\nH H\nH H\ns s\ng gg I g I I I\nI I\n   \n  \n \n \n \nThe intensive light with frequency ofv1not only lead to the decrease of its gaincoefficientgH(v1,Iv1), but also lead to the decrease of other weak light (with frequencyv)with the same degree ofgH(v,Iv1).For homogeneous broadening, every particles contribute to the gain spectrum at differentfrequencies. Therefore, once the stimulated emission with frequency ofv1consume theinverted carriers, it will lead to the decrease ofinverted carriers with other frequencyv. Then thewhole gain spectrum decrease homogeneously.In homogeneous lasers, when one mode beginsto oscillate, the gain for other modes decreases,thereby preventing their oscillation (modecompetition).\n10\nHg \n0 \n1,Hg I \n0\nHg ",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "对于均匀展宽，增益也是均匀享受的，因此每一频率消耗的增益会导致所有频率的增益都下降，最后只有最能消耗的获得增益最多，只留下此频率",
+        "rect": [
+          77.6501,
+          87.5885,
+          473.603,
+          221.827
+        ]
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "text": "3.5 Gain coefficient (inhomogeneous)\n15\nGain saturation1g \n0\n'\n0n \nH\n'\n0\n' '\n0 0n d \n'\n0d\n0 1\n1\n   \n1\n1\n2\n0\n0\n1 22\n1 0\n2,\n12\nH\nH\nH\nH\ns\ng\ng I I\nI\n\n\n\n  \n               \n      \n2\n0 0 21\n0 0 2 2\n0\n0 0\n0 0 0 0 0\n4\n,\nH\nH\ni\nAg n\nn d n g d\n    \n    \n   \n      \n 1\n22 0\n21 0 0 0\n222\n0 1 0\n, 2\n4 1 2\ni H\nH\nH\ns\nA n g ddg I\nI\n\n    \n   \n                     \n\n0\n0 0n d  ",
+    "annotations": []
+  },
+  {
+    "page": 16,
+    "text": "16\n  1\n2\n2 0\n21 0 0 0\n222\n0 1 0\n, 2\n4 1 2\nH\ni\nH\nH\ns\nA n g d\ndg I\nI\n\n   \n   \n                         \n\n   \n1\n1\n22 0 0 0 021\n1 22 2 0 20\n1 0\n,, 4 2 12\niH\ni\nH H\ns\ng dA ng I I\nI\n\n\n        \n                    \n\n\n11,g I dg \n   \n1\n1\n22 0\n021\n1 1 0 22 2 20\n1 0\n, , 4 2 12\nH\ni i\nH H\ns\ndA ng I g I\nI\n\n\n        \n\n\n                  \n\n0 0 1 0 1 0, , 2i H i i H g g                 ",
+    "annotations": []
+  },
+  {
+    "page": 17,
+    "text": "17\n    \n1\n1\n1\n22 0\n021\n1 1 0 22 2 20\n1 0\n2 0\n21\n1 0\n2\n0\n, , 4 2 12\n,\n8 1\nH\ni i\nH H\ns\ni\ns\ndA ng I g I\nI\nA n gI\nI\n\n\n\n        \n  \n\n\n\n                      \n\n\n2 2\n1 1 udu arctga u a a 0\n1ig \n(1) For weak light                  we have\n1 sI I      \n2 0\n0 0 21\n1 1 0 21 1 0 2\n0\n, ,8i i\nA ng g n      \n   \n(2) For intensive light we have                                     that means1\n0\n1 1,i ig I g    1 1 1,iI g I   \n    \n2\n1 0 1 224ln 20 0 0 0 21\n1 0 0 2\n0\nln 2where 4\nD\ni i i\nD\nAg g e g n\n \n      \n              \n1 0 1 0, ,i Dg g    (3) For Doppler inhomogeneous broadening    \n1\n1 1\n20 0\n1 0 1 0\n1 2\n4ln 2, exp\n1 1\ni i\ni\nD\ns s\ng gg I I I\nI I\n\n \n    \n                    \nThe gain coefficient of intensive light for Doppler inhomogeneous broadening medium",
+    "annotations": []
+  },
+  {
+    "page": 18,
+    "text": "18\nSpectral hole-burning behavior12××\nn \n0 321 \nCBAA1B1 \n1\n0\n1\n1\n1\ns\nnn I\nI\n\n  \n\nPoint A:              1 1 A A  \nPoint B:              2 1 B B  \nPoint C:                 \n1\n3 1\n0\n3 3\n1 2\nH\ns\nI\nI\nn n\n  \n \n  \n  \n0\nig\n1 \n\n1,g I  0g \nHole-burning behavior of gain spectrum\n1\n1 1 2\nH\ns\nI\nI\n      Only effective for    1\n1\n0 0\n1 1 1\ns\nIn n n I I\n\n\n       depth\n11 H\ns\nI\nI\n   width 1\n1\n0\n1\n1\ns\nH\ns\nI Is n I\nI\n\n\n    \n\narea\n 1\n22\n1 0\n1\n12\nH\ns\ndg I\nI\n \n                ",
+    "annotations": []
+  },
+  {
+    "page": 19,
+    "text": "19\nFor Doppler inhomogeneous broadeningGas LasersAmplifier\n11,I\n\n1 11 1\nzv\nGain coefficientIntensive Weak\n11, ~ sI I , sI I \n1 1  \n0 0 1 z\nc\n       \n1\n1 0\n0\nz c  \n\n0, z \n1 0  Interact with atomlead to the stimulated emission of      particle, that iszv\n1 1  \n0 0 1 z\nc\n       \n1 0\n0\nz c  \n 1 0  \n0, z Interact with atom\n1lead to the stimulated emission of      particle, that iszv",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "重点",
+        "rect": [
+          52.6425,
+          503.579,
+          762.023,
+          560.276
+        ]
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "text": "20\n0\nig\n1\n\n0 12 \n1 0 1 0\n0 0\nc   \n \n \nzn \nz\nFor Doppler inhomogeneous broadening such as gas laser, the oscillated mode withfrequency ofv1will lead to two holes at the curve of gain coefficient. This two holes aresymmetrically distribute on the two sides of the central frequency.",
+    "annotations": [
+      {
+        "subtype": "/Square",
+        "contents": "多普勒展宽受到的增益变化",
+        "rect": [
+          294.382,
+          174.774,
+          528.619,
+          260.653
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "signal_vare")
+(DATE "Thu Mar 12 15:00:33 2026")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2020.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE res1_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2491.0:2647.5:2647.5) (2491.0:2647.5:2647.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE res1_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE res2_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2512.4:2669.0:2669.0) (2512.4:2669.0:2669.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE x_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (870.6:1004.6:1004.6) (870.6:1004.6:1004.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE y_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (849.8:983.6:983.6) (849.8:983.6:983.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE z_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (853.3:987.1:987.1) (853.3:987.1:987.1))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "signal_vare")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT res1_OBUF_inst_i_1/O res1_OBUF_inst/I (1569.3:1821.3:1821.3) (1569.3:1821.3:1821.3))
+      (INTERCONNECT res1_OBUF_inst_i_1/O res2_OBUF_inst/I (1451.4:1680.4:1680.4) (1451.4:1680.4:1680.4))
+      (INTERCONNECT x_IBUF_inst/O res1_OBUF_inst_i_1/I0 (903.9:1069.9:1069.9) (903.9:1069.9:1069.9))
+      (INTERCONNECT y_IBUF_inst/O res1_OBUF_inst_i_1/I1 (738.5:857.5:857.5) (738.5:857.5:857.5))
+      (INTERCONNECT z_IBUF_inst/O res1_OBUF_inst_i_1/I2 (1158.4:1379.4:1379.4) (1158.4:1379.4:1379.4))
+      )
+    )
+)
+)

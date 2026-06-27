@@ -1,0 +1,729 @@
+
+================================================================================
+Lecture Note_EE310_Ch5_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch5-1
+Characteristics of
+Laser Amplification
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 5: Amplification Characteristics5.1 Classification of Laser AmplifiersClassification by timeClassification by working modeClassification by functionality and optical excitation5.2 Gain Characteristics of the Uniform Excited Continuous Laser AmplifierGain of the laser amplifier for weak signal Gain of the laser amplifier for strong signal (saturated) Maximum output intensityWidth of amplifier gain spectrum and output line profile5.3 Gain Characteristics of the Longitudinal Excited Continuous Laser Amplifier 2
+
+--- page 3 ---
+ANNOTATIONS:
+- 放大器中介质受激光器激发
+- 碰撞展宽
+- 多普勒展宽
+5.1 Classification of Laser Amplifiers Classification by time
+3
+Relaxation process: establishment or extinction of a certain state (relaxation time)Longitudinal relaxationT1: change of population at the energy levelTransverse relaxationT2: time of generation and extinction of macroscopicpolarized induction•EM resonant interaction: in phase, ΔLdominates•Collision and other process: out of phase, ΔDdominatesAccording to the incident pulse widthτ0and relaxation timeTof gain materialContinuous laser amplifierT1< τ0Steady-state methodPulse laser amplifierT2<< τ0< T1Nonsteady-state methodUltrashort pulse laser amplifierτ0< T2Semi-classical theory
+2 1L LT     
+*
+2 1 2 DT  
+
+--- page 4 ---
+4
+Time (s) Solid Gas SemiconductorLongitudinal relaxation time 10-3 ~ 10-410-6 ~ 10-910-9Transverse relaxation time 10-11 ~ 10-1210-8 ~ 10-910-12Classification by working modeTraveling wave amplifier          Regenerative amplifier (F-P amplifier)g>0
+0I lI
+0P lP g>0
+0I
+0P
+lI
+lP
+1r 2r
+
+1I 
+2I
+
+2I
+1I
+Traveling wave amplifier: the incident light frequency is in the range of the gainspectrum.Regenerative amplifier: the incident light frequency needs to be close to theresonant frequency of the resonator to guarantee frequency matching.Gain of the amplifier
+0 0
+I l P lG I P  10lgdBG G
+
+--- page 5 ---
+5
+Gain of regenerative amplifierMulti-beam interference treatmentg>0
+0I
+0P
+lI
+lP
+1r 2r
+
+1I 
+2I
+
+2I
+1I
+When                                                               maximum gain
+2 1
+1 2
+s
+I IG I I
+ 
+     
+1 2
+2 2
+1 2 1 2
+1 1
+21 4 sin
+s
+s s c
+r r GG lr r G r r G   
+        
+ 
+1 2
+2
+1 2
+1 1
+1
+s
+c
+s
+r r GG
+r r G
+    
+
+deviates fromc→GThe largerr1orr2, the allowed bigger deviation offromc→Gr1and r2 0, regenerative amplifiertraveling wave amplifierG = GsExample of regenerative amplifier: semiconductor amplifierη=3.2-3.4
+2max
+1 2
+min
+1 2
+1
+1
+FP
+FP
+G r rGG G G r r
+       
+1 2 0.17G r r  4
+1 2 1.7 10r r  
+2G dB  30G dB
+
+--- page 6 ---
+6
+Classification by functionalityPreamplifier: weak signal working regime, small noise coefficient Power amplifier: strong signal, gain saturated state, large saturated output power Line amplifier: loss compensation of fiber in the system Classification by optical excitationUniform Transverse excitation: Δn,g0, andIsare all constant (solid-state orsemiconductor amplifier)Non-Uniform Longitudinal excitation: Δn,g0, andIsare related to transmissiondistance (fiber amplifier)Pumping 980 nm (1480 nm)Signal1550 nmI0(t) I1(t)Erbium-doped fiberI0(t) I1(t)CondenserPumpingGain material
+
+--- page 7 ---
+5.2 Gain Characteristics of the Uniform ExcitedContinuous Laser Amplifier
+7
+(1) Gain   weak signal gain (2) Maximum output intensity (3) Gain spectrumSaturated gain               (saturated output power)I0 IGain materialOptical pumpingAssume: homogeneous broadening, average loss coefficient α, central frequency 0Gain of the laser amplifier for weak signalpreamplifierNet gain coefficient Weak signal   
+1
+1m
+s
+dI z I z gI z dz I 
+
+     
+  0
+0
+0
+exp m
+I lG g l I      
+sI z I
+
+--- page 8 ---
+8
+Gain of the laser amplifier for strong signal (saturated)The incident signal is strong or the gain material is long enough~ sI z I
+   
+1
+1m
+s
+dI z I zgI z dz I 
+
+     
+    
+1
+1 1
+s
+m
+s m
+I z I dI zg dz I z I z I g 
+      
+Integrate within the total length of the amplifierOutput intensityGain of the AmplifierI0is known, amplifier'sgm, l, and a can be measured, Isis known  0 0
+1ln ln 1
+m sm
+m
+m s
+g I l II l gg lI g I I
+  
+           
+  
+0
+0
+0 0
+1ln ln 1
+m sm
+m s
+g I l IG g
+G g I I
+
+  
+         
+
+--- page 9 ---
+ANNOTATIONS:
+- 大信号被增益时：中心接近饱和，增长缓慢；旁边的增长快速，最终形成展宽
+9
+Maximum output intensityWidth of amplifier gain spectrum and output line profileDue to gain saturation, when the input signal is strong or the gain material islong enough, amplifier gain coefficient will decrease, net gain coefficient = 0,intensity will no longer increase.   
+1
+1 0m
+s
+dI z I zgI z dz I 
+
+      
+1m
+m s
+gI I 
+    
+Small signal homogeneous broadening optical amplifierwhenStrong signal homogeneous broadening optical amplifierSaturation effect at central frequency is strongOther frequencies saturation is weak 0
+0
+ln 2
+ln ln 2H G    
+ 0 0
+0 0 4 HG G        
+ HI l      
+
+--- page 10 ---
+5.3 Gain Characteristics of the Longitudinal ExcitedContinuous Laser Amplifier
+10
+Erbium-Doped Fiber Amplifier: EDFA
+Why EDFA belongs to continuous laser amplifier?Optical signal transition rate: 108~1010b/s (T =10-8~ 10-10s), erbium ions:T1= 10-2s, very short action time, Δnonly has small fluctuation near thesteady-state valueCharacteristics of longitudinal optical excitation0 0, , ,p sI z I z g z n z I z 
+
+================================================================================
+Lecture Note_EE310_Ch5_L2
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch5-2
+Characteristics of
+Laser Amplification
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 5: Amplification Characteristics5.3 Gain Characteristics of the Longitudinal Excited Continuous Laser Amplifier Signal, pump transport equationWeak signal gain characteristics of fiber amplifier Intensive signal gain characteristics 5.4 Gain Characteristics of Pulse Laser AmplifierTransport equation of pulse laser amplifierOutput energy and energy gain of pulse laser amplifier Power gain and pulse width narrowing2
+
+--- page 3 ---
+5.3 Gain Characteristics of the Longitudinal ExcitedContinuous Laser Amplifier
+3
+Erbium-Doped Fiber Amplifier: EDFA
+Why EDFA belongs to continuous laser amplifier?Optical signal transition rate: 108~1010b/s (T= 10-8~ 10-10s), erbium ions:T1= 10-2s,T<<T1very short action time, Δnonly has small fluctuationnear the steady-state valueCharacteristics of longitudinal optical excitation0 0, , ,p sI z I z g z n z I z 
+
+--- page 4 ---
+4
+Assume: three-level system, ignore the transverse distribution of the optical fieldand the activated ions; ignore the fiber loss; the quantum efficiencyF=1;homogeneous broadening; pumping in the same direction with signal.Signal, pump transport equation (ignore SP)     21
+dI z n z I zdz   
+     1 13 3 31
+p
+p p p
+dI z n z n z I zdz        
+  
+2 1
+12 2
+21 1
+n z n z n z
+f
+f
+
+   
+  
+ 
+15501500145014001600(nm)absorptiongainpumping at 980 nm (1480 nm)signal1550 nmIp(z) I(z)EDFAisolator
+
+--- page 5 ---
+5
+EDFA steady-state rate equation
+Normalized signal intensityNormalized pump intensity
+                  
+3
+1 13 3 31 3 32
+2 2
+3 32 21
+1 2 3
+0
+0
+p
+p p
+p
+s
+I zdn z n z n z n z Sdt h
+dn z I z n zn z S n zdt h
+n z n z n z n
+    
+   
+     
+    
+  
+I z N h 
+32 3 1 0S n  
+            1
+1
+1 1 1 1
+p
+p p
+I z I zn z n n z nI z I z I z I z
+
+ 
+             
+    
+21
+13
+s
+p p p p s
+I z I z h
+I z I z h
+   
+   
+    
+    
+     21
+dI z n z I zdz   
+     1 13 3 31
+p
+p p p
+dI z n z n z I zdz        
+...dI z
+dz
+ 
+...pdI z
+dz
+ 
+
+--- page 6 ---
+   
+0
+0
+p pth
+p pth
+dI zI z I dz
+dI zI z I dz
+  
+  
+6
+Normalized signal, pump light transport equation
+pumping lightalong the fiberThreshold pumping intensity   
+13
+p p
+p
+pthp p s
+I z I zI z Ih      
+ 13
+p
+pth
+p s
+hI    
+0pdI z
+dz
+ 
+              
+1 1
+1
+1 1
+p
+p
+p
+p p
+p
+I zdI z I zdz I z I z
+dI z I z I zdz I z I z
+ 
+ 
+
+       
+         
+Optical signal amplification Optical signal attenuation1p
+pth
+I z
+I      
+The threshold pump intensity is an indicator of the increase or attenuation of thesignal light in the optical fiber.can be measuredexperimentallyWeak signal absorption coefficient of signal light in doped fiber Weak signal absorption coefficient of pump light in doped fiber 12n  
+13p p n  
+(5.3.11)(5.3.12)pI z  
+=
+
+--- page 7 ---
+ 0
+0 ln1 1
+p
+p p pI l I l G          
+7
+Weak signal gain characteristics [           ]Eq. 5.3.12 Normalized the output pump intensity integralEq. 5.3.11Eq. 5.3.12integralNormalized the output pump intensity  0
+0
+ln p
+p p p
+p
+I l I l I lI        
+ 0
+0 0
+ln lnp p
+p p
+p
+I lI l I I lI I
+ 
+     
+1I z 
+1I z 
+ 
+00 1 exp 1
+p
+p
+p
+p
+IG l I l
+
+   
+              
+0 0 0 0ln ln ln ln 1 1 1 1
+p p p p
+p p
+pth pth
+I I l G l GI I
+            
+                   
+Can be experimentally measuredCan be experimentally measuredmultiply the two equations
+1I z 
+
+--- page 8 ---
+ANNOTATIONS:
+- 重要：Ipo是pump光强，l是放大器长度
+- 这个实际就是Ipo
+- β为一个常数
+- 就是Go
+8
+Normalized small signal gain and normalized Er-doped fibre length
+G0is independent of signal intensity, it is related to the pump intensityIp0and the length l of the Er-doped fiber.Optimal length lmIf the length of the fiber is too long,Ip<Ipth, the signal will decreaseIf the length of the fiber is too short,Ipnot fully utilizedwhen, 1m p m pth p ml l I l I I l    
+weak signal gain under optimal length
+0 01 1 ln 11 1
+p p
+p m m
+pth
+I l GI
+     
+0 01 ln 1p p
+m
+p pth pth
+I Il I I 
+             
+0 00ln ln 1 p p
+m
+p pth pth
+I IG I I
+
+
+      
+
+--- page 9 ---
+9ConclusionExistence of optimal length, input pump powerIp0l0,Gm0For fiber with fixed length, if the pumping is too strong, excess pump lightwill escape from the output end. Then there will be no contribution to thegain coefficient.
+Normalized small signal gain and normalized pump powerAt the very beginning (for weaksignal), the gain increase withthe optical pumping.With increase of pumping power(for strong signal), flattening ofthe curves have been observed.The flattening of the curveimplies that the pumping lightescapes from the end of the fiberwithout being absorbed.
+
+--- page 10 ---
+                         
+0
+0 0
+13
+21 21
+1 1 1
+1
+11 1
+1 1 , 1
+1
+p p
+p p
+p p
+p
+s p
+p
+p s
+I z I zn z n n z nI z I z I z
+I z I z nI z
+I z
+n z n zn z I z I z
+I z hI z
+ 
+
+
+
+   
+      
+             
+             
+   
+        
+10
+Intensive signal gain characteristics [       can not be ignored] Characterization of EDFA high power output capability
+Saturation intensity is not a constant, it depends on pumping intensity.Longitudinal pumping characteristics:Ip(z) change with propagate distance,Is(,z),g0(z) also change with distance,Ip(z) relates to the signal intensityI(z).
+    
+21
+13
+s
+p p p p s
+I z I z h
+I z I z h
+   
+   
+    
+    
+,sI z
+I z
+
+--- page 11 ---
+11
+Numerical solutions are usually required, to get large signalGand outputpower from transport equationAt maximum pumping power, calculate the gain and output power atl=lm'(optimal length under strong signal). Use the same method as the discussionof weak signal case. 0
+0 01 ln lnp p p
+m pth m p pth
+pth
+IG I I G I I I
+ 
+ 
+        
+weak signal regionhigh poweroutput
+
+--- page 12 ---
+5.4 Gain Characteristics of Pulse Laser Amplifier
+12
+Simplified assumptionNeglecting the influence of optical pumping and SP on population inversionGain material with homogeneous broadening and the incident lightλ=λ0Δnhas uniform transverse distributionTransport equation of pulse laser amplifier τ0< T1zz+dzzI0(t)J0(t)l         21
+, , ,
+, , ,
+N z t Sdzdt N z t N z dz t S dtt
+n z t N z t Sdzdt N z t Sdzdt
+
+  
+     
+  
+Photon flux intensity , ,J z t N z t 
+Transport equation ofpulse traveling waveamplifier in a three-energy levels system          
+21
+21
+, 2 , ,
+, , , , ,
+n z t n z t J z tt
+J z t J z t n z t J z t J z tt z
+
+  
+   
+      ηF = 1,  f1 = f2 (5.4.2)(5.4.3)
+
+--- page 13 ---
+ANNOTATIONS:
+- 重要：腔体增益参数定义：输出光流/输入光流
+13
+Boundary conditionIncident pulse waveformΔn: spatial distribution (uniform) before signal incidence0 00, ; , 0 0J t J t n z t n z l      
+Output energy and energy gain of pulse laser amplifier zz+dzzI0(t)J0(t)lEnergy gain (GE)=Total number of input photons per unit area Total number of output photons per unit area 0 0
+l
+E
+J lEG E J 
+Key: GetJ(l)from transportequationInput signal energyOutput signal energy            
+0 0 0 0 0
+00
+0 0
+, ?l
+E h S J t dt h SJ J J t dt
+E h S J l t dt h SJ l J l
+ 
+
+ 
+ 
+ 
+
+   
+  
+ 
+
+          
+21
+21
+, 2 , ,
+, , , , ,
+n z t n z t J z tt
+J z t J z t n z t J z t J z tt z
+
+  
+   
+      
+(5.4.2)(5.4.3)
+
+--- page 14 ---
+14
+How to obtain the energy gain: No need to consider the behaviour of pulses atdifferent times, mathematical treatment, time integration, Eq. 5.4.2 substitute5.4.3 then integrate
+Nonlinear differential equation, numerical solution
+ 0 0 0 0
+, , , ,2
+J z t J z t n z tdt dt dt J z t dtt z t
+     
+              
+dJ z
+dz 0 ,n n z    J z
+   0
+1 ,2
+dJ z n n z J zdz           21
+, 2 , ,n z t n z t J z tt    
+   
+0
+,
+21 0
+, 2 ,,
+n z
+n
+d n z t J z t dtn z t
+ 
+
+ 
+
+   
+212
+0, J zn z n e    
+  212
+0
+1 12
+J zdJ z e n J zdz
+      
+
+--- page 15 ---
+ANNOTATIONS:
+- 重要考点：弱初始入射信号：给出公式，分辨下面说法是否正确
+15
+Some special cases forJ(z)  212
+0
+1 12
+J zdJ z e n J zdz
+      
+(1) Weak incident signalWeak signal energy gainConclusion: GEindependent of signal intensity, lor n0 GE ; GEexponentiallyincrease withland n0(2) Intensive incident signal
+Expand and only considerthe first two items
+can be re-written as21
+21 1 ~ 0 J zJ z e   
+   212
+0 0
+1 112 2
+J zdJ z e n J z n J zdz
+          
+  0 2
+dJ z dzJ z n    
+21 00 expEG J l J n l        
+        21 0
+21 0 0 n ldJ z n J z J l J edz
+        
+21 1J z 
+211 2 J z
+
+--- page 16 ---
+ANNOTATIONS:
+- 强初始入射信号
+16
+The total number of photons per unit area can be obtained after integrationlshortConclusion:J(0)GE Gain saturationIntensive signal incidence,GElinearlyincrease withlandn0, NOTexponentially increase, becausen0will deplete significantly.intensive signal energy gain    0 0 0 0 0 12 2 2
+l l l ln n nJ l J e e J e e    
+  
+          
+J l
+     0 00 1 02 2
+ln n lJ l J e J 
+
+        
+01 2 0E
+n lG J
+ 
+1 l1 1 l  
+
+--- page 17 ---
+17
+(3) l long enough, the intensity of the incident light signal is within the two At the beginning, it is similar with the weak signal case, that is, exponentiallyincrease withl. With the increase of the transmission distancel, once the pulseenergy is strong enough, gain saturation appears. When the output pulseenergy approaches saturation, it does not increase anymore.GEapproach stableAt this moment, the energy gain isindependentof the length of the amplifier.The maximum photon number density of amplifier output is independent ofthe input energy, only related to Δn0andα.
+    00 1 2
+l l nJ l J e e  
+
+       0 12 0
+l l
+E
+nG e e J
+ 
+
+   
+ 
+0 1
+2 0E
+nG J
+
+(4) Lossless laser amplifier  (α=0)Get J(l),GEby integrating the above equation  212
+0
+1 12
+J ldJ l e n J ldl
+      
+
+--- page 18 ---
+ANNOTATIONS:
+- 考概念，不考具体公式，要知道不同情况下G关于l的变化关系
+18
+Lossless laser amplifierOutput energy and energy gain increase withlregardless of the intensity ofthe incident signal.llong enoughThe most effective way to improve the output energy of pulse amplifier:  rather than simply increaselSummary: for pulse laser amplifier with α     
+21 21 0
+21 21 0
+2 0
+21
+2 0
+21
+1 ln 1 12
+1 ln 1 12 0
+J n l
+J n l
+E
+J l e e
+G e e J
+ 
+ 
+
+
+
+
+     
+     
+21 0 in l
+EG e   
+ 
+01 2 0E
+n lG J
+ 
+ 
+0 1
+2 0E
+i
+nG J
+
+ExponentiallyLinearlyWhen saturated, a has great impact on the output energy Weak signalIntensive signal
+0 ,n   
+
+--- page 19 ---
+19
+Power gain (Gp) and pulse width narrowingPower gain: to analyze the output pulse power and waveform, we need theunsteady solutionJ(z,t)0ptJ0
+0J
+t0ptJl
+0J
+t0t
+  
+21 0 21 0 2
+1
+1 1p n l J tG t e e     
+   
+21 0
+21 0 21 0
+0 0 exp
+0 2 1 exp
+p
+p
+t G n l
+t J t G t n l
+
+ 
+  
+    
+Physical reason for the distortion of the input strong pulseThe front and top of the rectangular optical pulse havedifferent gains: the front has exponential power gainwhile the top gain decreases with the increase oft.Weak signal: linearly amplify, no deformationIntensive signal: Gain saturation, tGp(t)nonlinearly amplify, pulse deforms and becomes narrower

@@ -1,0 +1,315 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+9: Conductors & Dielectrics
+• Current and Current Density 电流和电流密度
+  Current is a flux quantity and is defined as:
+  Current is defined as the motion of positive charges.
+  The unit of current is the ampere (A), and Current is a scalar.
+  Ampere is one of the seven SI unit symbol.
+  The constant current that will produce an attractive force of
+  2×10–7 newton per meter of length between two straight,
+                                                                 André-Marie Ampère
+  parallel conductors of infinite length and negligible             (1775-1836)
+  circular cross section placed one meter apart in a vacuum
+
+
+
+
+ 国际计量局                Meter Convention
+                         米制公约
+                                                                                      1
+9: Conductors & Dielectrics
+• Current and Current Density 电流和电流密度
+  Current density, J, measured in A/m2 , yields current in Amps
+  when it is integrated over a cross-sectional area. The
+  assumption would be that the direction of J is normal to the
+  surface, and so we would write:
+
+ In reality, the direction of current flow may not be normal to
+ the surface in question, so we treat current density as a vector,
+ and write the incremental flux through the small surface in the
+ usual way:                         where S = n da                  n
+  Then, the current through a large surface
+  is found through the flux integral:
+
+
+
+
+                                                                         2
+9: Conductors & Dielectrics
+• Relation of Current to Charge Velocity
+ Consider a charge Q, occupying volume v, moving in the positive x direction at
+ velocity vx
+ In terms of the volume charge density, we may write:
+
+ Suppose that in time t, the charge moves through a distance x = L = vx t
+
+ Then
+
+ The motion of the charge
+ represents a current given by:
+
+
+
+
+  or
+
+
+                                                                                    3
+9: Conductors & Dielectrics
+• Relation of Current to Charge Velocity
+
+     So we now have
+
+     The current density is then:
+
+
+
+
+     So that in general:
+
+
+
+
+    Q: How to define the direction of v herein ?
+                                                   4
+9: Conductors & Dielectrics
+• Continuity of Current 电流的连续性
+  Suppose that charge Qi is escaping from a volume
+  through closed surface S, to form current density J.
+  Then the total current is:
+
+                                                                       Qi(t)
+  where the minus sign is needed to produce positive
+  outward flux, while the interior charge is decreasing
+  with time.
+  We now apply the divergence theorem:
+
+                                                   The integrands of the last expression
+                                                   must be equal, leading to the
+                                                   Equation of Continuity 连续性方程
+  so that
+
+  or
+                                                                                           5
+9: Conductors & Dielectrics
+• Example
+   Consider a current density that is directed radially outward and decreases
+   exponentially with time,
+
+
+   Selecting an instant of time t = 1 s, we may calculate the total outward current at
+   r = 5 m:
+
+
+   At the same instant, but for a slightly larger radius, r = 6 m, we have
+
+
+
+   Thus, the total current is larger at r = 6 than it is at r = 5.
+
+
+
+
+                                                                                         6
+9: Conductors & Dielectrics
+• Example
+
+
+
+
+                              7
+9: Conductors & Dielectrics
+• Metallic Conductors 金属导体
+     Energy Band Structure in Three Material Types
+
+                                                                             Rutherford’s Atomic Model
+
+
+
+
+                                                                                 Bohr Atomic Model
+a)    Conductors exhibit no energy gap between valence and conduction bands, so electrons move
+      freely.
+b)    Insulators show large energy gaps, requiring large amounts of energy to lift electrons into the
+      conduction band. When this occurs, the dielectric breaks down.
+c)    Semiconductors have a relatively small energy gap, so modest amounts of energy (applied
+      through heat, light, or an electric field) may lift electrons from valence to conduction bands.
+                                                                                                        8
+9: Conductors & Dielectrics
+• Electron Flow in Conductors
+Free electrons move under the influence of an electric field. The applied force on an
+electron of charge Q = -e will be
+
+
+When forced, the electron accelerates to an equilibrium velocity, known as the drift
+velocity 漂移速度:
+
+
+where e is the electron mobility漂移率, expressed in units of m2/(Vs). The drift
+velocity is used to find the current density through:
+
+
+
+ from which we identify the conductivity 电导率for the case of electron flow :
+
+                                               S/m
+
+                                                                                        9
+9: Conductors & Dielectrics
+• Conductance & Resistance 电导& 电阻
+ Consider the cylindrical conductor shown here, with voltage V applied across the
+ ends. Current flows down the length, and is assumed to be uniformly distributed over
+ the cross-section, S.
+ First, we can write the voltage and current in the cylinder in terms of field quantities:
+
+
+
+
+                                                  Using Ohm’s Law:
+
+
+                                                  We find the resistance of the cylinder:
+
+                                                                           Unit: ohm
+            a                              b                                                 10
+9: Conductors & Dielectrics
+• Conductance & Resistance 电导&电阻
+               General Expression for Resistance
+
+
+
+
+                a                                  b
+                                                       11
+9: Conductors & Dielectrics
+• Electrostatic Properties of Conductors
+Consider a conductor, on which excess charge has been placed
+
+
+
+                        + + + ++
+            E      ++                            Electric field at the surface
+                 +                   +
+                + solid conductor + s           points in the normal direction
+                      E = 0 inside  +
+                +                  +
+                  +
+                    + + + + ++
+
+
+   1. Charge can exist only on the surface as a surface charge density, s -- not in the
+   interior.
+   2. Electric field cannot exist in the interior, nor can it possess a tangential
+   component at the surface.
+   3. It follows from condition 2 that the surface of a conductor is an equipotential.
+
+                                                                                           12
+9: Conductors & Dielectrics
+• Electrostatic Properties of Conductors
+
+
+              +    + + +
+     E     ++              +
+          +                   +
+         + solid conductor + s
+               E = 0 inside  +
+         +                  +
+           +
+             + + + + ++
+
+
+
+  1. Charge can exist only on the surface as a surface charge density, s -- not in the
+  interior.
+  2. Electric field cannot exist in the interior, nor can it possess a tangential
+  component at the surface.
+  3. It follows from condition 2 that the surface of a conductor is an equipotential.
+
+                                                                                          13
+9: Conductors & Dielectrics
+• Boundary Condition
+   Over the rectangular integration path, we use
+
+                                        or
+
+  To find:
+
+
+                       These become negligible as h approaches zero.
+
+  dielectric                                           Therefore
+               n
+
+
+
+
+                                             More formally:
+               conductor
+                                                                        14
+9: Conductors & Dielectrics
+• Boundary Condition
+   Gauss’ Law is applied to the cylindrical surface shown below:
+
+
+
+
+       This reduces to:                                as h approaches zero
+
+
+                     dielectric
+                                                            Therefore
+
+
+
+   n
+                                                          More formally:
+       s
+                     conductor
+                                                                               15
+9: Conductors & Dielectrics
+• Summary
+
+
+
+
+                   Tangential E is zero
+ At the surface:
+                   Normal D is equal to the surface charge density
+
+
+
+
+                                                                     16
+9: Conductors & Dielectrics
+• Example
+
+
+
+
+                              17
+9: Conductors & Dielectrics
+• Example
+
+
+
+
+                              17
+9: Conductors & Dielectrics
+• Example
+
+
+
+
+                              18
+9: Conductors & Dielectrics
+• Example
+
+
+
+
+                              19
+

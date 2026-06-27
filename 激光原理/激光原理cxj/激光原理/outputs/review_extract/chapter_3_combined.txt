@@ -1,0 +1,1920 @@
+
+================================================================================
+Lecture Note_EE310_Ch3_L1
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch3-1
+Resonant Interaction
+between Electromagnetic
+Field & Matter
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 3: Resonant Interaction betweenElectromagnetic Field & Matter
+2
+3.1 Light and matter interaction3.2 Line broadening mechanismsHomogeneous broadening: natural, collisions, lattice vibrationInhomogeneous broadening: Doppler, lattice defectComprehensive broadening
+
+--- page 3 ---
+3.1 Light & Matter Interaction
+3
+The physical basis of laser: The resonant interaction betweenelectromagnetic fields and the (bound) electron inside atoms (or ions ,molecules) which form the matter.Laser theory: Light & Matter1) The Classical Theory– Classical atomic luminous modelDescription of light: classical electromagnetic field (Maxwellequations)Description of atom: classical atomic model (dipole resonator)You can approximate describe absorption, dispersion, spontaneous emission andspontaneous emission line-width and other physical phenomena, can notdescribe the nonlinear physical process (saturated, nonlinear polarization, etc.)
+
+--- page 4 ---
+4
+2) Semi-Classical Theory– the Lamb theory (W. E. Lamb Jr, 1964)Description of light: classical electromagnetic field (Maxwell equations)Description of atom: quantum mechanicsCan deal with the volatility of light and the relevant physical phenomena likenon-linear phenomena and Lamb dip, etc., but can not deal with the related issuesof the particle nature of light (quantum optics), such as the quantum fluctuationsof light, and the photon statistics.3) Quantum Theory– quantum electrodynamics (QED) usingquantum processing to deal with radiation field and atomDescription of light: photons by using QEDDescription of atom: QED modelIt is the foundation of modern quantum optics, the physical problems associatedwith particles of light can be handled, but very complicate in handling issuesrelated to the volatility of light (such as phase). In QED, the number of photons(i.e. light amplitude) and the phase is a quantity of uncertainty.
+
+--- page 5 ---
+5
+4) Rate Equation– a simplified quantum theoryInteraction between electromagnetic field (photons) & atoms of gain mediumDoes not consider the quantum fluctuations of the number of photons and phaseof the light, only discuss the number of photons (light intensity).The starting point of rate equation: the basic relationship of SP, STA and STE
+21
+21
+2
+12
+12
+1
+21
+21
+2
+1
+1
+1
+sp
+sta
+ste
+dnA dt n
+dnW dt n
+dnW dt n
+                
+21
+21 2
+12
+12 1
+21
+21 2
+sp
+sta
+ste
+dn A ndt
+dn W ndt
+dn W ndt
+    
+    
+    
+12 12
+21 21
+12 1 21 2
+W B
+W B
+B f B f
+
+
+
+
+
+
+
+2
+3
+8
+1b
+h
+k T
+h
+c e
+ 
+  
+
+2 1E E h P  single frequency has a distribution
+
+--- page 6 ---
+ANNOTATIONS:
+- 三个重点： / 1）中心频率 / 2）线宽 / 3）线型
+- 时间能量的不确定性：激发态无规则运动，与其他原子的作用，同类激发态原子直接作用...
+- 均匀展宽：所有原子对谱线宽度内所有频率均有影响且相同
+3.2 Line broadening mechanisms
+6
+ 21
+2 21
+dnP h n A h P P ddt    
+
+   
+P 1. Line broadeningp() 0,g  2. Line function: spectrum line-shape  0 0, , 1 Pg g d P
+    
+
+   
+3. Spectrum line-width4. Two broadening mechanisms: homogenous and inhomogeneous broadeningI. Homogenous Broadeningnatural, collisions, lattice vibration (phonon)
+
+--- page 7 ---
+7
+1) Natural broadening: atoms have limited lifetime in the excited stateThe dipole oscillator damping vibration    
+0 2 2 2
+0
+, 2 4
+N
+Pg P
+         
+    
+2
+P d x d
+P P d
+   
+ 
+
+
+
+
+Normalization condition   
+0 020
+0 22
+t
+i t xx t x e e x
+i
+
+     
+
+ 
+ 
+FTThe damping coefficient γand spontaneous emission lifetime τs(1) According to the concept of damping vibration  2 21 2
+2 20
+tdn dn n n t n edt dt
+
+
+    
+   
+2 2
+20 20 0 0
+t tP t n x t n x e P e     
+(2) According to the change of particles number in the E2state
+
+--- page 8 ---
+ANNOTATIONS:
+- 自然展宽线型
+8
+ 2
+20 21 0
+s st tdn tP t h n h A e P edt
+       
+2 20
+tn t n e 
+1 s 
+0
+tP t P e 
+   
+0 2 2
+0
+2, 2
+N
+N
+N
+g      
+   
+    
+0 2 2 2
+0
+1, 1 2 4
+1
+2
+s
+N
+s
+N
+s
+g      
+ 
+  
+ 
+Lorentz function
+0P
+The quantum interpretation of line broadening due to the limited lifetime ofenergy levelΔE1ΔE2
+2
+hE     
+Fluorescence - energy level transition between quantum states The average lifetime of energy level can be understood asatoms in the state has an uncertainty of timeτ(time is nota determined value);Time and energy can't be accurately measured at the sametime, the state corresponding to the energy also have auncertainty of ΔE.
+natural broadening line-width
+
+--- page 9 ---
+9
+ΔE1ΔE2
+1 1 1
+sp nr   
+2 1
+1 2
+1 1
+2 2N
+E E
+h  
+     
+If the high and low energy levels have certain width, thetransition between them is not defined by a certain frequencyv21, but the one with a range of frequency distribution ΔvNe atom, 632.8 nm, energy life time is 10-8s, natural broadening 107HzCO2molecule, 10.6 μm, natural broadening 103-104Hz
+1
+2N
+s
+   Completely ignore the width of the grand state energy level, this is due to the limitation of the classical radiation model.
+
+--- page 10 ---
+ANNOTATIONS:
+- 类似于一个碰撞的lifetime
+10
+2) Collision Broadening: random "collision" between atoms Inelastic collision: internal energy transfer, equivalent to excited state lifetimeground state atom ↔ excited state atomexcited state atom ↔ other atomsElastic collision: spontaneous radiation & phase change, lengthDue to the random collisions, the phase change is big, and it is not related to theinterrupted wave. The average length of the wave is determined by the averagetime
+L
+L
+1
+L
+L
+  
+－average collision time (the time spacing between collision)
+－collision line-width... ...collision collision
+
+--- page 11 ---
+11CO2 : a=49 kHz/PaHe3:Ne20(7:1): a=750 kHz/Pa   
+0 2 2
+0
+2 1, 2
+L
+L L
+LL
+g       
+    
+For gas laser: collision broadening - pressure broadening Pressure collision between atom (molecule) collision broadening
+L p
+p
+ 
+
+ 
+proportionality coefficientpressure3) Natural Broadening + Collision Broadening: still Lorentz function
+1 1 2
+2H N L
+s L
+     
+         
+
+--- page 12 ---
+12
+4) Phonon: Lattice Vibration BroadeningDue to the thermal lattice vibration, the excited ions fixed inside the lattice thatwill change with time, which results in position change within a certain range,and therefore induces the line broadening.The thermal lattice vibration has the same effect to all luminous ions, and it isclassified as homogenous bordering. Lattice vibration broadening is the mainbrooding mechanism for solid-state gain materials.Homogenous Broadening－The physical mechanism which causes the linebroadening is equivalent for all the atoms; Every light emitting atoms followthe line-shape ofLorentz function   
+0 2 2
+0
+2, 2
+H
+H
+H
+g      
+   
+
+--- page 13 ---
+ANNOTATIONS:
+- 非均匀展宽：部分原子对谱线宽度内部分频率有影响，且影响程度不相同
+13
+II. Inhomogeneous BroadeningDoppler, lattice defect1) Doppler BroadeningLight emitting from particles with thermal motion has line broadening due to Doppler frequency shiftOptical Doppler effect: spontaneous emission Doppler effect
+0
+1
+1
+z
+z
+c
+c
+  
+  0 1 z
+c
+      
+1z c 
+1storder approximationReceiverlight source
+0 
+0 0z z  
+Atom moves toward receiver(along the light propagation direction)Atom leaves the receiver(reverse direction of propagation )
+0z  0z 
+
+--- page 14 ---
+14
+Stimulated emission Doppler effect: one-dimensional Doppler effectmonochromatic light wave        light source moving atom light receiver imaginarylight sourceatom receiver
+z
+
+0z ifthe frequency that atom feel is 
+biggest resonant interaction when 0 
+when atom moving along z' 1 z c   
+biggest resonant interaction when 0' 
+2
+0 0 0 01 1 1 1 1 z zz z z
+c c c c c
+                                                 
+Atoms with speed of interacts with wave propagates in thezinteraction, thecenter frequency of atom is
+0 0 1 z
+c
+       
+0
+The same direction of atom movement and light propagationThe reverse direction of atom movement and light propagation
+00
+z
+z
+ 
+central frequency0
+z
+
+--- page 15 ---
+ANNOTATIONS:
+- 原子运动的分布决定了多普勒效应的分布，进而决定多普勒展宽
+15
+The Line Function of Doppler Broadening
+'0n('0)n'0)d'0d
+zvzn(vz)n(vz)dvzdvz01) Atom along zdirection: Maxwell distributionmass of atom  
+2
+2
+1 2
+/2
+2 2
+1 2
+/2
+1 1
+2
+2
+z b
+z b
+m k T
+z z z
+b
+m k T
+z z z
+b
+mn d n e d k T
+mn d n e d k T
+
+
+   
+   
+
+
+    
+    
+2) Atom around the central frequency 2 0 1 0
+0 0
+2 1
+,D
+n ng n n
+      
+for E2for E1speedfrequency
+ 
+2
+1 2
+/2
+2
+z bm k T
+z z z
+b
+mn d n e d k T
+   
+    
+  22 0 0
+20
+1 2
+2
+2 0 0 2 0
+0 2
+b
+mc
+k T
+b
+c mn d n e d k T
+ 
+    
+       
+0 0 0
+0
+1 z
+z
+cd dc
+    
+      
+z
+
+
+--- page 16 ---
+if does not consider                    the SP frequency16p()dd
+P()
+Atom around the central frequency      0 0, z
+Pg n n n P
+       
+Doppler line broadening function 0 2 21 0 21 2 0
+2 21 0
+,DP d h n A d h A n g d
+P n A h
+        
+
+ 
+
+
+  
+2 2
+020
+1 2
+2
+0
+0
+, 2
+b
+mc
+k T
+D
+b
+c mg e k T
+    
+     
+Gaussian function
+,N L   0  
+  
+2 2
+0 020
+1 2
+2
+0 0
+0
+, 2
+b
+mc
+k T
+D
+b
+c mg e k T
+    
+      
+
+'0n('0)n'0)d'0dfrequency
+
+--- page 17 ---
+17
+D
+P
+Gaussian-shapeLorentz-shapeatomic weight    
+2 2
+020
+1 2
+2
+0
+0
+1 2
+0 0 0
+0
+11 2 27
+0 0 2
+, 2
+, 2
+22 ln 2 7.16 10
+b
+mc
+k T
+D
+b
+D
+b
+b
+D
+c mg e k T
+c mwhen g k T
+k T T
+mc M
+    
+     
+  
+ 
+
+    
+     
+            
+
+
+    
+2
+0
+2
+4ln 21 2
+0
+1 2
+0 0
+0 0
+2 ln 2,
+2 ln 2 0.939,
+2 0.637,
+D
+D
+D
+D
+D D
+L
+N N
+g e
+g
+g
+ 
+   
+    
+    
+      
+      
+  
+
+
+
+Doppler broadeningline-widthDoppler broadening in gas is belong to inhomogeneous broadening. The central frequency is differentfor atoms with different velocities, each one contributes to the spectral line and leads to broadening.
+
+--- page 18 ---
+18
+2) Local Field Inhomogeneous Broadening in Solid-State MaterialsCrystal defects (dislocation, vacancy) caused the disorder of crystal field.The poorer the crystal quality, the wider the spectral line-width. It can notbe described by any function, and can only be measured.For glass materials doped with active ions, the activated ion located at in-equivalent coordination field will lead to inhomogeneous broadening, suchas neodymium glass.Differences between homogeneous and inhomogeneous broadening:Homogeneous broadening: emission from any light emitting particles (atoms,ions, molecules) contribute to every frequency in the spectrumInhomogeneous broadening: emission from light emitting particles onlycontribute to certain frequency. In the inhomogeneous broadening, differentlight emitting particles contribute to different frequency insideg 
+
+--- page 19 ---
+19
+III. Comprehensive Broadeninghomogenous + inhomogeneous002   dn
+02 n
+P
+H
+Comprehensive broadening line function
+The comprehensive line function of gas1)                           the SP from energy level E22 0 0 0 21 0, ,D Hn g d h A g d         
+0 0 0 d     
+d    
+0 0 0
+2 0
+d
+n
+   
+     SP possibilityE2level2) the SP from all the particled   
+                
+2 0 0 0 21 0
+0 2 21 0 0 0 0
+0 2 21
+0 0 0 0 0
+, ,
+, ,
+, , ,
+D H
+D H
+D H
+P d d n g d h A g
+P h n A g g d
+P P d h n A
+Pg g g d P
+        
+      
+  
+      
+
+
+
+
+
+
+
+
+  
+  
+ 
+   
+
+
+
+
+ 
+ 
+  
+0 
+
+--- page 20 ---
+When                        , the comprehensive broadening is mainly due to Doppler inhomogeneous broadening20
+     0 0 0 0 0, , , D Hg g g d      
+
+     
+0 0 0, , ,D Hg g     The comprehensive broadeningline function is the convolution of(1) H D   
+0 0,Dg   can be regarded as     function, only has non-zero value when  0  
+       0 0 0 0 0, , , , D H Dg g g d g        
+
+       
+H D   
+(2)  When                          similarly,  D H    0 0, , Hg g    
+the comprehensive broadening is mainly due to homogenous broadening
+
+--- page 21 ---
+21
+(1) He-Ne:  632.8 nm (2) CO2 : 10.6 μm (3) Broadening of solid-state materialsFor He-Ne laser, Doppler inhomogeneous broadening is the main mechanismP ~ 1333 Pa comprehensive; P >>1333 Pa homogenousRuby: Low temperature - inhomogeneous broadeningRoom temperature - homogeneous broadening 2.7*105 MHzNd: YAG crystals: homogeneous broadening due to lattice thermalvibration 1.95*105 MHzNd: Glass: inhomogeneous broadening 7*106 MHz
+710 Hz 100 ~ 300MHz 1500MHzN L D       
+3 410 ~ 10 Hz 49 Hz Pa 60MHzN L D p k          
+RubyNd:YAG
+
+================================================================================
+Lecture Note_EE310_Ch3_L2
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch3-2
+Resonant Interaction
+between Electromagnetic
+Field & Matter
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 3: Resonant Interaction betweenElectromagnetic Field & Matter
+2
+3.2 Line broadening mechanismsModification of SP, STE and STA considering the line broadening3.3 Rate equation of typical lasersRate equation for three-level system (single-mode)Rate equation for four-level system (single-mode)Rate equation for multi-mode resonance
+
+--- page 3 ---
+Spectral Line function                           Transition possibility at different frequencies
+3
+3.2 Modification of the rate equation of SP, STA, and STE 
+3 3 21
+21 21 21 3 3
+08 8 ,
+Ac cB A B h h g
+
+       
+    
+3
+21 0 21 21 3, 8
+cB g B A h      ＝
+2 0 21 0 2 0 21 21 21 0, ,P n h A g n h A A A g            
+12 12 21 21W B W B   
+ 21
+2 21 2 21
+sp
+dn n A d n Adt  
+
+
+      
+21 21 21 0 ,W B B g         
+   21
+2 21 2 21 0 ,
+st
+dn n W d n B g ddt      
+ 
+ 
+        
+0,g  
+21 21 0 ,A A g   
+orModified expressionLine broadening does NOT influent SP
+21
+21 2
+st
+dn W ndt
+    
+21
+21 2
+sp
+dn A ndt
+    
+
+--- page 4 ---
+ANNOTATIONS:
+- 激发谱宽带连续：
+- g已经是一个确定的值，即外界激发场频率
+4
+Two cases for 0
+0
+21
+2 21 0
+2 21
+'
+,
+st
+dn n B g ddt n B
+
+
+ 
+   
+
+
+
+  
+     
+ 
+(1) The interaction of atoms with continuous radiation(2) The interaction of atoms with quasi-monochromatic radiation''g(',) 0,~ g0,~ g 
+
+atomquasi-monochromatic field   d d           
+ 
+            
+    
+21
+2 21 0
+2 21 0
+,
+,
+st
+dn n B g ddt
+n B g
+     
+  
+
+
+       
+ 
+
+0 021 21 12 12W B W B      
+   21
+2 21 2 21 0 ,
+st
+dn n W d n B g ddt      
+ 
+ 
+        
+'   
+g(',)
+0,~ g
+0,~ g
+continuous radiative fieldatom' '
+0,g  
+
+
+--- page 5 ---
+5
+Physical Meaning: due to the line broadening, the light with frequencyνdoes not haveto be exactly the same as the center frequencyv0to have stimulated recombination.Instead, the frequency in a certain range nearv=v0can generate stimulated emission.mode density 21 21 0 12 12 0, ,W B g W B g        
+Other expression of STE and STA possibility        
+3 3 21
+21 21 21
+21
+21 21 0 0 21 0
+2 12
+12 12 0 0 12 0
+1
+8
+, , ,
+, , ,
+l
+l
+l
+l l
+l l
+N AN h A B h c n h n B N n
+AW B g g N N n
+f AW B g g N N f n
+ 
+
+
+
+     
+        
+        
+     
+  
+  
+
+ 
+ 
+2 38n c photon density of mode l
+
+--- page 6 ---
+6 
+2
+21
+21 0 0 2 2
+0
+, 4 H
+A       
+ 
+2
+21
+21 0 0 3 2 2
+0
+ln 2, 4 D
+A       
+    
+2
+21
+21 0 0 2
+0
+2
+2 12
+12 0 0 2
+1 0
+, , 8
+, , 8
+A g
+f A gf
+     
+     
+
+
+
+
+Emission cross-sectionAbsorption cross-sectionEmission cross-section reaches its maximum at central frequencyEmission cross-section ofhomogenous broadening atcentral frequencyEmission cross-section ofinhomogeneous broadening atcentral frequency
+
+--- page 7 ---
+ANNOTATIONS:
+- S32为弛豫
+3.3 Rate equation of typical lasers
+7
+31 32S S 2 21 1 12
+l l
+Rl
+dN Nn W n Wdt   
+  
+3
+1 13 3 32 31 31
+2
+1 12 2 21 2 21 21 3 32
+1 2 3
+dn n W n S A Sdt
+dn n W n W n A S n Sdt
+n n n n
+   
+    
+  
+W13A31S31S32A21S21W21W12E1E2E3
+optical length
+2
+0
+m
+mI I e 
+ 2tm L c  2
+20
+ct
+LmI I e
+ 
+R L c 1
+R
+ 0
+R
+t
+I t I e 
+
+The average photon lifetime
+Rate equation for three-level system (ruby laser)Consider the cavity model
+
+--- page 8 ---
+8     
+3
+1 13 3 32 31
+2 2
+2 1 21 0 2 21 21 3 32
+1
+1 2 3
+2
+2 1 21 0
+1
+,
+,
+l
+l l
+l
+Rl
+dn n W n S Adt
+dn f n n N n A S n Sdt f
+n n n n
+dN N fn n Ndt f
+   
+    
+  
+        
+  
+     
+Rate equation for three-level system        
+21
+21 21 0 0 21 0
+2 12
+12 12 0 0 12 0
+1
+, , ,
+, , ,
+l l
+l l
+AW B g g N N nf AW B g g N N f n
+
+
+        
+        
+  
+  
+ 
+ 
+
+--- page 9 ---
+ANNOTATIONS:
+- S32和S10均为弛豫
+9
+Rate equation for four-level system (Nd:YAG)W03A30S30S32S21A21W21E3E2E1E0W12S10×
+0
+1 10 0 03 3 30
+dn n S n W n Adt    21 21 0 , lW N   
+    
+3
+0 03 3 32 30
+2
+3 32 2 21 21 1 12 2 21
+2
+3 32 2 21 21 2 1 21 0
+1
+, l
+dn n W n S Adt
+dn n S n S A n W n Wdt
+fn S n S A n n N f    
+  
+    
+        
+0 1 2 3n n n n n    
+2 21 1 12
+2
+2 1 21 0
+1
+,
+l l
+Rl
+l
+l
+Rl
+dN Nn W n Wdt
+Nfn n Nf
+
+    
+  
+     
+1 0 bE E k T 
+
+--- page 10 ---
+10
+    
+3
+0 03 3 32 30
+2 2
+3 32 2 21 21 2 1 21 0
+1
+0
+1 10 0 03 3 30
+0 1 2 3
+2
+2 1 21 0
+1
+,
+,
+l
+l l
+l
+Rl
+dn n W n S Adt
+dn f n S n S A n n Ndt f
+dn n S n W n Adt
+n n n n n
+dN N fn n Ndt f
+   
+    
+  
+        
+  
+   
+     
+Rate equation for four-level system
+Rate equation of laser is established according to the specific physical processesThe rate equation of a laser can have different expressions
+
+--- page 11 ---
+11R1andR2 is the unit time to pump carriers from ground state to E1andE2.τ1andτ2is the lifetime of energy level E1and  E2τ21is the lifetime of spontaneous emission fromE2 E1
+E2E1R2R1121E02  
+2 2 2
+2 2 1 21 0
+2 1
+1 1 2 2
+1 2 1 21 0
+1 21 1
+,
+,
+l
+l
+dn n fR n n Ndt f
+dn n n fR n n Ndt f
+   
+    
+       
+        
+  
+2
+3 32 2 21 21 1 12 2 21
+1
+2 21 21 1 12 2 21 1 10
+dn n S n S A n W n Wdt
+dn n S A n W n W n Sdt
+    
+    
+W03A30S30S32S21A21W21E3E2E1E0W12S10×
+
+--- page 12 ---
+12
+Rate equation for multi-mode resonance
+Line function treated as rectangular shapeThe mode loss and lifetime of modes are the same
+1 2 1 21 2, , , n nn l l l l l l ll l l l N N N N        
+   
+2 2
+3 32 2 21 21 2 1 21 0
+1
+2
+2 1 21 0
+1
+,
+,
+l l
+l
+l l
+l
+Rl
+dn f n S n A S n n Ndt f
+dN N fn n Ndt f
+   
+    
+        
+     
+
+1 , nll dNdN
+dt dt   
+To simplify No need to consider the difference between different modesThe difference between diffraction loss can be ignored21 0 21 21,l l l
+l l
+N N N         '
+0 0 0, ,g g v v   
+0 01 ,v g v v  
+
+--- page 13 ---
+3 3 32
+0 03
+1
+2 2 2 21
+2 1 21 3 32
+1 2
+0
+1 10 0 03 3 30
+dn n Sn Wdt
+dn f n An n N n Sdt f
+dn n S n W n Adt
+
+  
+ 
+       
+  
+13
+E2E1 fluoresce quantum efficiency (quantum yield)Quantum EfficiencyTotal emitted photonsPhoton numbers absorbed by the materialsthrough optical pumpingN: total number of photons from all modesE3E2 quantum efficiency(pumping efficiency)Simplified rate equation for multi-mode resonance
+32
+1
+32 30
+S
+S A  
+0 1 2 3n n n n n   
+3 32 30n S A
+2
+2 1 21
+1 R
+fdN Nn n Ndt f   
+     
+2 21 21n A S
+21
+2
+21 21
+A
+A S  
+1 2F   
+
+================================================================================
+Lecture Note_EE310_Ch3_L3
+================================================================================
+
+--- page 1 ---
+《激光原理与技术》
+Principles and
+Technologies of Lasers
+Ch3-3
+Resonant Interaction
+between Electromagnetic
+Field & Matter
+Dr. Dan Luo(罗丹 )
+Email: luod@sustech.edu.cn
+Office: Room 331 at College
+of Engineering South Tower
+Tel: 0755-88018552
+
+--- page 2 ---
+Chapter 3: Resonant Interaction betweenElectromagnetic Field & Matter
+2
+3.4 Gain coefficient (homogeneous broadening)Saturation of population inversionGain saturation3.5 Gain coefficient (inhomogeneous broadening)Gain saturationHole-burning behavior
+
+--- page 3 ---
+3.4 Gain coefficient (homogeneous)
+3
+0zGain materialI(z)I00zdz  
+1dI zg z dz I z
+ignore loss  
+2
+2 1 21 0
+1
+21 0
+,
+,
+Rl
+fdN Nn n Ndt f
+n N
+    
+   
+     
+ 
+I z Nh 
+         
+21 0
+21 0 21 0
+2
+21
+21 0 0 2
+0
+,
+, ,
+1 , , 8
+dI z I zdN ndt h dt h
+dI n dt n dzI z
+dI z Ag n n gdz I z
+    
+      
+     
+  
+    
+      
+
+--- page 4 ---
+4
+Saturation of population inversion (four-level system)  
+2
+21
+21 0 0 2
+0
+, , 8
+Ag n n g          Gain Coefficient    
+3
+0 03 3 32 30
+0
+1 10 0 03 3 30
+2
+2 1
+1
+2 2
+2 1 21 0 2 21 21 3 32
+1
+,
+dn n W n S Adt
+dn n S n W n Adt
+fn n n f
+dn f n n N n S A n Sdt f    
+  
+  
+  
+        
+equilibrium
+0 03 3 32n W n S 3 0n 
+32 03
+32 30
+S WS A
+equilibrium
+1 0n 1 10 0 03n S n W 10 03S W
+2n n 1 0n 
+    
+21 0 21 21 3 32
+21 0 0 03
+2
+,
+,
+d n n N n S A n Sdt nn N n W
+   
+    
+      
+    2
+21 21
+1
+A S   lifetime of energy level E2
+
+--- page 5 ---
+ANNOTATIONS:
+- 重要考点
+- 最开始的最多的粒子数反转
+5
+equilibrium 
+03 2
+21 1 0 21 ,
+nWn N
+
+       21 0 0 03
+2
+,d n n n N n Wdt     
+    
+ 
+1
+0
+1
+1
+s
+nn I
+I
+
+
+ 
+
+(1) For weak light                         we have1 1sI I  0
+03 2n n nW    
+   
+1
+0
+03 2
+1
+01
+1
+21 1 0 2 21 1 0 2, ,s
+n nW
+I Nh
+hhI
+
+
+ 
+        
+ 
+
+ 
+where(population inversion density for weak light)(saturation intensity at frequency v1)(2) For intensive light we have                    that means0n n   1I n   
+Saturation of population inversion: when the incident lightIv1is comparable toIs(v1), thedecay rate of population inversion due to stimulated emission is comparable with otherprocesses like spontaneous emission and non-radiative recombination. Therefore, whenIv1<<Is(v1), Δnis not related to intensity. However, whenIv1is comparable toIs(v1), Δndecrease with the increase ofIv1. WhenIv1=Is(v1), Δn=Δn0/2Is(v1) is determined by the property of gain materials and frequency of incident light. It can bemeasured (as shown in Appendix I)
+0n n
+
+--- page 6 ---
+6
+Saturated intensityIs(v1) isinversely proportional tothe line function. For homogenousbroadening, we know that the line function has Lorentz shape       
+2
+0 21
+1 21 1 0 1 0 2
+21 1 0 2 0
+1 0 2 2
+1 0
+, ,, 8
+2, 2
+s
+H
+H
+H
+h AI g
+g
+          
+     
+ 
+   
+
+
+    
+2
+1 1 1 0
+20
+21 2
+41s s
+s H
+I I
+hI
+   
+  
+   
+0
+21 2
+s
+hI 
+  saturated intensity at central frequency v0Saturated intensity has minimum value at  v1=v0, and it equal to the saturated intensity at central frequency
+
+--- page 7 ---
+Characteristics of the saturation of population inversion
+7
+1. The saturation intensity has minimum value at central frequency, which is equal toIs=hv0/σ21τ2. When the frequency of the incident light is far away from the centralfrequency, the corresponding saturation intensity will increase.2. For specific incident light intensity: the smaller saturation intensity, the quickerdecrease of Δn, and therefore the more serious saturation effect.3. The saturation effect is most pronounced when the incident light frequencymatches the central frequency. As the frequency deviates further from the centralfrequency, the saturation effect weakens.WHY?Stimulated emission is most likely to occur at the central frequency. The incidentlight causes a rapid decrease in the number of inverted carriers.
+
+--- page 8 ---
+ANNOTATIONS:
+- 只有在中心频率周围一个很小的范围内，饱和效应较为明显
+8
+ 
+1
+0
+1
+1
+s
+nn I
+I
+
+
+ 
+
+   1
+2 2
+1 0 0
+22
+1 0
+2
+12
+H
+H
+s
+n n I
+I
+
+  
+ 
+               
+Lorentz shape4. The influence of incident light with different frequencies on the populationinversion is not the same.
+1
+1 0 1 2
+H
+s
+I
+I
+     Only when                                             , there is significant saturation effect Note: What we discussed herein is the four-level system. For other systems, the gaincoefficient has similar expression. However, the expression of the saturationintensity is not the same.
+
+--- page 9 ---
+9
+Gain saturationGain saturation: the gain coefficient decrease with the increase of light intensity1. The expression of the gain coefficient when incident light with frequencyv1and intensityIv1passes through a homogenous gain mediumFor monochromatic light with frequencyv1and light intensityIv1, what is the gaincoefficientgH(v1,Iv1) when the light passes through a gain material withhomogeneous broadening?   
+1
+1 1
+0 0
+21 1 0 1
+1
+1 1
+,,
+1 1
+H
+H
+s s
+n gg I I I
+I I
+  
+   
+ 
+ 
+ 
+ 
+1
+1
+1 21 1 0
+0
+1
+, ,
+1
+H
+s
+g I n
+nn I
+I
+
+
+   
+
+ 
+ 
+
+
+--- page 10 ---
+ANNOTATIONS:
+- 当入射光光强可比时，增益g不仅受增益函数影响，还随增益频率的光强上升而下降
+- 入射光频率较弱，不可比时，仅由增益函数本身对该频率增益决定。
+10
+Characteristics of the gain saturation1. For weak incident light , the gain coefficient is not related tothe incident light intensity. The gain coefficient is equal to2. When is comparable to , the value of will decreasewith the increase of , this is the gain saturation effect.3. When , we have4. For specific incident light intensity: if the frequency of the incident light isequal to the central frequency, the gain saturation effect is the most seriousone. While the frequency is far away from the central frequency, the gainsaturation effect is weak.
+1 1sI I 
+1sI 1I
+0
+1Hg 
+11,Hg I 
+1sI 
+1 1sI I   1
+0
+1 1, 2H Hg I g   
+
+--- page 11 ---
+11
+    
+2
+0 0 0
+1 21 1 0 21 1 0 2
+0
+, , 8Hg n n A g           
+The gain coefficient for weak incident light is not related to the frequency of incident light. Its shape is totally determined by the line function1 0,g  
+             
+1
+1
+1
+2
+1 21 1 0 21 1 0 2
+0
+2 2 21 0 0
+212 2 2 22 0 1 01 0
+22
+0 21
+22 20
+1 0
+2
+0
+21 22
+1 0
+, , , 8
+2 2
+8 212
+22
+8 12
+2
+12
+H
+H H
+H H
+s
+H
+H H
+s
+H
+H
+g I n n A g
+v n AIv I
+An Iv I
+n
+v
+
+
+
+      
+   
+   
+
+   
+ 
+   
+                  
+             
+        
+
+   1 1
+2
+0
+0 22
+1 0
+2
+12
+H
+H
+H
+s s
+gI I vI I
+ 
+ 
+                
+
+--- page 12 ---
+ANNOTATIONS:
+- 上面公式Iv1=0，对中心频率附近的的一个频率的增益
+- 中心频率增益
+12
+(1) The gain coefficient for weak incident light is not related to light intensity andcan be expressed as0
+1Hg 
+     
+2
+0 0
+1 0 22
+1 0
+2
+2
+H
+H H
+H
+g g
+v
+  
+      
+is determined by the properties of gain materials and the pumping speed. It can bemeasured experimentally.0
+0Hg 
+(2) The gain coefficient at central frequency for weak incident light 
+2 2
+0 0 0 0 0 21 21
+0 21 03 2 2 2 2
+0 0
+2
+8 4H
+H H
+A Ag n n n n nW                   
+10
+0
+1Hg 
+0
+gain coefficient for weak incident light
+
+--- page 13 ---
+13
+Gain saturation2. The expression of the gain coefficient of weak light (with frequencyv)when the incident light (with frequencyv1and intensityIv1) is intensive.
+    
+1
+1 1
+0 0
+21 0
+21 0
+1 1
+,, ,
+1 1
+H
+H
+s s
+n gg I n I I
+I I
+  
+      
+ 
+   
+ 
+For monochromatic light with frequencyv1and strong intensityIv1, along withweak light at frequencyv. What is the gain coefficient of the weak lightgH(v,Iv1)?For gain materials with homogeneous broadening, the intensive light willdecrease the population inversion density Δn, and the decrease of Δnwill resultin the decrease of gain coefficient.
+
+--- page 14 ---
+ANNOTATIONS:
+- 对于均匀展宽，增益也是均匀享受的，因此每一频率消耗的增益会导致所有频率的增益都下降，最后只有最能消耗的获得增益最多，只留下此频率
+14
+    
+1 1
+1 1
+0 0
+1
+1
+1 1
+, ,
+1 1
+H H
+H H
+s s
+g gg I g I I I
+I I
+   
+  
+ 
+ 
+ 
+The intensive light with frequency ofv1not only lead to the decrease of its gaincoefficientgH(v1,Iv1), but also lead to the decrease of other weak light (with frequencyv)with the same degree ofgH(v,Iv1).For homogeneous broadening, every particles contribute to the gain spectrum at differentfrequencies. Therefore, once the stimulated emission with frequency ofv1consume theinverted carriers, it will lead to the decrease ofinverted carriers with other frequencyv. Then thewhole gain spectrum decrease homogeneously.In homogeneous lasers, when one mode beginsto oscillate, the gain for other modes decreases,thereby preventing their oscillation (modecompetition).
+10
+Hg 
+0 
+1,Hg I 
+0
+Hg 
+
+--- page 15 ---
+3.5 Gain coefficient (inhomogeneous)
+15
+Gain saturation1g 
+0
+'
+0n 
+H
+'
+0
+' '
+0 0n d 
+'
+0d
+0 1
+1
+   
+1
+1
+2
+0
+0
+1 22
+1 0
+2,
+12
+H
+H
+H
+H
+s
+g
+g I I
+I
+
+
+
+  
+               
+      
+2
+0 0 21
+0 0 2 2
+0
+0 0
+0 0 0 0 0
+4
+,
+H
+H
+i
+Ag n
+n d n g d
+    
+    
+   
+      
+ 1
+22 0
+21 0 0 0
+222
+0 1 0
+, 2
+4 1 2
+i H
+H
+H
+s
+A n g ddg I
+I
+
+    
+   
+                     
+
+0
+0 0n d  
+
+--- page 16 ---
+16
+  1
+2
+2 0
+21 0 0 0
+222
+0 1 0
+, 2
+4 1 2
+H
+i
+H
+H
+s
+A n g d
+dg I
+I
+
+   
+   
+                         
+
+   
+1
+1
+22 0 0 0 021
+1 22 2 0 20
+1 0
+,, 4 2 12
+iH
+i
+H H
+s
+g dA ng I I
+I
+
+
+        
+                    
+
+
+11,g I dg 
+   
+1
+1
+22 0
+021
+1 1 0 22 2 20
+1 0
+, , 4 2 12
+H
+i i
+H H
+s
+dA ng I g I
+I
+
+
+        
+
+
+                  
+
+0 0 1 0 1 0, , 2i H i i H g g                 
+
+--- page 17 ---
+17
+    
+1
+1
+1
+22 0
+021
+1 1 0 22 2 20
+1 0
+2 0
+21
+1 0
+2
+0
+, , 4 2 12
+,
+8 1
+H
+i i
+H H
+s
+i
+s
+dA ng I g I
+I
+A n gI
+I
+
+
+
+        
+  
+
+
+
+                      
+
+
+2 2
+1 1 udu arctga u a a 0
+1ig 
+(1) For weak light                  we have
+1 sI I      
+2 0
+0 0 21
+1 1 0 21 1 0 2
+0
+, ,8i i
+A ng g n      
+   
+(2) For intensive light we have                                     that means1
+0
+1 1,i ig I g    1 1 1,iI g I   
+    
+2
+1 0 1 224ln 20 0 0 0 21
+1 0 0 2
+0
+ln 2where 4
+D
+i i i
+D
+Ag g e g n
+ 
+      
+              
+1 0 1 0, ,i Dg g    (3) For Doppler inhomogeneous broadening    
+1
+1 1
+20 0
+1 0 1 0
+1 2
+4ln 2, exp
+1 1
+i i
+i
+D
+s s
+g gg I I I
+I I
+
+ 
+    
+                    
+The gain coefficient of intensive light for Doppler inhomogeneous broadening medium
+
+--- page 18 ---
+18
+Spectral hole-burning behavior12××
+n 
+0 321 
+CBAA1B1 
+1
+0
+1
+1
+1
+s
+nn I
+I
+
+  
+
+Point A:              1 1 A A  
+Point B:              2 1 B B  
+Point C:                 
+1
+3 1
+0
+3 3
+1 2
+H
+s
+I
+I
+n n
+  
+ 
+  
+  
+0
+ig
+1 
+
+1,g I  0g 
+Hole-burning behavior of gain spectrum
+1
+1 1 2
+H
+s
+I
+I
+      Only effective for    1
+1
+0 0
+1 1 1
+s
+In n n I I
+
+
+       depth
+11 H
+s
+I
+I
+   width 1
+1
+0
+1
+1
+s
+H
+s
+I Is n I
+I
+
+
+    
+
+area
+ 1
+22
+1 0
+1
+12
+H
+s
+dg I
+I
+ 
+                
+
+--- page 19 ---
+ANNOTATIONS:
+- 重点
+19
+For Doppler inhomogeneous broadeningGas LasersAmplifier
+11,I
+
+1 11 1
+zv
+Gain coefficientIntensive Weak
+11, ~ sI I , sI I 
+1 1  
+0 0 1 z
+c
+       
+1
+1 0
+0
+z c  
+
+0, z 
+1 0  Interact with atomlead to the stimulated emission of      particle, that iszv
+1 1  
+0 0 1 z
+c
+       
+1 0
+0
+z c  
+ 1 0  
+0, z Interact with atom
+1lead to the stimulated emission of      particle, that iszv
+
+--- page 20 ---
+ANNOTATIONS:
+- 多普勒展宽受到的增益变化
+20
+0
+ig
+1
+
+0 12 
+1 0 1 0
+0 0
+c   
+ 
+ 
+zn 
+z
+For Doppler inhomogeneous broadening such as gas laser, the oscillated mode withfrequency ofv1will lead to two holes at the curve of gain coefficient. This two holes aresymmetrically distribute on the two sides of the central frequency.

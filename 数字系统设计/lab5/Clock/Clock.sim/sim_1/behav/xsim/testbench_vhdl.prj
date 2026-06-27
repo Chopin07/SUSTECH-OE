@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../ButtonDebounce.vhd" \
+"../../../../../../资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/segment_display.vhd" \
+"../../../../../../资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/topmodule.vhd" \
+"../../../../../../资料/Digital-System-Design-Lab-main/lab5/lab5_hw1/lab5_hw1.srcs/sources_1/new/timer.vhd" \
+"../../../../Clock.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

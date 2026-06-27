@@ -1,0 +1,661 @@
+Engineering Electromagnetics
+         工程电磁场
+
+
+       Youwei Jia 嘉有为
+11: The Steady Magnetic Field
+• Review
+ Biot-Savart Law
+
+
+
+
+                     Ampere’s Circuital Law
+
+
+
+
+                                              40
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+    Consider magnetic field H evaluated at the point shown in the figure. We can
+ approximate the field over the closed path 1234 by making appropriate adjustments in
+ the value of H along each segment.
+
+
+
+
+    The objective is to take the closed path integral and ultimately obtain the point form
+ of Ampere’s Law 安培定律的微分形式.
+                                                                                             41
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+                        Approximation of H Along One Segment
+ Along path 1-2, we may write:
+
+
+
+ where:
+
+
+
+
+ Note: Please refer to Taylor series expansion
+
+ And therefore:
+
+
+
+
+                                                               42
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+                           Contributions of y-Directed Path Segments
+The contributions from the front and back sides will be:
+
+
+
+
+The contribution from the opposite side is:
+
+
+
+
+Note the path directions as specified in the figure,
+and how these determine the signs used .
+
+This leaves the left and right sides…..
+
+                                                                       43
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+                       Contributions of x-Directed Path Segments
+
+Along the right side (path 2-3):
+
+
+
+
+…and the contribution from the left side
+(path 4-1) is:
+
+
+
+
+The next step is to add the contributions of all four sides to find the closed path integral:
+
+
+                                                                                                44
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+ The total integral will now be the sum:
+
+
+
+
+ and using our previous results, the becomes:
+
+
+
+
+                                                   45
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+ By Ampere’s Law, the closed path integral of H is equal to the enclosed current,
+approximated in this case by the current density at the center, multiplied by the loop
+area:
+
+
+
+ Dividing by the loop area, we now have:
+
+
+
+
+ The expression becomes exact as the loop area
+ approaches zero:
+
+
+
+
+                                                                                         46
+11: The Steady Magnetic Field
+• Ampere’s Law as Applied to a Small Closed Loop
+                             Other Loop Orientations
+   The same exercise can be carried with the rectangular loop in the other two
+ orthogonal orientations. The results are:
+
+
+ Loop in yz plane:
+
+
+
+ Loop in xz plane:
+
+
+
+ Loop in xy plane:
+
+
+    This gives all three components of the current density field.
+
+                                                                                 47
+11: The Steady Magnetic Field
+• Curl of a Vector Field 矢量场的旋度，旋度场
+    The previous exercise resulted in the rectangular coordinate representation of the
+  Curl of H.
+      In general, the curl of a vector field is another field that is normal to the original
+  field. The curl component in the direction N, normal to the plane of the integration
+  loop is:
+
+
+
+
+     The direction of N is taken using the right-hand convention: With fingers of the
+  right hand oriented in the direction of the path integral, the thumb points in the
+  direction of the normal (or curl).
+
+
+                                                                                               48
+11: The Steady Magnetic Field
+• Curl in Rectangular Coordinates
+  Assembling the results of the rectangular loop integration exercise, we find the vector field
+that comprises curl H:
+
+
+
+
+ An easy way to calculate this is to evaluate the following determinant:
+
+
+
+
+ which we see is equivalent to the cross product of the del operator with the field:
+
+
+
+                                                                                          48
+11: The Steady Magnetic Field
+• Curl in Other Coordinate Systems
+   …a little more complicated!
+
+
+
+
+   Look these up as needed….
+
+                                     49
+11: The Steady Magnetic Field
+• Visualization of Curl
+
+
+
+
+                                50
+11: The Steady Magnetic Field
+• Another Maxwell Equation: Point form of Ampere’s Law
+   It has just been demonstrated that:
+
+
+
+
+       …..which is in fact one of Maxwell’s equations for static fields:
+
+
+
+
+        This is Ampere’s Circuital Law in point form.
+
+
+
+                                                                           51
+11: The Steady Magnetic Field
+• Curl of Conservative Field
+ We already know that for a static electric field:
+
+
+
+
+ This means that:                      (applies to a static electric field)
+
+
+ Recall the condition for a conservative field: that is, its closed path integral is zero
+ everywhere.
+
+ Therefore, a field is conservative if it has zero curl at all points over which the field
+ is defined.
+
+
+
+                                                                                             52
+11: The Steady Magnetic Field
+• Divergence vs. Curl 散度，旋度
+ Gauss’ Law             Ampere’s Law
+
+
+
+
+                                       53
+11: The Steady Magnetic Field
+• Curl Applied to Partitions of a Large Surface
+ Surface S is partitioned into sub-regions, each of small area
+
+ The curl component that is normal to a surface element can
+ be written using the definition of curl:
+
+
+
+
+  or:
+
+
+
+
+  We now apply this to every partition on the surface, and add the results….
+
+                                                                               54
+11: The Steady Magnetic Field
+• Curl Applied to Partitions of a Large Surface
+
+We now evaluate and add the        Cancellation here:
+curl contributions from all
+surface elements, and note that
+adjacent path integrals will all
+cancel!                                                    .
+This means that the only
+contribution to the overall path
+integral will be around the        No cancellation here:
+outer periphery of surface S.
+
+Using our previous result, we now write:
+
+
+
+
+                                                               55
+11: The Steady Magnetic Field
+• Stokes’ Theorem
+ We now take our previous result, and take the limit as
+
+
+
+
+                                                             .
+In the limit, this side         In the limit, this side
+becomes the path integral       becomes the integral
+of H over the outer perimeter   of the curl of H over
+because all interior paths      surface S
+cancel
+
+      The result is Stokes’ Theorem
+
+
+
+
+This is a valuable tool to have at our disposal, because it gives us two ways to
+evaluate the same thing!                                                           56
+11: The Steady Magnetic Field
+• Obtaining Ampere’s Circuital Law in Integral Form,
+  using Stokes’ Theorem
+ Begin with the point form of Ampere’s Law for static fields:
+
+
+ Integrate both sides over surface S:
+
+
+
+ ..in which the far right hand side is found from the left hand
+ side using Stokes’ Theorem. The closed path integral is
+ taken around the perimeter of S. Again, note that we use the
+ right-hand convention in choosing the direction of the path
+ integral.
+ The center expression is just the net current through surface S,
+ so we are left with the integral form of Ampere’s Law:
+
+
+                                                                    57
+11: The Steady Magnetic Field
+• Stokes’ Theorem vs. Divergence Theorem
+
+
+
+
+         .
+
+
+
+
+ Note:
+                                           58
+11: The Steady Magnetic Field
+• Magnetic Flux and Magnetic Flux Density
+ We are already familiar with the concept of electric flux:
+
+                                       Coulombs
+ in which the electric flux density in free space is:
+ and where the free space permittivity is
+
+ In a similar way, we can define the magnetic flux in units of Webers (Wb):
+
+                                      Webers
+
+ in which the magnetic flux density (or magnetic induction磁感应强度) in free space is:
+
+
+
+ and where the free space permeability 磁导率 is
+
+                                                                                 59
+11: The Steady Magnetic Field
+• A Key Property of B
+ If the flux is evaluated through a closed surface, we have in the case of electric flux,
+ Gauss’ Law:
+
+
+
+
+ If the same were to be done with magnetic flux density, we
+ would find:
+
+
+
+
+  The implication is that (for our purposes) there are no
+  magnetic charges -- specifically, no point sources of
+  magnetic field exist. A hint of this has already
+  been observed, in that magnetic field lines always
+  close on themselves.
+                                                                                            60
+11: The Steady Magnetic Field
+• Another Maxwell Equation
+ We may rewrite the closed surface integral of B using the divergence theorem, in
+ which the right hand integral is taken over the volume surrounded by the closed
+ surface:
+
+
+
+
+   Because the result is zero, it follows that
+
+
+
+
+  This result is known as Gauss’ Law for the magnetic field in point form.
+
+
+
+
+                                                                                    61
+11: The Steady Magnetic Field
+• Maxwell’s Equations for Static Fields
+ We have now completed the derivation of Maxwell’s equations for no time variation.
+ In point form, these are:
+
+                           Gauss’ Law for the electric field
+
+                           Conservative property of the static electric field
+
+                           Ampere’s Circuital Law
+
+                           Gauss’ Law for the Magnetic Field
+
+   where, in free space:
+
+
+
+
+   Note: Significant changes in the above four equations will occur when the fields are
+   allowed to vary with time, as we will see later.
+                                                                                          62
+11: The Steady Magnetic Field
+• Maxwell’s Equations for Static Fields in Large Scale
+  Form
+ The divergence theorem and Stokes’ theorem can be applied to the previous four point
+ form equations to yield the integral form of Maxwell’s equations for static fields:
+
+
+                                         Gauss’ Law for the electric field
+
+
+
+                                         Conservative property of the static electric field
+
+
+                                         Ampere’s Circuital Law
+
+
+                                          Gauss’ Law for the magnetic field
+
+                                                                                        63
+11: The Steady Magnetic Field
+• Example: Magnetic Flux Within a Coaxial Line
+ Consider a length d of coax, as shown here. The magnetic field strength between
+ conductors is:
+
+
+
+
+                                     and so:
+
+                                 The magnetic flux is now the integral of B over the
+              B                  flat surface between radii a and b, and of length d
+                      d          along z:
+
+
+
+    The result is:
+   The coax line thus “stores” this amount of magnetic flux in the region between
+   conductors. This will have importance when we discuss inductance in a later
+   lecture.                                                                            64
+11: The Steady Magnetic Field
+• Scalar Magnetic Potential 标量磁位
+ We are already familiar with the relation between the scalar electric potential and
+ electric field:
+
+
+  So it is tempting to define a scalar magnetic potential such that:
+
+
+   This rule must be consistent with Maxwell’s equations, so therefore:
+
+
+   But the curl of the gradient of any function is identically zero! Therefore, the
+   scalar magnetic potential is valid only in regions where the current density is zero
+   (such as in free space).
+
+    So we define scalar magnetic potential with a
+    condition:
+
+                                                                                          65
+11: The Steady Magnetic Field
+• Further Requirements on the Scalar Magnetic Potential
+ The other Maxwell equation involving magnetic field must also be satisfied. This is:
+
+
+                                                        in free space
+ Therefore:
+
+
+
+  ..and so the scalar magnetic potential satisfies Laplace’s equation (again with the
+  restriction that current density must be zero):
+
+
+
+
+   Note: Poission’s equation for electrostatic field:
+
+                                                                                        66
+11: The Steady Magnetic Field
+• Example: Coaxial Transmission Line
+  With the center conductor current flowing out of the screen, we have
+
+
+
+
+  Thus:
+
+
+
+   So we solve:
+
+
+
+    .. and obtain:
+
+
+   where the integration constant has been set to zero
+                                                                         67
+11: The Steady Magnetic Field
+• Ambiguities in the Scalar Magnetic Potential
+  The scalar potential is now:
+
+
+
+  where the potential is zero at
+
+  At point P (        ) the potential is
+
+
+  But wait! As increases to
+  we have returned to the same physical location, and
+  the potential has a new value of -I.
+  In general, the potential at P will be multivalued, and will
+  acquire a new value after each full rotation in the xy plane:
+
+
+
+                                                                  68
+11: The Steady Magnetic Field
+• Overcoming the Ambiguity
+ To remove the ambiguity, we construct a mathematical barrier at any value of phi.
+ The angle domain cannot cross this barrier in either direction, and so the potential
+ function is restricted to angles on either side. In the present case we choose the
+ barrier to lie at         so that
+
+
+
+
+  The potential at point P is now single-valued:
+
+
+
+
+                                                      Barrier at
+                                                                                        69
+11: The Steady Magnetic Field
+• Vector Magnetic Potential 矢量磁位，磁矢位
+ We make use of the Maxwell equation:
+
+.. and the fact that the divergence of the curl of any vector field is identically zero
+(show this!)
+
+
+ This leads to the definition of the magnetic vector potential, A:
+
+
+
+
+  Thus:
+
+   and Ampere’s Law becomes
+
+
+                                                                                          70
+11: The Steady Magnetic Field
+ • Expressions for Potential
+Consider a differential elements, shown here. On the left is a point charge represented
+by a differential length of line charge. On the right is a differential current element. The
+setups for obtaining potential are identical between the two cases.
+              Line Charge                               Line Current
+
+
+
+
+        Scalar Electrostatic Potential                 Vector Magnetic Potential
+
+
+                                                                                               71
+11: The Steady Magnetic Field
+• General Expressions for Vector Potential
+   For large scale charge or current distributions, we would sum the differential
+   contributions by integrating over the charge or current, thus:
+
+
+
+                               The closed path integral is taken because the current must
+                               close on itself to form a complete circuit.
+
+
+
+
+    For surface or volume current distributions, we would have, respectively:
+
+
+
+                                      or
+
+
+     in the same manner that we used for scalar electric potential.
+                                                                                            72
+11: The Steady Magnetic Field
+• Example
+   We continue with the differential current element as shown here:
+   In this case
+
+
+
+   becomes at point P:
+
+
+
+
+   Now, the curl is taken in cylindrical coordinates:
+
+
+
+
+   This is the same result as found using the Biot-Savart Law (as it should be)
+                                                                                  73
+11: The Steady Magnetic Field
+• Equation for the Vector Potential
+
+  We start with:
+
+
+  Then, introduce a vector identity that defines the vector Laplacian:
+
+
+
+
+  Using a (lengthy) procedure (see Sec. 7.7) it can be proven that
+
+
+  We are therefore left with
+
+
+
+                                                                         74
+11: The Steady Magnetic Field
+• Equation for the Vector Potential
+   We now have
+
+   In rectangular coordinates:
+                                                               (not so simple in the
+                                                               other coordinate systems)
+   The equation separates to give:
+
+
+
+
+   This indicates that the direction of A will be the same as that of the current to
+   which it is associated. Also, we get three scalar Poission’s equations.
+
+                                                                                           75
+HW-7
+
+
+
+
+       76
+
