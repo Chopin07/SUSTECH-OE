@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'PingFangSC-Light';
+  src: url('http://css.copycheck.com/assets/fonts/PingFangSC-Regular/PingFangSC-Regular.woff') format('woff'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Regular/PingFangSC-Regular.ttf') format('truetype'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Regular/PingFangSC-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFangSC-Regular';
+  src: url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.woff') format('woff'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.ttf') format('truetype'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFangSC-Medium';
+  src: url('http://css.copycheck.com/assets/fonts/PingFangSC-Bold/PingFangSC-Bold.woff') format('woff'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Bold/PingFangSC-Bold.ttf') format('truetype'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Bold/PingFangSC-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFangSC-SemiBold';
+  src: url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.woff') format('woff'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.ttf') format('truetype'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Medium/PingFangSC-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFangSC-Bold';
+  src: url('http://css.copycheck.com/assets/fonts/PingFangSC-Heavy/PingFangSC-Heavy.woff') format('woff'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Heavy/PingFangSC-Heavy.ttf') format('truetype'),
+    url('http://css.copycheck.com/assets/fonts/PingFangSC-Heavy/PingFangSC-Heavy.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

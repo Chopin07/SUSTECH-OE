@@ -1,0 +1,87 @@
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: PingFangSC-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC-Light, Microsoft YaHei;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: transparent;
+}
+
+button:active {
+  opacity: 0.6;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 定制化 */
+.page {
+  margin: 0 auto;
+  caret-color: rgba(0, 0, 0, 0);
+}
+.outer2 {
+  width: 550px !important;
+}
+.outer4 {
+  height: auto !important;
+}
+/* 字体颜色 */
+.color-default {
+  color: #333333 !important;
+}
+
+.color-danger {
+  color: #fa5151 !important;
+}
+
+.color-warning {
+  color: #ffc400 !important;
+}
+
+.color-green {
+  color: #19ab62 !important;
+}
+.page-cont {
+  min-width: 1440px;
+  background: url(../images/background.png) 100% no-repeat;
+  background-size: cover;
+}
+
+#myBtn {
+  margin-left: 430px;
+  width: 56px;
+  height: 56px;
+  display: none;
+  position: fixed;
+  bottom: 225px;
+  left: calc(50% + 3px);
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  cursor: pointer;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 3%);
+  border-radius: 7px;
+  border: 1px solid #f3f4fa;
+}
+
+#myBtn:hover {
+  opacity: 0.8;
+}

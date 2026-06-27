@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>全文对照报告</title>
+  <!-- Bootstrap -->
+  <link href="./dist/boostrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="common-container clearfix">
+    <div class="row deta-cont pdnone" id="m-content">
+      <div class="col-md-9 col-xs-7 pull-left pdnone">
+        <iframe src="./paper_list/paper.html" name="left" scrolling-x="no" frameborder="0"></iframe>
+      </div>
+      <div class="col-md-3 col-xs-5 pull-left pdnone">
+        <iframe src="./right.html" name="right" scrolling="no" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./dist/boostrap/js/bootstrap.js"></script>
+  <script src="./js/Lib.js"></script>
+
+  
+  <script type="text/javascript">
+    (function (System, $) {
+      'use strict';
+      var run = System.Paper.setMainIframeHeight();
+      $(function () {
+        $(window).resize(function () {
+          run();
+        }).trigger('resize');
+      });
+    })(Report, jQuery);
+  </script>
+  
+</body>
+
+</html>

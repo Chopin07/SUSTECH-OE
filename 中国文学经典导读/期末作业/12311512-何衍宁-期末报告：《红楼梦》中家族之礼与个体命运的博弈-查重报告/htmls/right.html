@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>全文对照 右</title>
+    <!-- Bootstrap -->
+    <link href="dist/boostrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+         html { background: #f5f5f5; }
+         html,body { overflow: hidden;}
+         .detail-right-ul {
+        float: left;
+        width: 100%;
+        height: 110px;
+      }
+      .notice-diamond {
+        width: 16px;
+        height: 16px;
+        background: #FF6A6A;
+        border-radius: 50%;
+      }
+      .detail-right-ul li {
+        margin-bottom: 20px;
+      }
+      .detail-right .detail-right-bt {
+        margin: 0;
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+      }
+         
+    </style>
+    
+</head>
+
+<body id="cont_right_body">
+    <div class="detail-right clearfix">
+        <h4 class="detail-right-h4">报告颜色标注说明</h4>
+        <div class="vertical-line-1"></div>
+        <ul class="detail-right-ul">
+            <li>
+                <span class="notice-diamond red"></span>
+                <span class="g-font-color red ">红色</span> 文字表示文字复制部分
+            </li>
+            <li>
+                <span class="notice-diamond orange" style="background:#009900;"></span>
+                <span class="g-font-color orange " style="">绿色</span> 文字表示引用部分
+            </li>
+            <li>
+                <span class="notice-diamond black"></span>
+                <span class="g-font-color black ">黑色</span> 文字表示相似度合格
+            </li>
+        </ul>
+        <p class="detail-right-bt">查看句子详细检测结果请点击红色、黄色标色句子。<br>
+            <div class="vertical-line-2"></div>
+        </p>
+    </div>
+
+    <!-- paper-footer -->
+        <iframe src="./page_footer.html" scrolling="no" frameborder="0" width="100%" height="80px" style="margin-top:10px;"></iframe>
+    <!-- paper-footer -->
+    <div id="ad_div3" style="display:inline-block;"></div>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- helpers (contains functions for help e.g.) -->
+    <script src="./js/helper.js"></script>
+</body>
+
+</html>
